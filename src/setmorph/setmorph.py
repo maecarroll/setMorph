@@ -9,14 +9,20 @@ def feat_set(sig, feat_df):
 
 
 def parse_cell(df):
-    cells = df['cell']
-    cellSetList = []
-    for cell in cells:
-        cell = cell.split('.')
-        cell = frozenset(cell)
-        cellSetList.append(cell)
-    return cellSetList
+    """ Parses the cells into  a set of values.
 
+    We assume that users provide the cells in a
+    'cell' column, that values are dot separated,
+    and unique across dimensions.
+    This function mostly just splits on dots.
+
+    Args:
+        df (pandas.DataFrame):  A dataframe representing
+            the formatives.
+
+    Returns: a list of frozenset of features-values.
+    """
+    return df.cell.str.split(".").apply(frozenset).tolist()
 
 def parse_formatives(df):
     formativelist = list(zip(df.tier, df.slot, df.formative))
