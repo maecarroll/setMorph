@@ -1,0 +1,347 @@
+lexeme,cell,form,tier,slot,formative
+a⁰chi¹,cpl,n k u⁰ tʃ i¹,tone,0,⁰¹
+a⁰chi¹,pot,k a⁰ tʃ i¹,tone,0,⁰¹
+a⁰chi¹,hab,n t i⁰ tʃ i¹,tone,0,⁰¹
+a⁰chi¹,prog,n tʃ a⁰ tʃ i¹,tone,0,⁰¹
+a⁰chi¹,cpl,n k u⁰ tʃ i¹,segmental,0,n
+a⁰chi¹,cpl,n k u⁰ tʃ i¹,segmental,1,k
+a⁰chi¹,cpl,n k u⁰ tʃ i¹,segmental,2,u
+a⁰chi¹,cpl,n k u⁰ tʃ i¹,segmental,3,tʃi
+a⁰chi¹,pot,k a⁰ tʃ i¹,segmental,1,k
+a⁰chi¹,pot,k a⁰ tʃ i¹,segmental,2,a
+a⁰chi¹,pot,k a⁰ tʃ i¹,segmental,3,tʃi
+a⁰chi¹,hab,n t i⁰ tʃ i¹,segmental,0,n
+a⁰chi¹,hab,n t i⁰ tʃ i¹,segmental,2,ti
+a⁰chi¹,hab,n t i⁰ tʃ i¹,segmental,3,tʃi
+a⁰chi¹,prog,n tʃ a⁰ tʃ i¹,segmental,0,n
+a⁰chi¹,prog,n tʃ a⁰ tʃ i¹,segmental,1,tʃ
+a⁰chi¹,prog,n tʃ a⁰ tʃ i¹,segmental,2,a
+a⁰chi¹,prog,n tʃ a⁰ tʃ i¹,segmental,3,tʃi
+a⁰tzu⁰,cpl,n k u⁰ ʦ u⁰,tone,0,⁰⁰
+a⁰tzu⁰,pot,k a⁰ ʦ u⁰,tone,0,⁰⁰
+a⁰tzu⁰,hab,n t i⁰ ʦ u⁰,tone,0,⁰⁰
+a⁰tzu⁰,prog,n tʃ a⁰ ʦ u⁰,tone,0,⁰⁰
+a⁰tzu⁰,cpl,n k u⁰ ʦ u⁰,segmental,0,n
+a⁰tzu⁰,cpl,n k u⁰ ʦ u⁰,segmental,1,k
+a⁰tzu⁰,cpl,n k u⁰ ʦ u⁰,segmental,2,u
+a⁰tzu⁰,cpl,n k u⁰ ʦ u⁰,segmental,3,ʦu
+a⁰tzu⁰,pot,k a⁰ ʦ u⁰,segmental,1,k
+a⁰tzu⁰,pot,k a⁰ ʦ u⁰,segmental,2,a
+a⁰tzu⁰,pot,k a⁰ ʦ u⁰,segmental,3,ʦu
+a⁰tzu⁰,hab,n t i⁰ ʦ u⁰,segmental,0,n
+a⁰tzu⁰,hab,n t i⁰ ʦ u⁰,segmental,2,ti
+a⁰tzu⁰,hab,n t i⁰ ʦ u⁰,segmental,3,ʦu
+a⁰tzu⁰,prog,n tʃ a⁰ ʦ u⁰,segmental,0,n
+a⁰tzu⁰,prog,n tʃ a⁰ ʦ u⁰,segmental,1,tʃ
+a⁰tzu⁰,prog,n tʃ a⁰ ʦ u⁰,segmental,2,a
+a⁰tzu⁰,prog,n tʃ a⁰ ʦ u⁰,segmental,3,ʦu
+a⁰ą⁰,cpl,j a⁰ ã⁰,tone,1,⁰⁰
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,tone,0,⁰
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,tone,1,⁰⁰
+a⁰ą⁰,hab,nʲ a⁰ ã⁰,tone,1,⁰⁰
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,tone,0,⁰
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,tone,1,⁰⁰
+a⁰ą⁰,cpl,j a⁰ ã⁰,segmental,2,j
+a⁰ą⁰,cpl,j a⁰ ã⁰,segmental,3,aã
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,segmental,0,n
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,segmental,1,ih
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,segmental,2,j
+a⁰ą⁰,pot,n i⁰ h j a⁰ ã⁰,segmental,3,aã
+a⁰ą⁰,hab,nʲ a⁰ ã⁰,segmental,2,nʲ
+a⁰ą⁰,hab,nʲ a⁰ ã⁰,segmental,3,aã
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,segmental,0,n
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,segmental,1,te
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,segmental,2,j
+a⁰ą⁰,prog,n t e⁰ j a⁰ ã⁰,segmental,3,aã
+hna⁰ʔ,cpl,n k a⁰ h n a⁰ ʔ,tone,0,⁰⁰
+hna⁰ʔ,pot,k i⁰ h n a⁰ ʔ,tone,0,⁰⁰
+hna⁰ʔ,hab,n t i⁰ h n a⁰ ʔ,tone,0,⁰⁰
+hna⁰ʔ,prog,n t e⁰ h n a⁰ ʔ,tone,0,⁰⁰
+hna⁰ʔ,cpl,n k a⁰ h n a⁰ ʔ,segmental,0,n
+hna⁰ʔ,cpl,n k a⁰ h n a⁰ ʔ,segmental,1,k
+hna⁰ʔ,cpl,n k a⁰ h n a⁰ ʔ,segmental,2,a
+hna⁰ʔ,cpl,n k a⁰ h n a⁰ ʔ,segmental,3,hnaʔ
+hna⁰ʔ,pot,k i⁰ h n a⁰ ʔ,segmental,1,k
+hna⁰ʔ,pot,k i⁰ h n a⁰ ʔ,segmental,2,i
+hna⁰ʔ,pot,k i⁰ h n a⁰ ʔ,segmental,3,hnaʔ
+hna⁰ʔ,hab,n t i⁰ h n a⁰ ʔ,segmental,0,n
+hna⁰ʔ,hab,n t i⁰ h n a⁰ ʔ,segmental,1,t
+hna⁰ʔ,hab,n t i⁰ h n a⁰ ʔ,segmental,2,i
+hna⁰ʔ,hab,n t i⁰ h n a⁰ ʔ,segmental,3,hnaʔ
+hna⁰ʔ,prog,n t e⁰ h n a⁰ ʔ,segmental,0,n
+hna⁰ʔ,prog,n t e⁰ h n a⁰ ʔ,segmental,1,t
+hna⁰ʔ,prog,n t e⁰ h n a⁰ ʔ,segmental,2,e
+hna⁰ʔ,prog,n t e⁰ h n a⁰ ʔ,segmental,3,hnaʔ
+ka⁰chi¹ʔ,cpl,n k u⁰ k a⁰ tʃ i¹ ʔ,tone,0,⁰⁰¹
+ka⁰chi¹ʔ,pot,k i⁰ k a⁰ tʃ i¹ ʔ,tone,0,⁰⁰¹
+ka⁰chi¹ʔ,hab,n t i⁰ k a⁰ tʃ i¹ ʔ,tone,0,⁰⁰¹
+ka⁰chi¹ʔ,prog,n t e⁰ k a⁰ tʃ i¹ ʔ,tone,0,⁰⁰¹
+ka⁰chi¹ʔ,cpl,n k u⁰ k a⁰ tʃ i¹ ʔ,segmental,0,n
+ka⁰chi¹ʔ,cpl,n k u⁰ k a⁰ tʃ i¹ ʔ,segmental,1,k
+ka⁰chi¹ʔ,cpl,n k u⁰ k a⁰ tʃ i¹ ʔ,segmental,2,u
+ka⁰chi¹ʔ,cpl,n k u⁰ k a⁰ tʃ i¹ ʔ,segmental,3,katʃiʔ
+ka⁰chi¹ʔ,pot,k i⁰ k a⁰ tʃ i¹ ʔ,segmental,1,k
+ka⁰chi¹ʔ,pot,k i⁰ k a⁰ tʃ i¹ ʔ,segmental,2,i
+ka⁰chi¹ʔ,pot,k i⁰ k a⁰ tʃ i¹ ʔ,segmental,3,katʃiʔ
+ka⁰chi¹ʔ,hab,n t i⁰ k a⁰ tʃ i¹ ʔ,segmental,0,n
+ka⁰chi¹ʔ,hab,n t i⁰ k a⁰ tʃ i¹ ʔ,segmental,1,t
+ka⁰chi¹ʔ,hab,n t i⁰ k a⁰ tʃ i¹ ʔ,segmental,2,i
+ka⁰chi¹ʔ,hab,n t i⁰ k a⁰ tʃ i¹ ʔ,segmental,3,katʃiʔ
+ka⁰chi¹ʔ,prog,n t e⁰ k a⁰ tʃ i¹ ʔ,segmental,0,n
+ka⁰chi¹ʔ,prog,n t e⁰ k a⁰ tʃ i¹ ʔ,segmental,1,t
+ka⁰chi¹ʔ,prog,n t e⁰ k a⁰ tʃ i¹ ʔ,segmental,2,e
+ka⁰chi¹ʔ,prog,n t e⁰ k a⁰ tʃ i¹ ʔ,segmental,3,katʃiʔ
+la⁰kwi⁰,cpl,n k u⁰ l a⁰ kʷ i⁰,tone,0,⁰⁰⁰
+la⁰kwi⁰,pot,k i⁰ l a⁰ kʷ i⁰,tone,0,⁰⁰⁰
+la⁰kwi⁰,hab,n t i⁰ l a⁰ kʷ i⁰,tone,0,⁰⁰⁰
+la⁰kwi⁰,prog,n t e⁰ l a⁰ kʷ i⁰,tone,0,⁰⁰⁰
+la⁰kwi⁰,cpl,n k u⁰ l a⁰ kʷ i⁰,segmental,0,n
+la⁰kwi⁰,cpl,n k u⁰ l a⁰ kʷ i⁰,segmental,1,k
+la⁰kwi⁰,cpl,n k u⁰ l a⁰ kʷ i⁰,segmental,2,u
+la⁰kwi⁰,cpl,n k u⁰ l a⁰ kʷ i⁰,segmental,3,lakʷi
+la⁰kwi⁰,pot,k i⁰ l a⁰ kʷ i⁰,segmental,1,k
+la⁰kwi⁰,pot,k i⁰ l a⁰ kʷ i⁰,segmental,2,i
+la⁰kwi⁰,pot,k i⁰ l a⁰ kʷ i⁰,segmental,3,lakʷi
+la⁰kwi⁰,hab,n t i⁰ l a⁰ kʷ i⁰,segmental,0,n
+la⁰kwi⁰,hab,n t i⁰ l a⁰ kʷ i⁰,segmental,1,t
+la⁰kwi⁰,hab,n t i⁰ l a⁰ kʷ i⁰,segmental,2,i
+la⁰kwi⁰,hab,n t i⁰ l a⁰ kʷ i⁰,segmental,3,lakʷi
+la⁰kwi⁰,prog,n t e⁰ l a⁰ kʷ i⁰,segmental,0,n
+la⁰kwi⁰,prog,n t e⁰ l a⁰ kʷ i⁰,segmental,1,t
+la⁰kwi⁰,prog,n t e⁰ l a⁰ kʷ i⁰,segmental,2,e
+la⁰kwi⁰,prog,n t e⁰ l a⁰ kʷ i⁰,segmental,3,lakʷi
+lya¹,cpl,n kʷ i⁰ lʲ a¹,tone,0,⁰¹
+lya¹,pot,k i⁰ lʲ a¹,tone,0,⁰¹
+lya¹,hab,n t i⁰ lʲ a¹,tone,0,⁰¹
+lya¹,prog,n t e⁰ lʲ a¹,tone,0,⁰¹
+lya¹,cpl,n kʷ i⁰ lʲ a¹,segmental,0,n
+lya¹,cpl,n kʷ i⁰ lʲ a¹,segmental,1,kʷ
+lya¹,cpl,n kʷ i⁰ lʲ a¹,segmental,2,i
+lya¹,cpl,n kʷ i⁰ lʲ a¹,segmental,3,lʲa
+lya¹,pot,k i⁰ lʲ a¹,segmental,1,k
+lya¹,pot,k i⁰ lʲ a¹,segmental,2,i
+lya¹,pot,k i⁰ lʲ a¹,segmental,3,lʲa
+lya¹,hab,n t i⁰ lʲ a¹,segmental,0,n
+lya¹,hab,n t i⁰ lʲ a¹,segmental,1,t
+lya¹,hab,n t i⁰ lʲ a¹,segmental,2,i
+lya¹,hab,n t i⁰ lʲ a¹,segmental,3,lʲa
+lya¹,prog,n t e⁰ lʲ a¹,segmental,0,n
+lya¹,prog,n t e⁰ lʲ a¹,segmental,1,t
+lya¹,prog,n t e⁰ lʲ a¹,segmental,2,e
+lya¹,prog,n t e⁰ lʲ a¹,segmental,3,lʲa
+lya⁰,cpl,n k a⁰ lʲ a⁰,tone,0,⁰⁰
+lya⁰,pot,k i⁰ lʲ a⁰,tone,0,⁰⁰
+lya⁰,hab,n t i⁰ lʲ a⁰,tone,0,⁰⁰
+lya⁰,prog,n t e⁰ lʲ a⁰,tone,0,⁰⁰
+lya⁰,cpl,n k a⁰ lʲ a⁰,segmental,0,n
+lya⁰,cpl,n k a⁰ lʲ a⁰,segmental,1,k
+lya⁰,cpl,n k a⁰ lʲ a⁰,segmental,2,a
+lya⁰,cpl,n k a⁰ lʲ a⁰,segmental,3,lʲa
+lya⁰,pot,k i⁰ lʲ a⁰,segmental,1,k
+lya⁰,pot,k i⁰ lʲ a⁰,segmental,2,i
+lya⁰,pot,k i⁰ lʲ a⁰,segmental,3,lʲa
+lya⁰,hab,n t i⁰ lʲ a⁰,segmental,0,n
+lya⁰,hab,n t i⁰ lʲ a⁰,segmental,1,t
+lya⁰,hab,n t i⁰ lʲ a⁰,segmental,2,i
+lya⁰,hab,n t i⁰ lʲ a⁰,segmental,3,lʲa
+lya⁰,prog,n t e⁰ lʲ a⁰,segmental,0,n
+lya⁰,prog,n t e⁰ lʲ a⁰,segmental,1,t
+lya⁰,prog,n t e⁰ lʲ a⁰,segmental,2,e
+lya⁰,prog,n t e⁰ lʲ a⁰,segmental,3,lʲa
+ni⁰kwę⁰,cpl,n kʷ i⁰ n i⁰ kʷ ẽ⁰,tone,0,⁰⁰⁰
+ni⁰kwę⁰,pot,k i⁰ n i⁰ kʷ ẽ⁰,tone,0,⁰⁰⁰
+ni⁰kwę⁰,hab,n t i⁰ n i⁰ kʷ ẽ⁰,tone,0,⁰⁰⁰
+ni⁰kwę⁰,prog,n t e⁰ n i⁰ kʷ ẽ⁰,tone,0,⁰⁰⁰
+ni⁰kwę⁰,cpl,n kʷ i⁰ n i⁰ kʷ ẽ⁰,segmental,0,n
+ni⁰kwę⁰,cpl,n kʷ i⁰ n i⁰ kʷ ẽ⁰,segmental,1,kʷ
+ni⁰kwę⁰,cpl,n kʷ i⁰ n i⁰ kʷ ẽ⁰,segmental,2,i
+ni⁰kwę⁰,cpl,n kʷ i⁰ n i⁰ kʷ ẽ⁰,segmental,3,nikʷẽ
+ni⁰kwę⁰,pot,k i⁰ n i⁰ kʷ ẽ⁰,segmental,1,k
+ni⁰kwę⁰,pot,k i⁰ n i⁰ kʷ ẽ⁰,segmental,2,i
+ni⁰kwę⁰,pot,k i⁰ n i⁰ kʷ ẽ⁰,segmental,3,nikʷẽ
+ni⁰kwę⁰,hab,n t i⁰ n i⁰ kʷ ẽ⁰,segmental,0,n
+ni⁰kwę⁰,hab,n t i⁰ n i⁰ kʷ ẽ⁰,segmental,1,t
+ni⁰kwę⁰,hab,n t i⁰ n i⁰ kʷ ẽ⁰,segmental,2,i
+ni⁰kwę⁰,hab,n t i⁰ n i⁰ kʷ ẽ⁰,segmental,3,nikʷẽ
+ni⁰kwę⁰,prog,n t e⁰ n i⁰ kʷ ẽ⁰,segmental,0,n
+ni⁰kwę⁰,prog,n t e⁰ n i⁰ kʷ ẽ⁰,segmental,1,t
+ni⁰kwę⁰,prog,n t e⁰ n i⁰ kʷ ẽ⁰,segmental,2,e
+ni⁰kwę⁰,prog,n t e⁰ n i⁰ kʷ ẽ⁰,segmental,3,nikʷẽ
+ta²su¹,cpl,n k u⁰ t a² s u¹,tone,0,⁰
+ta²su¹,cpl,n k u⁰ t a² s u¹,tone,1,²¹
+ta²su¹,pot,tʲ a² s u¹,tone,1,²¹
+ta²su¹,hab,n tʲ a² s u¹,tone,1,²¹
+ta²su¹,prog,n t e⁰ t a² s u¹,tone,0,⁰
+ta²su¹,prog,n t e⁰ t a² s u¹,tone,1,²¹
+ta²su¹,cpl,n k u⁰ t a² s u¹,segmental,0,n
+ta²su¹,cpl,n k u⁰ t a² s u¹,segmental,1,ku
+ta²su¹,cpl,n k u⁰ t a² s u¹,segmental,2,t
+ta²su¹,cpl,n k u⁰ t a² s u¹,segmental,3,asu
+ta²su¹,pot,tʲ a² s u¹,segmental,2,tʲ
+ta²su¹,pot,tʲ a² s u¹,segmental,3,asu
+ta²su¹,hab,n tʲ a² s u¹,segmental,0,n
+ta²su¹,hab,n tʲ a² s u¹,segmental,2,tʲ
+ta²su¹,hab,n tʲ a² s u¹,segmental,3,asu
+ta²su¹,prog,n t e⁰ t a² s u¹,segmental,0,n
+ta²su¹,prog,n t e⁰ t a² s u¹,segmental,1,te
+ta²su¹,prog,n t e⁰ t a² s u¹,segmental,2,t
+ta²su¹,prog,n t e⁰ t a² s u¹,segmental,3,asu
+ta¹a²,cpl,n k a⁰ t a¹ a²,tone,0,⁰
+ta¹a²,cpl,n k a⁰ t a¹ a²,tone,1,¹²
+ta¹a²,pot,t a¹ a²,tone,1,¹²
+ta¹a²,hab,n t a¹ a²,tone,1,¹²
+ta¹a²,prog,n t e⁰ t a¹ a²,tone,0,⁰
+ta¹a²,prog,n t e⁰ t a¹ a²,tone,1,¹²
+ta¹a²,cpl,n k a⁰ t a¹ a²,segmental,0,n
+ta¹a²,cpl,n k a⁰ t a¹ a²,segmental,1,ka
+ta¹a²,cpl,n k a⁰ t a¹ a²,segmental,2,taa
+ta¹a²,pot,t a¹ a²,segmental,2,taa
+ta¹a²,hab,n t a¹ a²,segmental,0,n
+ta¹a²,hab,n t a¹ a²,segmental,2,taa
+ta¹a²,prog,n t e⁰ t a¹ a²,segmental,0,n
+ta¹a²,prog,n t e⁰ t a¹ a²,segmental,1,te
+ta¹a²,prog,n t e⁰ t a¹ a²,segmental,2,taa
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,tone,0,⁰
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,tone,1,⁰¹
+te⁰hę¹,pot,tʲ e⁰ h ẽ¹,tone,1,⁰¹
+te⁰hę¹,hab,n tʲ e⁰ h ẽ¹,tone,1,⁰¹
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,tone,0,⁰
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,tone,1,⁰¹
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,segmental,0,n
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,segmental,1,ka
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,segmental,2,t
+te⁰hę¹,cpl,n k a⁰ t e⁰ h ẽ¹,segmental,3,ehẽ
+te⁰hę¹,pot,tʲ e⁰ h ẽ¹,segmental,2,tʲ
+te⁰hę¹,pot,tʲ e⁰ h ẽ¹,segmental,3,ehẽ
+te⁰hę¹,hab,n tʲ e⁰ h ẽ¹,segmental,0,n
+te⁰hę¹,hab,n tʲ e⁰ h ẽ¹,segmental,2,tʲ
+te⁰hę¹,hab,n tʲ e⁰ h ẽ¹,segmental,3,ehẽ
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,segmental,0,n
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,segmental,1,te
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,segmental,2,t
+te⁰hę¹,prog,n t e⁰ t e⁰ h ẽ¹,segmental,3,ehẽ
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,tone,0,⁰
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,tone,1,¹²
+tu¹kwa²,pot,tʲ u¹ kʷ a²,tone,1,¹²
+tu¹kwa²,hab,n tʲ u¹ kʷ a²,tone,1,¹²
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,tone,0,⁰
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,tone,1,¹²
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,segmental,0,n
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,segmental,1,ku
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,segmental,2,t
+tu¹kwa²,cpl,n k u⁰ t u¹ kʷ a²,segmental,3,ukʷa
+tu¹kwa²,pot,tʲ u¹ kʷ a²,segmental,2,tʲ
+tu¹kwa²,pot,tʲ u¹ kʷ a²,segmental,3,ukʷa
+tu¹kwa²,hab,n tʲ u¹ kʷ a²,segmental,0,n
+tu¹kwa²,hab,n tʲ u¹ kʷ a²,segmental,2,tʲ
+tu¹kwa²,hab,n tʲ u¹ kʷ a²,segmental,3,ukʷa
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,segmental,0,n
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,segmental,1,te
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,segmental,2,t
+tu¹kwa²,prog,n t e⁰ t u¹ kʷ a²,segmental,3,ukʷa
+u²ne¹,cpl,j u² n e¹,tone,0,²¹
+u²ne¹,pot,k u⁰ n e⁰,tone,0,⁰⁰
+u²ne¹,hab,n t u⁰ n e⁰,tone,0,⁰⁰
+u²ne¹,prog,n tʃ u² n e¹,tone,0,²¹
+u²ne¹,cpl,j u² n e¹,segmental,1,j
+u²ne¹,cpl,j u² n e¹,segmental,2,une
+u²ne¹,pot,k u⁰ n e⁰,segmental,1,k
+u²ne¹,pot,k u⁰ n e⁰,segmental,2,une
+u²ne¹,hab,n t u⁰ n e⁰,segmental,0,n
+u²ne¹,hab,n t u⁰ n e⁰,segmental,1,t
+u²ne¹,hab,n t u⁰ n e⁰,segmental,2,une
+u²ne¹,prog,n tʃ u² n e¹,segmental,0,n
+u²ne¹,prog,n tʃ u² n e¹,segmental,1,tʃ
+u²ne¹,prog,n tʃ u² n e¹,segmental,2,une
+u¹na²na⁰,cpl,n k a¹ n a² n a⁰,tone,0,¹
+u¹na²na⁰,cpl,n k a¹ n a² n a⁰,tone,1,²⁰
+u¹na²na⁰,pot,n a² n a⁰,tone,1,²⁰
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,tone,0,¹
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,tone,1,²⁰
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,tone,0,¹
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,tone,1,²⁰
+u¹na²na⁰,cpl,n k a¹ n a² n a⁰,segmental,0,n
+u¹na²na⁰,cpl,n k a¹ n a² n a⁰,segmental,2,ka
+u¹na²na⁰,cpl,n k a¹ n a² n a⁰,segmental,3,nana
+u¹na²na⁰,pot,n a² n a⁰,segmental,3,nana
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,segmental,0,n
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,segmental,1,t
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,segmental,2,u
+u¹na²na⁰,hab,n t u¹ n a² n a⁰,segmental,3,nana
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,segmental,0,n
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,segmental,1,t
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,segmental,2,e
+u¹na²na⁰,prog,n t e¹ n a² n a⁰,segmental,3,nana
+u⁰ti⁰ką⁰ʔ,cpl,n k a⁰ t i⁰ k ã⁰ ʔ,tone,0,⁰⁰⁰
+u⁰ti⁰ką⁰ʔ,pot,k u⁰ t i⁰ k ã⁰ ʔ,tone,0,⁰⁰⁰
+u⁰ti⁰ką⁰ʔ,hab,n t u⁰ t i⁰ k ã⁰ ʔ,tone,0,⁰⁰⁰
+u⁰ti⁰ką⁰ʔ,prog,n t e⁰ t i⁰ k ã⁰ ʔ,tone,0,⁰⁰⁰
+u⁰ti⁰ką⁰ʔ,cpl,n k a⁰ t i⁰ k ã⁰ ʔ,segmental,0,n
+u⁰ti⁰ką⁰ʔ,cpl,n k a⁰ t i⁰ k ã⁰ ʔ,segmental,1,k
+u⁰ti⁰ką⁰ʔ,cpl,n k a⁰ t i⁰ k ã⁰ ʔ,segmental,2,a
+u⁰ti⁰ką⁰ʔ,cpl,n k a⁰ t i⁰ k ã⁰ ʔ,segmental,3,tikãʔ
+u⁰ti⁰ką⁰ʔ,pot,k u⁰ t i⁰ k ã⁰ ʔ,segmental,1,k
+u⁰ti⁰ką⁰ʔ,pot,k u⁰ t i⁰ k ã⁰ ʔ,segmental,2,u
+u⁰ti⁰ką⁰ʔ,pot,k u⁰ t i⁰ k ã⁰ ʔ,segmental,3,tikãʔ
+u⁰ti⁰ką⁰ʔ,hab,n t u⁰ t i⁰ k ã⁰ ʔ,segmental,0,n
+u⁰ti⁰ką⁰ʔ,hab,n t u⁰ t i⁰ k ã⁰ ʔ,segmental,1,t
+u⁰ti⁰ką⁰ʔ,hab,n t u⁰ t i⁰ k ã⁰ ʔ,segmental,2,u
+u⁰ti⁰ką⁰ʔ,hab,n t u⁰ t i⁰ k ã⁰ ʔ,segmental,3,tikãʔ
+u⁰ti⁰ką⁰ʔ,prog,n t e⁰ t i⁰ k ã⁰ ʔ,segmental,0,n
+u⁰ti⁰ką⁰ʔ,prog,n t e⁰ t i⁰ k ã⁰ ʔ,segmental,1,t
+u⁰ti⁰ką⁰ʔ,prog,n t e⁰ t i⁰ k ã⁰ ʔ,segmental,2,e
+u⁰ti⁰ką⁰ʔ,prog,n t e⁰ t i⁰ k ã⁰ ʔ,segmental,3,tikãʔ
+ya⁰la⁰ʔ,cpl,n kʲ a⁰ l a⁰ ʔ,tone,1,⁰⁰
+ya⁰la⁰ʔ,pot,tʃ a⁰ l a⁰ ʔ,tone,1,⁰⁰
+ya⁰la⁰ʔ,hab,n tʃ a⁰ l a⁰ ʔ,tone,1,⁰⁰
+ya⁰la⁰ʔ,prog,n t e⁰ j a⁰ l a⁰ ʔ,tone,0,⁰
+ya⁰la⁰ʔ,prog,n t e⁰ j a⁰ l a⁰ ʔ,tone,1,⁰⁰
+ya⁰la⁰ʔ,cpl,n kʲ a⁰ l a⁰ ʔ,segmental,0,n
+ya⁰la⁰ʔ,cpl,n kʲ a⁰ l a⁰ ʔ,segmental,1,kʲ
+ya⁰la⁰ʔ,cpl,n kʲ a⁰ l a⁰ ʔ,segmental,2,alaʔ
+ya⁰la⁰ʔ,pot,tʃ a⁰ l a⁰ ʔ,segmental,1,tʃ
+ya⁰la⁰ʔ,pot,tʃ a⁰ l a⁰ ʔ,segmental,2,alaʔ
+ya⁰la⁰ʔ,hab,n tʃ a⁰ l a⁰ ʔ,segmental,0,n
+ya⁰la⁰ʔ,hab,n tʃ a⁰ l a⁰ ʔ,segmental,1,tʃ
+ya⁰la⁰ʔ,hab,n tʃ a⁰ l a⁰ ʔ,segmental,2,alaʔ
+ya⁰la⁰ʔ,prog,n t e⁰ j a⁰ l a⁰ ʔ,segmental,0,n
+ya⁰la⁰ʔ,prog,n t e⁰ j a⁰ l a⁰ ʔ,segmental,1,tej
+ya⁰la⁰ʔ,prog,n t e⁰ j a⁰ l a⁰ ʔ,segmental,2,alaʔ
+yu¹kų²ʔ,cpl,n kʲ u¹ k ũ² ʔ,tone,1,¹²
+yu¹kų²ʔ,pot,tʃ u¹ k ũ² ʔ,tone,1,¹²
+yu¹kų²ʔ,hab,n tʃ u¹ k ũ² ʔ,tone,1,¹²
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,tone,0,⁰
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,tone,1,¹²
+yu¹kų²ʔ,cpl,n kʲ u¹ k ũ² ʔ,segmental,0,n
+yu¹kų²ʔ,cpl,n kʲ u¹ k ũ² ʔ,segmental,2,kʲ
+yu¹kų²ʔ,cpl,n kʲ u¹ k ũ² ʔ,segmental,3,ukũʔ
+yu¹kų²ʔ,pot,tʃ u¹ k ũ² ʔ,segmental,2,tʃ
+yu¹kų²ʔ,pot,tʃ u¹ k ũ² ʔ,segmental,3,ukũʔ
+yu¹kų²ʔ,hab,n tʃ u¹ k ũ² ʔ,segmental,0,n
+yu¹kų²ʔ,hab,n tʃ u¹ k ũ² ʔ,segmental,2,tʃ
+yu¹kų²ʔ,hab,n tʃ u¹ k ũ² ʔ,segmental,3,ukũʔ
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,segmental,0,n
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,segmental,1,te
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,segmental,2,tʃ
+yu¹kų²ʔ,prog,n t e⁰ tʃ u¹ k ũ² ʔ,segmental,3,ukũʔ
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,tone,1,⁰
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,tone,2,⁰
+ʔne⁰,pot,ʔ n e⁰,tone,2,⁰
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,tone,0,⁰
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,tone,1,⁰
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,tone,2,⁰
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,tone,1,⁰
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,tone,2,⁰
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,segmental,0,n
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,segmental,2,k
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,segmental,3,a
+ʔne⁰,cpl,n k a⁰ ʔ n e⁰,segmental,4,ʔne
+ʔne⁰,pot,ʔ n e⁰,segmental,4,ʔne
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,segmental,1,t
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,segmental,2,al
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,segmental,3,a
+ʔne⁰,hab,t a⁰ l a⁰ ʔ n e⁰,segmental,4,ʔne
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,segmental,0,n
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,segmental,1,t
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,segmental,3,e
+ʔne⁰,prog,n t e⁰ ʔ n e⁰,segmental,4,ʔne

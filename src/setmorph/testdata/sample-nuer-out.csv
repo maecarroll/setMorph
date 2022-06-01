@@ -1,0 +1,155 @@
+lexeme,cell,form,tier,slot,formative
+ant,nom.sg,c w ɔ̤́ x,segmental,0,c
+ant,nom.sg,c w ɔ̤́ x,segmental,1,wɔ̤́x
+ant,nom.pl,c ṳ̌ːː ɣ,segmental,0,c
+ant,nom.pl,c ṳ̌ːː ɣ,segmental,1,ṳɣ
+ant,nom.pl,c ṳ̌ːː ɣ,tones,0,̌
+ant,nom.pl,c ṳ̌ːː ɣ,length,0,ːː
+arrow,nom.sg,b ʌ̤̀ːː r,segmental,0,bʌ̤̀r
+arrow,nom.pl,b ʌ̤̀ːː r í̤,segmental,0,bʌ̤̀r
+arrow,nom.pl,b ʌ̤̀ːː r í̤,segmental,1,í̤
+arrow,nom.sg,b ʌ̤̀ːː r,length,0,ːː
+arrow,nom.pl,b ʌ̤̀ːː r í̤,length,0,ːː
+bead,nom.sg,t ɪ̂ː k,segmental,0,t
+bead,nom.sg,t ɪ̂ː k,segmental,1,ɪk
+bead,nom.pl,t j ɛ̂ x,segmental,0,t
+bead,nom.pl,t j ɛ̂ x,segmental,1,jɛx
+bead,nom.sg,t ɪ̂ː k,tones,0,̂
+bead,nom.pl,t j ɛ̂ x,tones,0,̂
+bead,nom.sg,t ɪ̂ː k,length,0,ː
+belt,nom.sg,l à̤ːː ɣ,segmental,0,l
+belt,nom.sg,l à̤ːː ɣ,segmental,1,à̤ɣ
+belt,nom.pl,l ʌ̤̌ː k,segmental,0,l
+belt,nom.pl,l ʌ̤̌ː k,segmental,1,ʌ̤k
+belt,nom.pl,l ʌ̤̌ː k,tones,0,̌
+belt,nom.sg,l à̤ːː ɣ,length,0,ːː
+belt,nom.pl,l ʌ̤̌ː k,length,0,ː
+breeze,nom.sg,l í̤ːː r,segmental,0,l
+breeze,nom.sg,l í̤ːː r,segmental,1,í̤
+breeze,nom.sg,l í̤ːː r,segmental,2,r
+breeze,nom.pl,l ì̤ːː r í̤,segmental,0,l
+breeze,nom.pl,l ì̤ːː r í̤,segmental,1,ì̤
+breeze,nom.pl,l ì̤ːː r í̤,segmental,2,r
+breeze,nom.pl,l ì̤ːː r í̤,segmental,3,í̤
+breeze,nom.sg,l í̤ːː r,length,0,ːː
+breeze,nom.pl,l ì̤ːː r í̤,length,0,ːː
+buffalo,nom.sg,m ó̤ k,segmental,0,m
+buffalo,nom.sg,m ó̤ k,segmental,1,ó̤k
+buffalo,nom.pl,m ôː ɣ,segmental,0,m
+buffalo,nom.pl,m ôː ɣ,segmental,1,oɣ
+buffalo,nom.pl,m ôː ɣ,tones,0,̂
+buffalo,nom.pl,m ôː ɣ,length,0,ː
+butter,nom.sg,l j ɛ̂ːː ð,segmental,0,l
+butter,nom.sg,l j ɛ̂ːː ð,segmental,1,jɛð
+butter,nom.pl,l ɪ̂ː t̪,segmental,0,l
+butter,nom.pl,l ɪ̂ː t̪,segmental,1,ɪt̪
+butter,nom.sg,l j ɛ̂ːː ð,tones,0,̂
+butter,nom.pl,l ɪ̂ː t̪,tones,0,̂
+butter,nom.sg,l j ɛ̂ːː ð,length,0,ːː
+butter,nom.pl,l ɪ̂ː t̪,length,0,ː
+chin,nom.sg,t ǐ̤ k,segmental,0,t
+chin,nom.sg,t ǐ̤ k,segmental,1,i̤k
+chin,nom.pl,t j é̤ːː ɣ,segmental,0,t
+chin,nom.pl,t j é̤ːː ɣ,segmental,1,jé̤ɣ
+chin,nom.sg,t ǐ̤ k,tones,0,̌
+chin,nom.pl,t j é̤ːː ɣ,length,0,ːː
+cloud,nom.sg,p ó̤ːː l,segmental,0,pó̤l
+cloud,nom.pl,p ó̤ l,segmental,0,pó̤l
+cloud,nom.sg,p ó̤ːː l,length,0,ːː
+elbow,nom.sg,c j é̤ l,segmental,0,c
+elbow,nom.sg,c j é̤ l,segmental,1,jé̤
+elbow,nom.sg,c j é̤ l,segmental,2,l
+elbow,nom.pl,c í̤ l,segmental,0,c
+elbow,nom.pl,c í̤ l,segmental,1,í̤
+elbow,nom.pl,c í̤ l,segmental,2,l
+excrement,nom.sg,c é̤ː ð,segmental,0,c
+excrement,nom.sg,c é̤ː ð,segmental,1,é̤ð
+excrement,nom.pl,c ɛ̂ t̪,segmental,0,c
+excrement,nom.pl,c ɛ̂ t̪,segmental,1,ɛt̪
+excrement,nom.pl,c ɛ̂ t̪,tones,0,̂
+excrement,nom.sg,c é̤ː ð,length,0,ː
+forest,nom.sg,r ṳ́ː p,segmental,0,r
+forest,nom.sg,r ṳ́ː p,segmental,1,ṳ́p
+forest,nom.pl,r w ɔ̤́ f,segmental,0,r
+forest,nom.pl,r w ɔ̤́ f,segmental,1,wɔ̤́f
+forest,nom.sg,r ṳ́ː p,length,0,ː
+hair,nom.sg,m j è̤ m,segmental,0,mj
+hair,nom.sg,m j è̤ m,segmental,1,è̤
+hair,nom.sg,m j è̤ m,segmental,2,m
+hair,nom.pl,m j é̤ːː m,segmental,0,mj
+hair,nom.pl,m j é̤ːː m,segmental,1,é̤
+hair,nom.pl,m j é̤ːː m,segmental,2,m
+hair,nom.pl,m j é̤ːː m,length,0,ːː
+hand,nom.sg,t ě r̥,segmental,0,t
+hand,nom.sg,t ě r̥,segmental,1,er̥
+hand,nom.pl,t é̤ː t,segmental,0,t
+hand,nom.pl,t é̤ː t,segmental,1,é̤t
+hand,nom.sg,t ě r̥,tones,0,̌
+hand,nom.pl,t é̤ː t,length,0,ː
+hat,nom.sg,k ṳ́ m,segmental,0,k
+hat,nom.sg,k ṳ́ m,segmental,1,ṳ́
+hat,nom.sg,k ṳ́ m,segmental,2,m
+hat,nom.pl,k w ɔ̤́ m n ì̤,segmental,0,k
+hat,nom.pl,k w ɔ̤́ m n ì̤,segmental,1,wɔ̤́
+hat,nom.pl,k w ɔ̤́ m n ì̤,segmental,2,m
+hat,nom.pl,k w ɔ̤́ m n ì̤,segmental,3,nì̤
+leg,nom.sg,c j ó̤ːː ɣ,segmental,0,cj
+leg,nom.sg,c j ó̤ːː ɣ,segmental,1,ó̤ɣ
+leg,nom.pl,c j ô x,segmental,0,cj
+leg,nom.pl,c j ô x,segmental,1,ox
+leg,nom.pl,c j ô x,tones,0,̂
+leg,nom.sg,c j ó̤ːː ɣ,length,0,ːː
+name,nom.sg,c j ǒ r̥,segmental,0,cjo
+name,nom.sg,c j ǒ r̥,segmental,1,r̥
+name,nom.pl,c j ôːː t,segmental,0,cjo
+name,nom.pl,c j ôːː t,segmental,1,t
+name,nom.sg,c j ǒ r̥,tones,0,̌
+name,nom.pl,c j ôːː t,tones,0,̂
+name,nom.pl,c j ôːː t,length,0,ːː
+ox,nom.sg,t̪ ʌ̤́ː k,segmental,0,t̪ʌ̤́k
+ox,nom.pl,t̪̤ ʌ̤̌ːː ɣ,segmental,0,t̪̤ʌ̤ɣ
+ox,nom.pl,t̪̤ ʌ̤̌ːː ɣ,tones,0,̌
+ox,nom.sg,t̪ ʌ̤́ː k,length,0,ː
+ox,nom.pl,t̪̤ ʌ̤̌ːː ɣ,length,0,ːː
+pocket,nom.sg,k í̤ːː ð,segmental,0,k
+pocket,nom.sg,k í̤ːː ð,segmental,2,í̤
+pocket,nom.sg,k í̤ːː ð,segmental,3,ð
+pocket,nom.pl,k j ě̤ θ n í̤,segmental,0,k
+pocket,nom.pl,k j ě̤ θ n í̤,segmental,1,je̤θn
+pocket,nom.pl,k j ě̤ θ n í̤,segmental,2,í̤
+pocket,nom.pl,k j ě̤ θ n í̤,tones,0,̌
+pocket,nom.sg,k í̤ːː ð,length,0,ːː
+shadow,nom.sg,t j ě̤ːː p,segmental,0,tj
+shadow,nom.sg,t j ě̤ːː p,segmental,1,e̤p
+shadow,nom.pl,t j é̤ f n ì,segmental,0,tj
+shadow,nom.pl,t j é̤ f n ì,segmental,1,é̤fnì
+shadow,nom.sg,t j ě̤ːː p,tones,0,̌
+shadow,nom.sg,t j ě̤ːː p,length,0,ːː
+shooter,nom.sg,b ʌ̤́ːː r,segmental,0,b
+shooter,nom.sg,b ʌ̤́ːː r,segmental,1,ʌ̤́
+shooter,nom.sg,b ʌ̤́ːː r,segmental,2,r
+shooter,nom.pl,b á̤ːː r,segmental,0,b
+shooter,nom.pl,b á̤ːː r,segmental,1,á̤
+shooter,nom.pl,b á̤ːː r,segmental,2,r
+shooter,nom.sg,b ʌ̤́ːː r,length,0,ːː
+shooter,nom.pl,b á̤ːː r,length,0,ːː
+snake species,nom.sg,g ôː r,segmental,0,gor
+snake species,nom.pl,g ǒː r í̤,segmental,0,gor
+snake species,nom.pl,g ǒː r í̤,segmental,1,í̤
+snake species,nom.sg,g ôː r,tones,0,̂
+snake species,nom.pl,g ǒː r í̤,tones,0,̌
+snake species,nom.sg,g ôː r,length,0,ː
+snake species,nom.pl,g ǒː r í̤,length,0,ː
+sorcerer,nom.sg,t j é̤ t,segmental,0,t
+sorcerer,nom.sg,t j é̤ t,segmental,1,jé̤
+sorcerer,nom.sg,t j é̤ t,segmental,2,t
+sorcerer,nom.pl,t í̤ t,segmental,0,t
+sorcerer,nom.pl,t í̤ t,segmental,1,í̤
+sorcerer,nom.pl,t í̤ t,segmental,2,t
+tilapia,nom.sg,l ɛ̀ː k,segmental,0,l
+tilapia,nom.sg,l ɛ̀ː k,segmental,1,ɛ̀k
+tilapia,nom.pl,l ě̤ːː ɣ,segmental,0,l
+tilapia,nom.pl,l ě̤ːː ɣ,segmental,1,e̤ɣ
+tilapia,nom.pl,l ě̤ːː ɣ,tones,0,̌
+tilapia,nom.sg,l ɛ̀ː k,length,0,ː
+tilapia,nom.pl,l ě̤ːː ɣ,length,0,ːː

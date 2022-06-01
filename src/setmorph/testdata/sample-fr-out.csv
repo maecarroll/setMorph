@@ -1,0 +1,1326 @@
+lexeme,cell,form,tier,slot,formative
+aller,prs.1sg,v E,segmental,0,v
+aller,prs.1sg,v E,segmental,1,E
+aller,prs.2sg,v a,segmental,0,v
+aller,prs.2sg,v a,segmental,1,a
+aller,prs.3sg,v a,segmental,0,v
+aller,prs.3sg,v a,segmental,1,a
+aller,prs.1pl,a l ɔ̃,segmental,0,al
+aller,prs.1pl,a l ɔ̃,segmental,2,ɔ̃
+aller,prs.2pl,a l E,segmental,0,al
+aller,prs.2pl,a l E,segmental,1,E
+aller,prs.3pl,v ɔ̃,segmental,0,v
+aller,prs.3pl,v ɔ̃,segmental,2,ɔ̃
+aller,fut.1sg,i ʁ E,segmental,0,iʁ
+aller,fut.1sg,i ʁ E,segmental,1,E
+aller,fut.2sg,i ʁ a,segmental,0,iʁ
+aller,fut.2sg,i ʁ a,segmental,1,a
+aller,fut.3sg,i ʁ a,segmental,0,iʁ
+aller,fut.3sg,i ʁ a,segmental,1,a
+aller,fut.1pl,i ʁ ɔ̃,segmental,0,iʁ
+aller,fut.1pl,i ʁ ɔ̃,segmental,2,ɔ̃
+aller,fut.2pl,i ʁ E,segmental,0,iʁ
+aller,fut.2pl,i ʁ E,segmental,1,E
+aller,fut.3pl,i ʁ ɔ̃,segmental,0,iʁ
+aller,fut.3pl,i ʁ ɔ̃,segmental,2,ɔ̃
+aller,pst.1sg,a l E,segmental,0,al
+aller,pst.1sg,a l E,segmental,1,E
+aller,pst.2sg,a l a,segmental,0,al
+aller,pst.2sg,a l a,segmental,1,a
+aller,pst.3sg,a l a,segmental,0,al
+aller,pst.3sg,a l a,segmental,1,a
+aller,pst.1pl,a l a m,segmental,0,al
+aller,pst.1pl,a l a m,segmental,1,a
+aller,pst.1pl,a l a m,segmental,2,m
+aller,pst.2pl,a l a t,segmental,0,al
+aller,pst.2pl,a l a t,segmental,1,a
+aller,pst.2pl,a l a t,segmental,2,t
+aller,pst.3pl,a l E ʁ,segmental,0,al
+aller,pst.3pl,a l E ʁ,segmental,1,E
+aller,pst.3pl,a l E ʁ,segmental,2,ʁ
+aller,inf,a l E,segmental,0,al
+aller,inf,a l E,segmental,1,E
+aller,prs.ptcp,a l ɑ̃,segmental,0,al
+aller,prs.ptcp,a l ɑ̃,segmental,2,ɑ̃
+apprendre,prs.1sg,a p ʁ ɑ̃,segmental,0,apʁ
+apprendre,prs.1sg,a p ʁ ɑ̃,segmental,1,ɑ̃
+apprendre,prs.2sg,a p ʁ ɑ̃,segmental,0,apʁ
+apprendre,prs.2sg,a p ʁ ɑ̃,segmental,1,ɑ̃
+apprendre,prs.3sg,a p ʁ ɑ̃,segmental,0,apʁ
+apprendre,prs.3sg,a p ʁ ɑ̃,segmental,1,ɑ̃
+apprendre,prs.1pl,a p ʁ Ø n ɔ̃,segmental,0,apʁ
+apprendre,prs.1pl,a p ʁ Ø n ɔ̃,segmental,2,Ø
+apprendre,prs.1pl,a p ʁ Ø n ɔ̃,segmental,3,n
+apprendre,prs.1pl,a p ʁ Ø n ɔ̃,segmental,4,ɔ̃
+apprendre,prs.2pl,a p ʁ Ø n E,segmental,0,apʁ
+apprendre,prs.2pl,a p ʁ Ø n E,segmental,2,Ø
+apprendre,prs.2pl,a p ʁ Ø n E,segmental,3,n
+apprendre,prs.2pl,a p ʁ Ø n E,segmental,4,E
+apprendre,prs.3pl,a p ʁ E n,segmental,0,apʁ
+apprendre,prs.3pl,a p ʁ E n,segmental,2,E
+apprendre,prs.3pl,a p ʁ E n,segmental,3,n
+apprendre,fut.1sg,a p ʁ ɑ̃ d ʁ E,segmental,0,apʁ
+apprendre,fut.1sg,a p ʁ ɑ̃ d ʁ E,segmental,1,ɑ̃
+apprendre,fut.1sg,a p ʁ ɑ̃ d ʁ E,segmental,2,d
+apprendre,fut.1sg,a p ʁ ɑ̃ d ʁ E,segmental,3,ʁ
+apprendre,fut.1sg,a p ʁ ɑ̃ d ʁ E,segmental,4,E
+apprendre,fut.2sg,a p ʁ ɑ̃ d ʁ a,segmental,0,apʁ
+apprendre,fut.2sg,a p ʁ ɑ̃ d ʁ a,segmental,1,ɑ̃
+apprendre,fut.2sg,a p ʁ ɑ̃ d ʁ a,segmental,2,d
+apprendre,fut.2sg,a p ʁ ɑ̃ d ʁ a,segmental,3,ʁ
+apprendre,fut.2sg,a p ʁ ɑ̃ d ʁ a,segmental,4,a
+apprendre,fut.3sg,a p ʁ ɑ̃ d ʁ a,segmental,0,apʁ
+apprendre,fut.3sg,a p ʁ ɑ̃ d ʁ a,segmental,1,ɑ̃
+apprendre,fut.3sg,a p ʁ ɑ̃ d ʁ a,segmental,2,d
+apprendre,fut.3sg,a p ʁ ɑ̃ d ʁ a,segmental,3,ʁ
+apprendre,fut.3sg,a p ʁ ɑ̃ d ʁ a,segmental,4,a
+apprendre,fut.1pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,0,apʁ
+apprendre,fut.1pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,1,ɑ̃
+apprendre,fut.1pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,2,d
+apprendre,fut.1pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,3,ʁ
+apprendre,fut.1pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,4,ɔ̃
+apprendre,fut.2pl,a p ʁ ɑ̃ d ʁ E,segmental,0,apʁ
+apprendre,fut.2pl,a p ʁ ɑ̃ d ʁ E,segmental,1,ɑ̃
+apprendre,fut.2pl,a p ʁ ɑ̃ d ʁ E,segmental,2,d
+apprendre,fut.2pl,a p ʁ ɑ̃ d ʁ E,segmental,3,ʁ
+apprendre,fut.2pl,a p ʁ ɑ̃ d ʁ E,segmental,4,E
+apprendre,fut.3pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,0,apʁ
+apprendre,fut.3pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,1,ɑ̃
+apprendre,fut.3pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,2,d
+apprendre,fut.3pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,3,ʁ
+apprendre,fut.3pl,a p ʁ ɑ̃ d ʁ ɔ̃,segmental,4,ɔ̃
+apprendre,pst.1sg,a p ʁ i,segmental,0,apʁ
+apprendre,pst.1sg,a p ʁ i,segmental,1,i
+apprendre,pst.2sg,a p ʁ i,segmental,0,apʁ
+apprendre,pst.2sg,a p ʁ i,segmental,1,i
+apprendre,pst.3sg,a p ʁ i,segmental,0,apʁ
+apprendre,pst.3sg,a p ʁ i,segmental,1,i
+apprendre,pst.1pl,a p ʁ i m,segmental,0,apʁ
+apprendre,pst.1pl,a p ʁ i m,segmental,1,i
+apprendre,pst.1pl,a p ʁ i m,segmental,4,m
+apprendre,pst.2pl,a p ʁ i t,segmental,0,apʁ
+apprendre,pst.2pl,a p ʁ i t,segmental,1,i
+apprendre,pst.2pl,a p ʁ i t,segmental,4,t
+apprendre,pst.3pl,a p ʁ i ʁ,segmental,0,apʁ
+apprendre,pst.3pl,a p ʁ i ʁ,segmental,1,i
+apprendre,pst.3pl,a p ʁ i ʁ,segmental,3,ʁ
+apprendre,inf,a p ʁ ɑ̃ d ʁ,segmental,0,apʁ
+apprendre,inf,a p ʁ ɑ̃ d ʁ,segmental,1,ɑ̃
+apprendre,inf,a p ʁ ɑ̃ d ʁ,segmental,2,d
+apprendre,inf,a p ʁ ɑ̃ d ʁ,segmental,3,ʁ
+apprendre,prs.ptcp,a p ʁ Ø n ɑ̃,segmental,0,apʁ
+apprendre,prs.ptcp,a p ʁ Ø n ɑ̃,segmental,2,Ø
+apprendre,prs.ptcp,a p ʁ Ø n ɑ̃,segmental,3,n
+apprendre,prs.ptcp,a p ʁ Ø n ɑ̃,segmental,4,ɑ̃
+boire,prs.1sg,b w a,segmental,0,b
+boire,prs.1sg,b w a,segmental,2,wa
+boire,prs.2sg,b w a,segmental,0,b
+boire,prs.2sg,b w a,segmental,2,wa
+boire,prs.3sg,b w a,segmental,0,b
+boire,prs.3sg,b w a,segmental,2,wa
+boire,prs.1pl,b y v ɔ̃,segmental,0,b
+boire,prs.1pl,b y v ɔ̃,segmental,1,y
+boire,prs.1pl,b y v ɔ̃,segmental,3,v
+boire,prs.1pl,b y v ɔ̃,segmental,4,ɔ̃
+boire,prs.2pl,b y v E,segmental,0,b
+boire,prs.2pl,b y v E,segmental,1,y
+boire,prs.2pl,b y v E,segmental,3,v
+boire,prs.2pl,b y v E,segmental,4,E
+boire,prs.3pl,b w a v,segmental,0,b
+boire,prs.3pl,b w a v,segmental,2,wa
+boire,prs.3pl,b w a v,segmental,3,v
+boire,fut.1sg,b w a ʁ E,segmental,0,b
+boire,fut.1sg,b w a ʁ E,segmental,2,wa
+boire,fut.1sg,b w a ʁ E,segmental,3,ʁ
+boire,fut.1sg,b w a ʁ E,segmental,4,E
+boire,fut.2sg,b w a ʁ a,segmental,0,b
+boire,fut.2sg,b w a ʁ a,segmental,2,wa
+boire,fut.2sg,b w a ʁ a,segmental,3,ʁ
+boire,fut.2sg,b w a ʁ a,segmental,4,a
+boire,fut.3sg,b w a ʁ a,segmental,0,b
+boire,fut.3sg,b w a ʁ a,segmental,2,wa
+boire,fut.3sg,b w a ʁ a,segmental,3,ʁ
+boire,fut.3sg,b w a ʁ a,segmental,4,a
+boire,fut.1pl,b w a ʁ ɔ̃,segmental,0,b
+boire,fut.1pl,b w a ʁ ɔ̃,segmental,2,wa
+boire,fut.1pl,b w a ʁ ɔ̃,segmental,3,ʁ
+boire,fut.1pl,b w a ʁ ɔ̃,segmental,4,ɔ̃
+boire,fut.2pl,b w a ʁ E,segmental,0,b
+boire,fut.2pl,b w a ʁ E,segmental,2,wa
+boire,fut.2pl,b w a ʁ E,segmental,3,ʁ
+boire,fut.2pl,b w a ʁ E,segmental,4,E
+boire,fut.3pl,b w a ʁ ɔ̃,segmental,0,b
+boire,fut.3pl,b w a ʁ ɔ̃,segmental,2,wa
+boire,fut.3pl,b w a ʁ ɔ̃,segmental,3,ʁ
+boire,fut.3pl,b w a ʁ ɔ̃,segmental,4,ɔ̃
+boire,pst.1sg,b y,segmental,0,b
+boire,pst.1sg,b y,segmental,1,y
+boire,pst.2sg,b y,segmental,0,b
+boire,pst.2sg,b y,segmental,1,y
+boire,pst.3sg,b y,segmental,0,b
+boire,pst.3sg,b y,segmental,1,y
+boire,pst.1pl,b y m,segmental,0,b
+boire,pst.1pl,b y m,segmental,1,y
+boire,pst.1pl,b y m,segmental,4,m
+boire,pst.2pl,b y t,segmental,0,b
+boire,pst.2pl,b y t,segmental,1,y
+boire,pst.2pl,b y t,segmental,4,t
+boire,pst.3pl,b y ʁ,segmental,0,b
+boire,pst.3pl,b y ʁ,segmental,1,y
+boire,pst.3pl,b y ʁ,segmental,3,ʁ
+boire,inf,b w a ʁ,segmental,0,b
+boire,inf,b w a ʁ,segmental,2,wa
+boire,inf,b w a ʁ,segmental,3,ʁ
+boire,prs.ptcp,b y v ɑ̃,segmental,0,b
+boire,prs.ptcp,b y v ɑ̃,segmental,1,y
+boire,prs.ptcp,b y v ɑ̃,segmental,3,v
+boire,prs.ptcp,b y v ɑ̃,segmental,4,ɑ̃
+croire,prs.1sg,k ʁ w a,segmental,0,kʁ
+croire,prs.1sg,k ʁ w a,segmental,2,wa
+croire,prs.2sg,k ʁ w a,segmental,0,kʁ
+croire,prs.2sg,k ʁ w a,segmental,2,wa
+croire,prs.3sg,k ʁ w a,segmental,0,kʁ
+croire,prs.3sg,k ʁ w a,segmental,2,wa
+croire,prs.1pl,k ʁ w a j ɔ̃,segmental,0,kʁ
+croire,prs.1pl,k ʁ w a j ɔ̃,segmental,2,wa
+croire,prs.1pl,k ʁ w a j ɔ̃,segmental,3,j
+croire,prs.1pl,k ʁ w a j ɔ̃,segmental,4,ɔ̃
+croire,prs.2pl,k ʁ w a j E,segmental,0,kʁ
+croire,prs.2pl,k ʁ w a j E,segmental,2,wa
+croire,prs.2pl,k ʁ w a j E,segmental,3,j
+croire,prs.2pl,k ʁ w a j E,segmental,4,E
+croire,prs.3pl,k ʁ w a,segmental,0,kʁ
+croire,prs.3pl,k ʁ w a,segmental,2,wa
+croire,fut.1sg,k ʁ w a ʁ E,segmental,0,kʁ
+croire,fut.1sg,k ʁ w a ʁ E,segmental,2,wa
+croire,fut.1sg,k ʁ w a ʁ E,segmental,3,ʁ
+croire,fut.1sg,k ʁ w a ʁ E,segmental,4,E
+croire,fut.2sg,k ʁ w a ʁ a,segmental,0,kʁ
+croire,fut.2sg,k ʁ w a ʁ a,segmental,2,wa
+croire,fut.2sg,k ʁ w a ʁ a,segmental,3,ʁ
+croire,fut.2sg,k ʁ w a ʁ a,segmental,4,a
+croire,fut.3sg,k ʁ w a ʁ a,segmental,0,kʁ
+croire,fut.3sg,k ʁ w a ʁ a,segmental,2,wa
+croire,fut.3sg,k ʁ w a ʁ a,segmental,3,ʁ
+croire,fut.3sg,k ʁ w a ʁ a,segmental,4,a
+croire,fut.1pl,k ʁ w a ʁ ɔ̃,segmental,0,kʁ
+croire,fut.1pl,k ʁ w a ʁ ɔ̃,segmental,2,wa
+croire,fut.1pl,k ʁ w a ʁ ɔ̃,segmental,3,ʁ
+croire,fut.1pl,k ʁ w a ʁ ɔ̃,segmental,4,ɔ̃
+croire,fut.2pl,k ʁ w a ʁ E,segmental,0,kʁ
+croire,fut.2pl,k ʁ w a ʁ E,segmental,2,wa
+croire,fut.2pl,k ʁ w a ʁ E,segmental,3,ʁ
+croire,fut.2pl,k ʁ w a ʁ E,segmental,4,E
+croire,fut.3pl,k ʁ w a ʁ ɔ̃,segmental,0,kʁ
+croire,fut.3pl,k ʁ w a ʁ ɔ̃,segmental,2,wa
+croire,fut.3pl,k ʁ w a ʁ ɔ̃,segmental,3,ʁ
+croire,fut.3pl,k ʁ w a ʁ ɔ̃,segmental,4,ɔ̃
+croire,pst.1sg,k ʁ y,segmental,0,kʁ
+croire,pst.1sg,k ʁ y,segmental,1,y
+croire,pst.2sg,k ʁ y,segmental,0,kʁ
+croire,pst.2sg,k ʁ y,segmental,1,y
+croire,pst.3sg,k ʁ y,segmental,0,kʁ
+croire,pst.3sg,k ʁ y,segmental,1,y
+croire,pst.1pl,k ʁ y m,segmental,0,kʁ
+croire,pst.1pl,k ʁ y m,segmental,1,y
+croire,pst.1pl,k ʁ y m,segmental,4,m
+croire,pst.2pl,k ʁ y t,segmental,0,kʁ
+croire,pst.2pl,k ʁ y t,segmental,1,y
+croire,pst.2pl,k ʁ y t,segmental,4,t
+croire,pst.3pl,k ʁ y ʁ,segmental,0,kʁ
+croire,pst.3pl,k ʁ y ʁ,segmental,1,y
+croire,pst.3pl,k ʁ y ʁ,segmental,3,ʁ
+croire,inf,k ʁ w a ʁ,segmental,0,kʁ
+croire,inf,k ʁ w a ʁ,segmental,2,wa
+croire,inf,k ʁ w a ʁ,segmental,3,ʁ
+croire,prs.ptcp,k ʁ w a j ɑ̃,segmental,0,kʁ
+croire,prs.ptcp,k ʁ w a j ɑ̃,segmental,2,wa
+croire,prs.ptcp,k ʁ w a j ɑ̃,segmental,3,j
+croire,prs.ptcp,k ʁ w a j ɑ̃,segmental,4,ɑ̃
+cuire,prs.1sg,k ɥ i,segmental,0,kɥi
+cuire,prs.2sg,k ɥ i,segmental,0,kɥi
+cuire,prs.3sg,k ɥ i,segmental,0,kɥi
+cuire,prs.1pl,k ɥ i z ɔ̃,segmental,0,kɥi
+cuire,prs.1pl,k ɥ i z ɔ̃,segmental,1,z
+cuire,prs.1pl,k ɥ i z ɔ̃,segmental,3,ɔ̃
+cuire,prs.2pl,k ɥ i z E,segmental,0,kɥi
+cuire,prs.2pl,k ɥ i z E,segmental,1,z
+cuire,prs.2pl,k ɥ i z E,segmental,3,E
+cuire,prs.3pl,k ɥ i z,segmental,0,kɥi
+cuire,prs.3pl,k ɥ i z,segmental,1,z
+cuire,fut.1sg,k ɥ i ʁ E,segmental,0,kɥi
+cuire,fut.1sg,k ɥ i ʁ E,segmental,1,ʁ
+cuire,fut.1sg,k ɥ i ʁ E,segmental,3,E
+cuire,fut.2sg,k ɥ i ʁ a,segmental,0,kɥi
+cuire,fut.2sg,k ɥ i ʁ a,segmental,1,ʁ
+cuire,fut.2sg,k ɥ i ʁ a,segmental,3,a
+cuire,fut.3sg,k ɥ i ʁ a,segmental,0,kɥi
+cuire,fut.3sg,k ɥ i ʁ a,segmental,1,ʁ
+cuire,fut.3sg,k ɥ i ʁ a,segmental,3,a
+cuire,fut.1pl,k ɥ i ʁ ɔ̃,segmental,0,kɥi
+cuire,fut.1pl,k ɥ i ʁ ɔ̃,segmental,1,ʁ
+cuire,fut.1pl,k ɥ i ʁ ɔ̃,segmental,3,ɔ̃
+cuire,fut.2pl,k ɥ i ʁ E,segmental,0,kɥi
+cuire,fut.2pl,k ɥ i ʁ E,segmental,1,ʁ
+cuire,fut.2pl,k ɥ i ʁ E,segmental,3,E
+cuire,fut.3pl,k ɥ i ʁ ɔ̃,segmental,0,kɥi
+cuire,fut.3pl,k ɥ i ʁ ɔ̃,segmental,1,ʁ
+cuire,fut.3pl,k ɥ i ʁ ɔ̃,segmental,3,ɔ̃
+cuire,pst.1sg,k ɥ i z i,segmental,0,kɥi
+cuire,pst.1sg,k ɥ i z i,segmental,1,z
+cuire,pst.1sg,k ɥ i z i,segmental,2,i
+cuire,pst.2sg,k ɥ i z i,segmental,0,kɥi
+cuire,pst.2sg,k ɥ i z i,segmental,1,z
+cuire,pst.2sg,k ɥ i z i,segmental,2,i
+cuire,pst.3sg,k ɥ i z i,segmental,0,kɥi
+cuire,pst.3sg,k ɥ i z i,segmental,1,z
+cuire,pst.3sg,k ɥ i z i,segmental,2,i
+cuire,pst.1pl,k ɥ i z i m,segmental,0,kɥi
+cuire,pst.1pl,k ɥ i z i m,segmental,1,z
+cuire,pst.1pl,k ɥ i z i m,segmental,2,i
+cuire,pst.1pl,k ɥ i z i m,segmental,3,m
+cuire,pst.2pl,k ɥ i z i t,segmental,0,kɥi
+cuire,pst.2pl,k ɥ i z i t,segmental,1,z
+cuire,pst.2pl,k ɥ i z i t,segmental,2,i
+cuire,pst.2pl,k ɥ i z i t,segmental,3,t
+cuire,pst.3pl,k ɥ i z i ʁ,segmental,0,kɥi
+cuire,pst.3pl,k ɥ i z i ʁ,segmental,1,z
+cuire,pst.3pl,k ɥ i z i ʁ,segmental,2,i
+cuire,pst.3pl,k ɥ i z i ʁ,segmental,3,ʁ
+cuire,inf,k ɥ i ʁ,segmental,0,kɥi
+cuire,inf,k ɥ i ʁ,segmental,1,ʁ
+cuire,prs.ptcp,k ɥ i z ɑ̃,segmental,0,kɥi
+cuire,prs.ptcp,k ɥ i z ɑ̃,segmental,1,z
+cuire,prs.ptcp,k ɥ i z ɑ̃,segmental,3,ɑ̃
+engloutir,prs.1sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,prs.2sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,prs.3sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,prs.1pl,ɑ̃ g l u t i s ɔ̃,segmental,0,ɑ̃gluti
+engloutir,prs.1pl,ɑ̃ g l u t i s ɔ̃,segmental,1,s
+engloutir,prs.1pl,ɑ̃ g l u t i s ɔ̃,segmental,2,ɔ̃
+engloutir,prs.2pl,ɑ̃ g l u t i s E,segmental,0,ɑ̃gluti
+engloutir,prs.2pl,ɑ̃ g l u t i s E,segmental,1,s
+engloutir,prs.2pl,ɑ̃ g l u t i s E,segmental,2,E
+engloutir,prs.3pl,ɑ̃ g l u t i s,segmental,0,ɑ̃gluti
+engloutir,prs.3pl,ɑ̃ g l u t i s,segmental,1,s
+engloutir,fut.1sg,ɑ̃ g l u t i ʁ E,segmental,0,ɑ̃gluti
+engloutir,fut.1sg,ɑ̃ g l u t i ʁ E,segmental,1,ʁ
+engloutir,fut.1sg,ɑ̃ g l u t i ʁ E,segmental,2,E
+engloutir,fut.2sg,ɑ̃ g l u t i ʁ a,segmental,0,ɑ̃gluti
+engloutir,fut.2sg,ɑ̃ g l u t i ʁ a,segmental,1,ʁ
+engloutir,fut.2sg,ɑ̃ g l u t i ʁ a,segmental,2,a
+engloutir,fut.3sg,ɑ̃ g l u t i ʁ a,segmental,0,ɑ̃gluti
+engloutir,fut.3sg,ɑ̃ g l u t i ʁ a,segmental,1,ʁ
+engloutir,fut.3sg,ɑ̃ g l u t i ʁ a,segmental,2,a
+engloutir,fut.1pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,0,ɑ̃gluti
+engloutir,fut.1pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,1,ʁ
+engloutir,fut.1pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,2,ɔ̃
+engloutir,fut.2pl,ɑ̃ g l u t i ʁ E,segmental,0,ɑ̃gluti
+engloutir,fut.2pl,ɑ̃ g l u t i ʁ E,segmental,1,ʁ
+engloutir,fut.2pl,ɑ̃ g l u t i ʁ E,segmental,2,E
+engloutir,fut.3pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,0,ɑ̃gluti
+engloutir,fut.3pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,1,ʁ
+engloutir,fut.3pl,ɑ̃ g l u t i ʁ ɔ̃,segmental,2,ɔ̃
+engloutir,pst.1sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,pst.2sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,pst.3sg,ɑ̃ g l u t i,segmental,0,ɑ̃gluti
+engloutir,pst.1pl,ɑ̃ g l u t i m,segmental,0,ɑ̃gluti
+engloutir,pst.1pl,ɑ̃ g l u t i m,segmental,2,m
+engloutir,pst.2pl,ɑ̃ g l u t i t,segmental,0,ɑ̃gluti
+engloutir,pst.2pl,ɑ̃ g l u t i t,segmental,2,t
+engloutir,pst.3pl,ɑ̃ g l u t i ʁ,segmental,0,ɑ̃gluti
+engloutir,pst.3pl,ɑ̃ g l u t i ʁ,segmental,1,ʁ
+engloutir,inf,ɑ̃ g l u t i ʁ,segmental,0,ɑ̃gluti
+engloutir,inf,ɑ̃ g l u t i ʁ,segmental,1,ʁ
+engloutir,prs.ptcp,ɑ̃ g l u t i s ɑ̃,segmental,0,ɑ̃gluti
+engloutir,prs.ptcp,ɑ̃ g l u t i s ɑ̃,segmental,1,s
+engloutir,prs.ptcp,ɑ̃ g l u t i s ɑ̃,segmental,2,ɑ̃
+finir,prs.1sg,f i n i,segmental,0,fini
+finir,prs.2sg,f i n i,segmental,0,fini
+finir,prs.3sg,f i n i,segmental,0,fini
+finir,prs.1pl,f i n i s ɔ̃,segmental,0,fini
+finir,prs.1pl,f i n i s ɔ̃,segmental,1,s
+finir,prs.1pl,f i n i s ɔ̃,segmental,2,ɔ̃
+finir,prs.2pl,f i n i s E,segmental,0,fini
+finir,prs.2pl,f i n i s E,segmental,1,s
+finir,prs.2pl,f i n i s E,segmental,2,E
+finir,prs.3pl,f i n i s,segmental,0,fini
+finir,prs.3pl,f i n i s,segmental,1,s
+finir,fut.1sg,f i n i ʁ E,segmental,0,fini
+finir,fut.1sg,f i n i ʁ E,segmental,1,ʁ
+finir,fut.1sg,f i n i ʁ E,segmental,2,E
+finir,fut.2sg,f i n i ʁ a,segmental,0,fini
+finir,fut.2sg,f i n i ʁ a,segmental,1,ʁ
+finir,fut.2sg,f i n i ʁ a,segmental,2,a
+finir,fut.3sg,f i n i ʁ a,segmental,0,fini
+finir,fut.3sg,f i n i ʁ a,segmental,1,ʁ
+finir,fut.3sg,f i n i ʁ a,segmental,2,a
+finir,fut.1pl,f i n i ʁ ɔ̃,segmental,0,fini
+finir,fut.1pl,f i n i ʁ ɔ̃,segmental,1,ʁ
+finir,fut.1pl,f i n i ʁ ɔ̃,segmental,2,ɔ̃
+finir,fut.2pl,f i n i ʁ E,segmental,0,fini
+finir,fut.2pl,f i n i ʁ E,segmental,1,ʁ
+finir,fut.2pl,f i n i ʁ E,segmental,2,E
+finir,fut.3pl,f i n i ʁ ɔ̃,segmental,0,fini
+finir,fut.3pl,f i n i ʁ ɔ̃,segmental,1,ʁ
+finir,fut.3pl,f i n i ʁ ɔ̃,segmental,2,ɔ̃
+finir,pst.1sg,f i n i,segmental,0,fini
+finir,pst.2sg,f i n i,segmental,0,fini
+finir,pst.3sg,f i n i,segmental,0,fini
+finir,pst.1pl,f i n i m,segmental,0,fini
+finir,pst.1pl,f i n i m,segmental,2,m
+finir,pst.2pl,f i n i t,segmental,0,fini
+finir,pst.2pl,f i n i t,segmental,2,t
+finir,pst.3pl,f i n i ʁ,segmental,0,fini
+finir,pst.3pl,f i n i ʁ,segmental,1,ʁ
+finir,inf,f i n i ʁ,segmental,0,fini
+finir,inf,f i n i ʁ,segmental,1,ʁ
+finir,prs.ptcp,f i n i s ɑ̃,segmental,0,fini
+finir,prs.ptcp,f i n i s ɑ̃,segmental,1,s
+finir,prs.ptcp,f i n i s ɑ̃,segmental,2,ɑ̃
+haïr,prs.1sg,a i,segmental,0,ai
+haïr,prs.2sg,a i,segmental,0,ai
+haïr,prs.3sg,a i,segmental,0,ai
+haïr,prs.1pl,a i s ɔ̃,segmental,0,ai
+haïr,prs.1pl,a i s ɔ̃,segmental,1,s
+haïr,prs.1pl,a i s ɔ̃,segmental,2,ɔ̃
+haïr,prs.2pl,a i s E,segmental,0,ai
+haïr,prs.2pl,a i s E,segmental,1,s
+haïr,prs.2pl,a i s E,segmental,2,E
+haïr,prs.3pl,a i s,segmental,0,ai
+haïr,prs.3pl,a i s,segmental,1,s
+haïr,fut.1sg,a i ʁ E,segmental,0,ai
+haïr,fut.1sg,a i ʁ E,segmental,1,ʁ
+haïr,fut.1sg,a i ʁ E,segmental,2,E
+haïr,fut.2sg,a i ʁ a,segmental,0,ai
+haïr,fut.2sg,a i ʁ a,segmental,1,ʁ
+haïr,fut.2sg,a i ʁ a,segmental,2,a
+haïr,fut.3sg,a i ʁ a,segmental,0,ai
+haïr,fut.3sg,a i ʁ a,segmental,1,ʁ
+haïr,fut.3sg,a i ʁ a,segmental,2,a
+haïr,fut.1pl,a i ʁ ɔ̃,segmental,0,ai
+haïr,fut.1pl,a i ʁ ɔ̃,segmental,1,ʁ
+haïr,fut.1pl,a i ʁ ɔ̃,segmental,2,ɔ̃
+haïr,fut.2pl,a i ʁ E,segmental,0,ai
+haïr,fut.2pl,a i ʁ E,segmental,1,ʁ
+haïr,fut.2pl,a i ʁ E,segmental,2,E
+haïr,fut.3pl,a i ʁ ɔ̃,segmental,0,ai
+haïr,fut.3pl,a i ʁ ɔ̃,segmental,1,ʁ
+haïr,fut.3pl,a i ʁ ɔ̃,segmental,2,ɔ̃
+haïr,pst.1sg,a i,segmental,0,ai
+haïr,pst.2sg,a i,segmental,0,ai
+haïr,pst.3sg,a i,segmental,0,ai
+haïr,pst.1pl,a i m,segmental,0,ai
+haïr,pst.1pl,a i m,segmental,2,m
+haïr,pst.2pl,a i t,segmental,0,ai
+haïr,pst.2pl,a i t,segmental,2,t
+haïr,pst.3pl,a i ʁ,segmental,0,ai
+haïr,pst.3pl,a i ʁ,segmental,1,ʁ
+haïr,inf,a i ʁ,segmental,0,ai
+haïr,inf,a i ʁ,segmental,1,ʁ
+haïr,prs.ptcp,a i s ɑ̃,segmental,0,ai
+haïr,prs.ptcp,a i s ɑ̃,segmental,1,s
+haïr,prs.ptcp,a i s ɑ̃,segmental,2,ɑ̃
+lisser,prs.1sg,l i s,segmental,0,lis
+lisser,prs.2sg,l i s,segmental,0,lis
+lisser,prs.3sg,l i s,segmental,0,lis
+lisser,prs.1pl,l i s ɔ̃,segmental,0,lis
+lisser,prs.1pl,l i s ɔ̃,segmental,4,ɔ̃
+lisser,prs.2pl,l i s E,segmental,0,lis
+lisser,prs.2pl,l i s E,segmental,1,E
+lisser,prs.3pl,l i s,segmental,0,lis
+lisser,fut.1sg,l i s Ø ʁ E,segmental,0,lis
+lisser,fut.1sg,l i s Ø ʁ E,segmental,1,Ø
+lisser,fut.1sg,l i s Ø ʁ E,segmental,2,ʁ
+lisser,fut.1sg,l i s Ø ʁ E,segmental,4,E
+lisser,fut.2sg,l i s Ø ʁ a,segmental,0,lis
+lisser,fut.2sg,l i s Ø ʁ a,segmental,1,Ø
+lisser,fut.2sg,l i s Ø ʁ a,segmental,2,ʁ
+lisser,fut.2sg,l i s Ø ʁ a,segmental,3,a
+lisser,fut.3sg,l i s Ø ʁ a,segmental,0,lis
+lisser,fut.3sg,l i s Ø ʁ a,segmental,1,Ø
+lisser,fut.3sg,l i s Ø ʁ a,segmental,2,ʁ
+lisser,fut.3sg,l i s Ø ʁ a,segmental,3,a
+lisser,fut.1pl,l i s Ø ʁ ɔ̃,segmental,0,lis
+lisser,fut.1pl,l i s Ø ʁ ɔ̃,segmental,1,Ø
+lisser,fut.1pl,l i s Ø ʁ ɔ̃,segmental,2,ʁ
+lisser,fut.1pl,l i s Ø ʁ ɔ̃,segmental,4,ɔ̃
+lisser,fut.2pl,l i s Ø ʁ E,segmental,0,lis
+lisser,fut.2pl,l i s Ø ʁ E,segmental,1,Ø
+lisser,fut.2pl,l i s Ø ʁ E,segmental,2,ʁ
+lisser,fut.2pl,l i s Ø ʁ E,segmental,4,E
+lisser,fut.3pl,l i s Ø ʁ ɔ̃,segmental,0,lis
+lisser,fut.3pl,l i s Ø ʁ ɔ̃,segmental,1,Ø
+lisser,fut.3pl,l i s Ø ʁ ɔ̃,segmental,2,ʁ
+lisser,fut.3pl,l i s Ø ʁ ɔ̃,segmental,4,ɔ̃
+lisser,pst.1sg,l i s E,segmental,0,lis
+lisser,pst.1sg,l i s E,segmental,1,E
+lisser,pst.2sg,l i s a,segmental,0,lis
+lisser,pst.2sg,l i s a,segmental,3,a
+lisser,pst.3sg,l i s a,segmental,0,lis
+lisser,pst.3sg,l i s a,segmental,3,a
+lisser,pst.1pl,l i s a m,segmental,0,lis
+lisser,pst.1pl,l i s a m,segmental,3,a
+lisser,pst.1pl,l i s a m,segmental,4,m
+lisser,pst.2pl,l i s a t,segmental,0,lis
+lisser,pst.2pl,l i s a t,segmental,3,a
+lisser,pst.2pl,l i s a t,segmental,4,t
+lisser,pst.3pl,l i s E ʁ,segmental,0,lis
+lisser,pst.3pl,l i s E ʁ,segmental,1,E
+lisser,pst.3pl,l i s E ʁ,segmental,2,ʁ
+lisser,inf,l i s E,segmental,0,lis
+lisser,inf,l i s E,segmental,1,E
+lisser,prs.ptcp,l i s ɑ̃,segmental,0,lis
+lisser,prs.ptcp,l i s ɑ̃,segmental,4,ɑ̃
+manger,prs.1sg,m ɑ̃ ʒ,segmental,0,mɑ̃ʒ
+manger,prs.2sg,m ɑ̃ ʒ,segmental,0,mɑ̃ʒ
+manger,prs.3sg,m ɑ̃ ʒ,segmental,0,mɑ̃ʒ
+manger,prs.1pl,m ɑ̃ ʒ ɔ̃,segmental,0,mɑ̃ʒ
+manger,prs.1pl,m ɑ̃ ʒ ɔ̃,segmental,4,ɔ̃
+manger,prs.2pl,m ɑ̃ ʒ E,segmental,0,mɑ̃ʒ
+manger,prs.2pl,m ɑ̃ ʒ E,segmental,1,E
+manger,prs.3pl,m ɑ̃ ʒ,segmental,0,mɑ̃ʒ
+manger,fut.1sg,m ɑ̃ ʒ Ø ʁ E,segmental,0,mɑ̃ʒ
+manger,fut.1sg,m ɑ̃ ʒ Ø ʁ E,segmental,1,Ø
+manger,fut.1sg,m ɑ̃ ʒ Ø ʁ E,segmental,2,ʁ
+manger,fut.1sg,m ɑ̃ ʒ Ø ʁ E,segmental,4,E
+manger,fut.2sg,m ɑ̃ ʒ Ø ʁ a,segmental,0,mɑ̃ʒ
+manger,fut.2sg,m ɑ̃ ʒ Ø ʁ a,segmental,1,Ø
+manger,fut.2sg,m ɑ̃ ʒ Ø ʁ a,segmental,2,ʁ
+manger,fut.2sg,m ɑ̃ ʒ Ø ʁ a,segmental,3,a
+manger,fut.3sg,m ɑ̃ ʒ Ø ʁ a,segmental,0,mɑ̃ʒ
+manger,fut.3sg,m ɑ̃ ʒ Ø ʁ a,segmental,1,Ø
+manger,fut.3sg,m ɑ̃ ʒ Ø ʁ a,segmental,2,ʁ
+manger,fut.3sg,m ɑ̃ ʒ Ø ʁ a,segmental,3,a
+manger,fut.1pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,0,mɑ̃ʒ
+manger,fut.1pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,1,Ø
+manger,fut.1pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,2,ʁ
+manger,fut.1pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,4,ɔ̃
+manger,fut.2pl,m ɑ̃ ʒ Ø ʁ E,segmental,0,mɑ̃ʒ
+manger,fut.2pl,m ɑ̃ ʒ Ø ʁ E,segmental,1,Ø
+manger,fut.2pl,m ɑ̃ ʒ Ø ʁ E,segmental,2,ʁ
+manger,fut.2pl,m ɑ̃ ʒ Ø ʁ E,segmental,4,E
+manger,fut.3pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,0,mɑ̃ʒ
+manger,fut.3pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,1,Ø
+manger,fut.3pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,2,ʁ
+manger,fut.3pl,m ɑ̃ ʒ Ø ʁ ɔ̃,segmental,4,ɔ̃
+manger,pst.1sg,m ɑ̃ ʒ E,segmental,0,mɑ̃ʒ
+manger,pst.1sg,m ɑ̃ ʒ E,segmental,1,E
+manger,pst.2sg,m ɑ̃ ʒ a,segmental,0,mɑ̃ʒ
+manger,pst.2sg,m ɑ̃ ʒ a,segmental,3,a
+manger,pst.3sg,m ɑ̃ ʒ a,segmental,0,mɑ̃ʒ
+manger,pst.3sg,m ɑ̃ ʒ a,segmental,3,a
+manger,pst.1pl,m ɑ̃ ʒ a m,segmental,0,mɑ̃ʒ
+manger,pst.1pl,m ɑ̃ ʒ a m,segmental,3,a
+manger,pst.1pl,m ɑ̃ ʒ a m,segmental,4,m
+manger,pst.2pl,m ɑ̃ ʒ a t,segmental,0,mɑ̃ʒ
+manger,pst.2pl,m ɑ̃ ʒ a t,segmental,3,a
+manger,pst.2pl,m ɑ̃ ʒ a t,segmental,4,t
+manger,pst.3pl,m ɑ̃ ʒ E ʁ,segmental,0,mɑ̃ʒ
+manger,pst.3pl,m ɑ̃ ʒ E ʁ,segmental,1,E
+manger,pst.3pl,m ɑ̃ ʒ E ʁ,segmental,2,ʁ
+manger,inf,m ɑ̃ ʒ E,segmental,0,mɑ̃ʒ
+manger,inf,m ɑ̃ ʒ E,segmental,1,E
+manger,prs.ptcp,m ɑ̃ ʒ ɑ̃,segmental,0,mɑ̃ʒ
+manger,prs.ptcp,m ɑ̃ ʒ ɑ̃,segmental,4,ɑ̃
+moudre,prs.1sg,m u,segmental,0,mu
+moudre,prs.2sg,m u,segmental,0,mu
+moudre,prs.3sg,m u,segmental,0,mu
+moudre,prs.1pl,m u l ɔ̃,segmental,0,mu
+moudre,prs.1pl,m u l ɔ̃,segmental,1,l
+moudre,prs.1pl,m u l ɔ̃,segmental,5,ɔ̃
+moudre,prs.2pl,m u l E,segmental,0,mu
+moudre,prs.2pl,m u l E,segmental,1,l
+moudre,prs.2pl,m u l E,segmental,5,E
+moudre,prs.3pl,m u l,segmental,0,mu
+moudre,prs.3pl,m u l,segmental,1,l
+moudre,fut.1sg,m u d ʁ E,segmental,0,mu
+moudre,fut.1sg,m u d ʁ E,segmental,2,d
+moudre,fut.1sg,m u d ʁ E,segmental,3,ʁ
+moudre,fut.1sg,m u d ʁ E,segmental,5,E
+moudre,fut.2sg,m u d ʁ a,segmental,0,mu
+moudre,fut.2sg,m u d ʁ a,segmental,2,d
+moudre,fut.2sg,m u d ʁ a,segmental,3,ʁ
+moudre,fut.2sg,m u d ʁ a,segmental,5,a
+moudre,fut.3sg,m u d ʁ a,segmental,0,mu
+moudre,fut.3sg,m u d ʁ a,segmental,2,d
+moudre,fut.3sg,m u d ʁ a,segmental,3,ʁ
+moudre,fut.3sg,m u d ʁ a,segmental,5,a
+moudre,fut.1pl,m u d ʁ ɔ̃,segmental,0,mu
+moudre,fut.1pl,m u d ʁ ɔ̃,segmental,2,d
+moudre,fut.1pl,m u d ʁ ɔ̃,segmental,3,ʁ
+moudre,fut.1pl,m u d ʁ ɔ̃,segmental,5,ɔ̃
+moudre,fut.2pl,m u d ʁ E,segmental,0,mu
+moudre,fut.2pl,m u d ʁ E,segmental,2,d
+moudre,fut.2pl,m u d ʁ E,segmental,3,ʁ
+moudre,fut.2pl,m u d ʁ E,segmental,5,E
+moudre,fut.3pl,m u d ʁ ɔ̃,segmental,0,mu
+moudre,fut.3pl,m u d ʁ ɔ̃,segmental,2,d
+moudre,fut.3pl,m u d ʁ ɔ̃,segmental,3,ʁ
+moudre,fut.3pl,m u d ʁ ɔ̃,segmental,5,ɔ̃
+moudre,pst.1sg,m u l y,segmental,0,mu
+moudre,pst.1sg,m u l y,segmental,1,l
+moudre,pst.1sg,m u l y,segmental,4,y
+moudre,pst.2sg,m u l y,segmental,0,mu
+moudre,pst.2sg,m u l y,segmental,1,l
+moudre,pst.2sg,m u l y,segmental,4,y
+moudre,pst.3sg,m u l y,segmental,0,mu
+moudre,pst.3sg,m u l y,segmental,1,l
+moudre,pst.3sg,m u l y,segmental,4,y
+moudre,pst.1pl,m u l y m,segmental,0,mu
+moudre,pst.1pl,m u l y m,segmental,1,l
+moudre,pst.1pl,m u l y m,segmental,4,y
+moudre,pst.1pl,m u l y m,segmental,5,m
+moudre,pst.2pl,m u l y t,segmental,0,mu
+moudre,pst.2pl,m u l y t,segmental,1,l
+moudre,pst.2pl,m u l y t,segmental,4,y
+moudre,pst.2pl,m u l y t,segmental,5,t
+moudre,pst.3pl,m u l y ʁ,segmental,0,mu
+moudre,pst.3pl,m u l y ʁ,segmental,1,l
+moudre,pst.3pl,m u l y ʁ,segmental,2,y
+moudre,pst.3pl,m u l y ʁ,segmental,3,ʁ
+moudre,inf,m u d ʁ,segmental,0,mu
+moudre,inf,m u d ʁ,segmental,2,d
+moudre,inf,m u d ʁ,segmental,3,ʁ
+moudre,prs.ptcp,m u l ɑ̃,segmental,0,mu
+moudre,prs.ptcp,m u l ɑ̃,segmental,1,l
+moudre,prs.ptcp,m u l ɑ̃,segmental,5,ɑ̃
+mourir,prs.1sg,m Ø ʁ,segmental,0,m
+mourir,prs.1sg,m Ø ʁ,segmental,1,Ø
+mourir,prs.1sg,m Ø ʁ,segmental,2,ʁ
+mourir,prs.2sg,m Ø ʁ,segmental,0,m
+mourir,prs.2sg,m Ø ʁ,segmental,1,Ø
+mourir,prs.2sg,m Ø ʁ,segmental,2,ʁ
+mourir,prs.3sg,m Ø ʁ,segmental,0,m
+mourir,prs.3sg,m Ø ʁ,segmental,1,Ø
+mourir,prs.3sg,m Ø ʁ,segmental,2,ʁ
+mourir,prs.1pl,m u ʁ ɔ̃,segmental,0,m
+mourir,prs.1pl,m u ʁ ɔ̃,segmental,1,u
+mourir,prs.1pl,m u ʁ ɔ̃,segmental,2,ʁ
+mourir,prs.1pl,m u ʁ ɔ̃,segmental,5,ɔ̃
+mourir,prs.2pl,m u ʁ E,segmental,0,m
+mourir,prs.2pl,m u ʁ E,segmental,1,u
+mourir,prs.2pl,m u ʁ E,segmental,2,ʁ
+mourir,prs.2pl,m u ʁ E,segmental,5,E
+mourir,prs.3pl,m Ø ʁ,segmental,0,m
+mourir,prs.3pl,m Ø ʁ,segmental,1,Ø
+mourir,prs.3pl,m Ø ʁ,segmental,2,ʁ
+mourir,fut.1sg,m u ʁ ʁ E,segmental,0,m
+mourir,fut.1sg,m u ʁ ʁ E,segmental,1,u
+mourir,fut.1sg,m u ʁ ʁ E,segmental,2,ʁ
+mourir,fut.1sg,m u ʁ ʁ E,segmental,4,ʁ
+mourir,fut.1sg,m u ʁ ʁ E,segmental,5,E
+mourir,fut.2sg,m u ʁ ʁ a,segmental,0,m
+mourir,fut.2sg,m u ʁ ʁ a,segmental,1,u
+mourir,fut.2sg,m u ʁ ʁ a,segmental,2,ʁ
+mourir,fut.2sg,m u ʁ ʁ a,segmental,4,ʁ
+mourir,fut.2sg,m u ʁ ʁ a,segmental,5,a
+mourir,fut.3sg,m u ʁ ʁ a,segmental,0,m
+mourir,fut.3sg,m u ʁ ʁ a,segmental,1,u
+mourir,fut.3sg,m u ʁ ʁ a,segmental,2,ʁ
+mourir,fut.3sg,m u ʁ ʁ a,segmental,4,ʁ
+mourir,fut.3sg,m u ʁ ʁ a,segmental,5,a
+mourir,fut.1pl,m u ʁ ʁ ɔ̃,segmental,0,m
+mourir,fut.1pl,m u ʁ ʁ ɔ̃,segmental,1,u
+mourir,fut.1pl,m u ʁ ʁ ɔ̃,segmental,2,ʁ
+mourir,fut.1pl,m u ʁ ʁ ɔ̃,segmental,4,ʁ
+mourir,fut.1pl,m u ʁ ʁ ɔ̃,segmental,5,ɔ̃
+mourir,fut.2pl,m u ʁ ʁ E,segmental,0,m
+mourir,fut.2pl,m u ʁ ʁ E,segmental,1,u
+mourir,fut.2pl,m u ʁ ʁ E,segmental,2,ʁ
+mourir,fut.2pl,m u ʁ ʁ E,segmental,4,ʁ
+mourir,fut.2pl,m u ʁ ʁ E,segmental,5,E
+mourir,fut.3pl,m u ʁ ʁ ɔ̃,segmental,0,m
+mourir,fut.3pl,m u ʁ ʁ ɔ̃,segmental,1,u
+mourir,fut.3pl,m u ʁ ʁ ɔ̃,segmental,2,ʁ
+mourir,fut.3pl,m u ʁ ʁ ɔ̃,segmental,4,ʁ
+mourir,fut.3pl,m u ʁ ʁ ɔ̃,segmental,5,ɔ̃
+mourir,pst.1sg,m u ʁ y,segmental,0,m
+mourir,pst.1sg,m u ʁ y,segmental,1,u
+mourir,pst.1sg,m u ʁ y,segmental,2,ʁ
+mourir,pst.1sg,m u ʁ y,segmental,3,y
+mourir,pst.2sg,m u ʁ y,segmental,0,m
+mourir,pst.2sg,m u ʁ y,segmental,1,u
+mourir,pst.2sg,m u ʁ y,segmental,2,ʁ
+mourir,pst.2sg,m u ʁ y,segmental,3,y
+mourir,pst.3sg,m u ʁ y,segmental,0,m
+mourir,pst.3sg,m u ʁ y,segmental,1,u
+mourir,pst.3sg,m u ʁ y,segmental,2,ʁ
+mourir,pst.3sg,m u ʁ y,segmental,3,y
+mourir,pst.1pl,m u ʁ y m,segmental,0,m
+mourir,pst.1pl,m u ʁ y m,segmental,1,u
+mourir,pst.1pl,m u ʁ y m,segmental,2,ʁ
+mourir,pst.1pl,m u ʁ y m,segmental,3,y
+mourir,pst.1pl,m u ʁ y m,segmental,5,m
+mourir,pst.2pl,m u ʁ y t,segmental,0,m
+mourir,pst.2pl,m u ʁ y t,segmental,1,u
+mourir,pst.2pl,m u ʁ y t,segmental,2,ʁ
+mourir,pst.2pl,m u ʁ y t,segmental,3,y
+mourir,pst.2pl,m u ʁ y t,segmental,5,t
+mourir,pst.3pl,m u ʁ y ʁ,segmental,0,m
+mourir,pst.3pl,m u ʁ y ʁ,segmental,1,u
+mourir,pst.3pl,m u ʁ y ʁ,segmental,2,ʁ
+mourir,pst.3pl,m u ʁ y ʁ,segmental,3,y
+mourir,pst.3pl,m u ʁ y ʁ,segmental,4,ʁ
+mourir,inf,m u ʁ i ʁ,segmental,0,m
+mourir,inf,m u ʁ i ʁ,segmental,1,u
+mourir,inf,m u ʁ i ʁ,segmental,2,ʁ
+mourir,inf,m u ʁ i ʁ,segmental,3,i
+mourir,inf,m u ʁ i ʁ,segmental,4,ʁ
+mourir,prs.ptcp,m u ʁ ɑ̃,segmental,0,m
+mourir,prs.ptcp,m u ʁ ɑ̃,segmental,1,u
+mourir,prs.ptcp,m u ʁ ɑ̃,segmental,2,ʁ
+mourir,prs.ptcp,m u ʁ ɑ̃,segmental,5,ɑ̃
+partir,prs.1sg,p a ʁ,segmental,0,paʁ
+partir,prs.2sg,p a ʁ,segmental,0,paʁ
+partir,prs.3sg,p a ʁ,segmental,0,paʁ
+partir,prs.1pl,p a ʁ t ɔ̃,segmental,0,paʁ
+partir,prs.1pl,p a ʁ t ɔ̃,segmental,1,t
+partir,prs.1pl,p a ʁ t ɔ̃,segmental,4,ɔ̃
+partir,prs.2pl,p a ʁ t E,segmental,0,paʁ
+partir,prs.2pl,p a ʁ t E,segmental,1,t
+partir,prs.2pl,p a ʁ t E,segmental,4,E
+partir,prs.3pl,p a ʁ t,segmental,0,paʁ
+partir,prs.3pl,p a ʁ t,segmental,1,t
+partir,fut.1sg,p a ʁ t i ʁ E,segmental,0,paʁ
+partir,fut.1sg,p a ʁ t i ʁ E,segmental,1,t
+partir,fut.1sg,p a ʁ t i ʁ E,segmental,2,i
+partir,fut.1sg,p a ʁ t i ʁ E,segmental,3,ʁ
+partir,fut.1sg,p a ʁ t i ʁ E,segmental,4,E
+partir,fut.2sg,p a ʁ t i ʁ a,segmental,0,paʁ
+partir,fut.2sg,p a ʁ t i ʁ a,segmental,1,t
+partir,fut.2sg,p a ʁ t i ʁ a,segmental,2,i
+partir,fut.2sg,p a ʁ t i ʁ a,segmental,3,ʁ
+partir,fut.2sg,p a ʁ t i ʁ a,segmental,4,a
+partir,fut.3sg,p a ʁ t i ʁ a,segmental,0,paʁ
+partir,fut.3sg,p a ʁ t i ʁ a,segmental,1,t
+partir,fut.3sg,p a ʁ t i ʁ a,segmental,2,i
+partir,fut.3sg,p a ʁ t i ʁ a,segmental,3,ʁ
+partir,fut.3sg,p a ʁ t i ʁ a,segmental,4,a
+partir,fut.1pl,p a ʁ t i ʁ ɔ̃,segmental,0,paʁ
+partir,fut.1pl,p a ʁ t i ʁ ɔ̃,segmental,1,t
+partir,fut.1pl,p a ʁ t i ʁ ɔ̃,segmental,2,i
+partir,fut.1pl,p a ʁ t i ʁ ɔ̃,segmental,3,ʁ
+partir,fut.1pl,p a ʁ t i ʁ ɔ̃,segmental,4,ɔ̃
+partir,fut.2pl,p a ʁ t i ʁ E,segmental,0,paʁ
+partir,fut.2pl,p a ʁ t i ʁ E,segmental,1,t
+partir,fut.2pl,p a ʁ t i ʁ E,segmental,2,i
+partir,fut.2pl,p a ʁ t i ʁ E,segmental,3,ʁ
+partir,fut.2pl,p a ʁ t i ʁ E,segmental,4,E
+partir,fut.3pl,p a ʁ t i ʁ ɔ̃,segmental,0,paʁ
+partir,fut.3pl,p a ʁ t i ʁ ɔ̃,segmental,1,t
+partir,fut.3pl,p a ʁ t i ʁ ɔ̃,segmental,2,i
+partir,fut.3pl,p a ʁ t i ʁ ɔ̃,segmental,3,ʁ
+partir,fut.3pl,p a ʁ t i ʁ ɔ̃,segmental,4,ɔ̃
+partir,pst.1sg,p a ʁ t i,segmental,0,paʁ
+partir,pst.1sg,p a ʁ t i,segmental,1,t
+partir,pst.1sg,p a ʁ t i,segmental,2,i
+partir,pst.2sg,p a ʁ t i,segmental,0,paʁ
+partir,pst.2sg,p a ʁ t i,segmental,1,t
+partir,pst.2sg,p a ʁ t i,segmental,2,i
+partir,pst.3sg,p a ʁ t i,segmental,0,paʁ
+partir,pst.3sg,p a ʁ t i,segmental,1,t
+partir,pst.3sg,p a ʁ t i,segmental,2,i
+partir,pst.1pl,p a ʁ t i m,segmental,0,paʁ
+partir,pst.1pl,p a ʁ t i m,segmental,1,t
+partir,pst.1pl,p a ʁ t i m,segmental,2,i
+partir,pst.1pl,p a ʁ t i m,segmental,4,m
+partir,pst.2pl,p a ʁ t i t,segmental,0,paʁ
+partir,pst.2pl,p a ʁ t i t,segmental,1,t
+partir,pst.2pl,p a ʁ t i t,segmental,2,i
+partir,pst.2pl,p a ʁ t i t,segmental,4,t
+partir,pst.3pl,p a ʁ t i ʁ,segmental,0,paʁ
+partir,pst.3pl,p a ʁ t i ʁ,segmental,1,t
+partir,pst.3pl,p a ʁ t i ʁ,segmental,2,i
+partir,pst.3pl,p a ʁ t i ʁ,segmental,3,ʁ
+partir,inf,p a ʁ t i ʁ,segmental,0,paʁ
+partir,inf,p a ʁ t i ʁ,segmental,1,t
+partir,inf,p a ʁ t i ʁ,segmental,2,i
+partir,inf,p a ʁ t i ʁ,segmental,3,ʁ
+partir,prs.ptcp,p a ʁ t ɑ̃,segmental,0,paʁ
+partir,prs.ptcp,p a ʁ t ɑ̃,segmental,1,t
+partir,prs.ptcp,p a ʁ t ɑ̃,segmental,4,ɑ̃
+peindre,prs.1sg,p ɛ̃,segmental,0,p
+peindre,prs.1sg,p ɛ̃,segmental,1,ɛ̃
+peindre,prs.2sg,p ɛ̃,segmental,0,p
+peindre,prs.2sg,p ɛ̃,segmental,1,ɛ̃
+peindre,prs.3sg,p ɛ̃,segmental,0,p
+peindre,prs.3sg,p ɛ̃,segmental,1,ɛ̃
+peindre,prs.1pl,p E ɲ ɔ̃,segmental,0,p
+peindre,prs.1pl,p E ɲ ɔ̃,segmental,2,Eɲ
+peindre,prs.1pl,p E ɲ ɔ̃,segmental,4,ɔ̃
+peindre,prs.2pl,p E ɲ E,segmental,0,p
+peindre,prs.2pl,p E ɲ E,segmental,2,Eɲ
+peindre,prs.2pl,p E ɲ E,segmental,4,E
+peindre,prs.3pl,p E ɲ,segmental,0,p
+peindre,prs.3pl,p E ɲ,segmental,2,Eɲ
+peindre,fut.1sg,p ɛ̃ d ʁ E,segmental,0,p
+peindre,fut.1sg,p ɛ̃ d ʁ E,segmental,1,ɛ̃
+peindre,fut.1sg,p ɛ̃ d ʁ E,segmental,2,dʁ
+peindre,fut.1sg,p ɛ̃ d ʁ E,segmental,4,E
+peindre,fut.2sg,p ɛ̃ d ʁ a,segmental,0,p
+peindre,fut.2sg,p ɛ̃ d ʁ a,segmental,1,ɛ̃
+peindre,fut.2sg,p ɛ̃ d ʁ a,segmental,2,dʁ
+peindre,fut.2sg,p ɛ̃ d ʁ a,segmental,4,a
+peindre,fut.3sg,p ɛ̃ d ʁ a,segmental,0,p
+peindre,fut.3sg,p ɛ̃ d ʁ a,segmental,1,ɛ̃
+peindre,fut.3sg,p ɛ̃ d ʁ a,segmental,2,dʁ
+peindre,fut.3sg,p ɛ̃ d ʁ a,segmental,4,a
+peindre,fut.1pl,p ɛ̃ d ʁ ɔ̃,segmental,0,p
+peindre,fut.1pl,p ɛ̃ d ʁ ɔ̃,segmental,1,ɛ̃
+peindre,fut.1pl,p ɛ̃ d ʁ ɔ̃,segmental,2,dʁ
+peindre,fut.1pl,p ɛ̃ d ʁ ɔ̃,segmental,4,ɔ̃
+peindre,fut.2pl,p ɛ̃ d ʁ E,segmental,0,p
+peindre,fut.2pl,p ɛ̃ d ʁ E,segmental,1,ɛ̃
+peindre,fut.2pl,p ɛ̃ d ʁ E,segmental,2,dʁ
+peindre,fut.2pl,p ɛ̃ d ʁ E,segmental,4,E
+peindre,fut.3pl,p ɛ̃ d ʁ ɔ̃,segmental,0,p
+peindre,fut.3pl,p ɛ̃ d ʁ ɔ̃,segmental,1,ɛ̃
+peindre,fut.3pl,p ɛ̃ d ʁ ɔ̃,segmental,2,dʁ
+peindre,fut.3pl,p ɛ̃ d ʁ ɔ̃,segmental,4,ɔ̃
+peindre,pst.1sg,p E ɲ i,segmental,0,p
+peindre,pst.1sg,p E ɲ i,segmental,2,Eɲ
+peindre,pst.1sg,p E ɲ i,segmental,3,i
+peindre,pst.2sg,p E ɲ i,segmental,0,p
+peindre,pst.2sg,p E ɲ i,segmental,2,Eɲ
+peindre,pst.2sg,p E ɲ i,segmental,3,i
+peindre,pst.3sg,p E ɲ i,segmental,0,p
+peindre,pst.3sg,p E ɲ i,segmental,2,Eɲ
+peindre,pst.3sg,p E ɲ i,segmental,3,i
+peindre,pst.1pl,p E ɲ i m,segmental,0,p
+peindre,pst.1pl,p E ɲ i m,segmental,2,Eɲ
+peindre,pst.1pl,p E ɲ i m,segmental,3,i
+peindre,pst.1pl,p E ɲ i m,segmental,4,m
+peindre,pst.2pl,p E ɲ i t,segmental,0,p
+peindre,pst.2pl,p E ɲ i t,segmental,2,Eɲ
+peindre,pst.2pl,p E ɲ i t,segmental,3,i
+peindre,pst.2pl,p E ɲ i t,segmental,4,t
+peindre,pst.3pl,p E ɲ i ʁ,segmental,0,p
+peindre,pst.3pl,p E ɲ i ʁ,segmental,2,Eɲ
+peindre,pst.3pl,p E ɲ i ʁ,segmental,3,i
+peindre,pst.3pl,p E ɲ i ʁ,segmental,4,ʁ
+peindre,inf,p ɛ̃ d ʁ,segmental,0,p
+peindre,inf,p ɛ̃ d ʁ,segmental,1,ɛ̃
+peindre,inf,p ɛ̃ d ʁ,segmental,2,dʁ
+peindre,prs.ptcp,p E ɲ ɑ̃,segmental,0,p
+peindre,prs.ptcp,p E ɲ ɑ̃,segmental,2,Eɲ
+peindre,prs.ptcp,p E ɲ ɑ̃,segmental,4,ɑ̃
+peler,prs.1sg,p E l,segmental,0,p
+peler,prs.1sg,p E l,segmental,1,E
+peler,prs.1sg,p E l,segmental,2,l
+peler,prs.2sg,p E l,segmental,0,p
+peler,prs.2sg,p E l,segmental,1,E
+peler,prs.2sg,p E l,segmental,2,l
+peler,prs.3sg,p E l,segmental,0,p
+peler,prs.3sg,p E l,segmental,1,E
+peler,prs.3sg,p E l,segmental,2,l
+peler,prs.1pl,p Ø l ɔ̃,segmental,0,p
+peler,prs.1pl,p Ø l ɔ̃,segmental,1,Ø
+peler,prs.1pl,p Ø l ɔ̃,segmental,2,l
+peler,prs.1pl,p Ø l ɔ̃,segmental,6,ɔ̃
+peler,prs.2pl,p Ø l E,segmental,0,p
+peler,prs.2pl,p Ø l E,segmental,1,Ø
+peler,prs.2pl,p Ø l E,segmental,2,l
+peler,prs.2pl,p Ø l E,segmental,3,E
+peler,prs.3pl,p E l,segmental,0,p
+peler,prs.3pl,p E l,segmental,1,E
+peler,prs.3pl,p E l,segmental,2,l
+peler,fut.1sg,p E l Ø ʁ E,segmental,0,p
+peler,fut.1sg,p E l Ø ʁ E,segmental,1,E
+peler,fut.1sg,p E l Ø ʁ E,segmental,2,l
+peler,fut.1sg,p E l Ø ʁ E,segmental,3,Ø
+peler,fut.1sg,p E l Ø ʁ E,segmental,4,ʁ
+peler,fut.1sg,p E l Ø ʁ E,segmental,6,E
+peler,fut.2sg,p E l Ø ʁ a,segmental,0,p
+peler,fut.2sg,p E l Ø ʁ a,segmental,1,E
+peler,fut.2sg,p E l Ø ʁ a,segmental,2,l
+peler,fut.2sg,p E l Ø ʁ a,segmental,3,Ø
+peler,fut.2sg,p E l Ø ʁ a,segmental,4,ʁ
+peler,fut.2sg,p E l Ø ʁ a,segmental,5,a
+peler,fut.3sg,p E l Ø ʁ a,segmental,0,p
+peler,fut.3sg,p E l Ø ʁ a,segmental,1,E
+peler,fut.3sg,p E l Ø ʁ a,segmental,2,l
+peler,fut.3sg,p E l Ø ʁ a,segmental,3,Ø
+peler,fut.3sg,p E l Ø ʁ a,segmental,4,ʁ
+peler,fut.3sg,p E l Ø ʁ a,segmental,5,a
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,0,p
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,1,E
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,2,l
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,3,Ø
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,4,ʁ
+peler,fut.1pl,p E l Ø ʁ ɔ̃,segmental,6,ɔ̃
+peler,fut.2pl,p E l Ø ʁ E,segmental,0,p
+peler,fut.2pl,p E l Ø ʁ E,segmental,1,E
+peler,fut.2pl,p E l Ø ʁ E,segmental,2,l
+peler,fut.2pl,p E l Ø ʁ E,segmental,3,Ø
+peler,fut.2pl,p E l Ø ʁ E,segmental,4,ʁ
+peler,fut.2pl,p E l Ø ʁ E,segmental,6,E
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,0,p
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,1,E
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,2,l
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,3,Ø
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,4,ʁ
+peler,fut.3pl,p E l Ø ʁ ɔ̃,segmental,6,ɔ̃
+peler,pst.1sg,p Ø l E,segmental,0,p
+peler,pst.1sg,p Ø l E,segmental,1,Ø
+peler,pst.1sg,p Ø l E,segmental,2,l
+peler,pst.1sg,p Ø l E,segmental,3,E
+peler,pst.2sg,p Ø l a,segmental,0,p
+peler,pst.2sg,p Ø l a,segmental,1,Ø
+peler,pst.2sg,p Ø l a,segmental,2,l
+peler,pst.2sg,p Ø l a,segmental,5,a
+peler,pst.3sg,p Ø l a,segmental,0,p
+peler,pst.3sg,p Ø l a,segmental,1,Ø
+peler,pst.3sg,p Ø l a,segmental,2,l
+peler,pst.3sg,p Ø l a,segmental,5,a
+peler,pst.1pl,p Ø l a m,segmental,0,p
+peler,pst.1pl,p Ø l a m,segmental,1,Ø
+peler,pst.1pl,p Ø l a m,segmental,2,l
+peler,pst.1pl,p Ø l a m,segmental,5,a
+peler,pst.1pl,p Ø l a m,segmental,6,m
+peler,pst.2pl,p Ø l a t,segmental,0,p
+peler,pst.2pl,p Ø l a t,segmental,1,Ø
+peler,pst.2pl,p Ø l a t,segmental,2,l
+peler,pst.2pl,p Ø l a t,segmental,5,a
+peler,pst.2pl,p Ø l a t,segmental,6,t
+peler,pst.3pl,p Ø l E ʁ,segmental,0,p
+peler,pst.3pl,p Ø l E ʁ,segmental,1,Ø
+peler,pst.3pl,p Ø l E ʁ,segmental,2,l
+peler,pst.3pl,p Ø l E ʁ,segmental,3,E
+peler,pst.3pl,p Ø l E ʁ,segmental,4,ʁ
+peler,inf,p Ø l E,segmental,0,p
+peler,inf,p Ø l E,segmental,1,Ø
+peler,inf,p Ø l E,segmental,2,l
+peler,inf,p Ø l E,segmental,3,E
+peler,prs.ptcp,p Ø l ɑ̃,segmental,0,p
+peler,prs.ptcp,p Ø l ɑ̃,segmental,1,Ø
+peler,prs.ptcp,p Ø l ɑ̃,segmental,2,l
+peler,prs.ptcp,p Ø l ɑ̃,segmental,6,ɑ̃
+pouvoir,prs.1sg,p Ø,segmental,0,p
+pouvoir,prs.1sg,p Ø,segmental,2,Ø
+pouvoir,prs.2sg,p Ø,segmental,0,p
+pouvoir,prs.2sg,p Ø,segmental,2,Ø
+pouvoir,prs.3sg,p Ø,segmental,0,p
+pouvoir,prs.3sg,p Ø,segmental,2,Ø
+pouvoir,prs.1pl,p u v ɔ̃,segmental,0,p
+pouvoir,prs.1pl,p u v ɔ̃,segmental,2,u
+pouvoir,prs.1pl,p u v ɔ̃,segmental,3,v
+pouvoir,prs.1pl,p u v ɔ̃,segmental,6,ɔ̃
+pouvoir,prs.2pl,p u v E,segmental,0,p
+pouvoir,prs.2pl,p u v E,segmental,2,u
+pouvoir,prs.2pl,p u v E,segmental,3,v
+pouvoir,prs.2pl,p u v E,segmental,6,E
+pouvoir,prs.3pl,p Ø v,segmental,0,p
+pouvoir,prs.3pl,p Ø v,segmental,2,Ø
+pouvoir,prs.3pl,p Ø v,segmental,3,v
+pouvoir,fut.1sg,p u ʁ E,segmental,0,p
+pouvoir,fut.1sg,p u ʁ E,segmental,2,u
+pouvoir,fut.1sg,p u ʁ E,segmental,4,ʁ
+pouvoir,fut.1sg,p u ʁ E,segmental,6,E
+pouvoir,fut.2sg,p u ʁ a,segmental,0,p
+pouvoir,fut.2sg,p u ʁ a,segmental,2,u
+pouvoir,fut.2sg,p u ʁ a,segmental,4,ʁ
+pouvoir,fut.2sg,p u ʁ a,segmental,5,a
+pouvoir,fut.3sg,p u ʁ a,segmental,0,p
+pouvoir,fut.3sg,p u ʁ a,segmental,2,u
+pouvoir,fut.3sg,p u ʁ a,segmental,4,ʁ
+pouvoir,fut.3sg,p u ʁ a,segmental,5,a
+pouvoir,fut.1pl,p u ʁ ɔ̃,segmental,0,p
+pouvoir,fut.1pl,p u ʁ ɔ̃,segmental,2,u
+pouvoir,fut.1pl,p u ʁ ɔ̃,segmental,4,ʁ
+pouvoir,fut.1pl,p u ʁ ɔ̃,segmental,6,ɔ̃
+pouvoir,fut.2pl,p u ʁ E,segmental,0,p
+pouvoir,fut.2pl,p u ʁ E,segmental,2,u
+pouvoir,fut.2pl,p u ʁ E,segmental,4,ʁ
+pouvoir,fut.2pl,p u ʁ E,segmental,6,E
+pouvoir,fut.3pl,p u ʁ ɔ̃,segmental,0,p
+pouvoir,fut.3pl,p u ʁ ɔ̃,segmental,2,u
+pouvoir,fut.3pl,p u ʁ ɔ̃,segmental,4,ʁ
+pouvoir,fut.3pl,p u ʁ ɔ̃,segmental,6,ɔ̃
+pouvoir,pst.1sg,p y,segmental,0,p
+pouvoir,pst.1sg,p y,segmental,1,y
+pouvoir,pst.2sg,p y,segmental,0,p
+pouvoir,pst.2sg,p y,segmental,1,y
+pouvoir,pst.3sg,p y,segmental,0,p
+pouvoir,pst.3sg,p y,segmental,1,y
+pouvoir,pst.1pl,p y m,segmental,0,p
+pouvoir,pst.1pl,p y m,segmental,1,y
+pouvoir,pst.1pl,p y m,segmental,6,m
+pouvoir,pst.2pl,p y t,segmental,0,p
+pouvoir,pst.2pl,p y t,segmental,1,y
+pouvoir,pst.2pl,p y t,segmental,6,t
+pouvoir,pst.3pl,p y ʁ,segmental,0,p
+pouvoir,pst.3pl,p y ʁ,segmental,1,y
+pouvoir,pst.3pl,p y ʁ,segmental,4,ʁ
+pouvoir,inf,p u v w a ʁ,segmental,0,p
+pouvoir,inf,p u v w a ʁ,segmental,2,u
+pouvoir,inf,p u v w a ʁ,segmental,3,v
+pouvoir,inf,p u v w a ʁ,segmental,4,w
+pouvoir,inf,p u v w a ʁ,segmental,5,a
+pouvoir,inf,p u v w a ʁ,segmental,6,ʁ
+pouvoir,prs.ptcp,p u v ɑ̃,segmental,0,p
+pouvoir,prs.ptcp,p u v ɑ̃,segmental,2,u
+pouvoir,prs.ptcp,p u v ɑ̃,segmental,3,v
+pouvoir,prs.ptcp,p u v ɑ̃,segmental,6,ɑ̃
+recevoir,prs.1sg,ʁ Ø s w a,segmental,0,ʁØs
+recevoir,prs.1sg,ʁ Ø s w a,segmental,1,w
+recevoir,prs.1sg,ʁ Ø s w a,segmental,6,a
+recevoir,prs.2sg,ʁ Ø s w a,segmental,0,ʁØs
+recevoir,prs.2sg,ʁ Ø s w a,segmental,1,w
+recevoir,prs.2sg,ʁ Ø s w a,segmental,6,a
+recevoir,prs.3sg,ʁ Ø s w a,segmental,0,ʁØs
+recevoir,prs.3sg,ʁ Ø s w a,segmental,1,w
+recevoir,prs.3sg,ʁ Ø s w a,segmental,6,a
+recevoir,prs.1pl,ʁ Ø s Ø v ɔ̃,segmental,0,ʁØs
+recevoir,prs.1pl,ʁ Ø s Ø v ɔ̃,segmental,2,Ø
+recevoir,prs.1pl,ʁ Ø s Ø v ɔ̃,segmental,3,v
+recevoir,prs.1pl,ʁ Ø s Ø v ɔ̃,segmental,6,ɔ̃
+recevoir,prs.2pl,ʁ Ø s Ø v E,segmental,0,ʁØs
+recevoir,prs.2pl,ʁ Ø s Ø v E,segmental,2,Ø
+recevoir,prs.2pl,ʁ Ø s Ø v E,segmental,3,v
+recevoir,prs.2pl,ʁ Ø s Ø v E,segmental,6,E
+recevoir,prs.3pl,ʁ Ø s w a v,segmental,0,ʁØs
+recevoir,prs.3pl,ʁ Ø s w a v,segmental,1,w
+recevoir,prs.3pl,ʁ Ø s w a v,segmental,2,a
+recevoir,prs.3pl,ʁ Ø s w a v,segmental,3,v
+recevoir,fut.1sg,ʁ Ø s Ø v ʁ E,segmental,0,ʁØs
+recevoir,fut.1sg,ʁ Ø s Ø v ʁ E,segmental,2,Ø
+recevoir,fut.1sg,ʁ Ø s Ø v ʁ E,segmental,3,v
+recevoir,fut.1sg,ʁ Ø s Ø v ʁ E,segmental,5,ʁ
+recevoir,fut.1sg,ʁ Ø s Ø v ʁ E,segmental,6,E
+recevoir,fut.2sg,ʁ Ø s Ø v ʁ a,segmental,0,ʁØs
+recevoir,fut.2sg,ʁ Ø s Ø v ʁ a,segmental,2,Ø
+recevoir,fut.2sg,ʁ Ø s Ø v ʁ a,segmental,3,v
+recevoir,fut.2sg,ʁ Ø s Ø v ʁ a,segmental,5,ʁ
+recevoir,fut.2sg,ʁ Ø s Ø v ʁ a,segmental,6,a
+recevoir,fut.3sg,ʁ Ø s Ø v ʁ a,segmental,0,ʁØs
+recevoir,fut.3sg,ʁ Ø s Ø v ʁ a,segmental,2,Ø
+recevoir,fut.3sg,ʁ Ø s Ø v ʁ a,segmental,3,v
+recevoir,fut.3sg,ʁ Ø s Ø v ʁ a,segmental,5,ʁ
+recevoir,fut.3sg,ʁ Ø s Ø v ʁ a,segmental,6,a
+recevoir,fut.1pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,0,ʁØs
+recevoir,fut.1pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,2,Ø
+recevoir,fut.1pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,3,v
+recevoir,fut.1pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,5,ʁ
+recevoir,fut.1pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,6,ɔ̃
+recevoir,fut.2pl,ʁ Ø s Ø v ʁ E,segmental,0,ʁØs
+recevoir,fut.2pl,ʁ Ø s Ø v ʁ E,segmental,2,Ø
+recevoir,fut.2pl,ʁ Ø s Ø v ʁ E,segmental,3,v
+recevoir,fut.2pl,ʁ Ø s Ø v ʁ E,segmental,5,ʁ
+recevoir,fut.2pl,ʁ Ø s Ø v ʁ E,segmental,6,E
+recevoir,fut.3pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,0,ʁØs
+recevoir,fut.3pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,2,Ø
+recevoir,fut.3pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,3,v
+recevoir,fut.3pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,5,ʁ
+recevoir,fut.3pl,ʁ Ø s Ø v ʁ ɔ̃,segmental,6,ɔ̃
+recevoir,pst.1sg,ʁ Ø s y,segmental,0,ʁØs
+recevoir,pst.1sg,ʁ Ø s y,segmental,2,y
+recevoir,pst.2sg,ʁ Ø s y,segmental,0,ʁØs
+recevoir,pst.2sg,ʁ Ø s y,segmental,2,y
+recevoir,pst.3sg,ʁ Ø s y,segmental,0,ʁØs
+recevoir,pst.3sg,ʁ Ø s y,segmental,2,y
+recevoir,pst.1pl,ʁ Ø s y m,segmental,0,ʁØs
+recevoir,pst.1pl,ʁ Ø s y m,segmental,2,y
+recevoir,pst.1pl,ʁ Ø s y m,segmental,6,m
+recevoir,pst.2pl,ʁ Ø s y t,segmental,0,ʁØs
+recevoir,pst.2pl,ʁ Ø s y t,segmental,2,y
+recevoir,pst.2pl,ʁ Ø s y t,segmental,6,t
+recevoir,pst.3pl,ʁ Ø s y ʁ,segmental,0,ʁØs
+recevoir,pst.3pl,ʁ Ø s y ʁ,segmental,2,y
+recevoir,pst.3pl,ʁ Ø s y ʁ,segmental,5,ʁ
+recevoir,inf,ʁ Ø s Ø v w a ʁ,segmental,0,ʁØs
+recevoir,inf,ʁ Ø s Ø v w a ʁ,segmental,2,Ø
+recevoir,inf,ʁ Ø s Ø v w a ʁ,segmental,3,v
+recevoir,inf,ʁ Ø s Ø v w a ʁ,segmental,4,wa
+recevoir,inf,ʁ Ø s Ø v w a ʁ,segmental,5,ʁ
+recevoir,prs.ptcp,ʁ Ø s Ø v ɑ̃,segmental,0,ʁØs
+recevoir,prs.ptcp,ʁ Ø s Ø v ɑ̃,segmental,2,Ø
+recevoir,prs.ptcp,ʁ Ø s Ø v ɑ̃,segmental,3,v
+recevoir,prs.ptcp,ʁ Ø s Ø v ɑ̃,segmental,6,ɑ̃
+reconvoquer,prs.1sg,ʁ Ø k ɔ̃ v O k,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.2sg,ʁ Ø k ɔ̃ v O k,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.3sg,ʁ Ø k ɔ̃ v O k,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.1pl,ʁ Ø k ɔ̃ v O k ɔ̃,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.1pl,ʁ Ø k ɔ̃ v O k ɔ̃,segmental,3,ɔ̃
+reconvoquer,prs.2pl,ʁ Ø k ɔ̃ v O k E,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.2pl,ʁ Ø k ɔ̃ v O k E,segmental,1,E
+reconvoquer,prs.3pl,ʁ Ø k ɔ̃ v O k,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.1sg,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.1sg,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,1,Ø
+reconvoquer,fut.1sg,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,2,ʁ
+reconvoquer,fut.1sg,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,3,E
+reconvoquer,fut.2sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.2sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,1,Ø
+reconvoquer,fut.2sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,2,ʁ
+reconvoquer,fut.2sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,3,a
+reconvoquer,fut.3sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.3sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,1,Ø
+reconvoquer,fut.3sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,2,ʁ
+reconvoquer,fut.3sg,ʁ Ø k ɔ̃ v O k Ø ʁ a,segmental,3,a
+reconvoquer,fut.1pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.1pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,1,Ø
+reconvoquer,fut.1pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,2,ʁ
+reconvoquer,fut.1pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,3,ɔ̃
+reconvoquer,fut.2pl,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.2pl,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,1,Ø
+reconvoquer,fut.2pl,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,2,ʁ
+reconvoquer,fut.2pl,ʁ Ø k ɔ̃ v O k Ø ʁ E,segmental,3,E
+reconvoquer,fut.3pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,0,ʁØkɔ̃vOk
+reconvoquer,fut.3pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,1,Ø
+reconvoquer,fut.3pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,2,ʁ
+reconvoquer,fut.3pl,ʁ Ø k ɔ̃ v O k Ø ʁ ɔ̃,segmental,3,ɔ̃
+reconvoquer,pst.1sg,ʁ Ø k ɔ̃ v O k E,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.1sg,ʁ Ø k ɔ̃ v O k E,segmental,1,E
+reconvoquer,pst.2sg,ʁ Ø k ɔ̃ v O k a,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.2sg,ʁ Ø k ɔ̃ v O k a,segmental,1,a
+reconvoquer,pst.3sg,ʁ Ø k ɔ̃ v O k a,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.3sg,ʁ Ø k ɔ̃ v O k a,segmental,1,a
+reconvoquer,pst.1pl,ʁ Ø k ɔ̃ v O k a m,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.1pl,ʁ Ø k ɔ̃ v O k a m,segmental,1,a
+reconvoquer,pst.1pl,ʁ Ø k ɔ̃ v O k a m,segmental,3,m
+reconvoquer,pst.2pl,ʁ Ø k ɔ̃ v O k a t,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.2pl,ʁ Ø k ɔ̃ v O k a t,segmental,1,a
+reconvoquer,pst.2pl,ʁ Ø k ɔ̃ v O k a t,segmental,3,t
+reconvoquer,pst.3pl,ʁ Ø k ɔ̃ v O k E ʁ,segmental,0,ʁØkɔ̃vOk
+reconvoquer,pst.3pl,ʁ Ø k ɔ̃ v O k E ʁ,segmental,1,E
+reconvoquer,pst.3pl,ʁ Ø k ɔ̃ v O k E ʁ,segmental,2,ʁ
+reconvoquer,inf,ʁ Ø k ɔ̃ v O k E,segmental,0,ʁØkɔ̃vOk
+reconvoquer,inf,ʁ Ø k ɔ̃ v O k E,segmental,1,E
+reconvoquer,prs.ptcp,ʁ Ø k ɔ̃ v O k ɑ̃,segmental,0,ʁØkɔ̃vOk
+reconvoquer,prs.ptcp,ʁ Ø k ɔ̃ v O k ɑ̃,segmental,3,ɑ̃
+sonoriser,prs.1sg,s O n O ʁ i z,segmental,0,sOnOʁiz
+sonoriser,prs.2sg,s O n O ʁ i z,segmental,0,sOnOʁiz
+sonoriser,prs.3sg,s O n O ʁ i z,segmental,0,sOnOʁiz
+sonoriser,prs.1pl,s O n O ʁ i z ɔ̃,segmental,0,sOnOʁiz
+sonoriser,prs.1pl,s O n O ʁ i z ɔ̃,segmental,3,ɔ̃
+sonoriser,prs.2pl,s O n O ʁ i z E,segmental,0,sOnOʁiz
+sonoriser,prs.2pl,s O n O ʁ i z E,segmental,1,E
+sonoriser,prs.3pl,s O n O ʁ i z,segmental,0,sOnOʁiz
+sonoriser,fut.1sg,s O n O ʁ i z Ø ʁ E,segmental,0,sOnOʁiz
+sonoriser,fut.1sg,s O n O ʁ i z Ø ʁ E,segmental,1,Ø
+sonoriser,fut.1sg,s O n O ʁ i z Ø ʁ E,segmental,2,ʁ
+sonoriser,fut.1sg,s O n O ʁ i z Ø ʁ E,segmental,3,E
+sonoriser,fut.2sg,s O n O ʁ i z Ø ʁ a,segmental,0,sOnOʁiz
+sonoriser,fut.2sg,s O n O ʁ i z Ø ʁ a,segmental,1,Ø
+sonoriser,fut.2sg,s O n O ʁ i z Ø ʁ a,segmental,2,ʁ
+sonoriser,fut.2sg,s O n O ʁ i z Ø ʁ a,segmental,3,a
+sonoriser,fut.3sg,s O n O ʁ i z Ø ʁ a,segmental,0,sOnOʁiz
+sonoriser,fut.3sg,s O n O ʁ i z Ø ʁ a,segmental,1,Ø
+sonoriser,fut.3sg,s O n O ʁ i z Ø ʁ a,segmental,2,ʁ
+sonoriser,fut.3sg,s O n O ʁ i z Ø ʁ a,segmental,3,a
+sonoriser,fut.1pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,0,sOnOʁiz
+sonoriser,fut.1pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,1,Ø
+sonoriser,fut.1pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,2,ʁ
+sonoriser,fut.1pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,3,ɔ̃
+sonoriser,fut.2pl,s O n O ʁ i z Ø ʁ E,segmental,0,sOnOʁiz
+sonoriser,fut.2pl,s O n O ʁ i z Ø ʁ E,segmental,1,Ø
+sonoriser,fut.2pl,s O n O ʁ i z Ø ʁ E,segmental,2,ʁ
+sonoriser,fut.2pl,s O n O ʁ i z Ø ʁ E,segmental,3,E
+sonoriser,fut.3pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,0,sOnOʁiz
+sonoriser,fut.3pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,1,Ø
+sonoriser,fut.3pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,2,ʁ
+sonoriser,fut.3pl,s O n O ʁ i z Ø ʁ ɔ̃,segmental,3,ɔ̃
+sonoriser,pst.1sg,s O n O ʁ i z E,segmental,0,sOnOʁiz
+sonoriser,pst.1sg,s O n O ʁ i z E,segmental,1,E
+sonoriser,pst.2sg,s O n O ʁ i z a,segmental,0,sOnOʁiz
+sonoriser,pst.2sg,s O n O ʁ i z a,segmental,1,a
+sonoriser,pst.3sg,s O n O ʁ i z a,segmental,0,sOnOʁiz
+sonoriser,pst.3sg,s O n O ʁ i z a,segmental,1,a
+sonoriser,pst.1pl,s O n O ʁ i z a m,segmental,0,sOnOʁiz
+sonoriser,pst.1pl,s O n O ʁ i z a m,segmental,1,a
+sonoriser,pst.1pl,s O n O ʁ i z a m,segmental,3,m
+sonoriser,pst.2pl,s O n O ʁ i z a t,segmental,0,sOnOʁiz
+sonoriser,pst.2pl,s O n O ʁ i z a t,segmental,1,a
+sonoriser,pst.2pl,s O n O ʁ i z a t,segmental,3,t
+sonoriser,pst.3pl,s O n O ʁ i z E ʁ,segmental,0,sOnOʁiz
+sonoriser,pst.3pl,s O n O ʁ i z E ʁ,segmental,1,E
+sonoriser,pst.3pl,s O n O ʁ i z E ʁ,segmental,2,ʁ
+sonoriser,inf,s O n O ʁ i z E,segmental,0,sOnOʁiz
+sonoriser,inf,s O n O ʁ i z E,segmental,1,E
+sonoriser,prs.ptcp,s O n O ʁ i z ɑ̃,segmental,0,sOnOʁiz
+sonoriser,prs.ptcp,s O n O ʁ i z ɑ̃,segmental,3,ɑ̃
+sortir,prs.1sg,s O ʁ,segmental,0,sOʁ
+sortir,prs.2sg,s O ʁ,segmental,0,sOʁ
+sortir,prs.3sg,s O ʁ,segmental,0,sOʁ
+sortir,prs.1pl,s O ʁ t ɔ̃,segmental,0,sOʁ
+sortir,prs.1pl,s O ʁ t ɔ̃,segmental,1,t
+sortir,prs.1pl,s O ʁ t ɔ̃,segmental,4,ɔ̃
+sortir,prs.2pl,s O ʁ t E,segmental,0,sOʁ
+sortir,prs.2pl,s O ʁ t E,segmental,1,t
+sortir,prs.2pl,s O ʁ t E,segmental,4,E
+sortir,prs.3pl,s O ʁ t,segmental,0,sOʁ
+sortir,prs.3pl,s O ʁ t,segmental,1,t
+sortir,fut.1sg,s O ʁ t i ʁ E,segmental,0,sOʁ
+sortir,fut.1sg,s O ʁ t i ʁ E,segmental,1,t
+sortir,fut.1sg,s O ʁ t i ʁ E,segmental,2,i
+sortir,fut.1sg,s O ʁ t i ʁ E,segmental,3,ʁ
+sortir,fut.1sg,s O ʁ t i ʁ E,segmental,4,E
+sortir,fut.2sg,s O ʁ t i ʁ a,segmental,0,sOʁ
+sortir,fut.2sg,s O ʁ t i ʁ a,segmental,1,t
+sortir,fut.2sg,s O ʁ t i ʁ a,segmental,2,i
+sortir,fut.2sg,s O ʁ t i ʁ a,segmental,3,ʁ
+sortir,fut.2sg,s O ʁ t i ʁ a,segmental,4,a
+sortir,fut.3sg,s O ʁ t i ʁ a,segmental,0,sOʁ
+sortir,fut.3sg,s O ʁ t i ʁ a,segmental,1,t
+sortir,fut.3sg,s O ʁ t i ʁ a,segmental,2,i
+sortir,fut.3sg,s O ʁ t i ʁ a,segmental,3,ʁ
+sortir,fut.3sg,s O ʁ t i ʁ a,segmental,4,a
+sortir,fut.1pl,s O ʁ t i ʁ ɔ̃,segmental,0,sOʁ
+sortir,fut.1pl,s O ʁ t i ʁ ɔ̃,segmental,1,t
+sortir,fut.1pl,s O ʁ t i ʁ ɔ̃,segmental,2,i
+sortir,fut.1pl,s O ʁ t i ʁ ɔ̃,segmental,3,ʁ
+sortir,fut.1pl,s O ʁ t i ʁ ɔ̃,segmental,4,ɔ̃
+sortir,fut.2pl,s O ʁ t i ʁ E,segmental,0,sOʁ
+sortir,fut.2pl,s O ʁ t i ʁ E,segmental,1,t
+sortir,fut.2pl,s O ʁ t i ʁ E,segmental,2,i
+sortir,fut.2pl,s O ʁ t i ʁ E,segmental,3,ʁ
+sortir,fut.2pl,s O ʁ t i ʁ E,segmental,4,E
+sortir,fut.3pl,s O ʁ t i ʁ ɔ̃,segmental,0,sOʁ
+sortir,fut.3pl,s O ʁ t i ʁ ɔ̃,segmental,1,t
+sortir,fut.3pl,s O ʁ t i ʁ ɔ̃,segmental,2,i
+sortir,fut.3pl,s O ʁ t i ʁ ɔ̃,segmental,3,ʁ
+sortir,fut.3pl,s O ʁ t i ʁ ɔ̃,segmental,4,ɔ̃
+sortir,pst.1sg,s O ʁ t i,segmental,0,sOʁ
+sortir,pst.1sg,s O ʁ t i,segmental,1,t
+sortir,pst.1sg,s O ʁ t i,segmental,2,i
+sortir,pst.2sg,s O ʁ t i,segmental,0,sOʁ
+sortir,pst.2sg,s O ʁ t i,segmental,1,t
+sortir,pst.2sg,s O ʁ t i,segmental,2,i
+sortir,pst.3sg,s O ʁ t i,segmental,0,sOʁ
+sortir,pst.3sg,s O ʁ t i,segmental,1,t
+sortir,pst.3sg,s O ʁ t i,segmental,2,i
+sortir,pst.1pl,s O ʁ t i m,segmental,0,sOʁ
+sortir,pst.1pl,s O ʁ t i m,segmental,1,t
+sortir,pst.1pl,s O ʁ t i m,segmental,2,i
+sortir,pst.1pl,s O ʁ t i m,segmental,4,m
+sortir,pst.2pl,s O ʁ t i t,segmental,0,sOʁ
+sortir,pst.2pl,s O ʁ t i t,segmental,1,t
+sortir,pst.2pl,s O ʁ t i t,segmental,2,i
+sortir,pst.2pl,s O ʁ t i t,segmental,4,t
+sortir,pst.3pl,s O ʁ t i ʁ,segmental,0,sOʁ
+sortir,pst.3pl,s O ʁ t i ʁ,segmental,1,t
+sortir,pst.3pl,s O ʁ t i ʁ,segmental,2,i
+sortir,pst.3pl,s O ʁ t i ʁ,segmental,3,ʁ
+sortir,inf,s O ʁ t i ʁ,segmental,0,sOʁ
+sortir,inf,s O ʁ t i ʁ,segmental,1,t
+sortir,inf,s O ʁ t i ʁ,segmental,2,i
+sortir,inf,s O ʁ t i ʁ,segmental,3,ʁ
+sortir,prs.ptcp,s O ʁ t ɑ̃,segmental,0,sOʁ
+sortir,prs.ptcp,s O ʁ t ɑ̃,segmental,1,t
+sortir,prs.ptcp,s O ʁ t ɑ̃,segmental,4,ɑ̃
+squeezer,prs.1sg,s k w i z,segmental,0,skwiz
+squeezer,prs.2sg,s k w i z,segmental,0,skwiz
+squeezer,prs.3sg,s k w i z,segmental,0,skwiz
+squeezer,prs.1pl,s k w i z ɔ̃,segmental,0,skwiz
+squeezer,prs.1pl,s k w i z ɔ̃,segmental,4,ɔ̃
+squeezer,prs.2pl,s k w i z E,segmental,0,skwiz
+squeezer,prs.2pl,s k w i z E,segmental,1,E
+squeezer,prs.3pl,s k w i z,segmental,0,skwiz
+squeezer,fut.1sg,s k w i z Ø ʁ E,segmental,0,skwiz
+squeezer,fut.1sg,s k w i z Ø ʁ E,segmental,1,Ø
+squeezer,fut.1sg,s k w i z Ø ʁ E,segmental,2,ʁ
+squeezer,fut.1sg,s k w i z Ø ʁ E,segmental,4,E
+squeezer,fut.2sg,s k w i z Ø ʁ a,segmental,0,skwiz
+squeezer,fut.2sg,s k w i z Ø ʁ a,segmental,1,Ø
+squeezer,fut.2sg,s k w i z Ø ʁ a,segmental,2,ʁ
+squeezer,fut.2sg,s k w i z Ø ʁ a,segmental,3,a
+squeezer,fut.3sg,s k w i z Ø ʁ a,segmental,0,skwiz
+squeezer,fut.3sg,s k w i z Ø ʁ a,segmental,1,Ø
+squeezer,fut.3sg,s k w i z Ø ʁ a,segmental,2,ʁ
+squeezer,fut.3sg,s k w i z Ø ʁ a,segmental,3,a
+squeezer,fut.1pl,s k w i z Ø ʁ ɔ̃,segmental,0,skwiz
+squeezer,fut.1pl,s k w i z Ø ʁ ɔ̃,segmental,1,Ø
+squeezer,fut.1pl,s k w i z Ø ʁ ɔ̃,segmental,2,ʁ
+squeezer,fut.1pl,s k w i z Ø ʁ ɔ̃,segmental,4,ɔ̃
+squeezer,fut.2pl,s k w i z Ø ʁ E,segmental,0,skwiz
+squeezer,fut.2pl,s k w i z Ø ʁ E,segmental,1,Ø
+squeezer,fut.2pl,s k w i z Ø ʁ E,segmental,2,ʁ
+squeezer,fut.2pl,s k w i z Ø ʁ E,segmental,4,E
+squeezer,fut.3pl,s k w i z Ø ʁ ɔ̃,segmental,0,skwiz
+squeezer,fut.3pl,s k w i z Ø ʁ ɔ̃,segmental,1,Ø
+squeezer,fut.3pl,s k w i z Ø ʁ ɔ̃,segmental,2,ʁ
+squeezer,fut.3pl,s k w i z Ø ʁ ɔ̃,segmental,4,ɔ̃
+squeezer,pst.1sg,s k w i z E,segmental,0,skwiz
+squeezer,pst.1sg,s k w i z E,segmental,1,E
+squeezer,pst.2sg,s k w i z a,segmental,0,skwiz
+squeezer,pst.2sg,s k w i z a,segmental,3,a
+squeezer,pst.3sg,s k w i z a,segmental,0,skwiz
+squeezer,pst.3sg,s k w i z a,segmental,3,a
+squeezer,pst.1pl,s k w i z a m,segmental,0,skwiz
+squeezer,pst.1pl,s k w i z a m,segmental,3,a
+squeezer,pst.1pl,s k w i z a m,segmental,4,m
+squeezer,pst.2pl,s k w i z a t,segmental,0,skwiz
+squeezer,pst.2pl,s k w i z a t,segmental,3,a
+squeezer,pst.2pl,s k w i z a t,segmental,4,t
+squeezer,pst.3pl,s k w i z E ʁ,segmental,0,skwiz
+squeezer,pst.3pl,s k w i z E ʁ,segmental,1,E
+squeezer,pst.3pl,s k w i z E ʁ,segmental,2,ʁ
+squeezer,inf,s k w i z E,segmental,0,skwiz
+squeezer,inf,s k w i z E,segmental,1,E
+squeezer,prs.ptcp,s k w i z ɑ̃,segmental,0,skwiz
+squeezer,prs.ptcp,s k w i z ɑ̃,segmental,4,ɑ̃
+touer,prs.1sg,t u,segmental,0,t
+touer,prs.1sg,t u,segmental,1,u
+touer,prs.2sg,t u,segmental,0,t
+touer,prs.2sg,t u,segmental,1,u
+touer,prs.3sg,t u,segmental,0,t
+touer,prs.3sg,t u,segmental,1,u
+touer,prs.1pl,t w ɔ̃,segmental,0,t
+touer,prs.1pl,t w ɔ̃,segmental,2,w
+touer,prs.1pl,t w ɔ̃,segmental,4,ɔ̃
+touer,prs.2pl,t w E,segmental,0,t
+touer,prs.2pl,t w E,segmental,2,w
+touer,prs.2pl,t w E,segmental,3,E
+touer,prs.3pl,t u,segmental,0,t
+touer,prs.3pl,t u,segmental,1,u
+touer,fut.1sg,t u ʁ E,segmental,0,t
+touer,fut.1sg,t u ʁ E,segmental,1,u
+touer,fut.1sg,t u ʁ E,segmental,2,ʁ
+touer,fut.1sg,t u ʁ E,segmental,3,E
+touer,fut.2sg,t u ʁ a,segmental,0,t
+touer,fut.2sg,t u ʁ a,segmental,1,u
+touer,fut.2sg,t u ʁ a,segmental,2,ʁ
+touer,fut.2sg,t u ʁ a,segmental,3,a
+touer,fut.3sg,t u ʁ a,segmental,0,t
+touer,fut.3sg,t u ʁ a,segmental,1,u
+touer,fut.3sg,t u ʁ a,segmental,2,ʁ
+touer,fut.3sg,t u ʁ a,segmental,3,a
+touer,fut.1pl,t u ʁ ɔ̃,segmental,0,t
+touer,fut.1pl,t u ʁ ɔ̃,segmental,1,u
+touer,fut.1pl,t u ʁ ɔ̃,segmental,2,ʁ
+touer,fut.1pl,t u ʁ ɔ̃,segmental,4,ɔ̃
+touer,fut.2pl,t u ʁ E,segmental,0,t
+touer,fut.2pl,t u ʁ E,segmental,1,u
+touer,fut.2pl,t u ʁ E,segmental,2,ʁ
+touer,fut.2pl,t u ʁ E,segmental,3,E
+touer,fut.3pl,t u ʁ ɔ̃,segmental,0,t
+touer,fut.3pl,t u ʁ ɔ̃,segmental,1,u
+touer,fut.3pl,t u ʁ ɔ̃,segmental,2,ʁ
+touer,fut.3pl,t u ʁ ɔ̃,segmental,4,ɔ̃
+touer,pst.1sg,t w E,segmental,0,t
+touer,pst.1sg,t w E,segmental,2,w
+touer,pst.1sg,t w E,segmental,3,E
+touer,pst.2sg,t w a,segmental,0,t
+touer,pst.2sg,t w a,segmental,2,w
+touer,pst.2sg,t w a,segmental,3,a
+touer,pst.3sg,t w a,segmental,0,t
+touer,pst.3sg,t w a,segmental,2,w
+touer,pst.3sg,t w a,segmental,3,a
+touer,pst.1pl,t w a m,segmental,0,t
+touer,pst.1pl,t w a m,segmental,2,w
+touer,pst.1pl,t w a m,segmental,3,a
+touer,pst.1pl,t w a m,segmental,4,m
+touer,pst.2pl,t w a t,segmental,0,t
+touer,pst.2pl,t w a t,segmental,2,w
+touer,pst.2pl,t w a t,segmental,3,a
+touer,pst.2pl,t w a t,segmental,4,t
+touer,pst.3pl,t w E ʁ,segmental,0,t
+touer,pst.3pl,t w E ʁ,segmental,2,w
+touer,pst.3pl,t w E ʁ,segmental,3,E
+touer,pst.3pl,t w E ʁ,segmental,4,ʁ
+touer,inf,t w E,segmental,0,t
+touer,inf,t w E,segmental,2,w
+touer,inf,t w E,segmental,3,E
+touer,prs.ptcp,t w ɑ̃,segmental,0,t
+touer,prs.ptcp,t w ɑ̃,segmental,2,w
+touer,prs.ptcp,t w ɑ̃,segmental,4,ɑ̃

@@ -1,0 +1,552 @@
+lexeme,cell,form,tier,slot,formative
+DISROBE,fut.dur,s ə r s i p ə r ⁿt,segmental,0,s
+DISROBE,fut.dur,s ə r s i p ə r ⁿt,segmental,1,ər
+DISROBE,fut.dur,s ə r s i p ə r ⁿt,segmental,3,sip
+DISROBE,fut.dur,s ə r s i p ə r ⁿt,segmental,4,ər
+DISROBE,fut.dur,s ə r s i p ə r ⁿt,segmental,7,ⁿt
+DISROBE,prs.dur,i s i p ə r,segmental,2,i
+DISROBE,prs.dur,i s i p ə r,segmental,3,sip
+DISROBE,prs.dur,i s i p ə r,segmental,4,ər
+DISROBE,hod.dur,i s i p ə r i,segmental,2,i
+DISROBE,hod.dur,i s i p ə r i,segmental,3,sip
+DISROBE,hod.dur,i s i p ə r i,segmental,4,ər
+DISROBE,hod.dur,i s i p ə r i,segmental,7,i
+DISROBE,rct.dur,s u s i p ə r,segmental,0,s
+DISROBE,rct.dur,s u s i p ə r,segmental,2,u
+DISROBE,rct.dur,s u s i p ə r,segmental,3,sip
+DISROBE,rct.dur,s u s i p ə r,segmental,4,ər
+DISROBE,rmt.dur,i s i p ə r u,segmental,2,i
+DISROBE,rmt.dur,i s i p ə r u,segmental,3,sip
+DISROBE,rmt.dur,i s i p ə r u,segmental,4,ər
+DISROBE,rmt.dur,i s i p ə r u,segmental,7,u
+DISROBE,fut.pfv,s ə r ɛ s i p ɛ,segmental,0,s
+DISROBE,fut.pfv,s ə r ɛ s i p ɛ,segmental,1,ər
+DISROBE,fut.pfv,s ə r ɛ s i p ɛ,segmental,2,ɛ
+DISROBE,fut.pfv,s ə r ɛ s i p ɛ,segmental,3,sip
+DISROBE,fut.pfv,s ə r ɛ s i p ɛ,segmental,6,ɛ
+DISROBE,hod.pfv,s ɛ s i p ɛ,segmental,0,s
+DISROBE,hod.pfv,s ɛ s i p ɛ,segmental,2,ɛ
+DISROBE,hod.pfv,s ɛ s i p ɛ,segmental,3,sip
+DISROBE,hod.pfv,s ɛ s i p ɛ,segmental,6,ɛ
+DISROBE,rct.pfv,s ɛ s i p ɛ ⁿt,segmental,0,s
+DISROBE,rct.pfv,s ɛ s i p ɛ ⁿt,segmental,2,ɛ
+DISROBE,rct.pfv,s ɛ s i p ɛ ⁿt,segmental,3,sip
+DISROBE,rct.pfv,s ɛ s i p ɛ ⁿt,segmental,6,ɛ
+DISROBE,rct.pfv,s ɛ s i p ɛ ⁿt,segmental,7,ⁿt
+DISROBE,rmt.pfv,s ɛ s i p ɛ ᵑk,segmental,0,s
+DISROBE,rmt.pfv,s ɛ s i p ɛ ᵑk,segmental,2,ɛ
+DISROBE,rmt.pfv,s ɛ s i p ɛ ᵑk,segmental,3,sip
+DISROBE,rmt.pfv,s ɛ s i p ɛ ᵑk,segmental,6,ɛ
+DISROBE,rmt.pfv,s ɛ s i p ɛ ᵑk,segmental,7,ᵑk
+DISROBE,rct.ipfv,i s i p ə r ə n,segmental,2,i
+DISROBE,rct.ipfv,i s i p ə r ə n,segmental,3,sip
+DISROBE,rct.ipfv,i s i p ə r ə n,segmental,4,ər
+DISROBE,rct.ipfv,i s i p ə r ə n,segmental,5,ə
+DISROBE,rct.ipfv,i s i p ə r ə n,segmental,7,n
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,0,s
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,2,u
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,3,sip
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,4,ər
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,5,ə
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,6,r
+DISROBE,rmt.ipfv,s u s i p ə r ə r ⁿt,segmental,7,ⁿt
+EJECT,fut.dur,s ə r m ɛ ⁿt,segmental,0,s
+EJECT,fut.dur,s ə r m ɛ ⁿt,segmental,1,ər
+EJECT,fut.dur,s ə r m ɛ ⁿt,segmental,3,m
+EJECT,fut.dur,s ə r m ɛ ⁿt,segmental,5,ɛ
+EJECT,fut.dur,s ə r m ɛ ⁿt,segmental,8,ⁿt
+EJECT,prs.dur,i m ɛ,segmental,2,i
+EJECT,prs.dur,i m ɛ,segmental,3,m
+EJECT,prs.dur,i m ɛ,segmental,5,ɛ
+EJECT,hod.dur,i m ɛ i,segmental,2,i
+EJECT,hod.dur,i m ɛ i,segmental,3,m
+EJECT,hod.dur,i m ɛ i,segmental,5,ɛ
+EJECT,hod.dur,i m ɛ i,segmental,8,i
+EJECT,rct.dur,s u m ɛ,segmental,0,s
+EJECT,rct.dur,s u m ɛ,segmental,2,u
+EJECT,rct.dur,s u m ɛ,segmental,3,m
+EJECT,rct.dur,s u m ɛ,segmental,5,ɛ
+EJECT,rmt.dur,i m ɛ u,segmental,2,i
+EJECT,rmt.dur,i m ɛ u,segmental,3,m
+EJECT,rmt.dur,i m ɛ u,segmental,5,ɛ
+EJECT,rmt.dur,i m ɛ u,segmental,8,u
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,0,s
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,1,ər
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,2,i
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,3,m
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,4,ɛ
+EJECT,fut.pfv,s ə r i m ɛ r,segmental,5,r
+EJECT,hod.pfv,s i m ɛ r,segmental,0,s
+EJECT,hod.pfv,s i m ɛ r,segmental,2,i
+EJECT,hod.pfv,s i m ɛ r,segmental,3,m
+EJECT,hod.pfv,s i m ɛ r,segmental,4,ɛ
+EJECT,hod.pfv,s i m ɛ r,segmental,5,r
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,0,s
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,2,i
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,3,m
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,4,ɛ
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,5,r
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,6,ə
+EJECT,rct.pfv,s i m ɛ r ə ⁿt,segmental,8,ⁿt
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,0,s
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,2,i
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,3,m
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,4,ɛ
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,5,r
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,6,ə
+EJECT,rmt.pfv,s i m ɛ r ə ᵑk,segmental,8,ᵑk
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,2,i
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,3,m
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,4,ɛ
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,5,j
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,6,ə
+EJECT,rct.ipfv,i m ɛ j ə n,segmental,8,n
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,0,s
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,1,w
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,2,i
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,3,m
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,4,ɛ
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,5,j
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,6,ə
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,7,r
+EJECT,rmt.ipfv,s w i m ɛ j ə r ⁿt,segmental,8,ⁿt
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,0,s
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,1,ər
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,2,a
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,3,t
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,4,u
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,5,n
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,7,æ
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,8,ᵑk
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,9,ə
+FINE_WORK,fut.dur,s ə r a t u n æ ᵑk ə ⁿt,segmental,11,ⁿt
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,1,y
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,2,a
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,3,t
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,4,u
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,5,n
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,7,æ
+FINE_WORK,prs.dur,y a t u n æ ᵑk,segmental,8,ᵑk
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,1,y
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,2,a
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,3,t
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,4,u
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,5,n
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,7,æ
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,8,ᵑk
+FINE_WORK,hod.dur,y a t u n æ ᵑk i,segmental,11,i
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,0,s
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,1,w
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,2,a
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,3,t
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,4,u
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,5,n
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,7,æ
+FINE_WORK,rct.dur,s w a t u n æ ᵑk,segmental,8,ᵑk
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,1,y
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,2,a
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,3,t
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,4,u
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,5,n
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,7,æ
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,8,ᵑk
+FINE_WORK,rmt.dur,y a t u n æ ᵑk u,segmental,11,u
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,0,s
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,2,ə
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,3,t
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,4,ə
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,5,n
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,6,o
+FINE_WORK,fut.pfv,s ə t ə n o ⁿt,segmental,9,ⁿt
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,0,s
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,2,ə
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,3,t
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,4,ə
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,5,n
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,6,o
+FINE_WORK,hod.pfv,s ə t ə n o ⁿt,segmental,9,ⁿt
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,0,s
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,2,ə
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,3,t
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,4,ə
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,5,n
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,6,o
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,9,ⁿt
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,10,r
+FINE_WORK,rct.pfv,s ə t ə n o ⁿt r o,segmental,11,o
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,0,s
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,2,ə
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,3,t
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,4,ə
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,5,n
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,6,o
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,7,ⁿtə
+FINE_WORK,rmt.pfv,s ə t ə n o ⁿt ə ᵑk,segmental,8,ᵑk
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,1,y
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,2,a
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,3,t
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,4,u
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,5,n
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,7,æ
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,8,ᵑk
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,9,ə
+FINE_WORK,rct.ipfv,y a t u n æ ᵑk ə n,segmental,11,n
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,0,s
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,2,a
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,3,t
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,4,u
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,5,n
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,7,æ
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,8,ᵑk
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,9,ə
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,10,r
+FINE_WORK,rmt.ipfv,s a t u n æ ᵑk ə r ⁿt,segmental,11,ⁿt
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,0,s
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,1,ə
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,2,r
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,3,m
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,4,ɛ
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,5,r
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,6,k
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,7,ə
+FOLLOW,fut.dur,s ə r m ɛ r k ə ⁿt,segmental,8,ⁿt
+FOLLOW,prs.dur,i m ɛ r k,segmental,2,i
+FOLLOW,prs.dur,i m ɛ r k,segmental,3,m
+FOLLOW,prs.dur,i m ɛ r k,segmental,4,ɛ
+FOLLOW,prs.dur,i m ɛ r k,segmental,5,r
+FOLLOW,prs.dur,i m ɛ r k,segmental,6,k
+FOLLOW,hod.dur,i m ɛ r k i,segmental,2,i
+FOLLOW,hod.dur,i m ɛ r k i,segmental,3,m
+FOLLOW,hod.dur,i m ɛ r k i,segmental,4,ɛ
+FOLLOW,hod.dur,i m ɛ r k i,segmental,5,r
+FOLLOW,hod.dur,i m ɛ r k i,segmental,6,k
+FOLLOW,hod.dur,i m ɛ r k i,segmental,10,i
+FOLLOW,rct.dur,s u m ɛ r k,segmental,0,s
+FOLLOW,rct.dur,s u m ɛ r k,segmental,2,u
+FOLLOW,rct.dur,s u m ɛ r k,segmental,3,m
+FOLLOW,rct.dur,s u m ɛ r k,segmental,4,ɛ
+FOLLOW,rct.dur,s u m ɛ r k,segmental,5,r
+FOLLOW,rct.dur,s u m ɛ r k,segmental,6,k
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,2,i
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,3,m
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,4,ɛ
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,5,r
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,6,k
+FOLLOW,rmt.dur,i m ɛ r k u,segmental,10,u
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,0,s
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,1,ə
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,2,r
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,3,m
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,4,ɛ
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,5,r
+FOLLOW,fut.pfv,s ə r m ɛ r b a,segmental,7,ba
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,0,s
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,1,ə
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,3,m
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,4,ɛ
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,5,r
+FOLLOW,hod.pfv,s ə m ɛ r b a,segmental,7,ba
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,0,s
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,1,ə
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,3,m
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,4,ɛ
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,5,r
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,7,ba
+FOLLOW,rct.pfv,s ə m ɛ r b a ⁿt,segmental,8,ⁿt
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,0,s
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,1,ə
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,3,m
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,4,ɛ
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,5,r
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,7,ba
+FOLLOW,rmt.pfv,s ə m ɛ r b a ᵑk,segmental,10,ᵑk
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,2,i
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,3,m
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,4,ɛ
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,5,r
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,6,k
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,7,ə
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,8,ⁿt
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,9,ənə
+FOLLOW,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,10,n
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,0,s
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,2,u
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,3,m
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,4,ɛ
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,5,r
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,6,k
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,7,ə
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,8,ⁿt
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,9,ənə
+FOLLOW,rmt.ipfv,s u m ɛ r k ə ⁿt ə n ə r ⁿt,segmental,10,rⁿt
+HIDE,fut.dur,s ə r ə r o ⁿt,segmental,0,s
+HIDE,fut.dur,s ə r ə r o ⁿt,segmental,1,ər
+HIDE,fut.dur,s ə r ə r o ⁿt,segmental,2,ə
+HIDE,fut.dur,s ə r ə r o ⁿt,segmental,3,ro
+HIDE,fut.dur,s ə r ə r o ⁿt,segmental,5,ⁿt
+HIDE,prs.dur,i r o,segmental,2,i
+HIDE,prs.dur,i r o,segmental,3,ro
+HIDE,hod.dur,i r o i,segmental,2,i
+HIDE,hod.dur,i r o i,segmental,3,ro
+HIDE,hod.dur,i r o i,segmental,5,i
+HIDE,rct.dur,s u r o,segmental,0,s
+HIDE,rct.dur,s u r o,segmental,2,u
+HIDE,rct.dur,s u r o,segmental,3,ro
+HIDE,rmt.dur,i r o u,segmental,2,i
+HIDE,rmt.dur,i r o u,segmental,3,ro
+HIDE,rmt.dur,i r o u,segmental,5,u
+HIDE,fut.pfv,s ə r ə r o,segmental,0,s
+HIDE,fut.pfv,s ə r ə r o,segmental,1,ər
+HIDE,fut.pfv,s ə r ə r o,segmental,2,ə
+HIDE,fut.pfv,s ə r ə r o,segmental,3,ro
+HIDE,hod.pfv,s ə r o,segmental,0,s
+HIDE,hod.pfv,s ə r o,segmental,2,ə
+HIDE,hod.pfv,s ə r o,segmental,3,ro
+HIDE,rct.pfv,s ə r o ⁿt,segmental,0,s
+HIDE,rct.pfv,s ə r o ⁿt,segmental,2,ə
+HIDE,rct.pfv,s ə r o ⁿt,segmental,3,ro
+HIDE,rct.pfv,s ə r o ⁿt,segmental,5,ⁿt
+HIDE,rmt.pfv,s ə r o ᵑk,segmental,0,s
+HIDE,rmt.pfv,s ə r o ᵑk,segmental,2,ə
+HIDE,rmt.pfv,s ə r o ᵑk,segmental,3,ro
+HIDE,rmt.pfv,s ə r o ᵑk,segmental,5,ᵑk
+HIDE,rct.ipfv,i r o j ə n,segmental,2,i
+HIDE,rct.ipfv,i r o j ə n,segmental,3,ro
+HIDE,rct.ipfv,i r o j ə n,segmental,5,jən
+HIDE,rmt.ipfv,s u r o r ⁿt,segmental,0,s
+HIDE,rmt.ipfv,s u r o r ⁿt,segmental,2,u
+HIDE,rmt.ipfv,s u r o r ⁿt,segmental,3,ro
+HIDE,rmt.ipfv,s u r o r ⁿt,segmental,4,r
+HIDE,rmt.ipfv,s u r o r ⁿt,segmental,5,ⁿt
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,0,s
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,1,ə
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,2,r
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,3,ləᵑkol
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,4,ə
+STAB,fut.dur,s ə r l ə ᵑk o l ə ⁿt,segmental,6,ⁿt
+STAB,prs.dur,i l ə ᵑk o l,segmental,2,i
+STAB,prs.dur,i l ə ᵑk o l,segmental,3,ləᵑkol
+STAB,hod.dur,i l ə ᵑk o l i,segmental,2,i
+STAB,hod.dur,i l ə ᵑk o l i,segmental,3,ləᵑkol
+STAB,hod.dur,i l ə ᵑk o l i,segmental,6,i
+STAB,rct.dur,s u l ə ᵑk o l,segmental,0,s
+STAB,rct.dur,s u l ə ᵑk o l,segmental,2,u
+STAB,rct.dur,s u l ə ᵑk o l,segmental,3,ləᵑkol
+STAB,rmt.dur,i l ə ᵑk o l u,segmental,2,i
+STAB,rmt.dur,i l ə ᵑk o l u,segmental,3,ləᵑkol
+STAB,rmt.dur,i l ə ᵑk o l u,segmental,6,u
+STAB,fut.pfv,s ə r l ə ᵑk o l,segmental,0,s
+STAB,fut.pfv,s ə r l ə ᵑk o l,segmental,1,ə
+STAB,fut.pfv,s ə r l ə ᵑk o l,segmental,2,r
+STAB,fut.pfv,s ə r l ə ᵑk o l,segmental,3,ləᵑkol
+STAB,hod.pfv,s ə l ə ᵑk o l,segmental,0,s
+STAB,hod.pfv,s ə l ə ᵑk o l,segmental,1,ə
+STAB,hod.pfv,s ə l ə ᵑk o l,segmental,3,ləᵑkol
+STAB,rct.pfv,s ə l ə ᵑk o l o,segmental,0,s
+STAB,rct.pfv,s ə l ə ᵑk o l o,segmental,1,ə
+STAB,rct.pfv,s ə l ə ᵑk o l o,segmental,3,ləᵑkol
+STAB,rct.pfv,s ə l ə ᵑk o l o,segmental,6,o
+STAB,rmt.pfv,s ə l ə ᵑk o l ə ᵑk,segmental,0,s
+STAB,rmt.pfv,s ə l ə ᵑk o l ə ᵑk,segmental,1,ə
+STAB,rmt.pfv,s ə l ə ᵑk o l ə ᵑk,segmental,3,ləᵑkol
+STAB,rmt.pfv,s ə l ə ᵑk o l ə ᵑk,segmental,4,ə
+STAB,rmt.pfv,s ə l ə ᵑk o l ə ᵑk,segmental,6,ᵑk
+STAB,rct.ipfv,i l ə ᵑk o l ə n,segmental,2,i
+STAB,rct.ipfv,i l ə ᵑk o l ə n,segmental,3,ləᵑkol
+STAB,rct.ipfv,i l ə ᵑk o l ə n,segmental,4,ə
+STAB,rct.ipfv,i l ə ᵑk o l ə n,segmental,6,n
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,0,s
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,2,u
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,3,ləᵑkol
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,4,ə
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,5,r
+STAB,rmt.ipfv,s u l ə ᵑk o l ə r ⁿt,segmental,6,ⁿt
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,0,s
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,1,ər
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,2,ɛy
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,3,ɛ
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,4,r
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,5,k
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,6,ə
+STALK,fut.dur,s ə r ɛ y ɛ r k ə ⁿt,segmental,7,ⁿt
+STALK,prs.dur,y ɛ y ɛ r k,segmental,1,y
+STALK,prs.dur,y ɛ y ɛ r k,segmental,2,ɛy
+STALK,prs.dur,y ɛ y ɛ r k,segmental,3,ɛ
+STALK,prs.dur,y ɛ y ɛ r k,segmental,4,r
+STALK,prs.dur,y ɛ y ɛ r k,segmental,5,k
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,1,y
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,2,ɛy
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,3,ɛ
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,4,r
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,5,k
+STALK,hod.dur,y ɛ y ɛ r k i,segmental,9,i
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,0,s
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,1,w
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,2,ɛy
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,3,ɛ
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,4,r
+STALK,rct.dur,s w ɛ y ɛ r k,segmental,5,k
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,1,y
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,2,ɛy
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,3,ɛ
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,4,r
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,5,k
+STALK,rmt.dur,y ɛ y ɛ r k u,segmental,6,u
+STALK,fut.pfv,s ə r u r u,segmental,0,s
+STALK,fut.pfv,s ə r u r u,segmental,1,ər
+STALK,fut.pfv,s ə r u r u,segmental,3,u
+STALK,fut.pfv,s ə r u r u,segmental,4,r
+STALK,fut.pfv,s ə r u r u,segmental,6,u
+STALK,hod.pfv,s u r u,segmental,0,s
+STALK,hod.pfv,s u r u,segmental,3,u
+STALK,hod.pfv,s u r u,segmental,4,r
+STALK,hod.pfv,s u r u,segmental,6,u
+STALK,rct.pfv,s u r u ⁿt,segmental,0,s
+STALK,rct.pfv,s u r u ⁿt,segmental,3,u
+STALK,rct.pfv,s u r u ⁿt,segmental,4,r
+STALK,rct.pfv,s u r u ⁿt,segmental,6,u
+STALK,rct.pfv,s u r u ⁿt,segmental,7,ⁿt
+STALK,rmt.pfv,s u r u ᵑk,segmental,0,s
+STALK,rmt.pfv,s u r u ᵑk,segmental,3,u
+STALK,rmt.pfv,s u r u ᵑk,segmental,4,r
+STALK,rmt.pfv,s u r u ᵑk,segmental,6,u
+STALK,rmt.pfv,s u r u ᵑk,segmental,9,ᵑk
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,2,im
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,3,ɛ
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,4,r
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,5,k
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,6,ə
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,7,ⁿt
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,8,ənə
+STALK,rct.ipfv,i m ɛ r k ə ⁿt ə n ə n,segmental,9,n
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,0,s
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,1,w
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,2,ɛy
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,3,ɛ
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,4,r
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,5,k
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,6,ə
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,7,ⁿt
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,8,ənə
+STALK,rmt.ipfv,s w ɛ y ɛ r k ə ⁿt ə n ə r ⁿt,segmental,9,rⁿt
+TELL,fut.dur,s ə r i b ɛ ⁿt ⁿt,segmental,0,s
+TELL,fut.dur,s ə r i b ɛ ⁿt ⁿt,segmental,1,ər
+TELL,fut.dur,s ə r i b ɛ ⁿt ⁿt,segmental,2,ibɛⁿt
+TELL,fut.dur,s ə r i b ɛ ⁿt ⁿt,segmental,5,ⁿt
+TELL,prs.dur,i b ɛ ⁿt,segmental,2,ibɛⁿt
+TELL,hod.dur,i b ɛ ⁿt i,segmental,2,ibɛⁿt
+TELL,hod.dur,i b ɛ ⁿt i,segmental,5,i
+TELL,rct.dur,s w i b ɛ ⁿt,segmental,0,s
+TELL,rct.dur,s w i b ɛ ⁿt,segmental,1,w
+TELL,rct.dur,s w i b ɛ ⁿt,segmental,2,ibɛⁿt
+TELL,rmt.dur,i b ɛ ⁿt u,segmental,2,ibɛⁿt
+TELL,rmt.dur,i b ɛ ⁿt u,segmental,5,u
+TELL,fut.pfv,s ə r i b ɛ ⁿt,segmental,0,s
+TELL,fut.pfv,s ə r i b ɛ ⁿt,segmental,1,ər
+TELL,fut.pfv,s ə r i b ɛ ⁿt,segmental,2,ibɛⁿt
+TELL,hod.pfv,s i b ɛ ⁿt,segmental,0,s
+TELL,hod.pfv,s i b ɛ ⁿt,segmental,2,ibɛⁿt
+TELL,rct.pfv,s i b ɛ ⁿt r o,segmental,0,s
+TELL,rct.pfv,s i b ɛ ⁿt r o,segmental,2,ibɛⁿt
+TELL,rct.pfv,s i b ɛ ⁿt r o,segmental,4,r
+TELL,rct.pfv,s i b ɛ ⁿt r o,segmental,5,o
+TELL,rmt.pfv,s i b ɛ ⁿt ə ᵑk,segmental,0,s
+TELL,rmt.pfv,s i b ɛ ⁿt ə ᵑk,segmental,2,ibɛⁿt
+TELL,rmt.pfv,s i b ɛ ⁿt ə ᵑk,segmental,3,ə
+TELL,rmt.pfv,s i b ɛ ⁿt ə ᵑk,segmental,5,ᵑk
+TELL,rct.ipfv,i b ɛ ⁿt ə n,segmental,2,ibɛⁿt
+TELL,rct.ipfv,i b ɛ ⁿt ə n,segmental,3,ə
+TELL,rct.ipfv,i b ɛ ⁿt ə n,segmental,5,n
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,0,s
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,1,w
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,2,ibɛⁿt
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,3,ə
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,4,r
+TELL,rmt.ipfv,s w i b ɛ ⁿt ə r ⁿt,segmental,5,ⁿt
+TOUCH,fut.dur,s ə r p i n o ⁿt,segmental,0,s
+TOUCH,fut.dur,s ə r p i n o ⁿt,segmental,1,ə
+TOUCH,fut.dur,s ə r p i n o ⁿt,segmental,2,r
+TOUCH,fut.dur,s ə r p i n o ⁿt,segmental,3,pino
+TOUCH,fut.dur,s ə r p i n o ⁿt,segmental,5,ⁿt
+TOUCH,prs.dur,i p i n o,segmental,2,i
+TOUCH,prs.dur,i p i n o,segmental,3,pino
+TOUCH,hod.dur,i p i n o i,segmental,2,i
+TOUCH,hod.dur,i p i n o i,segmental,3,pino
+TOUCH,hod.dur,i p i n o i,segmental,5,i
+TOUCH,rct.dur,s u p i n o,segmental,0,s
+TOUCH,rct.dur,s u p i n o,segmental,2,u
+TOUCH,rct.dur,s u p i n o,segmental,3,pino
+TOUCH,rmt.dur,i p i n o w,segmental,2,i
+TOUCH,rmt.dur,i p i n o w,segmental,3,pino
+TOUCH,rmt.dur,i p i n o w,segmental,5,w
+TOUCH,fut.pfv,s ə r p i n o,segmental,0,s
+TOUCH,fut.pfv,s ə r p i n o,segmental,1,ə
+TOUCH,fut.pfv,s ə r p i n o,segmental,2,r
+TOUCH,fut.pfv,s ə r p i n o,segmental,3,pino
+TOUCH,hod.pfv,s ə p i n o,segmental,0,s
+TOUCH,hod.pfv,s ə p i n o,segmental,1,ə
+TOUCH,hod.pfv,s ə p i n o,segmental,3,pino
+TOUCH,rct.pfv,s ə p i n o ⁿt,segmental,0,s
+TOUCH,rct.pfv,s ə p i n o ⁿt,segmental,1,ə
+TOUCH,rct.pfv,s ə p i n o ⁿt,segmental,3,pino
+TOUCH,rct.pfv,s ə p i n o ⁿt,segmental,5,ⁿt
+TOUCH,rmt.pfv,s ə p i n o ᵑk,segmental,0,s
+TOUCH,rmt.pfv,s ə p i n o ᵑk,segmental,1,ə
+TOUCH,rmt.pfv,s ə p i n o ᵑk,segmental,3,pino
+TOUCH,rmt.pfv,s ə p i n o ᵑk,segmental,5,ᵑk
+TOUCH,rct.ipfv,i p i n o n,segmental,2,i
+TOUCH,rct.ipfv,i p i n o n,segmental,3,pino
+TOUCH,rct.ipfv,i p i n o n,segmental,5,n
+TOUCH,rmt.ipfv,s u p i n o r ⁿt,segmental,0,s
+TOUCH,rmt.ipfv,s u p i n o r ⁿt,segmental,2,u
+TOUCH,rmt.ipfv,s u p i n o r ⁿt,segmental,3,pino
+TOUCH,rmt.ipfv,s u p i n o r ⁿt,segmental,4,r
+TOUCH,rmt.ipfv,s u p i n o r ⁿt,segmental,5,ⁿt
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,0,s
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,1,ə
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,2,r
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,3,ə
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,4,r
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,5,ə
+WORK,fut.dur,s ə r ə r ə ⁿt,segmental,6,ⁿt
+WORK,prs.dur,i r ə,segmental,1,i
+WORK,prs.dur,i r ə,segmental,2,r
+WORK,prs.dur,i r ə,segmental,3,ə
+WORK,hod.dur,i r i,segmental,1,i
+WORK,hod.dur,i r i,segmental,2,r
+WORK,hod.dur,i r i,segmental,6,i
+WORK,rct.dur,s u r ə,segmental,0,s
+WORK,rct.dur,s u r ə,segmental,1,u
+WORK,rct.dur,s u r ə,segmental,2,r
+WORK,rct.dur,s u r ə,segmental,3,ə
+WORK,rmt.dur,i r u,segmental,1,i
+WORK,rmt.dur,i r u,segmental,2,r
+WORK,rmt.dur,i r u,segmental,6,u
+WORK,fut.pfv,s ə r ə r,segmental,0,s
+WORK,fut.pfv,s ə r ə r,segmental,1,ə
+WORK,fut.pfv,s ə r ə r,segmental,2,r
+WORK,fut.pfv,s ə r ə r,segmental,3,ə
+WORK,fut.pfv,s ə r ə r,segmental,4,r
+WORK,hod.pfv,s ə r ə,segmental,0,s
+WORK,hod.pfv,s ə r ə,segmental,1,ə
+WORK,hod.pfv,s ə r ə,segmental,2,r
+WORK,hod.pfv,s ə r ə,segmental,3,ə
+WORK,rct.pfv,s ə r o,segmental,0,s
+WORK,rct.pfv,s ə r o,segmental,1,ə
+WORK,rct.pfv,s ə r o,segmental,2,r
+WORK,rct.pfv,s ə r o,segmental,6,o
+WORK,rmt.pfv,s ə r ə ᵑk,segmental,0,s
+WORK,rmt.pfv,s ə r ə ᵑk,segmental,1,ə
+WORK,rmt.pfv,s ə r ə ᵑk,segmental,2,r
+WORK,rmt.pfv,s ə r ə ᵑk,segmental,3,ə
+WORK,rmt.pfv,s ə r ə ᵑk,segmental,6,ᵑk
+WORK,rct.ipfv,i r ə n,segmental,1,i
+WORK,rct.ipfv,i r ə n,segmental,2,r
+WORK,rct.ipfv,i r ə n,segmental,3,ə
+WORK,rct.ipfv,i r ə n,segmental,6,n
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,0,s
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,1,u
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,2,r
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,3,ə
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,4,r
+WORK,rmt.ipfv,s u r ə r ⁿt,segmental,6,ⁿt

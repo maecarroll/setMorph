@@ -1,0 +1,1190 @@
+lexeme,cell,form,tier,slot,formative
+danā,ind.prs.act.f.2.p,t a d n uː n a,segmental,0,t
+danā,ind.prs.act.f.2.p,t a d n uː n a,segmental,1,adn
+danā,ind.prs.act.f.2.p,t a d n uː n a,segmental,2,uː
+danā,ind.prs.act.f.2.p,t a d n uː n a,segmental,3,n
+danā,ind.prs.act.f.2.p,t a d n uː n a,segmental,4,a
+danā,ind.prs.act.f.2.s,t a d n iː n a,segmental,0,t
+danā,ind.prs.act.f.2.s,t a d n iː n a,segmental,1,adn
+danā,ind.prs.act.f.2.s,t a d n iː n a,segmental,2,iː
+danā,ind.prs.act.f.2.s,t a d n iː n a,segmental,3,n
+danā,ind.prs.act.f.2.s,t a d n iː n a,segmental,4,a
+danā,ind.prs.act.f.3.d,t a d n u w aː n i,segmental,0,t
+danā,ind.prs.act.f.3.d,t a d n u w aː n i,segmental,1,adn
+danā,ind.prs.act.f.3.d,t a d n u w aː n i,segmental,2,uwaː
+danā,ind.prs.act.f.3.d,t a d n u w aː n i,segmental,3,n
+danā,ind.prs.act.f.3.d,t a d n u w aː n i,segmental,4,i
+danā,ind.prs.act.f.3.p,j a d n uː n a,segmental,0,j
+danā,ind.prs.act.f.3.p,j a d n uː n a,segmental,1,adn
+danā,ind.prs.act.f.3.p,j a d n uː n a,segmental,2,uː
+danā,ind.prs.act.f.3.p,j a d n uː n a,segmental,3,n
+danā,ind.prs.act.f.3.p,j a d n uː n a,segmental,4,a
+danā,ind.prs.act.f.3.s,t a d n uː,segmental,0,t
+danā,ind.prs.act.f.3.s,t a d n uː,segmental,1,adn
+danā,ind.prs.act.f.3.s,t a d n uː,segmental,2,uː
+danā,ind.prs.act.m.2.p,t a d n uː n a,segmental,0,t
+danā,ind.prs.act.m.2.p,t a d n uː n a,segmental,1,adn
+danā,ind.prs.act.m.2.p,t a d n uː n a,segmental,2,uː
+danā,ind.prs.act.m.2.p,t a d n uː n a,segmental,3,n
+danā,ind.prs.act.m.2.p,t a d n uː n a,segmental,4,a
+danā,ind.prs.act.m.2.s,t a d n uː,segmental,0,t
+danā,ind.prs.act.m.2.s,t a d n uː,segmental,1,adn
+danā,ind.prs.act.m.2.s,t a d n uː,segmental,2,uː
+danā,ind.prs.act.m.3.d,j a d n u w aː n i,segmental,0,j
+danā,ind.prs.act.m.3.d,j a d n u w aː n i,segmental,1,adn
+danā,ind.prs.act.m.3.d,j a d n u w aː n i,segmental,2,uwaː
+danā,ind.prs.act.m.3.d,j a d n u w aː n i,segmental,3,n
+danā,ind.prs.act.m.3.d,j a d n u w aː n i,segmental,4,i
+danā,ind.prs.act.m.3.p,j a d n uː n a,segmental,0,j
+danā,ind.prs.act.m.3.p,j a d n uː n a,segmental,1,adn
+danā,ind.prs.act.m.3.p,j a d n uː n a,segmental,2,uː
+danā,ind.prs.act.m.3.p,j a d n uː n a,segmental,3,n
+danā,ind.prs.act.m.3.p,j a d n uː n a,segmental,4,a
+danā,ind.prs.act.m.3.s,j a d n uː,segmental,0,j
+danā,ind.prs.act.m.3.s,j a d n uː,segmental,1,adn
+danā,ind.prs.act.m.3.s,j a d n uː,segmental,2,uː
+danā,ind.prs.act.m/f.1.p,n a d n uː,segmental,0,n
+danā,ind.prs.act.m/f.1.p,n a d n uː,segmental,1,adn
+danā,ind.prs.act.m/f.1.p,n a d n uː,segmental,2,uː
+danā,ind.prs.act.m/f.1.s,a d n uː,segmental,1,adn
+danā,ind.prs.act.m/f.1.s,a d n uː,segmental,2,uː
+danā,ind.prs.act.m/f.2.d,t a d n u w aː n i,segmental,0,t
+danā,ind.prs.act.m/f.2.d,t a d n u w aː n i,segmental,1,adn
+danā,ind.prs.act.m/f.2.d,t a d n u w aː n i,segmental,2,uwaː
+danā,ind.prs.act.m/f.2.d,t a d n u w aː n i,segmental,3,n
+danā,ind.prs.act.m/f.2.d,t a d n u w aː n i,segmental,4,i
+istaslama,ind.prs.act.f.2.p,t a s t a s l i m n a,segmental,0,t
+istaslama,ind.prs.act.f.2.p,t a s t a s l i m n a,segmental,1,astaslim
+istaslama,ind.prs.act.f.2.p,t a s t a s l i m n a,segmental,3,n
+istaslama,ind.prs.act.f.2.p,t a s t a s l i m n a,segmental,4,a
+istaslama,ind.prs.act.f.2.s,t a s t a s l i m iː n a,segmental,0,t
+istaslama,ind.prs.act.f.2.s,t a s t a s l i m iː n a,segmental,1,astaslim
+istaslama,ind.prs.act.f.2.s,t a s t a s l i m iː n a,segmental,2,iː
+istaslama,ind.prs.act.f.2.s,t a s t a s l i m iː n a,segmental,3,n
+istaslama,ind.prs.act.f.2.s,t a s t a s l i m iː n a,segmental,4,a
+istaslama,ind.prs.act.f.3.d,t a s t a s l i m aː n i,segmental,0,t
+istaslama,ind.prs.act.f.3.d,t a s t a s l i m aː n i,segmental,1,astaslim
+istaslama,ind.prs.act.f.3.d,t a s t a s l i m aː n i,segmental,2,aː
+istaslama,ind.prs.act.f.3.d,t a s t a s l i m aː n i,segmental,3,n
+istaslama,ind.prs.act.f.3.d,t a s t a s l i m aː n i,segmental,4,i
+istaslama,ind.prs.act.f.3.p,j a s t a s l i m n a,segmental,0,j
+istaslama,ind.prs.act.f.3.p,j a s t a s l i m n a,segmental,1,astaslim
+istaslama,ind.prs.act.f.3.p,j a s t a s l i m n a,segmental,3,n
+istaslama,ind.prs.act.f.3.p,j a s t a s l i m n a,segmental,4,a
+istaslama,ind.prs.act.f.3.s,t a s t a s l i m u,segmental,0,t
+istaslama,ind.prs.act.f.3.s,t a s t a s l i m u,segmental,1,astaslim
+istaslama,ind.prs.act.f.3.s,t a s t a s l i m u,segmental,4,u
+istaslama,ind.prs.act.m.2.p,t a s t a s l i m uː n a,segmental,0,t
+istaslama,ind.prs.act.m.2.p,t a s t a s l i m uː n a,segmental,1,astaslim
+istaslama,ind.prs.act.m.2.p,t a s t a s l i m uː n a,segmental,2,uː
+istaslama,ind.prs.act.m.2.p,t a s t a s l i m uː n a,segmental,3,n
+istaslama,ind.prs.act.m.2.p,t a s t a s l i m uː n a,segmental,4,a
+istaslama,ind.prs.act.m.2.s,t a s t a s l i m u,segmental,0,t
+istaslama,ind.prs.act.m.2.s,t a s t a s l i m u,segmental,1,astaslim
+istaslama,ind.prs.act.m.2.s,t a s t a s l i m u,segmental,4,u
+istaslama,ind.prs.act.m.3.d,j a s t a s l i m aː n i,segmental,0,j
+istaslama,ind.prs.act.m.3.d,j a s t a s l i m aː n i,segmental,1,astaslim
+istaslama,ind.prs.act.m.3.d,j a s t a s l i m aː n i,segmental,2,aː
+istaslama,ind.prs.act.m.3.d,j a s t a s l i m aː n i,segmental,3,n
+istaslama,ind.prs.act.m.3.d,j a s t a s l i m aː n i,segmental,4,i
+istaslama,ind.prs.act.m.3.p,j a s t a s l i m uː n a,segmental,0,j
+istaslama,ind.prs.act.m.3.p,j a s t a s l i m uː n a,segmental,1,astaslim
+istaslama,ind.prs.act.m.3.p,j a s t a s l i m uː n a,segmental,2,uː
+istaslama,ind.prs.act.m.3.p,j a s t a s l i m uː n a,segmental,3,n
+istaslama,ind.prs.act.m.3.p,j a s t a s l i m uː n a,segmental,4,a
+istaslama,ind.prs.act.m.3.s,j a s t a s l i m u,segmental,0,j
+istaslama,ind.prs.act.m.3.s,j a s t a s l i m u,segmental,1,astaslim
+istaslama,ind.prs.act.m.3.s,j a s t a s l i m u,segmental,4,u
+istaslama,ind.prs.act.m/f.1.p,n a s t a s l i m u,segmental,0,n
+istaslama,ind.prs.act.m/f.1.p,n a s t a s l i m u,segmental,1,astaslim
+istaslama,ind.prs.act.m/f.1.p,n a s t a s l i m u,segmental,4,u
+istaslama,ind.prs.act.m/f.1.s,a s t a s l i m u,segmental,1,astaslim
+istaslama,ind.prs.act.m/f.1.s,a s t a s l i m u,segmental,4,u
+istaslama,ind.prs.act.m/f.2.d,t a s t a s l i m aː n i,segmental,0,t
+istaslama,ind.prs.act.m/f.2.d,t a s t a s l i m aː n i,segmental,1,astaslim
+istaslama,ind.prs.act.m/f.2.d,t a s t a s l i m aː n i,segmental,2,aː
+istaslama,ind.prs.act.m/f.2.d,t a s t a s l i m aː n i,segmental,3,n
+istaslama,ind.prs.act.m/f.2.d,t a s t a s l i m aː n i,segmental,4,i
+istaḥrama,ind.prs.act.f.2.p,t a s t a ħ r i m n a,segmental,0,t
+istaḥrama,ind.prs.act.f.2.p,t a s t a ħ r i m n a,segmental,1,astaħrim
+istaḥrama,ind.prs.act.f.2.p,t a s t a ħ r i m n a,segmental,3,n
+istaḥrama,ind.prs.act.f.2.p,t a s t a ħ r i m n a,segmental,4,a
+istaḥrama,ind.prs.act.f.2.s,t a s t a ħ r i m iː n a,segmental,0,t
+istaḥrama,ind.prs.act.f.2.s,t a s t a ħ r i m iː n a,segmental,1,astaħrim
+istaḥrama,ind.prs.act.f.2.s,t a s t a ħ r i m iː n a,segmental,2,iː
+istaḥrama,ind.prs.act.f.2.s,t a s t a ħ r i m iː n a,segmental,3,n
+istaḥrama,ind.prs.act.f.2.s,t a s t a ħ r i m iː n a,segmental,4,a
+istaḥrama,ind.prs.act.f.3.d,t a s t a ħ r i m aː n i,segmental,0,t
+istaḥrama,ind.prs.act.f.3.d,t a s t a ħ r i m aː n i,segmental,1,astaħrim
+istaḥrama,ind.prs.act.f.3.d,t a s t a ħ r i m aː n i,segmental,2,aː
+istaḥrama,ind.prs.act.f.3.d,t a s t a ħ r i m aː n i,segmental,3,n
+istaḥrama,ind.prs.act.f.3.d,t a s t a ħ r i m aː n i,segmental,4,i
+istaḥrama,ind.prs.act.f.3.p,j a s t a ħ r i m n a,segmental,0,j
+istaḥrama,ind.prs.act.f.3.p,j a s t a ħ r i m n a,segmental,1,astaħrim
+istaḥrama,ind.prs.act.f.3.p,j a s t a ħ r i m n a,segmental,3,n
+istaḥrama,ind.prs.act.f.3.p,j a s t a ħ r i m n a,segmental,4,a
+istaḥrama,ind.prs.act.f.3.s,t a s t a ħ r i m u,segmental,0,t
+istaḥrama,ind.prs.act.f.3.s,t a s t a ħ r i m u,segmental,1,astaħrim
+istaḥrama,ind.prs.act.f.3.s,t a s t a ħ r i m u,segmental,4,u
+istaḥrama,ind.prs.act.m.2.p,t a s t a ħ r i m uː n a,segmental,0,t
+istaḥrama,ind.prs.act.m.2.p,t a s t a ħ r i m uː n a,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m.2.p,t a s t a ħ r i m uː n a,segmental,2,uː
+istaḥrama,ind.prs.act.m.2.p,t a s t a ħ r i m uː n a,segmental,3,n
+istaḥrama,ind.prs.act.m.2.p,t a s t a ħ r i m uː n a,segmental,4,a
+istaḥrama,ind.prs.act.m.2.s,t a s t a ħ r i m u,segmental,0,t
+istaḥrama,ind.prs.act.m.2.s,t a s t a ħ r i m u,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m.2.s,t a s t a ħ r i m u,segmental,4,u
+istaḥrama,ind.prs.act.m.3.d,j a s t a ħ r i m aː n i,segmental,0,j
+istaḥrama,ind.prs.act.m.3.d,j a s t a ħ r i m aː n i,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m.3.d,j a s t a ħ r i m aː n i,segmental,2,aː
+istaḥrama,ind.prs.act.m.3.d,j a s t a ħ r i m aː n i,segmental,3,n
+istaḥrama,ind.prs.act.m.3.d,j a s t a ħ r i m aː n i,segmental,4,i
+istaḥrama,ind.prs.act.m.3.p,j a s t a ħ r i m uː n a,segmental,0,j
+istaḥrama,ind.prs.act.m.3.p,j a s t a ħ r i m uː n a,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m.3.p,j a s t a ħ r i m uː n a,segmental,2,uː
+istaḥrama,ind.prs.act.m.3.p,j a s t a ħ r i m uː n a,segmental,3,n
+istaḥrama,ind.prs.act.m.3.p,j a s t a ħ r i m uː n a,segmental,4,a
+istaḥrama,ind.prs.act.m.3.s,j a s t a ħ r i m u,segmental,0,j
+istaḥrama,ind.prs.act.m.3.s,j a s t a ħ r i m u,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m.3.s,j a s t a ħ r i m u,segmental,4,u
+istaḥrama,ind.prs.act.m/f.1.p,n a s t a ħ r i m u,segmental,0,n
+istaḥrama,ind.prs.act.m/f.1.p,n a s t a ħ r i m u,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m/f.1.p,n a s t a ħ r i m u,segmental,4,u
+istaḥrama,ind.prs.act.m/f.1.s,a s t a ħ r i m u,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m/f.1.s,a s t a ħ r i m u,segmental,4,u
+istaḥrama,ind.prs.act.m/f.2.d,t a s t a ħ r i m aː n i,segmental,0,t
+istaḥrama,ind.prs.act.m/f.2.d,t a s t a ħ r i m aː n i,segmental,1,astaħrim
+istaḥrama,ind.prs.act.m/f.2.d,t a s t a ħ r i m aː n i,segmental,2,aː
+istaḥrama,ind.prs.act.m/f.2.d,t a s t a ħ r i m aː n i,segmental,3,n
+istaḥrama,ind.prs.act.m/f.2.d,t a s t a ħ r i m aː n i,segmental,4,i
+ittabaʿa,ind.prs.act.f.2.p,t a t t a b i ʕ n a,segmental,0,t
+ittabaʿa,ind.prs.act.f.2.p,t a t t a b i ʕ n a,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.f.2.p,t a t t a b i ʕ n a,segmental,3,n
+ittabaʿa,ind.prs.act.f.2.p,t a t t a b i ʕ n a,segmental,4,a
+ittabaʿa,ind.prs.act.f.2.s,t a t t a b i ʕ iː n a,segmental,0,t
+ittabaʿa,ind.prs.act.f.2.s,t a t t a b i ʕ iː n a,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.f.2.s,t a t t a b i ʕ iː n a,segmental,2,iː
+ittabaʿa,ind.prs.act.f.2.s,t a t t a b i ʕ iː n a,segmental,3,n
+ittabaʿa,ind.prs.act.f.2.s,t a t t a b i ʕ iː n a,segmental,4,a
+ittabaʿa,ind.prs.act.f.3.d,t a t t a b i ʕ aː n i,segmental,0,t
+ittabaʿa,ind.prs.act.f.3.d,t a t t a b i ʕ aː n i,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.f.3.d,t a t t a b i ʕ aː n i,segmental,2,aː
+ittabaʿa,ind.prs.act.f.3.d,t a t t a b i ʕ aː n i,segmental,3,n
+ittabaʿa,ind.prs.act.f.3.d,t a t t a b i ʕ aː n i,segmental,4,i
+ittabaʿa,ind.prs.act.f.3.p,j a t t a b i ʕ n a,segmental,0,j
+ittabaʿa,ind.prs.act.f.3.p,j a t t a b i ʕ n a,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.f.3.p,j a t t a b i ʕ n a,segmental,3,n
+ittabaʿa,ind.prs.act.f.3.p,j a t t a b i ʕ n a,segmental,4,a
+ittabaʿa,ind.prs.act.f.3.s,t a t t a b i ʕ u,segmental,0,t
+ittabaʿa,ind.prs.act.f.3.s,t a t t a b i ʕ u,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.f.3.s,t a t t a b i ʕ u,segmental,4,u
+ittabaʿa,ind.prs.act.m.2.p,t a t t a b i ʕ uː n a,segmental,0,t
+ittabaʿa,ind.prs.act.m.2.p,t a t t a b i ʕ uː n a,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m.2.p,t a t t a b i ʕ uː n a,segmental,2,uː
+ittabaʿa,ind.prs.act.m.2.p,t a t t a b i ʕ uː n a,segmental,3,n
+ittabaʿa,ind.prs.act.m.2.p,t a t t a b i ʕ uː n a,segmental,4,a
+ittabaʿa,ind.prs.act.m.2.s,t a t t a b i ʕ u,segmental,0,t
+ittabaʿa,ind.prs.act.m.2.s,t a t t a b i ʕ u,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m.2.s,t a t t a b i ʕ u,segmental,4,u
+ittabaʿa,ind.prs.act.m.3.d,j a t t a b i ʕ aː n i,segmental,0,j
+ittabaʿa,ind.prs.act.m.3.d,j a t t a b i ʕ aː n i,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m.3.d,j a t t a b i ʕ aː n i,segmental,2,aː
+ittabaʿa,ind.prs.act.m.3.d,j a t t a b i ʕ aː n i,segmental,3,n
+ittabaʿa,ind.prs.act.m.3.d,j a t t a b i ʕ aː n i,segmental,4,i
+ittabaʿa,ind.prs.act.m.3.p,j a t t a b i ʕ uː n a,segmental,0,j
+ittabaʿa,ind.prs.act.m.3.p,j a t t a b i ʕ uː n a,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m.3.p,j a t t a b i ʕ uː n a,segmental,2,uː
+ittabaʿa,ind.prs.act.m.3.p,j a t t a b i ʕ uː n a,segmental,3,n
+ittabaʿa,ind.prs.act.m.3.p,j a t t a b i ʕ uː n a,segmental,4,a
+ittabaʿa,ind.prs.act.m.3.s,j a t t a b i ʕ u,segmental,0,j
+ittabaʿa,ind.prs.act.m.3.s,j a t t a b i ʕ u,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m.3.s,j a t t a b i ʕ u,segmental,4,u
+ittabaʿa,ind.prs.act.m/f.1.p,n a t t a b i ʕ u,segmental,0,n
+ittabaʿa,ind.prs.act.m/f.1.p,n a t t a b i ʕ u,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m/f.1.p,n a t t a b i ʕ u,segmental,4,u
+ittabaʿa,ind.prs.act.m/f.1.s,ʔ a t t a b i ʕ u,segmental,0,ʔ
+ittabaʿa,ind.prs.act.m/f.1.s,ʔ a t t a b i ʕ u,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m/f.1.s,ʔ a t t a b i ʕ u,segmental,4,u
+ittabaʿa,ind.prs.act.m/f.2.d,t a t t a b i ʕ aː n i,segmental,0,t
+ittabaʿa,ind.prs.act.m/f.2.d,t a t t a b i ʕ aː n i,segmental,1,attabiʕ
+ittabaʿa,ind.prs.act.m/f.2.d,t a t t a b i ʕ aː n i,segmental,2,aː
+ittabaʿa,ind.prs.act.m/f.2.d,t a t t a b i ʕ aː n i,segmental,3,n
+ittabaʿa,ind.prs.act.m/f.2.d,t a t t a b i ʕ aː n i,segmental,4,i
+iḥtamala,ind.prs.act.f.2.p,t a ħ t a m i l n a,segmental,0,t
+iḥtamala,ind.prs.act.f.2.p,t a ħ t a m i l n a,segmental,1,aħtamil
+iḥtamala,ind.prs.act.f.2.p,t a ħ t a m i l n a,segmental,3,n
+iḥtamala,ind.prs.act.f.2.p,t a ħ t a m i l n a,segmental,4,a
+iḥtamala,ind.prs.act.f.2.s,t a ħ t a m i l iː n a,segmental,0,t
+iḥtamala,ind.prs.act.f.2.s,t a ħ t a m i l iː n a,segmental,1,aħtamil
+iḥtamala,ind.prs.act.f.2.s,t a ħ t a m i l iː n a,segmental,2,iː
+iḥtamala,ind.prs.act.f.2.s,t a ħ t a m i l iː n a,segmental,3,n
+iḥtamala,ind.prs.act.f.2.s,t a ħ t a m i l iː n a,segmental,4,a
+iḥtamala,ind.prs.act.f.3.d,t a ħ t a m i l aː n i,segmental,0,t
+iḥtamala,ind.prs.act.f.3.d,t a ħ t a m i l aː n i,segmental,1,aħtamil
+iḥtamala,ind.prs.act.f.3.d,t a ħ t a m i l aː n i,segmental,2,aː
+iḥtamala,ind.prs.act.f.3.d,t a ħ t a m i l aː n i,segmental,3,n
+iḥtamala,ind.prs.act.f.3.d,t a ħ t a m i l aː n i,segmental,4,i
+iḥtamala,ind.prs.act.f.3.p,j a ħ t a m i l n a,segmental,0,j
+iḥtamala,ind.prs.act.f.3.p,j a ħ t a m i l n a,segmental,1,aħtamil
+iḥtamala,ind.prs.act.f.3.p,j a ħ t a m i l n a,segmental,3,n
+iḥtamala,ind.prs.act.f.3.p,j a ħ t a m i l n a,segmental,4,a
+iḥtamala,ind.prs.act.f.3.s,t a ħ t a m i l u,segmental,0,t
+iḥtamala,ind.prs.act.f.3.s,t a ħ t a m i l u,segmental,1,aħtamil
+iḥtamala,ind.prs.act.f.3.s,t a ħ t a m i l u,segmental,4,u
+iḥtamala,ind.prs.act.m.2.p,t a ħ t a m i l uː n a,segmental,0,t
+iḥtamala,ind.prs.act.m.2.p,t a ħ t a m i l uː n a,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m.2.p,t a ħ t a m i l uː n a,segmental,2,uː
+iḥtamala,ind.prs.act.m.2.p,t a ħ t a m i l uː n a,segmental,3,n
+iḥtamala,ind.prs.act.m.2.p,t a ħ t a m i l uː n a,segmental,4,a
+iḥtamala,ind.prs.act.m.2.s,t a ħ t a m i l u,segmental,0,t
+iḥtamala,ind.prs.act.m.2.s,t a ħ t a m i l u,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m.2.s,t a ħ t a m i l u,segmental,4,u
+iḥtamala,ind.prs.act.m.3.d,j a ħ t a m i l aː n i,segmental,0,j
+iḥtamala,ind.prs.act.m.3.d,j a ħ t a m i l aː n i,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m.3.d,j a ħ t a m i l aː n i,segmental,2,aː
+iḥtamala,ind.prs.act.m.3.d,j a ħ t a m i l aː n i,segmental,3,n
+iḥtamala,ind.prs.act.m.3.d,j a ħ t a m i l aː n i,segmental,4,i
+iḥtamala,ind.prs.act.m.3.p,j a ħ t a m i l uː n a,segmental,0,j
+iḥtamala,ind.prs.act.m.3.p,j a ħ t a m i l uː n a,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m.3.p,j a ħ t a m i l uː n a,segmental,2,uː
+iḥtamala,ind.prs.act.m.3.p,j a ħ t a m i l uː n a,segmental,3,n
+iḥtamala,ind.prs.act.m.3.p,j a ħ t a m i l uː n a,segmental,4,a
+iḥtamala,ind.prs.act.m.3.s,j a ħ t a m i l u,segmental,0,j
+iḥtamala,ind.prs.act.m.3.s,j a ħ t a m i l u,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m.3.s,j a ħ t a m i l u,segmental,4,u
+iḥtamala,ind.prs.act.m/f.1.p,n a ħ t a m i l u,segmental,0,n
+iḥtamala,ind.prs.act.m/f.1.p,n a ħ t a m i l u,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m/f.1.p,n a ħ t a m i l u,segmental,4,u
+iḥtamala,ind.prs.act.m/f.1.s,a ħ t a m i l u,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m/f.1.s,a ħ t a m i l u,segmental,4,u
+iḥtamala,ind.prs.act.m/f.2.d,t a ħ t a m i l aː n i,segmental,0,t
+iḥtamala,ind.prs.act.m/f.2.d,t a ħ t a m i l aː n i,segmental,1,aħtamil
+iḥtamala,ind.prs.act.m/f.2.d,t a ħ t a m i l aː n i,segmental,2,aː
+iḥtamala,ind.prs.act.m/f.2.d,t a ħ t a m i l aː n i,segmental,3,n
+iḥtamala,ind.prs.act.m/f.2.d,t a ħ t a m i l aː n i,segmental,4,i
+iḵšawšana,ind.prs.act.f.2.p,t a x ʃ a w ʃ i n n a,segmental,0,t
+iḵšawšana,ind.prs.act.f.2.p,t a x ʃ a w ʃ i n n a,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.f.2.p,t a x ʃ a w ʃ i n n a,segmental,3,n
+iḵšawšana,ind.prs.act.f.2.p,t a x ʃ a w ʃ i n n a,segmental,4,a
+iḵšawšana,ind.prs.act.f.2.s,t a x ʃ a w ʃ i n iː n a,segmental,0,t
+iḵšawšana,ind.prs.act.f.2.s,t a x ʃ a w ʃ i n iː n a,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.f.2.s,t a x ʃ a w ʃ i n iː n a,segmental,2,iː
+iḵšawšana,ind.prs.act.f.2.s,t a x ʃ a w ʃ i n iː n a,segmental,3,n
+iḵšawšana,ind.prs.act.f.2.s,t a x ʃ a w ʃ i n iː n a,segmental,4,a
+iḵšawšana,ind.prs.act.f.3.d,t a x ʃ a w ʃ i n aː n i,segmental,0,t
+iḵšawšana,ind.prs.act.f.3.d,t a x ʃ a w ʃ i n aː n i,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.f.3.d,t a x ʃ a w ʃ i n aː n i,segmental,2,aː
+iḵšawšana,ind.prs.act.f.3.d,t a x ʃ a w ʃ i n aː n i,segmental,3,n
+iḵšawšana,ind.prs.act.f.3.d,t a x ʃ a w ʃ i n aː n i,segmental,4,i
+iḵšawšana,ind.prs.act.f.3.p,j a x ʃ a w ʃ i n n a,segmental,0,j
+iḵšawšana,ind.prs.act.f.3.p,j a x ʃ a w ʃ i n n a,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.f.3.p,j a x ʃ a w ʃ i n n a,segmental,3,n
+iḵšawšana,ind.prs.act.f.3.p,j a x ʃ a w ʃ i n n a,segmental,4,a
+iḵšawšana,ind.prs.act.f.3.s,t a x ʃ a w ʃ i n u,segmental,0,t
+iḵšawšana,ind.prs.act.f.3.s,t a x ʃ a w ʃ i n u,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.f.3.s,t a x ʃ a w ʃ i n u,segmental,4,u
+iḵšawšana,ind.prs.act.m.2.p,t a x ʃ a w ʃ i n uː n a,segmental,0,t
+iḵšawšana,ind.prs.act.m.2.p,t a x ʃ a w ʃ i n uː n a,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m.2.p,t a x ʃ a w ʃ i n uː n a,segmental,2,uː
+iḵšawšana,ind.prs.act.m.2.p,t a x ʃ a w ʃ i n uː n a,segmental,3,n
+iḵšawšana,ind.prs.act.m.2.p,t a x ʃ a w ʃ i n uː n a,segmental,4,a
+iḵšawšana,ind.prs.act.m.2.s,t a x ʃ a w ʃ i n u,segmental,0,t
+iḵšawšana,ind.prs.act.m.2.s,t a x ʃ a w ʃ i n u,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m.2.s,t a x ʃ a w ʃ i n u,segmental,4,u
+iḵšawšana,ind.prs.act.m.3.d,j a x ʃ a w ʃ i n aː n i,segmental,0,j
+iḵšawšana,ind.prs.act.m.3.d,j a x ʃ a w ʃ i n aː n i,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m.3.d,j a x ʃ a w ʃ i n aː n i,segmental,2,aː
+iḵšawšana,ind.prs.act.m.3.d,j a x ʃ a w ʃ i n aː n i,segmental,3,n
+iḵšawšana,ind.prs.act.m.3.d,j a x ʃ a w ʃ i n aː n i,segmental,4,i
+iḵšawšana,ind.prs.act.m.3.p,j a x ʃ a w ʃ i n uː n a,segmental,0,j
+iḵšawšana,ind.prs.act.m.3.p,j a x ʃ a w ʃ i n uː n a,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m.3.p,j a x ʃ a w ʃ i n uː n a,segmental,2,uː
+iḵšawšana,ind.prs.act.m.3.p,j a x ʃ a w ʃ i n uː n a,segmental,3,n
+iḵšawšana,ind.prs.act.m.3.p,j a x ʃ a w ʃ i n uː n a,segmental,4,a
+iḵšawšana,ind.prs.act.m.3.s,j a x ʃ a w ʃ i n u,segmental,0,j
+iḵšawšana,ind.prs.act.m.3.s,j a x ʃ a w ʃ i n u,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m.3.s,j a x ʃ a w ʃ i n u,segmental,4,u
+iḵšawšana,ind.prs.act.m/f.1.p,n a x ʃ a w ʃ i n u,segmental,0,n
+iḵšawšana,ind.prs.act.m/f.1.p,n a x ʃ a w ʃ i n u,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m/f.1.p,n a x ʃ a w ʃ i n u,segmental,4,u
+iḵšawšana,ind.prs.act.m/f.1.s,a x ʃ a w ʃ i n u,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m/f.1.s,a x ʃ a w ʃ i n u,segmental,4,u
+iḵšawšana,ind.prs.act.m/f.2.d,t a x ʃ a w ʃ i n aː n i,segmental,0,t
+iḵšawšana,ind.prs.act.m/f.2.d,t a x ʃ a w ʃ i n aː n i,segmental,1,axʃawʃin
+iḵšawšana,ind.prs.act.m/f.2.d,t a x ʃ a w ʃ i n aː n i,segmental,2,aː
+iḵšawšana,ind.prs.act.m/f.2.d,t a x ʃ a w ʃ i n aː n i,segmental,3,n
+iḵšawšana,ind.prs.act.m/f.2.d,t a x ʃ a w ʃ i n aː n i,segmental,4,i
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,0,t
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,2,i
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,3,l
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,5,n
+iḵḍalla,ind.prs.act.f.2.p,t a x dˤ a l i l n a,segmental,6,a
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,0,t
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,3,l
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,4,iː
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,5,n
+iḵḍalla,ind.prs.act.f.2.s,t a x dˤ a l l iː n a,segmental,6,a
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,0,t
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,3,l
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,4,aː
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,5,n
+iḵḍalla,ind.prs.act.f.3.d,t a x dˤ a l l aː n i,segmental,6,i
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,0,j
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,2,i
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,3,l
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,5,n
+iḵḍalla,ind.prs.act.f.3.p,j a x dˤ a l i l n a,segmental,6,a
+iḵḍalla,ind.prs.act.f.3.s,t a x dˤ a l l u,segmental,0,t
+iḵḍalla,ind.prs.act.f.3.s,t a x dˤ a l l u,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.f.3.s,t a x dˤ a l l u,segmental,3,l
+iḵḍalla,ind.prs.act.f.3.s,t a x dˤ a l l u,segmental,6,u
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,0,t
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,3,l
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,4,uː
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,5,n
+iḵḍalla,ind.prs.act.m.2.p,t a x dˤ a l l uː n a,segmental,6,a
+iḵḍalla,ind.prs.act.m.2.s,t a x dˤ a l l u,segmental,0,t
+iḵḍalla,ind.prs.act.m.2.s,t a x dˤ a l l u,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m.2.s,t a x dˤ a l l u,segmental,3,l
+iḵḍalla,ind.prs.act.m.2.s,t a x dˤ a l l u,segmental,6,u
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,0,j
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,3,l
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,4,aː
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,5,n
+iḵḍalla,ind.prs.act.m.3.d,j a x dˤ a l l aː n i,segmental,6,i
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,0,j
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,3,l
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,4,uː
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,5,n
+iḵḍalla,ind.prs.act.m.3.p,j a x dˤ a l l uː n a,segmental,6,a
+iḵḍalla,ind.prs.act.m.3.s,j a x dˤ a l l u,segmental,0,j
+iḵḍalla,ind.prs.act.m.3.s,j a x dˤ a l l u,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m.3.s,j a x dˤ a l l u,segmental,3,l
+iḵḍalla,ind.prs.act.m.3.s,j a x dˤ a l l u,segmental,6,u
+iḵḍalla,ind.prs.act.m/f.1.p,n a x dˤ a l l u,segmental,0,n
+iḵḍalla,ind.prs.act.m/f.1.p,n a x dˤ a l l u,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m/f.1.p,n a x dˤ a l l u,segmental,3,l
+iḵḍalla,ind.prs.act.m/f.1.p,n a x dˤ a l l u,segmental,6,u
+iḵḍalla,ind.prs.act.m/f.1.s,a x dˤ a l l u,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m/f.1.s,a x dˤ a l l u,segmental,3,l
+iḵḍalla,ind.prs.act.m/f.1.s,a x dˤ a l l u,segmental,6,u
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,0,t
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,1,axdˤal
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,3,l
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,4,aː
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,5,n
+iḵḍalla,ind.prs.act.m/f.2.d,t a x dˤ a l l aː n i,segmental,6,i
+jāmala,ind.prs.act.f.2.p,t u ʤ aː m i l n a,segmental,0,t
+jāmala,ind.prs.act.f.2.p,t u ʤ aː m i l n a,segmental,1,uʤaːmil
+jāmala,ind.prs.act.f.2.p,t u ʤ aː m i l n a,segmental,3,n
+jāmala,ind.prs.act.f.2.p,t u ʤ aː m i l n a,segmental,4,a
+jāmala,ind.prs.act.f.2.s,t u ʤ aː m i l iː n a,segmental,0,t
+jāmala,ind.prs.act.f.2.s,t u ʤ aː m i l iː n a,segmental,1,uʤaːmil
+jāmala,ind.prs.act.f.2.s,t u ʤ aː m i l iː n a,segmental,2,iː
+jāmala,ind.prs.act.f.2.s,t u ʤ aː m i l iː n a,segmental,3,n
+jāmala,ind.prs.act.f.2.s,t u ʤ aː m i l iː n a,segmental,4,a
+jāmala,ind.prs.act.f.3.d,t u ʤ aː m i l aː n i,segmental,0,t
+jāmala,ind.prs.act.f.3.d,t u ʤ aː m i l aː n i,segmental,1,uʤaːmil
+jāmala,ind.prs.act.f.3.d,t u ʤ aː m i l aː n i,segmental,2,aː
+jāmala,ind.prs.act.f.3.d,t u ʤ aː m i l aː n i,segmental,3,n
+jāmala,ind.prs.act.f.3.d,t u ʤ aː m i l aː n i,segmental,4,i
+jāmala,ind.prs.act.f.3.p,j u ʤ aː m i l n a,segmental,0,j
+jāmala,ind.prs.act.f.3.p,j u ʤ aː m i l n a,segmental,1,uʤaːmil
+jāmala,ind.prs.act.f.3.p,j u ʤ aː m i l n a,segmental,3,n
+jāmala,ind.prs.act.f.3.p,j u ʤ aː m i l n a,segmental,4,a
+jāmala,ind.prs.act.f.3.s,t u ʤ aː m i l u,segmental,0,t
+jāmala,ind.prs.act.f.3.s,t u ʤ aː m i l u,segmental,1,uʤaːmil
+jāmala,ind.prs.act.f.3.s,t u ʤ aː m i l u,segmental,4,u
+jāmala,ind.prs.act.m.2.p,t u ʤ aː m i l uː n a,segmental,0,t
+jāmala,ind.prs.act.m.2.p,t u ʤ aː m i l uː n a,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m.2.p,t u ʤ aː m i l uː n a,segmental,2,uː
+jāmala,ind.prs.act.m.2.p,t u ʤ aː m i l uː n a,segmental,3,n
+jāmala,ind.prs.act.m.2.p,t u ʤ aː m i l uː n a,segmental,4,a
+jāmala,ind.prs.act.m.2.s,t u ʤ aː m i l u,segmental,0,t
+jāmala,ind.prs.act.m.2.s,t u ʤ aː m i l u,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m.2.s,t u ʤ aː m i l u,segmental,4,u
+jāmala,ind.prs.act.m.3.d,j u ʤ aː m i l aː n i,segmental,0,j
+jāmala,ind.prs.act.m.3.d,j u ʤ aː m i l aː n i,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m.3.d,j u ʤ aː m i l aː n i,segmental,2,aː
+jāmala,ind.prs.act.m.3.d,j u ʤ aː m i l aː n i,segmental,3,n
+jāmala,ind.prs.act.m.3.d,j u ʤ aː m i l aː n i,segmental,4,i
+jāmala,ind.prs.act.m.3.p,j u ʤ aː m i l uː n a,segmental,0,j
+jāmala,ind.prs.act.m.3.p,j u ʤ aː m i l uː n a,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m.3.p,j u ʤ aː m i l uː n a,segmental,2,uː
+jāmala,ind.prs.act.m.3.p,j u ʤ aː m i l uː n a,segmental,3,n
+jāmala,ind.prs.act.m.3.p,j u ʤ aː m i l uː n a,segmental,4,a
+jāmala,ind.prs.act.m.3.s,j u ʤ aː m i l u,segmental,0,j
+jāmala,ind.prs.act.m.3.s,j u ʤ aː m i l u,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m.3.s,j u ʤ aː m i l u,segmental,4,u
+jāmala,ind.prs.act.m/f.1.p,n u ʤ aː m i l u,segmental,0,n
+jāmala,ind.prs.act.m/f.1.p,n u ʤ aː m i l u,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m/f.1.p,n u ʤ aː m i l u,segmental,4,u
+jāmala,ind.prs.act.m/f.1.s,u ʤ aː m i l u,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m/f.1.s,u ʤ aː m i l u,segmental,4,u
+jāmala,ind.prs.act.m/f.2.d,t u ʤ aː m i l aː n i,segmental,0,t
+jāmala,ind.prs.act.m/f.2.d,t u ʤ aː m i l aː n i,segmental,1,uʤaːmil
+jāmala,ind.prs.act.m/f.2.d,t u ʤ aː m i l aː n i,segmental,2,aː
+jāmala,ind.prs.act.m/f.2.d,t u ʤ aː m i l aː n i,segmental,3,n
+jāmala,ind.prs.act.m/f.2.d,t u ʤ aː m i l aː n i,segmental,4,i
+laʿiqa,ind.prs.act.f.2.p,t a l ʕ a q n a,segmental,0,t
+laʿiqa,ind.prs.act.f.2.p,t a l ʕ a q n a,segmental,1,alʕaq
+laʿiqa,ind.prs.act.f.2.p,t a l ʕ a q n a,segmental,3,n
+laʿiqa,ind.prs.act.f.2.p,t a l ʕ a q n a,segmental,4,a
+laʿiqa,ind.prs.act.f.2.s,t a l ʕ a q iː n a,segmental,0,t
+laʿiqa,ind.prs.act.f.2.s,t a l ʕ a q iː n a,segmental,1,alʕaq
+laʿiqa,ind.prs.act.f.2.s,t a l ʕ a q iː n a,segmental,2,iː
+laʿiqa,ind.prs.act.f.2.s,t a l ʕ a q iː n a,segmental,3,n
+laʿiqa,ind.prs.act.f.2.s,t a l ʕ a q iː n a,segmental,4,a
+laʿiqa,ind.prs.act.f.3.d,t a l ʕ a q aː n i,segmental,0,t
+laʿiqa,ind.prs.act.f.3.d,t a l ʕ a q aː n i,segmental,1,alʕaq
+laʿiqa,ind.prs.act.f.3.d,t a l ʕ a q aː n i,segmental,2,aː
+laʿiqa,ind.prs.act.f.3.d,t a l ʕ a q aː n i,segmental,3,n
+laʿiqa,ind.prs.act.f.3.d,t a l ʕ a q aː n i,segmental,4,i
+laʿiqa,ind.prs.act.f.3.p,j a l ʕ a q n a,segmental,0,j
+laʿiqa,ind.prs.act.f.3.p,j a l ʕ a q n a,segmental,1,alʕaq
+laʿiqa,ind.prs.act.f.3.p,j a l ʕ a q n a,segmental,3,n
+laʿiqa,ind.prs.act.f.3.p,j a l ʕ a q n a,segmental,4,a
+laʿiqa,ind.prs.act.f.3.s,t a l ʕ a q u,segmental,0,t
+laʿiqa,ind.prs.act.f.3.s,t a l ʕ a q u,segmental,1,alʕaq
+laʿiqa,ind.prs.act.f.3.s,t a l ʕ a q u,segmental,4,u
+laʿiqa,ind.prs.act.m.2.p,t a l ʕ a q uː n a,segmental,0,t
+laʿiqa,ind.prs.act.m.2.p,t a l ʕ a q uː n a,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m.2.p,t a l ʕ a q uː n a,segmental,2,uː
+laʿiqa,ind.prs.act.m.2.p,t a l ʕ a q uː n a,segmental,3,n
+laʿiqa,ind.prs.act.m.2.p,t a l ʕ a q uː n a,segmental,4,a
+laʿiqa,ind.prs.act.m.2.s,t a l ʕ a q u,segmental,0,t
+laʿiqa,ind.prs.act.m.2.s,t a l ʕ a q u,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m.2.s,t a l ʕ a q u,segmental,4,u
+laʿiqa,ind.prs.act.m.3.d,j a l ʕ a q aː n i,segmental,0,j
+laʿiqa,ind.prs.act.m.3.d,j a l ʕ a q aː n i,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m.3.d,j a l ʕ a q aː n i,segmental,2,aː
+laʿiqa,ind.prs.act.m.3.d,j a l ʕ a q aː n i,segmental,3,n
+laʿiqa,ind.prs.act.m.3.d,j a l ʕ a q aː n i,segmental,4,i
+laʿiqa,ind.prs.act.m.3.p,j a l ʕ a q uː n a,segmental,0,j
+laʿiqa,ind.prs.act.m.3.p,j a l ʕ a q uː n a,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m.3.p,j a l ʕ a q uː n a,segmental,2,uː
+laʿiqa,ind.prs.act.m.3.p,j a l ʕ a q uː n a,segmental,3,n
+laʿiqa,ind.prs.act.m.3.p,j a l ʕ a q uː n a,segmental,4,a
+laʿiqa,ind.prs.act.m.3.s,j a l ʕ a q u,segmental,0,j
+laʿiqa,ind.prs.act.m.3.s,j a l ʕ a q u,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m.3.s,j a l ʕ a q u,segmental,4,u
+laʿiqa,ind.prs.act.m/f.1.p,n a l ʕ a q u,segmental,0,n
+laʿiqa,ind.prs.act.m/f.1.p,n a l ʕ a q u,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m/f.1.p,n a l ʕ a q u,segmental,4,u
+laʿiqa,ind.prs.act.m/f.1.s,a l ʕ a q u,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m/f.1.s,a l ʕ a q u,segmental,4,u
+laʿiqa,ind.prs.act.m/f.2.d,t a l ʕ a q aː n i,segmental,0,t
+laʿiqa,ind.prs.act.m/f.2.d,t a l ʕ a q aː n i,segmental,1,alʕaq
+laʿiqa,ind.prs.act.m/f.2.d,t a l ʕ a q aː n i,segmental,2,aː
+laʿiqa,ind.prs.act.m/f.2.d,t a l ʕ a q aː n i,segmental,3,n
+laʿiqa,ind.prs.act.m/f.2.d,t a l ʕ a q aː n i,segmental,4,i
+nasaḵa,ind.prs.act.f.2.p,t a n s a x n a,segmental,0,t
+nasaḵa,ind.prs.act.f.2.p,t a n s a x n a,segmental,1,ansax
+nasaḵa,ind.prs.act.f.2.p,t a n s a x n a,segmental,3,n
+nasaḵa,ind.prs.act.f.2.p,t a n s a x n a,segmental,4,a
+nasaḵa,ind.prs.act.f.2.s,t a n s a x iː n a,segmental,0,t
+nasaḵa,ind.prs.act.f.2.s,t a n s a x iː n a,segmental,1,ansax
+nasaḵa,ind.prs.act.f.2.s,t a n s a x iː n a,segmental,2,iː
+nasaḵa,ind.prs.act.f.2.s,t a n s a x iː n a,segmental,3,n
+nasaḵa,ind.prs.act.f.2.s,t a n s a x iː n a,segmental,4,a
+nasaḵa,ind.prs.act.f.3.d,t a n s a x aː n i,segmental,0,t
+nasaḵa,ind.prs.act.f.3.d,t a n s a x aː n i,segmental,1,ansax
+nasaḵa,ind.prs.act.f.3.d,t a n s a x aː n i,segmental,2,aː
+nasaḵa,ind.prs.act.f.3.d,t a n s a x aː n i,segmental,3,n
+nasaḵa,ind.prs.act.f.3.d,t a n s a x aː n i,segmental,4,i
+nasaḵa,ind.prs.act.f.3.p,j a n s a x n a,segmental,0,j
+nasaḵa,ind.prs.act.f.3.p,j a n s a x n a,segmental,1,ansax
+nasaḵa,ind.prs.act.f.3.p,j a n s a x n a,segmental,3,n
+nasaḵa,ind.prs.act.f.3.p,j a n s a x n a,segmental,4,a
+nasaḵa,ind.prs.act.f.3.s,t a n s a x u,segmental,0,t
+nasaḵa,ind.prs.act.f.3.s,t a n s a x u,segmental,1,ansax
+nasaḵa,ind.prs.act.f.3.s,t a n s a x u,segmental,4,u
+nasaḵa,ind.prs.act.m.2.p,t a n s a x uː n a,segmental,0,t
+nasaḵa,ind.prs.act.m.2.p,t a n s a x uː n a,segmental,1,ansax
+nasaḵa,ind.prs.act.m.2.p,t a n s a x uː n a,segmental,2,uː
+nasaḵa,ind.prs.act.m.2.p,t a n s a x uː n a,segmental,3,n
+nasaḵa,ind.prs.act.m.2.p,t a n s a x uː n a,segmental,4,a
+nasaḵa,ind.prs.act.m.2.s,t a n s a x u,segmental,0,t
+nasaḵa,ind.prs.act.m.2.s,t a n s a x u,segmental,1,ansax
+nasaḵa,ind.prs.act.m.2.s,t a n s a x u,segmental,4,u
+nasaḵa,ind.prs.act.m.3.d,j a n s a x aː n i,segmental,0,j
+nasaḵa,ind.prs.act.m.3.d,j a n s a x aː n i,segmental,1,ansax
+nasaḵa,ind.prs.act.m.3.d,j a n s a x aː n i,segmental,2,aː
+nasaḵa,ind.prs.act.m.3.d,j a n s a x aː n i,segmental,3,n
+nasaḵa,ind.prs.act.m.3.d,j a n s a x aː n i,segmental,4,i
+nasaḵa,ind.prs.act.m.3.p,j a n s a x uː n a,segmental,0,j
+nasaḵa,ind.prs.act.m.3.p,j a n s a x uː n a,segmental,1,ansax
+nasaḵa,ind.prs.act.m.3.p,j a n s a x uː n a,segmental,2,uː
+nasaḵa,ind.prs.act.m.3.p,j a n s a x uː n a,segmental,3,n
+nasaḵa,ind.prs.act.m.3.p,j a n s a x uː n a,segmental,4,a
+nasaḵa,ind.prs.act.m.3.s,j a n s a x u,segmental,0,j
+nasaḵa,ind.prs.act.m.3.s,j a n s a x u,segmental,1,ansax
+nasaḵa,ind.prs.act.m.3.s,j a n s a x u,segmental,4,u
+nasaḵa,ind.prs.act.m/f.1.p,n a n s a x u,segmental,0,n
+nasaḵa,ind.prs.act.m/f.1.p,n a n s a x u,segmental,1,ansax
+nasaḵa,ind.prs.act.m/f.1.p,n a n s a x u,segmental,4,u
+nasaḵa,ind.prs.act.m/f.1.s,a n s a x u,segmental,1,ansax
+nasaḵa,ind.prs.act.m/f.1.s,a n s a x u,segmental,4,u
+nasaḵa,ind.prs.act.m/f.2.d,t a n s a x aː n i,segmental,0,t
+nasaḵa,ind.prs.act.m/f.2.d,t a n s a x aː n i,segmental,1,ansax
+nasaḵa,ind.prs.act.m/f.2.d,t a n s a x aː n i,segmental,2,aː
+nasaḵa,ind.prs.act.m/f.2.d,t a n s a x aː n i,segmental,3,n
+nasaḵa,ind.prs.act.m/f.2.d,t a n s a x aː n i,segmental,4,i
+saʾala,ind.prs.act.f.2.p,t a s ʔ a l n a,segmental,0,t
+saʾala,ind.prs.act.f.2.p,t a s ʔ a l n a,segmental,1,asʔal
+saʾala,ind.prs.act.f.2.p,t a s ʔ a l n a,segmental,3,n
+saʾala,ind.prs.act.f.2.p,t a s ʔ a l n a,segmental,4,a
+saʾala,ind.prs.act.f.2.s,t a s ʔ a l iː n a,segmental,0,t
+saʾala,ind.prs.act.f.2.s,t a s ʔ a l iː n a,segmental,1,asʔal
+saʾala,ind.prs.act.f.2.s,t a s ʔ a l iː n a,segmental,2,iː
+saʾala,ind.prs.act.f.2.s,t a s ʔ a l iː n a,segmental,3,n
+saʾala,ind.prs.act.f.2.s,t a s ʔ a l iː n a,segmental,4,a
+saʾala,ind.prs.act.f.3.d,t a s ʔ a l aː n i,segmental,0,t
+saʾala,ind.prs.act.f.3.d,t a s ʔ a l aː n i,segmental,1,asʔal
+saʾala,ind.prs.act.f.3.d,t a s ʔ a l aː n i,segmental,2,aː
+saʾala,ind.prs.act.f.3.d,t a s ʔ a l aː n i,segmental,3,n
+saʾala,ind.prs.act.f.3.d,t a s ʔ a l aː n i,segmental,4,i
+saʾala,ind.prs.act.f.3.p,j a s ʔ a l n a,segmental,0,j
+saʾala,ind.prs.act.f.3.p,j a s ʔ a l n a,segmental,1,asʔal
+saʾala,ind.prs.act.f.3.p,j a s ʔ a l n a,segmental,3,n
+saʾala,ind.prs.act.f.3.p,j a s ʔ a l n a,segmental,4,a
+saʾala,ind.prs.act.f.3.s,t a s ʔ a l u,segmental,0,t
+saʾala,ind.prs.act.f.3.s,t a s ʔ a l u,segmental,1,asʔal
+saʾala,ind.prs.act.f.3.s,t a s ʔ a l u,segmental,4,u
+saʾala,ind.prs.act.m.2.p,t a s ʔ a l uː n a,segmental,0,t
+saʾala,ind.prs.act.m.2.p,t a s ʔ a l uː n a,segmental,1,asʔal
+saʾala,ind.prs.act.m.2.p,t a s ʔ a l uː n a,segmental,2,uː
+saʾala,ind.prs.act.m.2.p,t a s ʔ a l uː n a,segmental,3,n
+saʾala,ind.prs.act.m.2.p,t a s ʔ a l uː n a,segmental,4,a
+saʾala,ind.prs.act.m.2.s,t a s ʔ a l u,segmental,0,t
+saʾala,ind.prs.act.m.2.s,t a s ʔ a l u,segmental,1,asʔal
+saʾala,ind.prs.act.m.2.s,t a s ʔ a l u,segmental,4,u
+saʾala,ind.prs.act.m.3.d,j a s ʔ a l aː n i,segmental,0,j
+saʾala,ind.prs.act.m.3.d,j a s ʔ a l aː n i,segmental,1,asʔal
+saʾala,ind.prs.act.m.3.d,j a s ʔ a l aː n i,segmental,2,aː
+saʾala,ind.prs.act.m.3.d,j a s ʔ a l aː n i,segmental,3,n
+saʾala,ind.prs.act.m.3.d,j a s ʔ a l aː n i,segmental,4,i
+saʾala,ind.prs.act.m.3.p,j a s ʔ a l uː n a,segmental,0,j
+saʾala,ind.prs.act.m.3.p,j a s ʔ a l uː n a,segmental,1,asʔal
+saʾala,ind.prs.act.m.3.p,j a s ʔ a l uː n a,segmental,2,uː
+saʾala,ind.prs.act.m.3.p,j a s ʔ a l uː n a,segmental,3,n
+saʾala,ind.prs.act.m.3.p,j a s ʔ a l uː n a,segmental,4,a
+saʾala,ind.prs.act.m.3.s,j a s ʔ a l u,segmental,0,j
+saʾala,ind.prs.act.m.3.s,j a s ʔ a l u,segmental,1,asʔal
+saʾala,ind.prs.act.m.3.s,j a s ʔ a l u,segmental,4,u
+saʾala,ind.prs.act.m/f.1.p,n a s ʔ a l u,segmental,0,n
+saʾala,ind.prs.act.m/f.1.p,n a s ʔ a l u,segmental,1,asʔal
+saʾala,ind.prs.act.m/f.1.p,n a s ʔ a l u,segmental,4,u
+saʾala,ind.prs.act.m/f.1.s,a s ʔ a l u,segmental,1,asʔal
+saʾala,ind.prs.act.m/f.1.s,a s ʔ a l u,segmental,4,u
+saʾala,ind.prs.act.m/f.2.d,t a s ʔ a l aː n i,segmental,0,t
+saʾala,ind.prs.act.m/f.2.d,t a s ʔ a l aː n i,segmental,1,asʔal
+saʾala,ind.prs.act.m/f.2.d,t a s ʔ a l aː n i,segmental,2,aː
+saʾala,ind.prs.act.m/f.2.d,t a s ʔ a l aː n i,segmental,3,n
+saʾala,ind.prs.act.m/f.2.d,t a s ʔ a l aː n i,segmental,4,i
+šakala,ind.prs.act.f.2.p,t a ʃ k u l n a,segmental,0,t
+šakala,ind.prs.act.f.2.p,t a ʃ k u l n a,segmental,1,aʃkul
+šakala,ind.prs.act.f.2.p,t a ʃ k u l n a,segmental,3,n
+šakala,ind.prs.act.f.2.p,t a ʃ k u l n a,segmental,4,a
+šakala,ind.prs.act.f.2.s,t a ʃ k u l iː n a,segmental,0,t
+šakala,ind.prs.act.f.2.s,t a ʃ k u l iː n a,segmental,1,aʃkul
+šakala,ind.prs.act.f.2.s,t a ʃ k u l iː n a,segmental,2,iː
+šakala,ind.prs.act.f.2.s,t a ʃ k u l iː n a,segmental,3,n
+šakala,ind.prs.act.f.2.s,t a ʃ k u l iː n a,segmental,4,a
+šakala,ind.prs.act.f.3.d,t a ʃ k u l aː n i,segmental,0,t
+šakala,ind.prs.act.f.3.d,t a ʃ k u l aː n i,segmental,1,aʃkul
+šakala,ind.prs.act.f.3.d,t a ʃ k u l aː n i,segmental,2,aː
+šakala,ind.prs.act.f.3.d,t a ʃ k u l aː n i,segmental,3,n
+šakala,ind.prs.act.f.3.d,t a ʃ k u l aː n i,segmental,4,i
+šakala,ind.prs.act.f.3.p,j a ʃ k u l n a,segmental,0,j
+šakala,ind.prs.act.f.3.p,j a ʃ k u l n a,segmental,1,aʃkul
+šakala,ind.prs.act.f.3.p,j a ʃ k u l n a,segmental,3,n
+šakala,ind.prs.act.f.3.p,j a ʃ k u l n a,segmental,4,a
+šakala,ind.prs.act.f.3.s,t a ʃ k u l u,segmental,0,t
+šakala,ind.prs.act.f.3.s,t a ʃ k u l u,segmental,1,aʃkul
+šakala,ind.prs.act.f.3.s,t a ʃ k u l u,segmental,4,u
+šakala,ind.prs.act.m.2.p,t a ʃ k u l uː n a,segmental,0,t
+šakala,ind.prs.act.m.2.p,t a ʃ k u l uː n a,segmental,1,aʃkul
+šakala,ind.prs.act.m.2.p,t a ʃ k u l uː n a,segmental,2,uː
+šakala,ind.prs.act.m.2.p,t a ʃ k u l uː n a,segmental,3,n
+šakala,ind.prs.act.m.2.p,t a ʃ k u l uː n a,segmental,4,a
+šakala,ind.prs.act.m.2.s,t a ʃ k u l u,segmental,0,t
+šakala,ind.prs.act.m.2.s,t a ʃ k u l u,segmental,1,aʃkul
+šakala,ind.prs.act.m.2.s,t a ʃ k u l u,segmental,4,u
+šakala,ind.prs.act.m.3.d,j a ʃ k u l aː n i,segmental,0,j
+šakala,ind.prs.act.m.3.d,j a ʃ k u l aː n i,segmental,1,aʃkul
+šakala,ind.prs.act.m.3.d,j a ʃ k u l aː n i,segmental,2,aː
+šakala,ind.prs.act.m.3.d,j a ʃ k u l aː n i,segmental,3,n
+šakala,ind.prs.act.m.3.d,j a ʃ k u l aː n i,segmental,4,i
+šakala,ind.prs.act.m.3.p,j a ʃ k u l uː n a,segmental,0,j
+šakala,ind.prs.act.m.3.p,j a ʃ k u l uː n a,segmental,1,aʃkul
+šakala,ind.prs.act.m.3.p,j a ʃ k u l uː n a,segmental,2,uː
+šakala,ind.prs.act.m.3.p,j a ʃ k u l uː n a,segmental,3,n
+šakala,ind.prs.act.m.3.p,j a ʃ k u l uː n a,segmental,4,a
+šakala,ind.prs.act.m.3.s,j a ʃ k u l u,segmental,0,j
+šakala,ind.prs.act.m.3.s,j a ʃ k u l u,segmental,1,aʃkul
+šakala,ind.prs.act.m.3.s,j a ʃ k u l u,segmental,4,u
+šakala,ind.prs.act.m/f.1.p,n a ʃ k u l u,segmental,0,n
+šakala,ind.prs.act.m/f.1.p,n a ʃ k u l u,segmental,1,aʃkul
+šakala,ind.prs.act.m/f.1.p,n a ʃ k u l u,segmental,4,u
+šakala,ind.prs.act.m/f.1.s,a ʃ k u l u,segmental,1,aʃkul
+šakala,ind.prs.act.m/f.1.s,a ʃ k u l u,segmental,4,u
+šakala,ind.prs.act.m/f.2.d,t a ʃ k u l aː n i,segmental,0,t
+šakala,ind.prs.act.m/f.2.d,t a ʃ k u l aː n i,segmental,1,aʃkul
+šakala,ind.prs.act.m/f.2.d,t a ʃ k u l aː n i,segmental,2,aː
+šakala,ind.prs.act.m/f.2.d,t a ʃ k u l aː n i,segmental,3,n
+šakala,ind.prs.act.m/f.2.d,t a ʃ k u l aː n i,segmental,4,i
+šaʿala_2,ind.prs.act.f.2.p,t a ʃ ʕ u l n a,segmental,0,t
+šaʿala_2,ind.prs.act.f.2.p,t a ʃ ʕ u l n a,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.f.2.p,t a ʃ ʕ u l n a,segmental,3,n
+šaʿala_2,ind.prs.act.f.2.p,t a ʃ ʕ u l n a,segmental,4,a
+šaʿala_2,ind.prs.act.f.2.s,t a ʃ ʕ u l iː n a,segmental,0,t
+šaʿala_2,ind.prs.act.f.2.s,t a ʃ ʕ u l iː n a,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.f.2.s,t a ʃ ʕ u l iː n a,segmental,2,iː
+šaʿala_2,ind.prs.act.f.2.s,t a ʃ ʕ u l iː n a,segmental,3,n
+šaʿala_2,ind.prs.act.f.2.s,t a ʃ ʕ u l iː n a,segmental,4,a
+šaʿala_2,ind.prs.act.f.3.d,t a ʃ ʕ u l aː n i,segmental,0,t
+šaʿala_2,ind.prs.act.f.3.d,t a ʃ ʕ u l aː n i,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.f.3.d,t a ʃ ʕ u l aː n i,segmental,2,aː
+šaʿala_2,ind.prs.act.f.3.d,t a ʃ ʕ u l aː n i,segmental,3,n
+šaʿala_2,ind.prs.act.f.3.d,t a ʃ ʕ u l aː n i,segmental,4,i
+šaʿala_2,ind.prs.act.f.3.p,j a ʃ ʕ u l n a,segmental,0,j
+šaʿala_2,ind.prs.act.f.3.p,j a ʃ ʕ u l n a,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.f.3.p,j a ʃ ʕ u l n a,segmental,3,n
+šaʿala_2,ind.prs.act.f.3.p,j a ʃ ʕ u l n a,segmental,4,a
+šaʿala_2,ind.prs.act.f.3.s,t a ʃ ʕ u l u,segmental,0,t
+šaʿala_2,ind.prs.act.f.3.s,t a ʃ ʕ u l u,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.f.3.s,t a ʃ ʕ u l u,segmental,4,u
+šaʿala_2,ind.prs.act.m.2.p,t a ʃ ʕ u l uː n a,segmental,0,t
+šaʿala_2,ind.prs.act.m.2.p,t a ʃ ʕ u l uː n a,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m.2.p,t a ʃ ʕ u l uː n a,segmental,2,uː
+šaʿala_2,ind.prs.act.m.2.p,t a ʃ ʕ u l uː n a,segmental,3,n
+šaʿala_2,ind.prs.act.m.2.p,t a ʃ ʕ u l uː n a,segmental,4,a
+šaʿala_2,ind.prs.act.m.2.s,t a ʃ ʕ u l u,segmental,0,t
+šaʿala_2,ind.prs.act.m.2.s,t a ʃ ʕ u l u,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m.2.s,t a ʃ ʕ u l u,segmental,4,u
+šaʿala_2,ind.prs.act.m.3.d,j a ʃ ʕ u l aː n i,segmental,0,j
+šaʿala_2,ind.prs.act.m.3.d,j a ʃ ʕ u l aː n i,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m.3.d,j a ʃ ʕ u l aː n i,segmental,2,aː
+šaʿala_2,ind.prs.act.m.3.d,j a ʃ ʕ u l aː n i,segmental,3,n
+šaʿala_2,ind.prs.act.m.3.d,j a ʃ ʕ u l aː n i,segmental,4,i
+šaʿala_2,ind.prs.act.m.3.p,j a ʃ ʕ u l uː n a,segmental,0,j
+šaʿala_2,ind.prs.act.m.3.p,j a ʃ ʕ u l uː n a,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m.3.p,j a ʃ ʕ u l uː n a,segmental,2,uː
+šaʿala_2,ind.prs.act.m.3.p,j a ʃ ʕ u l uː n a,segmental,3,n
+šaʿala_2,ind.prs.act.m.3.p,j a ʃ ʕ u l uː n a,segmental,4,a
+šaʿala_2,ind.prs.act.m.3.s,j a ʃ ʕ u l u,segmental,0,j
+šaʿala_2,ind.prs.act.m.3.s,j a ʃ ʕ u l u,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m.3.s,j a ʃ ʕ u l u,segmental,4,u
+šaʿala_2,ind.prs.act.m/f.1.p,n a ʃ ʕ u l u,segmental,0,n
+šaʿala_2,ind.prs.act.m/f.1.p,n a ʃ ʕ u l u,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m/f.1.p,n a ʃ ʕ u l u,segmental,4,u
+šaʿala_2,ind.prs.act.m/f.1.s,a ʃ ʕ u l u,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m/f.1.s,a ʃ ʕ u l u,segmental,4,u
+šaʿala_2,ind.prs.act.m/f.2.d,t a ʃ ʕ u l aː n i,segmental,0,t
+šaʿala_2,ind.prs.act.m/f.2.d,t a ʃ ʕ u l aː n i,segmental,1,aʃʕul
+šaʿala_2,ind.prs.act.m/f.2.d,t a ʃ ʕ u l aː n i,segmental,2,aː
+šaʿala_2,ind.prs.act.m/f.2.d,t a ʃ ʕ u l aː n i,segmental,3,n
+šaʿala_2,ind.prs.act.m/f.2.d,t a ʃ ʕ u l aː n i,segmental,4,i
+ʾabṣara,ind.prs.act.f.2.p,t u b sˤ i r n a,segmental,0,t
+ʾabṣara,ind.prs.act.f.2.p,t u b sˤ i r n a,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.f.2.p,t u b sˤ i r n a,segmental,3,n
+ʾabṣara,ind.prs.act.f.2.p,t u b sˤ i r n a,segmental,4,a
+ʾabṣara,ind.prs.act.f.2.s,t u b sˤ i r iː n a,segmental,0,t
+ʾabṣara,ind.prs.act.f.2.s,t u b sˤ i r iː n a,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.f.2.s,t u b sˤ i r iː n a,segmental,2,iː
+ʾabṣara,ind.prs.act.f.2.s,t u b sˤ i r iː n a,segmental,3,n
+ʾabṣara,ind.prs.act.f.2.s,t u b sˤ i r iː n a,segmental,4,a
+ʾabṣara,ind.prs.act.f.3.d,t u b sˤ i r aː n i,segmental,0,t
+ʾabṣara,ind.prs.act.f.3.d,t u b sˤ i r aː n i,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.f.3.d,t u b sˤ i r aː n i,segmental,2,aː
+ʾabṣara,ind.prs.act.f.3.d,t u b sˤ i r aː n i,segmental,3,n
+ʾabṣara,ind.prs.act.f.3.d,t u b sˤ i r aː n i,segmental,4,i
+ʾabṣara,ind.prs.act.f.3.p,j u b sˤ i r n a,segmental,0,j
+ʾabṣara,ind.prs.act.f.3.p,j u b sˤ i r n a,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.f.3.p,j u b sˤ i r n a,segmental,3,n
+ʾabṣara,ind.prs.act.f.3.p,j u b sˤ i r n a,segmental,4,a
+ʾabṣara,ind.prs.act.f.3.s,t u b sˤ i r u,segmental,0,t
+ʾabṣara,ind.prs.act.f.3.s,t u b sˤ i r u,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.f.3.s,t u b sˤ i r u,segmental,4,u
+ʾabṣara,ind.prs.act.m.2.p,t u b sˤ i r uː n a,segmental,0,t
+ʾabṣara,ind.prs.act.m.2.p,t u b sˤ i r uː n a,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m.2.p,t u b sˤ i r uː n a,segmental,2,uː
+ʾabṣara,ind.prs.act.m.2.p,t u b sˤ i r uː n a,segmental,3,n
+ʾabṣara,ind.prs.act.m.2.p,t u b sˤ i r uː n a,segmental,4,a
+ʾabṣara,ind.prs.act.m.2.s,t u b sˤ i r u,segmental,0,t
+ʾabṣara,ind.prs.act.m.2.s,t u b sˤ i r u,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m.2.s,t u b sˤ i r u,segmental,4,u
+ʾabṣara,ind.prs.act.m.3.d,j u b sˤ i r aː n i,segmental,0,j
+ʾabṣara,ind.prs.act.m.3.d,j u b sˤ i r aː n i,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m.3.d,j u b sˤ i r aː n i,segmental,2,aː
+ʾabṣara,ind.prs.act.m.3.d,j u b sˤ i r aː n i,segmental,3,n
+ʾabṣara,ind.prs.act.m.3.d,j u b sˤ i r aː n i,segmental,4,i
+ʾabṣara,ind.prs.act.m.3.p,j u b sˤ i r uː n a,segmental,0,j
+ʾabṣara,ind.prs.act.m.3.p,j u b sˤ i r uː n a,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m.3.p,j u b sˤ i r uː n a,segmental,2,uː
+ʾabṣara,ind.prs.act.m.3.p,j u b sˤ i r uː n a,segmental,3,n
+ʾabṣara,ind.prs.act.m.3.p,j u b sˤ i r uː n a,segmental,4,a
+ʾabṣara,ind.prs.act.m.3.s,j u b sˤ i r u,segmental,0,j
+ʾabṣara,ind.prs.act.m.3.s,j u b sˤ i r u,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m.3.s,j u b sˤ i r u,segmental,4,u
+ʾabṣara,ind.prs.act.m/f.1.p,n u b sˤ i r u,segmental,0,n
+ʾabṣara,ind.prs.act.m/f.1.p,n u b sˤ i r u,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m/f.1.p,n u b sˤ i r u,segmental,4,u
+ʾabṣara,ind.prs.act.m/f.1.s,u b sˤ i r u,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m/f.1.s,u b sˤ i r u,segmental,4,u
+ʾabṣara,ind.prs.act.m/f.2.d,t u b sˤ i r aː n i,segmental,0,t
+ʾabṣara,ind.prs.act.m/f.2.d,t u b sˤ i r aː n i,segmental,1,ubsˤir
+ʾabṣara,ind.prs.act.m/f.2.d,t u b sˤ i r aː n i,segmental,2,aː
+ʾabṣara,ind.prs.act.m/f.2.d,t u b sˤ i r aː n i,segmental,3,n
+ʾabṣara,ind.prs.act.m/f.2.d,t u b sˤ i r aː n i,segmental,4,i
+ʾalʿaba,ind.prs.act.f.2.p,t u l ʕ i b n a,segmental,0,t
+ʾalʿaba,ind.prs.act.f.2.p,t u l ʕ i b n a,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.f.2.p,t u l ʕ i b n a,segmental,3,n
+ʾalʿaba,ind.prs.act.f.2.p,t u l ʕ i b n a,segmental,4,a
+ʾalʿaba,ind.prs.act.f.2.s,t u l ʕ i b iː n a,segmental,0,t
+ʾalʿaba,ind.prs.act.f.2.s,t u l ʕ i b iː n a,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.f.2.s,t u l ʕ i b iː n a,segmental,2,iː
+ʾalʿaba,ind.prs.act.f.2.s,t u l ʕ i b iː n a,segmental,3,n
+ʾalʿaba,ind.prs.act.f.2.s,t u l ʕ i b iː n a,segmental,4,a
+ʾalʿaba,ind.prs.act.f.3.d,t u l ʕ i b aː n i,segmental,0,t
+ʾalʿaba,ind.prs.act.f.3.d,t u l ʕ i b aː n i,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.f.3.d,t u l ʕ i b aː n i,segmental,2,aː
+ʾalʿaba,ind.prs.act.f.3.d,t u l ʕ i b aː n i,segmental,3,n
+ʾalʿaba,ind.prs.act.f.3.d,t u l ʕ i b aː n i,segmental,4,i
+ʾalʿaba,ind.prs.act.f.3.p,j u l ʕ i b n a,segmental,0,j
+ʾalʿaba,ind.prs.act.f.3.p,j u l ʕ i b n a,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.f.3.p,j u l ʕ i b n a,segmental,3,n
+ʾalʿaba,ind.prs.act.f.3.p,j u l ʕ i b n a,segmental,4,a
+ʾalʿaba,ind.prs.act.f.3.s,t u l ʕ i b u,segmental,0,t
+ʾalʿaba,ind.prs.act.f.3.s,t u l ʕ i b u,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.f.3.s,t u l ʕ i b u,segmental,4,u
+ʾalʿaba,ind.prs.act.m.2.p,t u l ʕ i b uː n a,segmental,0,t
+ʾalʿaba,ind.prs.act.m.2.p,t u l ʕ i b uː n a,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m.2.p,t u l ʕ i b uː n a,segmental,2,uː
+ʾalʿaba,ind.prs.act.m.2.p,t u l ʕ i b uː n a,segmental,3,n
+ʾalʿaba,ind.prs.act.m.2.p,t u l ʕ i b uː n a,segmental,4,a
+ʾalʿaba,ind.prs.act.m.2.s,t u l ʕ i b u,segmental,0,t
+ʾalʿaba,ind.prs.act.m.2.s,t u l ʕ i b u,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m.2.s,t u l ʕ i b u,segmental,4,u
+ʾalʿaba,ind.prs.act.m.3.d,j u l ʕ i b aː n i,segmental,0,j
+ʾalʿaba,ind.prs.act.m.3.d,j u l ʕ i b aː n i,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m.3.d,j u l ʕ i b aː n i,segmental,2,aː
+ʾalʿaba,ind.prs.act.m.3.d,j u l ʕ i b aː n i,segmental,3,n
+ʾalʿaba,ind.prs.act.m.3.d,j u l ʕ i b aː n i,segmental,4,i
+ʾalʿaba,ind.prs.act.m.3.p,j u l ʕ i b uː n a,segmental,0,j
+ʾalʿaba,ind.prs.act.m.3.p,j u l ʕ i b uː n a,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m.3.p,j u l ʕ i b uː n a,segmental,2,uː
+ʾalʿaba,ind.prs.act.m.3.p,j u l ʕ i b uː n a,segmental,3,n
+ʾalʿaba,ind.prs.act.m.3.p,j u l ʕ i b uː n a,segmental,4,a
+ʾalʿaba,ind.prs.act.m.3.s,j u l ʕ i b u,segmental,0,j
+ʾalʿaba,ind.prs.act.m.3.s,j u l ʕ i b u,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m.3.s,j u l ʕ i b u,segmental,4,u
+ʾalʿaba,ind.prs.act.m/f.1.p,n u l ʕ i b u,segmental,0,n
+ʾalʿaba,ind.prs.act.m/f.1.p,n u l ʕ i b u,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m/f.1.p,n u l ʕ i b u,segmental,4,u
+ʾalʿaba,ind.prs.act.m/f.1.s,u l ʕ i b u,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m/f.1.s,u l ʕ i b u,segmental,4,u
+ʾalʿaba,ind.prs.act.m/f.2.d,t u l ʕ i b aː n i,segmental,0,t
+ʾalʿaba,ind.prs.act.m/f.2.d,t u l ʕ i b aː n i,segmental,1,ulʕib
+ʾalʿaba,ind.prs.act.m/f.2.d,t u l ʕ i b aː n i,segmental,2,aː
+ʾalʿaba,ind.prs.act.m/f.2.d,t u l ʕ i b aː n i,segmental,3,n
+ʾalʿaba,ind.prs.act.m/f.2.d,t u l ʕ i b aː n i,segmental,4,i
+ʾasmaʿa,ind.prs.act.f.2.p,t u s m i ʕ n a,segmental,0,t
+ʾasmaʿa,ind.prs.act.f.2.p,t u s m i ʕ n a,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.f.2.p,t u s m i ʕ n a,segmental,3,n
+ʾasmaʿa,ind.prs.act.f.2.p,t u s m i ʕ n a,segmental,4,a
+ʾasmaʿa,ind.prs.act.f.2.s,t u s m i ʕ iː n a,segmental,0,t
+ʾasmaʿa,ind.prs.act.f.2.s,t u s m i ʕ iː n a,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.f.2.s,t u s m i ʕ iː n a,segmental,2,iː
+ʾasmaʿa,ind.prs.act.f.2.s,t u s m i ʕ iː n a,segmental,3,n
+ʾasmaʿa,ind.prs.act.f.2.s,t u s m i ʕ iː n a,segmental,4,a
+ʾasmaʿa,ind.prs.act.f.3.d,t u s m i ʕ aː n i,segmental,0,t
+ʾasmaʿa,ind.prs.act.f.3.d,t u s m i ʕ aː n i,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.f.3.d,t u s m i ʕ aː n i,segmental,2,aː
+ʾasmaʿa,ind.prs.act.f.3.d,t u s m i ʕ aː n i,segmental,3,n
+ʾasmaʿa,ind.prs.act.f.3.d,t u s m i ʕ aː n i,segmental,4,i
+ʾasmaʿa,ind.prs.act.f.3.p,j u s m i ʕ n a,segmental,0,j
+ʾasmaʿa,ind.prs.act.f.3.p,j u s m i ʕ n a,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.f.3.p,j u s m i ʕ n a,segmental,3,n
+ʾasmaʿa,ind.prs.act.f.3.p,j u s m i ʕ n a,segmental,4,a
+ʾasmaʿa,ind.prs.act.f.3.s,t u s m i ʕ u,segmental,0,t
+ʾasmaʿa,ind.prs.act.f.3.s,t u s m i ʕ u,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.f.3.s,t u s m i ʕ u,segmental,4,u
+ʾasmaʿa,ind.prs.act.m.2.p,t u s m i ʕ uː n a,segmental,0,t
+ʾasmaʿa,ind.prs.act.m.2.p,t u s m i ʕ uː n a,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m.2.p,t u s m i ʕ uː n a,segmental,2,uː
+ʾasmaʿa,ind.prs.act.m.2.p,t u s m i ʕ uː n a,segmental,3,n
+ʾasmaʿa,ind.prs.act.m.2.p,t u s m i ʕ uː n a,segmental,4,a
+ʾasmaʿa,ind.prs.act.m.2.s,t u s m i ʕ u,segmental,0,t
+ʾasmaʿa,ind.prs.act.m.2.s,t u s m i ʕ u,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m.2.s,t u s m i ʕ u,segmental,4,u
+ʾasmaʿa,ind.prs.act.m.3.d,j u s m i ʕ aː n i,segmental,0,j
+ʾasmaʿa,ind.prs.act.m.3.d,j u s m i ʕ aː n i,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m.3.d,j u s m i ʕ aː n i,segmental,2,aː
+ʾasmaʿa,ind.prs.act.m.3.d,j u s m i ʕ aː n i,segmental,3,n
+ʾasmaʿa,ind.prs.act.m.3.d,j u s m i ʕ aː n i,segmental,4,i
+ʾasmaʿa,ind.prs.act.m.3.p,j u s m i ʕ uː n a,segmental,0,j
+ʾasmaʿa,ind.prs.act.m.3.p,j u s m i ʕ uː n a,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m.3.p,j u s m i ʕ uː n a,segmental,2,uː
+ʾasmaʿa,ind.prs.act.m.3.p,j u s m i ʕ uː n a,segmental,3,n
+ʾasmaʿa,ind.prs.act.m.3.p,j u s m i ʕ uː n a,segmental,4,a
+ʾasmaʿa,ind.prs.act.m.3.s,j u s m i ʕ u,segmental,0,j
+ʾasmaʿa,ind.prs.act.m.3.s,j u s m i ʕ u,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m.3.s,j u s m i ʕ u,segmental,4,u
+ʾasmaʿa,ind.prs.act.m/f.1.p,n u s m i ʕ u,segmental,0,n
+ʾasmaʿa,ind.prs.act.m/f.1.p,n u s m i ʕ u,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m/f.1.p,n u s m i ʕ u,segmental,4,u
+ʾasmaʿa,ind.prs.act.m/f.1.s,u s m i ʕ u,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m/f.1.s,u s m i ʕ u,segmental,4,u
+ʾasmaʿa,ind.prs.act.m/f.2.d,t u s m i ʕ aː n i,segmental,0,t
+ʾasmaʿa,ind.prs.act.m/f.2.d,t u s m i ʕ aː n i,segmental,1,usmiʕ
+ʾasmaʿa,ind.prs.act.m/f.2.d,t u s m i ʕ aː n i,segmental,2,aː
+ʾasmaʿa,ind.prs.act.m/f.2.d,t u s m i ʕ aː n i,segmental,3,n
+ʾasmaʿa,ind.prs.act.m/f.2.d,t u s m i ʕ aː n i,segmental,4,i
+ʾaʿmara,ind.prs.act.f.2.p,t u ʕ m i r n a,segmental,0,t
+ʾaʿmara,ind.prs.act.f.2.p,t u ʕ m i r n a,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.f.2.p,t u ʕ m i r n a,segmental,3,n
+ʾaʿmara,ind.prs.act.f.2.p,t u ʕ m i r n a,segmental,4,a
+ʾaʿmara,ind.prs.act.f.2.s,t u ʕ m i r iː n a,segmental,0,t
+ʾaʿmara,ind.prs.act.f.2.s,t u ʕ m i r iː n a,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.f.2.s,t u ʕ m i r iː n a,segmental,2,iː
+ʾaʿmara,ind.prs.act.f.2.s,t u ʕ m i r iː n a,segmental,3,n
+ʾaʿmara,ind.prs.act.f.2.s,t u ʕ m i r iː n a,segmental,4,a
+ʾaʿmara,ind.prs.act.f.3.d,t u ʕ m i r aː n i,segmental,0,t
+ʾaʿmara,ind.prs.act.f.3.d,t u ʕ m i r aː n i,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.f.3.d,t u ʕ m i r aː n i,segmental,2,aː
+ʾaʿmara,ind.prs.act.f.3.d,t u ʕ m i r aː n i,segmental,3,n
+ʾaʿmara,ind.prs.act.f.3.d,t u ʕ m i r aː n i,segmental,4,i
+ʾaʿmara,ind.prs.act.f.3.p,j u ʕ m i r n a,segmental,0,j
+ʾaʿmara,ind.prs.act.f.3.p,j u ʕ m i r n a,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.f.3.p,j u ʕ m i r n a,segmental,3,n
+ʾaʿmara,ind.prs.act.f.3.p,j u ʕ m i r n a,segmental,4,a
+ʾaʿmara,ind.prs.act.f.3.s,t u ʕ m i r u,segmental,0,t
+ʾaʿmara,ind.prs.act.f.3.s,t u ʕ m i r u,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.f.3.s,t u ʕ m i r u,segmental,4,u
+ʾaʿmara,ind.prs.act.m.2.p,t u ʕ m i r uː n a,segmental,0,t
+ʾaʿmara,ind.prs.act.m.2.p,t u ʕ m i r uː n a,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m.2.p,t u ʕ m i r uː n a,segmental,2,uː
+ʾaʿmara,ind.prs.act.m.2.p,t u ʕ m i r uː n a,segmental,3,n
+ʾaʿmara,ind.prs.act.m.2.p,t u ʕ m i r uː n a,segmental,4,a
+ʾaʿmara,ind.prs.act.m.2.s,t u ʕ m i r u,segmental,0,t
+ʾaʿmara,ind.prs.act.m.2.s,t u ʕ m i r u,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m.2.s,t u ʕ m i r u,segmental,4,u
+ʾaʿmara,ind.prs.act.m.3.d,j u ʕ m i r aː n i,segmental,0,j
+ʾaʿmara,ind.prs.act.m.3.d,j u ʕ m i r aː n i,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m.3.d,j u ʕ m i r aː n i,segmental,2,aː
+ʾaʿmara,ind.prs.act.m.3.d,j u ʕ m i r aː n i,segmental,3,n
+ʾaʿmara,ind.prs.act.m.3.d,j u ʕ m i r aː n i,segmental,4,i
+ʾaʿmara,ind.prs.act.m.3.p,j u ʕ m i r uː n a,segmental,0,j
+ʾaʿmara,ind.prs.act.m.3.p,j u ʕ m i r uː n a,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m.3.p,j u ʕ m i r uː n a,segmental,2,uː
+ʾaʿmara,ind.prs.act.m.3.p,j u ʕ m i r uː n a,segmental,3,n
+ʾaʿmara,ind.prs.act.m.3.p,j u ʕ m i r uː n a,segmental,4,a
+ʾaʿmara,ind.prs.act.m.3.s,j u ʕ m i r u,segmental,0,j
+ʾaʿmara,ind.prs.act.m.3.s,j u ʕ m i r u,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m.3.s,j u ʕ m i r u,segmental,4,u
+ʾaʿmara,ind.prs.act.m/f.1.p,n u ʕ m i r u,segmental,0,n
+ʾaʿmara,ind.prs.act.m/f.1.p,n u ʕ m i r u,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m/f.1.p,n u ʕ m i r u,segmental,4,u
+ʾaʿmara,ind.prs.act.m/f.1.s,u ʕ m i r u,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m/f.1.s,u ʕ m i r u,segmental,4,u
+ʾaʿmara,ind.prs.act.m/f.2.d,t u ʕ m i r aː n i,segmental,0,t
+ʾaʿmara,ind.prs.act.m/f.2.d,t u ʕ m i r aː n i,segmental,1,uʕmir
+ʾaʿmara,ind.prs.act.m/f.2.d,t u ʕ m i r aː n i,segmental,2,aː
+ʾaʿmara,ind.prs.act.m/f.2.d,t u ʕ m i r aː n i,segmental,3,n
+ʾaʿmara,ind.prs.act.m/f.2.d,t u ʕ m i r aː n i,segmental,4,i
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,0,t
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,1,uħ
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,2,i
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,3,l
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,5,n
+ʾaḥāla,ind.prs.act.f.2.p,t u ħ i l n a,segmental,6,a
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,0,t
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,1,uħ
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,2,iː
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,3,l
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,4,iː
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,5,n
+ʾaḥāla,ind.prs.act.f.2.s,t u ħ iː l iː n a,segmental,6,a
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,0,t
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,1,uħ
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,2,iː
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,3,l
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,4,aː
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,5,n
+ʾaḥāla,ind.prs.act.f.3.d,t u ħ iː l aː n i,segmental,6,i
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,0,j
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,1,uħ
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,2,i
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,3,l
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,5,n
+ʾaḥāla,ind.prs.act.f.3.p,j u ħ i l n a,segmental,6,a
+ʾaḥāla,ind.prs.act.f.3.s,t u ħ iː l u,segmental,0,t
+ʾaḥāla,ind.prs.act.f.3.s,t u ħ iː l u,segmental,1,uħ
+ʾaḥāla,ind.prs.act.f.3.s,t u ħ iː l u,segmental,2,iː
+ʾaḥāla,ind.prs.act.f.3.s,t u ħ iː l u,segmental,3,l
+ʾaḥāla,ind.prs.act.f.3.s,t u ħ iː l u,segmental,6,u
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,0,t
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,2,iː
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,3,l
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,4,uː
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,5,n
+ʾaḥāla,ind.prs.act.m.2.p,t u ħ iː l uː n a,segmental,6,a
+ʾaḥāla,ind.prs.act.m.2.s,t u ħ iː l u,segmental,0,t
+ʾaḥāla,ind.prs.act.m.2.s,t u ħ iː l u,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m.2.s,t u ħ iː l u,segmental,2,iː
+ʾaḥāla,ind.prs.act.m.2.s,t u ħ iː l u,segmental,3,l
+ʾaḥāla,ind.prs.act.m.2.s,t u ħ iː l u,segmental,6,u
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,0,j
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,2,iː
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,3,l
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,4,aː
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,5,n
+ʾaḥāla,ind.prs.act.m.3.d,j u ħ iː l aː n i,segmental,6,i
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,0,j
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,2,iː
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,3,l
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,4,uː
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,5,n
+ʾaḥāla,ind.prs.act.m.3.p,j u ħ iː l uː n a,segmental,6,a
+ʾaḥāla,ind.prs.act.m.3.s,j u ħ iː l u,segmental,0,j
+ʾaḥāla,ind.prs.act.m.3.s,j u ħ iː l u,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m.3.s,j u ħ iː l u,segmental,2,iː
+ʾaḥāla,ind.prs.act.m.3.s,j u ħ iː l u,segmental,3,l
+ʾaḥāla,ind.prs.act.m.3.s,j u ħ iː l u,segmental,6,u
+ʾaḥāla,ind.prs.act.m/f.1.p,n u ħ iː l u,segmental,0,n
+ʾaḥāla,ind.prs.act.m/f.1.p,n u ħ iː l u,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m/f.1.p,n u ħ iː l u,segmental,2,iː
+ʾaḥāla,ind.prs.act.m/f.1.p,n u ħ iː l u,segmental,3,l
+ʾaḥāla,ind.prs.act.m/f.1.p,n u ħ iː l u,segmental,6,u
+ʾaḥāla,ind.prs.act.m/f.1.s,u ħ iː l u,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m/f.1.s,u ħ iː l u,segmental,2,iː
+ʾaḥāla,ind.prs.act.m/f.1.s,u ħ iː l u,segmental,3,l
+ʾaḥāla,ind.prs.act.m/f.1.s,u ħ iː l u,segmental,6,u
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,0,t
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,1,uħ
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,2,iː
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,3,l
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,4,aː
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,5,n
+ʾaḥāla,ind.prs.act.m/f.2.d,t u ħ iː l aː n i,segmental,6,i
+ḥaraqa,ind.prs.act.f.2.p,t a ħ r i q n a,segmental,0,t
+ḥaraqa,ind.prs.act.f.2.p,t a ħ r i q n a,segmental,1,aħriq
+ḥaraqa,ind.prs.act.f.2.p,t a ħ r i q n a,segmental,3,n
+ḥaraqa,ind.prs.act.f.2.p,t a ħ r i q n a,segmental,4,a
+ḥaraqa,ind.prs.act.f.2.s,t a ħ r i q iː n a,segmental,0,t
+ḥaraqa,ind.prs.act.f.2.s,t a ħ r i q iː n a,segmental,1,aħriq
+ḥaraqa,ind.prs.act.f.2.s,t a ħ r i q iː n a,segmental,2,iː
+ḥaraqa,ind.prs.act.f.2.s,t a ħ r i q iː n a,segmental,3,n
+ḥaraqa,ind.prs.act.f.2.s,t a ħ r i q iː n a,segmental,4,a
+ḥaraqa,ind.prs.act.f.3.d,t a ħ r i q aː n i,segmental,0,t
+ḥaraqa,ind.prs.act.f.3.d,t a ħ r i q aː n i,segmental,1,aħriq
+ḥaraqa,ind.prs.act.f.3.d,t a ħ r i q aː n i,segmental,2,aː
+ḥaraqa,ind.prs.act.f.3.d,t a ħ r i q aː n i,segmental,3,n
+ḥaraqa,ind.prs.act.f.3.d,t a ħ r i q aː n i,segmental,4,i
+ḥaraqa,ind.prs.act.f.3.p,j a ħ r i q n a,segmental,0,j
+ḥaraqa,ind.prs.act.f.3.p,j a ħ r i q n a,segmental,1,aħriq
+ḥaraqa,ind.prs.act.f.3.p,j a ħ r i q n a,segmental,3,n
+ḥaraqa,ind.prs.act.f.3.p,j a ħ r i q n a,segmental,4,a
+ḥaraqa,ind.prs.act.f.3.s,t a ħ r i q u,segmental,0,t
+ḥaraqa,ind.prs.act.f.3.s,t a ħ r i q u,segmental,1,aħriq
+ḥaraqa,ind.prs.act.f.3.s,t a ħ r i q u,segmental,4,u
+ḥaraqa,ind.prs.act.m.2.p,t a ħ r i q uː n a,segmental,0,t
+ḥaraqa,ind.prs.act.m.2.p,t a ħ r i q uː n a,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m.2.p,t a ħ r i q uː n a,segmental,2,uː
+ḥaraqa,ind.prs.act.m.2.p,t a ħ r i q uː n a,segmental,3,n
+ḥaraqa,ind.prs.act.m.2.p,t a ħ r i q uː n a,segmental,4,a
+ḥaraqa,ind.prs.act.m.2.s,t a ħ r i q u,segmental,0,t
+ḥaraqa,ind.prs.act.m.2.s,t a ħ r i q u,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m.2.s,t a ħ r i q u,segmental,4,u
+ḥaraqa,ind.prs.act.m.3.d,j a ħ r i q aː n i,segmental,0,j
+ḥaraqa,ind.prs.act.m.3.d,j a ħ r i q aː n i,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m.3.d,j a ħ r i q aː n i,segmental,2,aː
+ḥaraqa,ind.prs.act.m.3.d,j a ħ r i q aː n i,segmental,3,n
+ḥaraqa,ind.prs.act.m.3.d,j a ħ r i q aː n i,segmental,4,i
+ḥaraqa,ind.prs.act.m.3.p,j a ħ r i q uː n a,segmental,0,j
+ḥaraqa,ind.prs.act.m.3.p,j a ħ r i q uː n a,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m.3.p,j a ħ r i q uː n a,segmental,2,uː
+ḥaraqa,ind.prs.act.m.3.p,j a ħ r i q uː n a,segmental,3,n
+ḥaraqa,ind.prs.act.m.3.p,j a ħ r i q uː n a,segmental,4,a
+ḥaraqa,ind.prs.act.m.3.s,j a ħ r i q u,segmental,0,j
+ḥaraqa,ind.prs.act.m.3.s,j a ħ r i q u,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m.3.s,j a ħ r i q u,segmental,4,u
+ḥaraqa,ind.prs.act.m/f.1.p,n a ħ r i q u,segmental,0,n
+ḥaraqa,ind.prs.act.m/f.1.p,n a ħ r i q u,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m/f.1.p,n a ħ r i q u,segmental,4,u
+ḥaraqa,ind.prs.act.m/f.1.s,a ħ r i q u,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m/f.1.s,a ħ r i q u,segmental,4,u
+ḥaraqa,ind.prs.act.m/f.2.d,t a ħ r i q aː n i,segmental,0,t
+ḥaraqa,ind.prs.act.m/f.2.d,t a ħ r i q aː n i,segmental,1,aħriq
+ḥaraqa,ind.prs.act.m/f.2.d,t a ħ r i q aː n i,segmental,2,aː
+ḥaraqa,ind.prs.act.m/f.2.d,t a ħ r i q aː n i,segmental,3,n
+ḥaraqa,ind.prs.act.m/f.2.d,t a ħ r i q aː n i,segmental,4,i
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,0,t
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,2,i
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r i θ n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,0,t
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,2,u
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.2.p,t a ħ r u θ n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,0,t
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,2,i
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,4,iː
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r i θ iː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,0,t
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,2,u
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,4,iː
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.2.s,t a ħ r u θ iː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,0,t
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,2,i
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r i θ aː n i,segmental,6,i
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,0,t
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,2,u
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.f.3.d,t a ħ r u θ aː n i,segmental,6,i
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,0,j
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,2,i
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r i θ n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,0,j
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,2,u
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,5,n
+ḥaraṯa,ind.prs.act.f.3.p,j a ħ r u θ n a,segmental,6,a
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r i θ u,segmental,0,t
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r i θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r i θ u,segmental,2,i
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r i θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r i θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r u θ u,segmental,0,t
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r u θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r u θ u,segmental,2,u
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r u θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.f.3.s,t a ħ r u θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,0,t
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,2,i
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,4,uː
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r i θ uː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,0,t
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,2,u
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,4,uː
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.m.2.p,t a ħ r u θ uː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r i θ u,segmental,0,t
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r i θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r i θ u,segmental,2,i
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r i θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r i θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r u θ u,segmental,0,t
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r u θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r u θ u,segmental,2,u
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r u θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.2.s,t a ħ r u θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,2,i
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r i θ aː n i,segmental,6,i
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,2,u
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.m.3.d,j a ħ r u θ aː n i,segmental,6,i
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,2,i
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,4,uː
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r i θ uː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,2,u
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,4,uː
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,5,n
+ḥaraṯa,ind.prs.act.m.3.p,j a ħ r u θ uː n a,segmental,6,a
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r i θ u,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r i θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r i θ u,segmental,2,i
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r i θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r i θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r u θ u,segmental,0,j
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r u θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r u θ u,segmental,2,u
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r u θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m.3.s,j a ħ r u θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r i θ u,segmental,0,n
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r i θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r i θ u,segmental,2,i
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r i θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r i θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r u θ u,segmental,0,n
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r u θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r u θ u,segmental,2,u
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r u θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.1.p,n a ħ r u θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m/f.1.s,a ħ r i θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.1.s,a ħ r i θ u,segmental,2,i
+ḥaraṯa,ind.prs.act.m/f.1.s,a ħ r i θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.1.s,a ħ r i θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m/f.1.s,ʔ a ħ r u θ u,segmental,0,ʔ
+ḥaraṯa,ind.prs.act.m/f.1.s,ʔ a ħ r u θ u,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.1.s,ʔ a ħ r u θ u,segmental,2,u
+ḥaraṯa,ind.prs.act.m/f.1.s,ʔ a ħ r u θ u,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.1.s,ʔ a ħ r u θ u,segmental,6,u
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,0,t
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,2,i
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r i θ aː n i,segmental,6,i
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,0,t
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,1,aħr
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,2,u
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,3,θ
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,4,aː
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,5,n
+ḥaraṯa,ind.prs.act.m/f.2.d,t a ħ r u θ aː n i,segmental,6,i

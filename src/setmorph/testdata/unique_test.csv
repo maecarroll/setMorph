@@ -1,0 +1,8 @@
+lexeme,cell,form,tier,slot,formative
+DISROBE,1.sg,a,segmental,0,a
+DISROBE,2.sg,ab,segmental,0,a
+DISROBE,2.sg,ab,segmental,1,b
+DISROBE,3.sg,b,segmental,1,b
+DISROBE,1.pl,x,segmental,1,x
+DISROBE,2.pl,x,segmental,1,x
+DISROBE,3.pl,x,segmental,1,x

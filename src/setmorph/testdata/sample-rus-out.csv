@@ -1,0 +1,955 @@
+lexeme,cell,form,tier,slot,formative
+butaf'or,nominative.singular,b u t a f 'o r,segmental,0,butafor
+butaf'or,genitive.singular,b u t a f 'o r a,segmental,0,butafor
+butaf'or,genitive.singular,b u t a f 'o r a,segmental,1,a
+butaf'or,dative.singular,b u t a f 'o r u,segmental,0,butafor
+butaf'or,dative.singular,b u t a f 'o r u,segmental,3,u
+butaf'or,accusative.singular,b u t a f 'o r a,segmental,0,butafor
+butaf'or,accusative.singular,b u t a f 'o r a,segmental,1,a
+butaf'or,instrumental.singular,b u t a f 'o r o m,segmental,0,butafor
+butaf'or,instrumental.singular,b u t a f 'o r o m,segmental,1,o
+butaf'or,instrumental.singular,b u t a f 'o r o m,segmental,2,m
+butaf'or,prepositional.singular,b u t a f 'o rʲ e,segmental,0,butafor
+butaf'or,prepositional.singular,b u t a f 'o rʲ e,segmental,3,e
+butaf'or,nominative.plural,b u t a f 'o r ɨ,segmental,0,butafor
+butaf'or,nominative.plural,b u t a f 'o r ɨ,segmental,3,ɨ
+butaf'or,genitive.plural,b u t a f 'o r o v,segmental,0,butafor
+butaf'or,genitive.plural,b u t a f 'o r o v,segmental,1,o
+butaf'or,genitive.plural,b u t a f 'o r o v,segmental,3,v
+butaf'or,dative.plural,b u t a f 'o r a m,segmental,0,butafor
+butaf'or,dative.plural,b u t a f 'o r a m,segmental,1,a
+butaf'or,dative.plural,b u t a f 'o r a m,segmental,2,m
+butaf'or,accusative.plural,b u t a f 'o r o v,segmental,0,butafor
+butaf'or,accusative.plural,b u t a f 'o r o v,segmental,1,o
+butaf'or,accusative.plural,b u t a f 'o r o v,segmental,3,v
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,segmental,0,butafor
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,segmental,1,a
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,segmental,2,m
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,segmental,3,i
+butaf'or,prepositional.plural,b u t a f 'o r a x,segmental,0,butafor
+butaf'or,prepositional.plural,b u t a f 'o r a x,segmental,1,a
+butaf'or,prepositional.plural,b u t a f 'o r a x,segmental,3,x
+butaf'or,prepositional.singular,b u t a f 'o rʲ e,palatalization,0,ʲ
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,palatalization,0,ʲ
+butaf'or,nominative.singular,b u t a f 'o r,stress,0,'
+butaf'or,genitive.singular,b u t a f 'o r a,stress,0,'
+butaf'or,dative.singular,b u t a f 'o r u,stress,0,'
+butaf'or,accusative.singular,b u t a f 'o r a,stress,0,'
+butaf'or,instrumental.singular,b u t a f 'o r o m,stress,0,'
+butaf'or,prepositional.singular,b u t a f 'o rʲ e,stress,0,'
+butaf'or,nominative.plural,b u t a f 'o r ɨ,stress,0,'
+butaf'or,genitive.plural,b u t a f 'o r o v,stress,0,'
+butaf'or,dative.plural,b u t a f 'o r a m,stress,0,'
+butaf'or,accusative.plural,b u t a f 'o r o v,stress,0,'
+butaf'or,instrumental.plural,b u t a f 'o r a mʲ i,stress,0,'
+butaf'or,prepositional.plural,b u t a f 'o r a x,stress,0,'
+f'ukus,nominative.singular,f 'u k u s,segmental,0,fukus
+f'ukus,genitive.singular,f 'u k u s a,segmental,0,fukus
+f'ukus,genitive.singular,f 'u k u s a,segmental,1,a
+f'ukus,dative.singular,f 'u k u s u,segmental,0,fukus
+f'ukus,dative.singular,f 'u k u s u,segmental,3,u
+f'ukus,accusative.singular,f 'u k u s,segmental,0,fukus
+f'ukus,instrumental.singular,f 'u k u s o m,segmental,0,fukus
+f'ukus,instrumental.singular,f 'u k u s o m,segmental,1,o
+f'ukus,instrumental.singular,f 'u k u s o m,segmental,2,m
+f'ukus,prepositional.singular,f 'u k u sʲ e,segmental,0,fukus
+f'ukus,prepositional.singular,f 'u k u sʲ e,segmental,3,e
+f'ukus,nominative.plural,f 'u k u s ɨ,segmental,0,fukus
+f'ukus,nominative.plural,f 'u k u s ɨ,segmental,3,ɨ
+f'ukus,genitive.plural,f 'u k u s o v,segmental,0,fukus
+f'ukus,genitive.plural,f 'u k u s o v,segmental,1,o
+f'ukus,genitive.plural,f 'u k u s o v,segmental,3,v
+f'ukus,dative.plural,f 'u k u s a m,segmental,0,fukus
+f'ukus,dative.plural,f 'u k u s a m,segmental,1,a
+f'ukus,dative.plural,f 'u k u s a m,segmental,2,m
+f'ukus,accusative.plural,f 'u k u s ɨ,segmental,0,fukus
+f'ukus,accusative.plural,f 'u k u s ɨ,segmental,3,ɨ
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,segmental,0,fukus
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,segmental,1,a
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,segmental,2,m
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,segmental,3,i
+f'ukus,prepositional.plural,f 'u k u s a x,segmental,0,fukus
+f'ukus,prepositional.plural,f 'u k u s a x,segmental,1,a
+f'ukus,prepositional.plural,f 'u k u s a x,segmental,3,x
+f'ukus,prepositional.singular,f 'u k u sʲ e,palatalization,0,ʲ
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,palatalization,0,ʲ
+f'ukus,nominative.singular,f 'u k u s,stress,0,'
+f'ukus,genitive.singular,f 'u k u s a,stress,0,'
+f'ukus,dative.singular,f 'u k u s u,stress,0,'
+f'ukus,accusative.singular,f 'u k u s,stress,0,'
+f'ukus,instrumental.singular,f 'u k u s o m,stress,0,'
+f'ukus,prepositional.singular,f 'u k u sʲ e,stress,0,'
+f'ukus,nominative.plural,f 'u k u s ɨ,stress,0,'
+f'ukus,genitive.plural,f 'u k u s o v,stress,0,'
+f'ukus,dative.plural,f 'u k u s a m,stress,0,'
+f'ukus,accusative.plural,f 'u k u s ɨ,stress,0,'
+f'ukus,instrumental.plural,f 'u k u s a mʲ i,stress,0,'
+f'ukus,prepositional.plural,f 'u k u s a x,stress,0,'
+k'asta,nominative.singular,k 'a s t a,segmental,0,kast
+k'asta,nominative.singular,k 'a s t a,segmental,1,a
+k'asta,genitive.singular,k 'a s t ɨ,segmental,0,kast
+k'asta,genitive.singular,k 'a s t ɨ,segmental,3,ɨ
+k'asta,dative.singular,k 'a s tʲ e,segmental,0,kast
+k'asta,dative.singular,k 'a s tʲ e,segmental,3,e
+k'asta,accusative.singular,k 'a s t u,segmental,0,kast
+k'asta,accusative.singular,k 'a s t u,segmental,3,u
+k'asta,prepositional.singular,k 'a s tʲ e,segmental,0,kast
+k'asta,prepositional.singular,k 'a s tʲ e,segmental,3,e
+k'asta,nominative.plural,k 'a s t ɨ,segmental,0,kast
+k'asta,nominative.plural,k 'a s t ɨ,segmental,3,ɨ
+k'asta,genitive.plural,k a s t,segmental,0,kast
+k'asta,dative.plural,k 'a s t a m,segmental,0,kast
+k'asta,dative.plural,k 'a s t a m,segmental,1,a
+k'asta,dative.plural,k 'a s t a m,segmental,2,m
+k'asta,accusative.plural,k 'a s t ɨ,segmental,0,kast
+k'asta,accusative.plural,k 'a s t ɨ,segmental,3,ɨ
+k'asta,instrumental.plural,k 'a s t a mʲ i,segmental,0,kast
+k'asta,instrumental.plural,k 'a s t a mʲ i,segmental,1,a
+k'asta,instrumental.plural,k 'a s t a mʲ i,segmental,2,m
+k'asta,instrumental.plural,k 'a s t a mʲ i,segmental,3,i
+k'asta,prepositional.plural,k 'a s t a x,segmental,0,kast
+k'asta,prepositional.plural,k 'a s t a x,segmental,1,a
+k'asta,prepositional.plural,k 'a s t a x,segmental,3,x
+k'asta,instrumental.singular,k 'a s t o j,segmental,0,kast
+k'asta,instrumental.singular,k 'a s t o j,segmental,2,oj
+k'asta,instrumental.singular,k 'a s t o j u,segmental,0,kast
+k'asta,instrumental.singular,k 'a s t o j u,segmental,2,oj
+k'asta,instrumental.singular,k 'a s t o j u,segmental,3,u
+k'asta,dative.singular,k 'a s tʲ e,palatalization,0,ʲ
+k'asta,prepositional.singular,k 'a s tʲ e,palatalization,0,ʲ
+k'asta,instrumental.plural,k 'a s t a mʲ i,palatalization,0,ʲ
+k'asta,nominative.singular,k 'a s t a,stress,0,'
+k'asta,genitive.singular,k 'a s t ɨ,stress,0,'
+k'asta,dative.singular,k 'a s tʲ e,stress,0,'
+k'asta,accusative.singular,k 'a s t u,stress,0,'
+k'asta,prepositional.singular,k 'a s tʲ e,stress,0,'
+k'asta,nominative.plural,k 'a s t ɨ,stress,0,'
+k'asta,dative.plural,k 'a s t a m,stress,0,'
+k'asta,accusative.plural,k 'a s t ɨ,stress,0,'
+k'asta,instrumental.plural,k 'a s t a mʲ i,stress,0,'
+k'asta,prepositional.plural,k 'a s t a x,stress,0,'
+k'asta,instrumental.singular,k 'a s t o j,stress,0,'
+k'asta,instrumental.singular,k 'a s t o j u,stress,0,'
+koklʲ'uʂ,nominative.singular,k o k lʲ 'u ʂ,segmental,0,kokluʂ
+koklʲ'uʂ,genitive.singular,k o k lʲ 'u ʂ a,segmental,0,kokluʂ
+koklʲ'uʂ,genitive.singular,k o k lʲ 'u ʂ a,segmental,1,a
+koklʲ'uʂ,dative.singular,k o k lʲ 'u ʂ u,segmental,0,kokluʂ
+koklʲ'uʂ,dative.singular,k o k lʲ 'u ʂ u,segmental,3,u
+koklʲ'uʂ,accusative.singular,k o k lʲ 'u ʂ,segmental,0,kokluʂ
+koklʲ'uʂ,instrumental.singular,k o k lʲ 'u ʂ e m,segmental,0,kokluʂ
+koklʲ'uʂ,instrumental.singular,k o k lʲ 'u ʂ e m,segmental,1,e
+koklʲ'uʂ,instrumental.singular,k o k lʲ 'u ʂ e m,segmental,2,m
+koklʲ'uʂ,prepositional.singular,k o k lʲ 'u ʂ e,segmental,0,kokluʂ
+koklʲ'uʂ,prepositional.singular,k o k lʲ 'u ʂ e,segmental,1,e
+koklʲ'uʂ,nominative.plural,k o k lʲ 'u ʂ i,segmental,0,kokluʂ
+koklʲ'uʂ,nominative.plural,k o k lʲ 'u ʂ i,segmental,3,i
+koklʲ'uʂ,genitive.plural,k o k lʲ 'u ʂ e j,segmental,0,kokluʂ
+koklʲ'uʂ,genitive.plural,k o k lʲ 'u ʂ e j,segmental,1,e
+koklʲ'uʂ,genitive.plural,k o k lʲ 'u ʂ e j,segmental,3,j
+koklʲ'uʂ,dative.plural,k o k lʲ 'u ʂ a m,segmental,0,kokluʂ
+koklʲ'uʂ,dative.plural,k o k lʲ 'u ʂ a m,segmental,1,a
+koklʲ'uʂ,dative.plural,k o k lʲ 'u ʂ a m,segmental,2,m
+koklʲ'uʂ,accusative.plural,k o k lʲ 'u ʂ i,segmental,0,kokluʂ
+koklʲ'uʂ,accusative.plural,k o k lʲ 'u ʂ i,segmental,3,i
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,segmental,0,kokluʂ
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,segmental,1,a
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,segmental,2,m
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,segmental,3,i
+koklʲ'uʂ,prepositional.plural,k o k lʲ 'u ʂ a x,segmental,0,kokluʂ
+koklʲ'uʂ,prepositional.plural,k o k lʲ 'u ʂ a x,segmental,1,a
+koklʲ'uʂ,prepositional.plural,k o k lʲ 'u ʂ a x,segmental,3,x
+koklʲ'uʂ,nominative.singular,k o k lʲ 'u ʂ,palatalization,0,ʲ
+koklʲ'uʂ,genitive.singular,k o k lʲ 'u ʂ a,palatalization,0,ʲ
+koklʲ'uʂ,dative.singular,k o k lʲ 'u ʂ u,palatalization,0,ʲ
+koklʲ'uʂ,accusative.singular,k o k lʲ 'u ʂ,palatalization,0,ʲ
+koklʲ'uʂ,instrumental.singular,k o k lʲ 'u ʂ e m,palatalization,0,ʲ
+koklʲ'uʂ,prepositional.singular,k o k lʲ 'u ʂ e,palatalization,0,ʲ
+koklʲ'uʂ,nominative.plural,k o k lʲ 'u ʂ i,palatalization,0,ʲ
+koklʲ'uʂ,genitive.plural,k o k lʲ 'u ʂ e j,palatalization,0,ʲ
+koklʲ'uʂ,dative.plural,k o k lʲ 'u ʂ a m,palatalization,0,ʲ
+koklʲ'uʂ,accusative.plural,k o k lʲ 'u ʂ i,palatalization,0,ʲ
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,palatalization,0,ʲ
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,palatalization,1,ʲ
+koklʲ'uʂ,prepositional.plural,k o k lʲ 'u ʂ a x,palatalization,0,ʲ
+koklʲ'uʂ,nominative.singular,k o k lʲ 'u ʂ,stress,0,'
+koklʲ'uʂ,genitive.singular,k o k lʲ 'u ʂ a,stress,0,'
+koklʲ'uʂ,dative.singular,k o k lʲ 'u ʂ u,stress,0,'
+koklʲ'uʂ,accusative.singular,k o k lʲ 'u ʂ,stress,0,'
+koklʲ'uʂ,instrumental.singular,k o k lʲ 'u ʂ e m,stress,0,'
+koklʲ'uʂ,prepositional.singular,k o k lʲ 'u ʂ e,stress,0,'
+koklʲ'uʂ,nominative.plural,k o k lʲ 'u ʂ i,stress,0,'
+koklʲ'uʂ,genitive.plural,k o k lʲ 'u ʂ e j,stress,0,'
+koklʲ'uʂ,dative.plural,k o k lʲ 'u ʂ a m,stress,0,'
+koklʲ'uʂ,accusative.plural,k o k lʲ 'u ʂ i,stress,0,'
+koklʲ'uʂ,instrumental.plural,k o k lʲ 'u ʂ a mʲ i,stress,0,'
+koklʲ'uʂ,prepositional.plural,k o k lʲ 'u ʂ a x,stress,0,'
+kompl'ot,nominative.singular,k o m p l 'o t,segmental,0,komplot
+kompl'ot,genitive.singular,k o m p l 'o t a,segmental,0,komplot
+kompl'ot,genitive.singular,k o m p l 'o t a,segmental,1,a
+kompl'ot,dative.singular,k o m p l 'o t u,segmental,0,komplot
+kompl'ot,dative.singular,k o m p l 'o t u,segmental,3,u
+kompl'ot,accusative.singular,k o m p l 'o t,segmental,0,komplot
+kompl'ot,instrumental.singular,k o m p l 'o t o m,segmental,0,komplot
+kompl'ot,instrumental.singular,k o m p l 'o t o m,segmental,1,o
+kompl'ot,instrumental.singular,k o m p l 'o t o m,segmental,2,m
+kompl'ot,prepositional.singular,k o m p l 'o tʲ e,segmental,0,komplot
+kompl'ot,prepositional.singular,k o m p l 'o tʲ e,segmental,3,e
+kompl'ot,nominative.plural,k o m p l 'o t ɨ,segmental,0,komplot
+kompl'ot,nominative.plural,k o m p l 'o t ɨ,segmental,3,ɨ
+kompl'ot,genitive.plural,k o m p l 'o t o v,segmental,0,komplot
+kompl'ot,genitive.plural,k o m p l 'o t o v,segmental,1,o
+kompl'ot,genitive.plural,k o m p l 'o t o v,segmental,3,v
+kompl'ot,dative.plural,k o m p l 'o t a m,segmental,0,komplot
+kompl'ot,dative.plural,k o m p l 'o t a m,segmental,1,a
+kompl'ot,dative.plural,k o m p l 'o t a m,segmental,2,m
+kompl'ot,accusative.plural,k o m p l 'o t ɨ,segmental,0,komplot
+kompl'ot,accusative.plural,k o m p l 'o t ɨ,segmental,3,ɨ
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,segmental,0,komplot
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,segmental,1,a
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,segmental,2,m
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,segmental,3,i
+kompl'ot,prepositional.plural,k o m p l 'o t a x,segmental,0,komplot
+kompl'ot,prepositional.plural,k o m p l 'o t a x,segmental,1,a
+kompl'ot,prepositional.plural,k o m p l 'o t a x,segmental,3,x
+kompl'ot,prepositional.singular,k o m p l 'o tʲ e,palatalization,0,ʲ
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,palatalization,0,ʲ
+kompl'ot,nominative.singular,k o m p l 'o t,stress,0,'
+kompl'ot,genitive.singular,k o m p l 'o t a,stress,0,'
+kompl'ot,dative.singular,k o m p l 'o t u,stress,0,'
+kompl'ot,accusative.singular,k o m p l 'o t,stress,0,'
+kompl'ot,instrumental.singular,k o m p l 'o t o m,stress,0,'
+kompl'ot,prepositional.singular,k o m p l 'o tʲ e,stress,0,'
+kompl'ot,nominative.plural,k o m p l 'o t ɨ,stress,0,'
+kompl'ot,genitive.plural,k o m p l 'o t o v,stress,0,'
+kompl'ot,dative.plural,k o m p l 'o t a m,stress,0,'
+kompl'ot,accusative.plural,k o m p l 'o t ɨ,stress,0,'
+kompl'ot,instrumental.plural,k o m p l 'o t a mʲ i,stress,0,'
+kompl'ot,prepositional.plural,k o m p l 'o t a x,stress,0,'
+kostʲ,nominative.singular,k o s tʲ,segmental,0,kost
+kostʲ,genitive.singular,k 'o s tʲ i,segmental,0,kost
+kostʲ,genitive.singular,k 'o s tʲ i,segmental,3,i
+kostʲ,dative.singular,k 'o s tʲ i,segmental,0,kost
+kostʲ,dative.singular,k 'o s tʲ i,segmental,3,i
+kostʲ,accusative.singular,k o s tʲ,segmental,0,kost
+kostʲ,instrumental.singular,k 'o s tʲ j u,segmental,0,kost
+kostʲ,instrumental.singular,k 'o s tʲ j u,segmental,2,j
+kostʲ,instrumental.singular,k 'o s tʲ j u,segmental,3,u
+kostʲ,prepositional.singular,k 'o s tʲ i,segmental,0,kost
+kostʲ,prepositional.singular,k 'o s tʲ i,segmental,3,i
+kostʲ,nominative.plural,k 'o s tʲ i,segmental,0,kost
+kostʲ,nominative.plural,k 'o s tʲ i,segmental,3,i
+kostʲ,genitive.plural,k o s tʲ 'e j,segmental,0,kost
+kostʲ,genitive.plural,k o s tʲ 'e j,segmental,1,e
+kostʲ,genitive.plural,k o s tʲ 'e j,segmental,2,j
+kostʲ,dative.plural,k o s tʲ 'a m,segmental,0,kost
+kostʲ,dative.plural,k o s tʲ 'a m,segmental,1,a
+kostʲ,dative.plural,k o s tʲ 'a m,segmental,2,m
+kostʲ,accusative.plural,k 'o s tʲ i,segmental,0,kost
+kostʲ,accusative.plural,k 'o s tʲ i,segmental,3,i
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,segmental,0,kost
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,segmental,1,a
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,segmental,2,m
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,segmental,3,i
+kostʲ,prepositional.plural,k o s tʲ 'a x,segmental,0,kost
+kostʲ,prepositional.plural,k o s tʲ 'a x,segmental,1,a
+kostʲ,prepositional.plural,k o s tʲ 'a x,segmental,3,x
+kostʲ,nominative.singular,k o s tʲ,palatalization,0,ʲ
+kostʲ,genitive.singular,k 'o s tʲ i,palatalization,0,ʲ
+kostʲ,dative.singular,k 'o s tʲ i,palatalization,0,ʲ
+kostʲ,accusative.singular,k o s tʲ,palatalization,0,ʲ
+kostʲ,instrumental.singular,k 'o s tʲ j u,palatalization,0,ʲ
+kostʲ,prepositional.singular,k 'o s tʲ i,palatalization,0,ʲ
+kostʲ,nominative.plural,k 'o s tʲ i,palatalization,0,ʲ
+kostʲ,genitive.plural,k o s tʲ 'e j,palatalization,0,ʲ
+kostʲ,dative.plural,k o s tʲ 'a m,palatalization,0,ʲ
+kostʲ,accusative.plural,k 'o s tʲ i,palatalization,0,ʲ
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,palatalization,0,ʲ
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,palatalization,1,ʲ
+kostʲ,prepositional.plural,k o s tʲ 'a x,palatalization,0,ʲ
+kostʲ,genitive.singular,k 'o s tʲ i,stress,0,'
+kostʲ,dative.singular,k 'o s tʲ i,stress,0,'
+kostʲ,instrumental.singular,k 'o s tʲ j u,stress,0,'
+kostʲ,prepositional.singular,k 'o s tʲ i,stress,0,'
+kostʲ,nominative.plural,k 'o s tʲ i,stress,0,'
+kostʲ,genitive.plural,k o s tʲ 'e j,stress,0,'
+kostʲ,dative.plural,k o s tʲ 'a m,stress,0,'
+kostʲ,accusative.plural,k 'o s tʲ i,stress,0,'
+kostʲ,instrumental.plural,k o s tʲ 'a mʲ i,stress,0,'
+kostʲ,prepositional.plural,k o s tʲ 'a x,stress,0,'
+okn'o,nominative.singular,o k n 'o,segmental,0,ok
+okn'o,nominative.singular,o k n 'o,segmental,2,n
+okn'o,nominative.singular,o k n 'o,segmental,4,o
+okn'o,genitive.singular,o k n 'a,segmental,0,ok
+okn'o,genitive.singular,o k n 'a,segmental,2,n
+okn'o,genitive.singular,o k n 'a,segmental,3,a
+okn'o,dative.singular,o k n 'u,segmental,0,ok
+okn'o,dative.singular,o k n 'u,segmental,2,n
+okn'o,dative.singular,o k n 'u,segmental,6,u
+okn'o,accusative.singular,o k n 'o,segmental,0,ok
+okn'o,accusative.singular,o k n 'o,segmental,2,n
+okn'o,accusative.singular,o k n 'o,segmental,4,o
+okn'o,instrumental.singular,o k n 'o m,segmental,0,ok
+okn'o,instrumental.singular,o k n 'o m,segmental,2,n
+okn'o,instrumental.singular,o k n 'o m,segmental,4,o
+okn'o,instrumental.singular,o k n 'o m,segmental,5,m
+okn'o,prepositional.singular,o k n 'e,segmental,0,ok
+okn'o,prepositional.singular,o k n 'e,segmental,2,n
+okn'o,prepositional.singular,o k n 'e,segmental,6,e
+okn'o,nominative.plural,'o k n a,segmental,0,ok
+okn'o,nominative.plural,'o k n a,segmental,2,n
+okn'o,nominative.plural,'o k n a,segmental,3,a
+okn'o,genitive.plural,'o k o n,segmental,0,ok
+okn'o,genitive.plural,'o k o n,segmental,1,o
+okn'o,genitive.plural,'o k o n,segmental,2,n
+okn'o,dative.plural,'o k n a m,segmental,0,ok
+okn'o,dative.plural,'o k n a m,segmental,2,n
+okn'o,dative.plural,'o k n a m,segmental,3,a
+okn'o,dative.plural,'o k n a m,segmental,5,m
+okn'o,accusative.plural,'o k n a,segmental,0,ok
+okn'o,accusative.plural,'o k n a,segmental,2,n
+okn'o,accusative.plural,'o k n a,segmental,3,a
+okn'o,instrumental.plural,'o k n a mʲ i,segmental,0,ok
+okn'o,instrumental.plural,'o k n a mʲ i,segmental,2,n
+okn'o,instrumental.plural,'o k n a mʲ i,segmental,3,a
+okn'o,instrumental.plural,'o k n a mʲ i,segmental,5,m
+okn'o,instrumental.plural,'o k n a mʲ i,segmental,6,i
+okn'o,prepositional.plural,'o k n a x,segmental,0,ok
+okn'o,prepositional.plural,'o k n a x,segmental,2,n
+okn'o,prepositional.plural,'o k n a x,segmental,3,a
+okn'o,prepositional.plural,'o k n a x,segmental,6,x
+okn'o,instrumental.plural,'o k n a mʲ i,palatalization,0,ʲ
+okn'o,nominative.singular,o k n 'o,stress,0,'
+okn'o,genitive.singular,o k n 'a,stress,0,'
+okn'o,dative.singular,o k n 'u,stress,0,'
+okn'o,accusative.singular,o k n 'o,stress,0,'
+okn'o,instrumental.singular,o k n 'o m,stress,0,'
+okn'o,prepositional.singular,o k n 'e,stress,0,'
+okn'o,nominative.plural,'o k n a,stress,0,'
+okn'o,genitive.plural,'o k o n,stress,0,'
+okn'o,dative.plural,'o k n a m,stress,0,'
+okn'o,accusative.plural,'o k n a,stress,0,'
+okn'o,instrumental.plural,'o k n a mʲ i,stress,0,'
+okn'o,prepositional.plural,'o k n a x,stress,0,'
+prʲ'aʒka,nominative.singular,p rʲ 'a ʒ k a,segmental,0,praʒ
+prʲ'aʒka,nominative.singular,p rʲ 'a ʒ k a,segmental,2,k
+prʲ'aʒka,nominative.singular,p rʲ 'a ʒ k a,segmental,3,a
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,segmental,0,praʒ
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,segmental,2,k
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,segmental,5,i
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,segmental,0,praʒ
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,segmental,2,k
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,segmental,5,e
+prʲ'aʒka,accusative.singular,p rʲ 'a ʒ k u,segmental,0,praʒ
+prʲ'aʒka,accusative.singular,p rʲ 'a ʒ k u,segmental,2,k
+prʲ'aʒka,accusative.singular,p rʲ 'a ʒ k u,segmental,5,u
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,segmental,0,praʒ
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,segmental,2,k
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,segmental,5,e
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,segmental,0,praʒ
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,segmental,2,k
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,segmental,5,i
+prʲ'aʒka,genitive.plural,p rʲ 'a ʒ e k,segmental,0,praʒ
+prʲ'aʒka,genitive.plural,p rʲ 'a ʒ e k,segmental,1,e
+prʲ'aʒka,genitive.plural,p rʲ 'a ʒ e k,segmental,2,k
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,segmental,0,praʒ
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,segmental,2,k
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,segmental,3,a
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,segmental,4,m
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,segmental,0,praʒ
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,segmental,2,k
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,segmental,5,i
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,segmental,0,praʒ
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,segmental,2,k
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,segmental,3,a
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,segmental,4,m
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,segmental,5,i
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,segmental,0,praʒ
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,segmental,2,k
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,segmental,3,a
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,segmental,5,x
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j,segmental,0,praʒ
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j,segmental,2,k
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j,segmental,4,oj
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,segmental,0,praʒ
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,segmental,2,k
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,segmental,4,oj
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,segmental,5,u
+prʲ'aʒka,nominative.singular,p rʲ 'a ʒ k a,palatalization,0,ʲ
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,palatalization,0,ʲ
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,palatalization,1,ʲ
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,palatalization,0,ʲ
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,palatalization,1,ʲ
+prʲ'aʒka,accusative.singular,p rʲ 'a ʒ k u,palatalization,0,ʲ
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,palatalization,0,ʲ
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,palatalization,1,ʲ
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,palatalization,0,ʲ
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,palatalization,1,ʲ
+prʲ'aʒka,genitive.plural,p rʲ 'a ʒ e k,palatalization,0,ʲ
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,palatalization,0,ʲ
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,palatalization,0,ʲ
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,palatalization,1,ʲ
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,palatalization,0,ʲ
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,palatalization,1,ʲ
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,palatalization,0,ʲ
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j,palatalization,0,ʲ
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,palatalization,0,ʲ
+prʲ'aʒka,nominative.singular,p rʲ 'a ʒ k a,stress,0,'
+prʲ'aʒka,genitive.singular,p rʲ 'a ʒ kʲ i,stress,0,'
+prʲ'aʒka,dative.singular,p rʲ 'a ʒ kʲ e,stress,0,'
+prʲ'aʒka,accusative.singular,p rʲ 'a ʒ k u,stress,0,'
+prʲ'aʒka,prepositional.singular,p rʲ 'a ʒ kʲ e,stress,0,'
+prʲ'aʒka,nominative.plural,p rʲ 'a ʒ kʲ i,stress,0,'
+prʲ'aʒka,genitive.plural,p rʲ 'a ʒ e k,stress,0,'
+prʲ'aʒka,dative.plural,p rʲ 'a ʒ k a m,stress,0,'
+prʲ'aʒka,accusative.plural,p rʲ 'a ʒ kʲ i,stress,0,'
+prʲ'aʒka,instrumental.plural,p rʲ 'a ʒ k a mʲ i,stress,0,'
+prʲ'aʒka,prepositional.plural,p rʲ 'a ʒ k a x,stress,0,'
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j,stress,0,'
+prʲ'aʒka,instrumental.singular,p rʲ 'a ʒ k o j u,stress,0,'
+putʲ,nominative.singular,p u tʲ,segmental,0,put
+putʲ,genitive.singular,p u tʲ 'i,segmental,0,put
+putʲ,genitive.singular,p u tʲ 'i,segmental,4,i
+putʲ,dative.singular,p u tʲ 'i,segmental,0,put
+putʲ,dative.singular,p u tʲ 'i,segmental,4,i
+putʲ,accusative.singular,p u tʲ,segmental,0,put
+putʲ,instrumental.singular,p u tʲ 'o m,segmental,0,put
+putʲ,instrumental.singular,p u tʲ 'o m,segmental,2,o
+putʲ,instrumental.singular,p u tʲ 'o m,segmental,3,m
+putʲ,prepositional.singular,p u tʲ 'i,segmental,0,put
+putʲ,prepositional.singular,p u tʲ 'i,segmental,4,i
+putʲ,nominative.plural,p u tʲ 'i,segmental,0,put
+putʲ,nominative.plural,p u tʲ 'i,segmental,4,i
+putʲ,genitive.plural,p u tʲ 'e j,segmental,0,put
+putʲ,genitive.plural,p u tʲ 'e j,segmental,4,ej
+putʲ,dative.plural,p u tʲ 'a m,segmental,0,put
+putʲ,dative.plural,p u tʲ 'a m,segmental,1,a
+putʲ,dative.plural,p u tʲ 'a m,segmental,3,m
+putʲ,accusative.plural,p u tʲ 'i,segmental,0,put
+putʲ,accusative.plural,p u tʲ 'i,segmental,4,i
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,segmental,0,put
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,segmental,1,a
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,segmental,3,m
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,segmental,4,i
+putʲ,prepositional.plural,p u tʲ 'a x,segmental,0,put
+putʲ,prepositional.plural,p u tʲ 'a x,segmental,1,a
+putʲ,prepositional.plural,p u tʲ 'a x,segmental,4,x
+putʲ,nominative.singular,p u tʲ,palatalization,0,ʲ
+putʲ,genitive.singular,p u tʲ 'i,palatalization,0,ʲ
+putʲ,dative.singular,p u tʲ 'i,palatalization,0,ʲ
+putʲ,accusative.singular,p u tʲ,palatalization,0,ʲ
+putʲ,instrumental.singular,p u tʲ 'o m,palatalization,0,ʲ
+putʲ,prepositional.singular,p u tʲ 'i,palatalization,0,ʲ
+putʲ,nominative.plural,p u tʲ 'i,palatalization,0,ʲ
+putʲ,genitive.plural,p u tʲ 'e j,palatalization,0,ʲ
+putʲ,dative.plural,p u tʲ 'a m,palatalization,0,ʲ
+putʲ,accusative.plural,p u tʲ 'i,palatalization,0,ʲ
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,palatalization,0,ʲ
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,palatalization,1,ʲ
+putʲ,prepositional.plural,p u tʲ 'a x,palatalization,0,ʲ
+putʲ,genitive.singular,p u tʲ 'i,stress,0,'
+putʲ,dative.singular,p u tʲ 'i,stress,0,'
+putʲ,instrumental.singular,p u tʲ 'o m,stress,0,'
+putʲ,prepositional.singular,p u tʲ 'i,stress,0,'
+putʲ,nominative.plural,p u tʲ 'i,stress,0,'
+putʲ,genitive.plural,p u tʲ 'e j,stress,0,'
+putʲ,dative.plural,p u tʲ 'a m,stress,0,'
+putʲ,accusative.plural,p u tʲ 'i,stress,0,'
+putʲ,instrumental.plural,p u tʲ 'a mʲ i,stress,0,'
+putʲ,prepositional.plural,p u tʲ 'a x,stress,0,'
+rot'onda,nominative.singular,r o t 'o n d a,segmental,0,rotond
+rot'onda,nominative.singular,r o t 'o n d a,segmental,1,a
+rot'onda,genitive.singular,r o t 'o n d ɨ,segmental,0,rotond
+rot'onda,genitive.singular,r o t 'o n d ɨ,segmental,3,ɨ
+rot'onda,dative.singular,r o t 'o n dʲ e,segmental,0,rotond
+rot'onda,dative.singular,r o t 'o n dʲ e,segmental,3,e
+rot'onda,accusative.singular,r o t 'o n d u,segmental,0,rotond
+rot'onda,accusative.singular,r o t 'o n d u,segmental,3,u
+rot'onda,prepositional.singular,r o t 'o n dʲ e,segmental,0,rotond
+rot'onda,prepositional.singular,r o t 'o n dʲ e,segmental,3,e
+rot'onda,nominative.plural,r o t 'o n d ɨ,segmental,0,rotond
+rot'onda,nominative.plural,r o t 'o n d ɨ,segmental,3,ɨ
+rot'onda,genitive.plural,r o t 'o n d,segmental,0,rotond
+rot'onda,dative.plural,r o t 'o n d a m,segmental,0,rotond
+rot'onda,dative.plural,r o t 'o n d a m,segmental,1,a
+rot'onda,dative.plural,r o t 'o n d a m,segmental,2,m
+rot'onda,accusative.plural,r o t 'o n d ɨ,segmental,0,rotond
+rot'onda,accusative.plural,r o t 'o n d ɨ,segmental,3,ɨ
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,segmental,0,rotond
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,segmental,1,a
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,segmental,2,m
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,segmental,3,i
+rot'onda,prepositional.plural,r o t 'o n d a x,segmental,0,rotond
+rot'onda,prepositional.plural,r o t 'o n d a x,segmental,1,a
+rot'onda,prepositional.plural,r o t 'o n d a x,segmental,3,x
+rot'onda,instrumental.singular,r o t 'o n d o j,segmental,0,rotond
+rot'onda,instrumental.singular,r o t 'o n d o j,segmental,2,oj
+rot'onda,instrumental.singular,r o t 'o n d o j u,segmental,0,rotond
+rot'onda,instrumental.singular,r o t 'o n d o j u,segmental,2,oj
+rot'onda,instrumental.singular,r o t 'o n d o j u,segmental,3,u
+rot'onda,dative.singular,r o t 'o n dʲ e,palatalization,0,ʲ
+rot'onda,prepositional.singular,r o t 'o n dʲ e,palatalization,0,ʲ
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,palatalization,0,ʲ
+rot'onda,nominative.singular,r o t 'o n d a,stress,0,'
+rot'onda,genitive.singular,r o t 'o n d ɨ,stress,0,'
+rot'onda,dative.singular,r o t 'o n dʲ e,stress,0,'
+rot'onda,accusative.singular,r o t 'o n d u,stress,0,'
+rot'onda,prepositional.singular,r o t 'o n dʲ e,stress,0,'
+rot'onda,nominative.plural,r o t 'o n d ɨ,stress,0,'
+rot'onda,genitive.plural,r o t 'o n d,stress,0,'
+rot'onda,dative.plural,r o t 'o n d a m,stress,0,'
+rot'onda,accusative.plural,r o t 'o n d ɨ,stress,0,'
+rot'onda,instrumental.plural,r o t 'o n d a mʲ i,stress,0,'
+rot'onda,prepositional.plural,r o t 'o n d a x,stress,0,'
+rot'onda,instrumental.singular,r o t 'o n d o j,stress,0,'
+rot'onda,instrumental.singular,r o t 'o n d o j u,stress,0,'
+ruk'a,nominative.singular,r u k 'a,segmental,0,ruk
+ruk'a,nominative.singular,r u k 'a,segmental,1,a
+ruk'a,genitive.singular,r u kʲ 'i,segmental,0,ruk
+ruk'a,genitive.singular,r u kʲ 'i,segmental,3,i
+ruk'a,dative.singular,r u kʲ 'e,segmental,0,ruk
+ruk'a,dative.singular,r u kʲ 'e,segmental,3,e
+ruk'a,accusative.singular,r 'u k u,segmental,0,ruk
+ruk'a,accusative.singular,r 'u k u,segmental,3,u
+ruk'a,prepositional.singular,r u kʲ 'e,segmental,0,ruk
+ruk'a,prepositional.singular,r u kʲ 'e,segmental,3,e
+ruk'a,nominative.plural,r 'u kʲ i,segmental,0,ruk
+ruk'a,nominative.plural,r 'u kʲ i,segmental,3,i
+ruk'a,genitive.plural,r u k,segmental,0,ruk
+ruk'a,dative.plural,r u k 'a m,segmental,0,ruk
+ruk'a,dative.plural,r u k 'a m,segmental,1,a
+ruk'a,dative.plural,r u k 'a m,segmental,2,m
+ruk'a,accusative.plural,r 'u kʲ i,segmental,0,ruk
+ruk'a,accusative.plural,r 'u kʲ i,segmental,3,i
+ruk'a,instrumental.plural,r u k 'a mʲ i,segmental,0,ruk
+ruk'a,instrumental.plural,r u k 'a mʲ i,segmental,1,a
+ruk'a,instrumental.plural,r u k 'a mʲ i,segmental,2,m
+ruk'a,instrumental.plural,r u k 'a mʲ i,segmental,3,i
+ruk'a,prepositional.plural,r u k 'a x,segmental,0,ruk
+ruk'a,prepositional.plural,r u k 'a x,segmental,1,a
+ruk'a,prepositional.plural,r u k 'a x,segmental,3,x
+ruk'a,instrumental.singular,r u k 'o j,segmental,0,ruk
+ruk'a,instrumental.singular,r u k 'o j,segmental,2,oj
+ruk'a,instrumental.singular,r u k 'o j u,segmental,0,ruk
+ruk'a,instrumental.singular,r u k 'o j u,segmental,2,oj
+ruk'a,instrumental.singular,r u k 'o j u,segmental,3,u
+ruk'a,genitive.singular,r u kʲ 'i,palatalization,0,ʲ
+ruk'a,dative.singular,r u kʲ 'e,palatalization,0,ʲ
+ruk'a,prepositional.singular,r u kʲ 'e,palatalization,0,ʲ
+ruk'a,nominative.plural,r 'u kʲ i,palatalization,0,ʲ
+ruk'a,accusative.plural,r 'u kʲ i,palatalization,0,ʲ
+ruk'a,instrumental.plural,r u k 'a mʲ i,palatalization,0,ʲ
+ruk'a,nominative.singular,r u k 'a,stress,0,'
+ruk'a,genitive.singular,r u kʲ 'i,stress,0,'
+ruk'a,dative.singular,r u kʲ 'e,stress,0,'
+ruk'a,accusative.singular,r 'u k u,stress,0,'
+ruk'a,prepositional.singular,r u kʲ 'e,stress,0,'
+ruk'a,nominative.plural,r 'u kʲ i,stress,0,'
+ruk'a,dative.plural,r u k 'a m,stress,0,'
+ruk'a,accusative.plural,r 'u kʲ i,stress,0,'
+ruk'a,instrumental.plural,r u k 'a mʲ i,stress,0,'
+ruk'a,prepositional.plural,r u k 'a x,stress,0,'
+ruk'a,instrumental.singular,r u k 'o j,stress,0,'
+ruk'a,instrumental.singular,r u k 'o j u,stress,0,'
+stol,nominative.singular,s t o l,segmental,0,stol
+stol,genitive.singular,s t o l 'a,segmental,0,stol
+stol,genitive.singular,s t o l 'a,segmental,1,a
+stol,dative.singular,s t o l 'u,segmental,0,stol
+stol,dative.singular,s t o l 'u,segmental,3,u
+stol,accusative.singular,s t o l,segmental,0,stol
+stol,instrumental.singular,s t o l 'o m,segmental,0,stol
+stol,instrumental.singular,s t o l 'o m,segmental,1,o
+stol,instrumental.singular,s t o l 'o m,segmental,2,m
+stol,prepositional.singular,s t o lʲ 'e,segmental,0,stol
+stol,prepositional.singular,s t o lʲ 'e,segmental,3,e
+stol,nominative.plural,s t o l 'ɨ,segmental,0,stol
+stol,nominative.plural,s t o l 'ɨ,segmental,3,ɨ
+stol,genitive.plural,s t o l 'o v,segmental,0,stol
+stol,genitive.plural,s t o l 'o v,segmental,1,o
+stol,genitive.plural,s t o l 'o v,segmental,3,v
+stol,dative.plural,s t o l 'a m,segmental,0,stol
+stol,dative.plural,s t o l 'a m,segmental,1,a
+stol,dative.plural,s t o l 'a m,segmental,2,m
+stol,accusative.plural,s t o l 'ɨ,segmental,0,stol
+stol,accusative.plural,s t o l 'ɨ,segmental,3,ɨ
+stol,instrumental.plural,s t o l 'a mʲ i,segmental,0,stol
+stol,instrumental.plural,s t o l 'a mʲ i,segmental,1,a
+stol,instrumental.plural,s t o l 'a mʲ i,segmental,2,m
+stol,instrumental.plural,s t o l 'a mʲ i,segmental,3,i
+stol,prepositional.plural,s t o l 'a x,segmental,0,stol
+stol,prepositional.plural,s t o l 'a x,segmental,1,a
+stol,prepositional.plural,s t o l 'a x,segmental,3,x
+stol,prepositional.singular,s t o lʲ 'e,palatalization,0,ʲ
+stol,instrumental.plural,s t o l 'a mʲ i,palatalization,0,ʲ
+stol,genitive.singular,s t o l 'a,stress,0,'
+stol,dative.singular,s t o l 'u,stress,0,'
+stol,instrumental.singular,s t o l 'o m,stress,0,'
+stol,prepositional.singular,s t o lʲ 'e,stress,0,'
+stol,nominative.plural,s t o l 'ɨ,stress,0,'
+stol,genitive.plural,s t o l 'o v,stress,0,'
+stol,dative.plural,s t o l 'a m,stress,0,'
+stol,accusative.plural,s t o l 'ɨ,stress,0,'
+stol,instrumental.plural,s t o l 'a mʲ i,stress,0,'
+stol,prepositional.plural,s t o l 'a x,stress,0,'
+stʲix.1,nominative.singular,s tʲ i x,segmental,0,stix
+stʲix.1,genitive.singular,s tʲ 'i x a,segmental,0,stix
+stʲix.1,genitive.singular,s tʲ 'i x a,segmental,1,a
+stʲix.1,dative.singular,s tʲ 'i x u,segmental,0,stix
+stʲix.1,dative.singular,s tʲ 'i x u,segmental,4,u
+stʲix.1,accusative.singular,s tʲ i x,segmental,0,stix
+stʲix.1,instrumental.singular,s tʲ 'i x o m,segmental,0,stix
+stʲix.1,instrumental.singular,s tʲ 'i x o m,segmental,2,o
+stʲix.1,instrumental.singular,s tʲ 'i x o m,segmental,3,m
+stʲix.1,prepositional.singular,s tʲ 'i xʲ e,segmental,0,stix
+stʲix.1,prepositional.singular,s tʲ 'i xʲ e,segmental,4,e
+stʲix.1,nominative.plural,s tʲ 'i xʲ i,segmental,0,stix
+stʲix.1,nominative.plural,s tʲ 'i xʲ i,segmental,4,i
+stʲix.1,genitive.plural,s tʲ 'i x o v,segmental,0,stix
+stʲix.1,genitive.plural,s tʲ 'i x o v,segmental,2,o
+stʲix.1,genitive.plural,s tʲ 'i x o v,segmental,4,v
+stʲix.1,dative.plural,s tʲ 'i x a m,segmental,0,stix
+stʲix.1,dative.plural,s tʲ 'i x a m,segmental,1,a
+stʲix.1,dative.plural,s tʲ 'i x a m,segmental,3,m
+stʲix.1,accusative.plural,s tʲ 'i xʲ i,segmental,0,stix
+stʲix.1,accusative.plural,s tʲ 'i xʲ i,segmental,4,i
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,segmental,0,stix
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,segmental,1,a
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,segmental,3,m
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,segmental,4,i
+stʲix.1,prepositional.plural,s tʲ 'i x a x,segmental,0,stix
+stʲix.1,prepositional.plural,s tʲ 'i x a x,segmental,1,a
+stʲix.1,prepositional.plural,s tʲ 'i x a x,segmental,4,x
+stʲix.1,nominative.singular,s tʲ i x,palatalization,0,ʲ
+stʲix.1,genitive.singular,s tʲ 'i x a,palatalization,0,ʲ
+stʲix.1,dative.singular,s tʲ 'i x u,palatalization,0,ʲ
+stʲix.1,accusative.singular,s tʲ i x,palatalization,0,ʲ
+stʲix.1,instrumental.singular,s tʲ 'i x o m,palatalization,0,ʲ
+stʲix.1,prepositional.singular,s tʲ 'i xʲ e,palatalization,0,ʲ
+stʲix.1,prepositional.singular,s tʲ 'i xʲ e,palatalization,1,ʲ
+stʲix.1,nominative.plural,s tʲ 'i xʲ i,palatalization,0,ʲ
+stʲix.1,nominative.plural,s tʲ 'i xʲ i,palatalization,1,ʲ
+stʲix.1,genitive.plural,s tʲ 'i x o v,palatalization,0,ʲ
+stʲix.1,dative.plural,s tʲ 'i x a m,palatalization,0,ʲ
+stʲix.1,accusative.plural,s tʲ 'i xʲ i,palatalization,0,ʲ
+stʲix.1,accusative.plural,s tʲ 'i xʲ i,palatalization,1,ʲ
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,palatalization,0,ʲ
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,palatalization,1,ʲ
+stʲix.1,prepositional.plural,s tʲ 'i x a x,palatalization,0,ʲ
+stʲix.1,genitive.singular,s tʲ 'i x a,stress,0,'
+stʲix.1,dative.singular,s tʲ 'i x u,stress,0,'
+stʲix.1,instrumental.singular,s tʲ 'i x o m,stress,0,'
+stʲix.1,prepositional.singular,s tʲ 'i xʲ e,stress,0,'
+stʲix.1,nominative.plural,s tʲ 'i xʲ i,stress,0,'
+stʲix.1,genitive.plural,s tʲ 'i x o v,stress,0,'
+stʲix.1,dative.plural,s tʲ 'i x a m,stress,0,'
+stʲix.1,accusative.plural,s tʲ 'i xʲ i,stress,0,'
+stʲix.1,instrumental.plural,s tʲ 'i x a mʲ i,stress,0,'
+stʲix.1,prepositional.plural,s tʲ 'i x a x,stress,0,'
+vrʲ'emʲa,nominative.singular,v rʲ 'e mʲ a,segmental,0,vrem
+vrʲ'emʲa,nominative.singular,v rʲ 'e mʲ a,segmental,3,a
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,segmental,0,vrem
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,segmental,1,e
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,segmental,2,n
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,segmental,5,i
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,segmental,0,vrem
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,segmental,1,e
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,segmental,2,n
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,segmental,5,i
+vrʲ'emʲa,accusative.singular,v rʲ 'e mʲ a,segmental,0,vrem
+vrʲ'emʲa,accusative.singular,v rʲ 'e mʲ a,segmental,3,a
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,segmental,0,vrem
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,segmental,1,e
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,segmental,2,n
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,segmental,3,e
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,segmental,4,m
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,segmental,0,vrem
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,segmental,1,e
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,segmental,2,n
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,segmental,5,i
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,segmental,0,vrem
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,segmental,1,e
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,segmental,2,n
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,segmental,3,a
+vrʲ'emʲa,genitive.plural,v rʲ e mʲ 'o n,segmental,0,vrem
+vrʲ'emʲa,genitive.plural,v rʲ e mʲ 'o n,segmental,1,o
+vrʲ'emʲa,genitive.plural,v rʲ e mʲ 'o n,segmental,2,n
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,segmental,0,vrem
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,segmental,1,e
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,segmental,2,n
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,segmental,3,a
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,segmental,4,m
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,segmental,0,vrem
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,segmental,1,e
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,segmental,2,n
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,segmental,3,a
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,0,vrem
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,1,e
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,2,n
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,3,a
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,4,m
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,segmental,5,i
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,segmental,0,vrem
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,segmental,1,e
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,segmental,2,n
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,segmental,3,a
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,segmental,5,x
+vrʲ'emʲa,nominative.singular,v rʲ 'e mʲ a,palatalization,0,ʲʲ
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,palatalization,0,ʲʲ
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,palatalization,0,ʲʲ
+vrʲ'emʲa,accusative.singular,v rʲ 'e mʲ a,palatalization,0,ʲʲ
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,palatalization,0,ʲʲ
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,palatalization,0,ʲʲ
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,palatalization,0,ʲʲ
+vrʲ'emʲa,genitive.plural,v rʲ e mʲ 'o n,palatalization,0,ʲʲ
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,palatalization,0,ʲʲ
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,palatalization,0,ʲʲ
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,palatalization,0,ʲʲ
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,palatalization,1,ʲ
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,palatalization,0,ʲʲ
+vrʲ'emʲa,nominative.singular,v rʲ 'e mʲ a,stress,0,'
+vrʲ'emʲa,genitive.singular,v rʲ 'e mʲ e n i,stress,0,'
+vrʲ'emʲa,dative.singular,v rʲ 'e mʲ e n i,stress,0,'
+vrʲ'emʲa,accusative.singular,v rʲ 'e mʲ a,stress,0,'
+vrʲ'emʲa,instrumental.singular,v rʲ 'e mʲ e n e m,stress,0,'
+vrʲ'emʲa,prepositional.singular,v rʲ 'e mʲ e n i,stress,0,'
+vrʲ'emʲa,nominative.plural,v rʲ e mʲ e n 'a,stress,0,'
+vrʲ'emʲa,genitive.plural,v rʲ e mʲ 'o n,stress,0,'
+vrʲ'emʲa,dative.plural,v rʲ e mʲ e n 'a m,stress,0,'
+vrʲ'emʲa,accusative.plural,v rʲ e mʲ e n 'a,stress,0,'
+vrʲ'emʲa,instrumental.plural,v rʲ e mʲ e n 'a mʲ i,stress,0,'
+vrʲ'emʲa,prepositional.plural,v rʲ e mʲ e n 'a x,stress,0,'
+vʲ'irus,nominative.singular,vʲ 'i r u s,segmental,0,virus
+vʲ'irus,genitive.singular,vʲ 'i r u s a,segmental,0,virus
+vʲ'irus,genitive.singular,vʲ 'i r u s a,segmental,1,a
+vʲ'irus,dative.singular,vʲ 'i r u s u,segmental,0,virus
+vʲ'irus,dative.singular,vʲ 'i r u s u,segmental,3,u
+vʲ'irus,accusative.singular,vʲ 'i r u s,segmental,0,virus
+vʲ'irus,instrumental.singular,vʲ 'i r u s o m,segmental,0,virus
+vʲ'irus,instrumental.singular,vʲ 'i r u s o m,segmental,1,o
+vʲ'irus,instrumental.singular,vʲ 'i r u s o m,segmental,2,m
+vʲ'irus,prepositional.singular,vʲ 'i r u sʲ e,segmental,0,virus
+vʲ'irus,prepositional.singular,vʲ 'i r u sʲ e,segmental,3,e
+vʲ'irus,nominative.plural,vʲ 'i r u s ɨ,segmental,0,virus
+vʲ'irus,nominative.plural,vʲ 'i r u s ɨ,segmental,3,ɨ
+vʲ'irus,genitive.plural,vʲ 'i r u s o v,segmental,0,virus
+vʲ'irus,genitive.plural,vʲ 'i r u s o v,segmental,1,o
+vʲ'irus,genitive.plural,vʲ 'i r u s o v,segmental,3,v
+vʲ'irus,dative.plural,vʲ 'i r u s a m,segmental,0,virus
+vʲ'irus,dative.plural,vʲ 'i r u s a m,segmental,1,a
+vʲ'irus,dative.plural,vʲ 'i r u s a m,segmental,2,m
+vʲ'irus,accusative.plural,vʲ 'i r u s ɨ,segmental,0,virus
+vʲ'irus,accusative.plural,vʲ 'i r u s ɨ,segmental,3,ɨ
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,segmental,0,virus
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,segmental,1,a
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,segmental,2,m
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,segmental,3,i
+vʲ'irus,prepositional.plural,vʲ 'i r u s a x,segmental,0,virus
+vʲ'irus,prepositional.plural,vʲ 'i r u s a x,segmental,1,a
+vʲ'irus,prepositional.plural,vʲ 'i r u s a x,segmental,3,x
+vʲ'irus,nominative.singular,vʲ 'i r u s,palatalization,0,ʲ
+vʲ'irus,genitive.singular,vʲ 'i r u s a,palatalization,0,ʲ
+vʲ'irus,dative.singular,vʲ 'i r u s u,palatalization,0,ʲ
+vʲ'irus,accusative.singular,vʲ 'i r u s,palatalization,0,ʲ
+vʲ'irus,instrumental.singular,vʲ 'i r u s o m,palatalization,0,ʲ
+vʲ'irus,prepositional.singular,vʲ 'i r u sʲ e,palatalization,0,ʲ
+vʲ'irus,prepositional.singular,vʲ 'i r u sʲ e,palatalization,1,ʲ
+vʲ'irus,nominative.plural,vʲ 'i r u s ɨ,palatalization,0,ʲ
+vʲ'irus,genitive.plural,vʲ 'i r u s o v,palatalization,0,ʲ
+vʲ'irus,dative.plural,vʲ 'i r u s a m,palatalization,0,ʲ
+vʲ'irus,accusative.plural,vʲ 'i r u s ɨ,palatalization,0,ʲ
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,palatalization,0,ʲ
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,palatalization,1,ʲ
+vʲ'irus,prepositional.plural,vʲ 'i r u s a x,palatalization,0,ʲ
+vʲ'irus,nominative.singular,vʲ 'i r u s,stress,0,'
+vʲ'irus,genitive.singular,vʲ 'i r u s a,stress,0,'
+vʲ'irus,dative.singular,vʲ 'i r u s u,stress,0,'
+vʲ'irus,accusative.singular,vʲ 'i r u s,stress,0,'
+vʲ'irus,instrumental.singular,vʲ 'i r u s o m,stress,0,'
+vʲ'irus,prepositional.singular,vʲ 'i r u sʲ e,stress,0,'
+vʲ'irus,nominative.plural,vʲ 'i r u s ɨ,stress,0,'
+vʲ'irus,genitive.plural,vʲ 'i r u s o v,stress,0,'
+vʲ'irus,dative.plural,vʲ 'i r u s a m,stress,0,'
+vʲ'irus,accusative.plural,vʲ 'i r u s ɨ,stress,0,'
+vʲ'irus,instrumental.plural,vʲ 'i r u s a mʲ i,stress,0,'
+vʲ'irus,prepositional.plural,vʲ 'i r u s a x,stress,0,'
+vʲin'o,nominative.singular,vʲ i n 'o,segmental,0,vin
+vʲin'o,nominative.singular,vʲ i n 'o,segmental,2,o
+vʲin'o,genitive.singular,vʲ i n 'a,segmental,0,vin
+vʲin'o,genitive.singular,vʲ i n 'a,segmental,1,a
+vʲin'o,dative.singular,vʲ i n 'u,segmental,0,vin
+vʲin'o,dative.singular,vʲ i n 'u,segmental,4,u
+vʲin'o,accusative.singular,vʲ i n 'o,segmental,0,vin
+vʲin'o,accusative.singular,vʲ i n 'o,segmental,2,o
+vʲin'o,instrumental.singular,vʲ i n 'o m,segmental,0,vin
+vʲin'o,instrumental.singular,vʲ i n 'o m,segmental,2,o
+vʲin'o,instrumental.singular,vʲ i n 'o m,segmental,3,m
+vʲin'o,prepositional.singular,vʲ i n 'e,segmental,0,vin
+vʲin'o,prepositional.singular,vʲ i n 'e,segmental,4,e
+vʲin'o,nominative.plural,vʲ 'i n a,segmental,0,vin
+vʲin'o,nominative.plural,vʲ 'i n a,segmental,1,a
+vʲin'o,genitive.plural,vʲ i n,segmental,0,vin
+vʲin'o,dative.plural,vʲ 'i n a m,segmental,0,vin
+vʲin'o,dative.plural,vʲ 'i n a m,segmental,1,a
+vʲin'o,dative.plural,vʲ 'i n a m,segmental,3,m
+vʲin'o,accusative.plural,vʲ 'i n a,segmental,0,vin
+vʲin'o,accusative.plural,vʲ 'i n a,segmental,1,a
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,segmental,0,vin
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,segmental,1,a
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,segmental,3,m
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,segmental,4,i
+vʲin'o,prepositional.plural,vʲ 'i n a x,segmental,0,vin
+vʲin'o,prepositional.plural,vʲ 'i n a x,segmental,1,a
+vʲin'o,prepositional.plural,vʲ 'i n a x,segmental,4,x
+vʲin'o,nominative.singular,vʲ i n 'o,palatalization,0,ʲ
+vʲin'o,genitive.singular,vʲ i n 'a,palatalization,0,ʲ
+vʲin'o,dative.singular,vʲ i n 'u,palatalization,0,ʲ
+vʲin'o,accusative.singular,vʲ i n 'o,palatalization,0,ʲ
+vʲin'o,instrumental.singular,vʲ i n 'o m,palatalization,0,ʲ
+vʲin'o,prepositional.singular,vʲ i n 'e,palatalization,0,ʲ
+vʲin'o,nominative.plural,vʲ 'i n a,palatalization,0,ʲ
+vʲin'o,genitive.plural,vʲ i n,palatalization,0,ʲ
+vʲin'o,dative.plural,vʲ 'i n a m,palatalization,0,ʲ
+vʲin'o,accusative.plural,vʲ 'i n a,palatalization,0,ʲ
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,palatalization,0,ʲ
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,palatalization,1,ʲ
+vʲin'o,prepositional.plural,vʲ 'i n a x,palatalization,0,ʲ
+vʲin'o,nominative.singular,vʲ i n 'o,stress,0,'
+vʲin'o,genitive.singular,vʲ i n 'a,stress,0,'
+vʲin'o,dative.singular,vʲ i n 'u,stress,0,'
+vʲin'o,accusative.singular,vʲ i n 'o,stress,0,'
+vʲin'o,instrumental.singular,vʲ i n 'o m,stress,0,'
+vʲin'o,prepositional.singular,vʲ i n 'e,stress,0,'
+vʲin'o,nominative.plural,vʲ 'i n a,stress,0,'
+vʲin'o,dative.plural,vʲ 'i n a m,stress,0,'
+vʲin'o,accusative.plural,vʲ 'i n a,stress,0,'
+vʲin'o,instrumental.plural,vʲ 'i n a mʲ i,stress,0,'
+vʲin'o,prepositional.plural,vʲ 'i n a x,stress,0,'
+zak'on,nominative.singular,z a k 'o n,segmental,0,zakon
+zak'on,genitive.singular,z a k 'o n a,segmental,0,zakon
+zak'on,genitive.singular,z a k 'o n a,segmental,1,a
+zak'on,dative.singular,z a k 'o n u,segmental,0,zakon
+zak'on,dative.singular,z a k 'o n u,segmental,3,u
+zak'on,accusative.singular,z a k 'o n,segmental,0,zakon
+zak'on,instrumental.singular,z a k 'o n o m,segmental,0,zakon
+zak'on,instrumental.singular,z a k 'o n o m,segmental,1,o
+zak'on,instrumental.singular,z a k 'o n o m,segmental,2,m
+zak'on,prepositional.singular,z a k 'o n e,segmental,0,zakon
+zak'on,prepositional.singular,z a k 'o n e,segmental,3,e
+zak'on,nominative.plural,z a k 'o n ɨ,segmental,0,zakon
+zak'on,nominative.plural,z a k 'o n ɨ,segmental,3,ɨ
+zak'on,genitive.plural,z a k 'o n o v,segmental,0,zakon
+zak'on,genitive.plural,z a k 'o n o v,segmental,1,o
+zak'on,genitive.plural,z a k 'o n o v,segmental,3,v
+zak'on,dative.plural,z a k 'o n a m,segmental,0,zakon
+zak'on,dative.plural,z a k 'o n a m,segmental,1,a
+zak'on,dative.plural,z a k 'o n a m,segmental,2,m
+zak'on,accusative.plural,z a k 'o n ɨ,segmental,0,zakon
+zak'on,accusative.plural,z a k 'o n ɨ,segmental,3,ɨ
+zak'on,instrumental.plural,z a k 'o n a mʲ i,segmental,0,zakon
+zak'on,instrumental.plural,z a k 'o n a mʲ i,segmental,1,a
+zak'on,instrumental.plural,z a k 'o n a mʲ i,segmental,2,m
+zak'on,instrumental.plural,z a k 'o n a mʲ i,segmental,3,i
+zak'on,prepositional.plural,z a k 'o n a x,segmental,0,zakon
+zak'on,prepositional.plural,z a k 'o n a x,segmental,1,a
+zak'on,prepositional.plural,z a k 'o n a x,segmental,3,x
+zak'on,instrumental.plural,z a k 'o n a mʲ i,palatalization,0,ʲ
+zak'on,nominative.singular,z a k 'o n,stress,0,'
+zak'on,genitive.singular,z a k 'o n a,stress,0,'
+zak'on,dative.singular,z a k 'o n u,stress,0,'
+zak'on,accusative.singular,z a k 'o n,stress,0,'
+zak'on,instrumental.singular,z a k 'o n o m,stress,0,'
+zak'on,prepositional.singular,z a k 'o n e,stress,0,'
+zak'on,nominative.plural,z a k 'o n ɨ,stress,0,'
+zak'on,genitive.plural,z a k 'o n o v,stress,0,'
+zak'on,dative.plural,z a k 'o n a m,stress,0,'
+zak'on,accusative.plural,z a k 'o n ɨ,stress,0,'
+zak'on,instrumental.plural,z a k 'o n a mʲ i,stress,0,'
+zak'on,prepositional.plural,z a k 'o n a x,stress,0,'
+ɡuɡen'ot,nominative.singular,ɡ u ɡ e n 'o t,segmental,0,ɡuɡenot
+ɡuɡen'ot,genitive.singular,ɡ u ɡ e n 'o t a,segmental,0,ɡuɡenot
+ɡuɡen'ot,genitive.singular,ɡ u ɡ e n 'o t a,segmental,1,a
+ɡuɡen'ot,dative.singular,ɡ u ɡ e n 'o t u,segmental,0,ɡuɡenot
+ɡuɡen'ot,dative.singular,ɡ u ɡ e n 'o t u,segmental,3,u
+ɡuɡen'ot,accusative.singular,ɡ u ɡ e n 'o t a,segmental,0,ɡuɡenot
+ɡuɡen'ot,accusative.singular,ɡ u ɡ e n 'o t a,segmental,1,a
+ɡuɡen'ot,instrumental.singular,ɡ u ɡ e n 'o t o m,segmental,0,ɡuɡenot
+ɡuɡen'ot,instrumental.singular,ɡ u ɡ e n 'o t o m,segmental,1,o
+ɡuɡen'ot,instrumental.singular,ɡ u ɡ e n 'o t o m,segmental,2,m
+ɡuɡen'ot,prepositional.singular,ɡ u ɡ e n 'o tʲ e,segmental,0,ɡuɡenot
+ɡuɡen'ot,prepositional.singular,ɡ u ɡ e n 'o tʲ e,segmental,3,e
+ɡuɡen'ot,nominative.plural,ɡ u ɡ e n 'o t ɨ,segmental,0,ɡuɡenot
+ɡuɡen'ot,nominative.plural,ɡ u ɡ e n 'o t ɨ,segmental,3,ɨ
+ɡuɡen'ot,genitive.plural,ɡ u ɡ e n 'o t o v,segmental,0,ɡuɡenot
+ɡuɡen'ot,genitive.plural,ɡ u ɡ e n 'o t o v,segmental,1,o
+ɡuɡen'ot,genitive.plural,ɡ u ɡ e n 'o t o v,segmental,3,v
+ɡuɡen'ot,dative.plural,ɡ u ɡ e n 'o t a m,segmental,0,ɡuɡenot
+ɡuɡen'ot,dative.plural,ɡ u ɡ e n 'o t a m,segmental,1,a
+ɡuɡen'ot,dative.plural,ɡ u ɡ e n 'o t a m,segmental,2,m
+ɡuɡen'ot,accusative.plural,ɡ u ɡ e n 'o t o v,segmental,0,ɡuɡenot
+ɡuɡen'ot,accusative.plural,ɡ u ɡ e n 'o t o v,segmental,1,o
+ɡuɡen'ot,accusative.plural,ɡ u ɡ e n 'o t o v,segmental,3,v
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,segmental,0,ɡuɡenot
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,segmental,1,a
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,segmental,2,m
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,segmental,3,i
+ɡuɡen'ot,prepositional.plural,ɡ u ɡ e n 'o t a x,segmental,0,ɡuɡenot
+ɡuɡen'ot,prepositional.plural,ɡ u ɡ e n 'o t a x,segmental,1,a
+ɡuɡen'ot,prepositional.plural,ɡ u ɡ e n 'o t a x,segmental,3,x
+ɡuɡen'ot,prepositional.singular,ɡ u ɡ e n 'o tʲ e,palatalization,0,ʲ
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,palatalization,0,ʲ
+ɡuɡen'ot,nominative.singular,ɡ u ɡ e n 'o t,stress,0,'
+ɡuɡen'ot,genitive.singular,ɡ u ɡ e n 'o t a,stress,0,'
+ɡuɡen'ot,dative.singular,ɡ u ɡ e n 'o t u,stress,0,'
+ɡuɡen'ot,accusative.singular,ɡ u ɡ e n 'o t a,stress,0,'
+ɡuɡen'ot,instrumental.singular,ɡ u ɡ e n 'o t o m,stress,0,'
+ɡuɡen'ot,prepositional.singular,ɡ u ɡ e n 'o tʲ e,stress,0,'
+ɡuɡen'ot,nominative.plural,ɡ u ɡ e n 'o t ɨ,stress,0,'
+ɡuɡen'ot,genitive.plural,ɡ u ɡ e n 'o t o v,stress,0,'
+ɡuɡen'ot,dative.plural,ɡ u ɡ e n 'o t a m,stress,0,'
+ɡuɡen'ot,accusative.plural,ɡ u ɡ e n 'o t o v,stress,0,'
+ɡuɡen'ot,instrumental.plural,ɡ u ɡ e n 'o t a mʲ i,stress,0,'
+ɡuɡen'ot,prepositional.plural,ɡ u ɡ e n 'o t a x,stress,0,'
+ʂk'ola,nominative.singular,ʂ k 'o l a,segmental,0,ʂkol
+ʂk'ola,nominative.singular,ʂ k 'o l a,segmental,1,a
+ʂk'ola,genitive.singular,ʂ k 'o l ɨ,segmental,0,ʂkol
+ʂk'ola,genitive.singular,ʂ k 'o l ɨ,segmental,3,ɨ
+ʂk'ola,dative.singular,ʂ k 'o lʲ e,segmental,0,ʂkol
+ʂk'ola,dative.singular,ʂ k 'o lʲ e,segmental,3,e
+ʂk'ola,accusative.singular,ʂ k 'o l u,segmental,0,ʂkol
+ʂk'ola,accusative.singular,ʂ k 'o l u,segmental,3,u
+ʂk'ola,prepositional.singular,ʂ k 'o lʲ e,segmental,0,ʂkol
+ʂk'ola,prepositional.singular,ʂ k 'o lʲ e,segmental,3,e
+ʂk'ola,nominative.plural,ʂ k 'o l ɨ,segmental,0,ʂkol
+ʂk'ola,nominative.plural,ʂ k 'o l ɨ,segmental,3,ɨ
+ʂk'ola,genitive.plural,ʂ k o l,segmental,0,ʂkol
+ʂk'ola,dative.plural,ʂ k 'o l a m,segmental,0,ʂkol
+ʂk'ola,dative.plural,ʂ k 'o l a m,segmental,1,a
+ʂk'ola,dative.plural,ʂ k 'o l a m,segmental,2,m
+ʂk'ola,accusative.plural,ʂ k 'o l ɨ,segmental,0,ʂkol
+ʂk'ola,accusative.plural,ʂ k 'o l ɨ,segmental,3,ɨ
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,segmental,0,ʂkol
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,segmental,1,a
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,segmental,2,m
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,segmental,3,i
+ʂk'ola,prepositional.plural,ʂ k 'o l a x,segmental,0,ʂkol
+ʂk'ola,prepositional.plural,ʂ k 'o l a x,segmental,1,a
+ʂk'ola,prepositional.plural,ʂ k 'o l a x,segmental,3,x
+ʂk'ola,instrumental.singular,ʂ k 'o l o j,segmental,0,ʂkol
+ʂk'ola,instrumental.singular,ʂ k 'o l o j,segmental,2,oj
+ʂk'ola,instrumental.singular,ʂ k 'o l o j u,segmental,0,ʂkol
+ʂk'ola,instrumental.singular,ʂ k 'o l o j u,segmental,2,oj
+ʂk'ola,instrumental.singular,ʂ k 'o l o j u,segmental,3,u
+ʂk'ola,dative.singular,ʂ k 'o lʲ e,palatalization,0,ʲ
+ʂk'ola,prepositional.singular,ʂ k 'o lʲ e,palatalization,0,ʲ
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,palatalization,0,ʲ
+ʂk'ola,nominative.singular,ʂ k 'o l a,stress,0,'
+ʂk'ola,genitive.singular,ʂ k 'o l ɨ,stress,0,'
+ʂk'ola,dative.singular,ʂ k 'o lʲ e,stress,0,'
+ʂk'ola,accusative.singular,ʂ k 'o l u,stress,0,'
+ʂk'ola,prepositional.singular,ʂ k 'o lʲ e,stress,0,'
+ʂk'ola,nominative.plural,ʂ k 'o l ɨ,stress,0,'
+ʂk'ola,dative.plural,ʂ k 'o l a m,stress,0,'
+ʂk'ola,accusative.plural,ʂ k 'o l ɨ,stress,0,'
+ʂk'ola,instrumental.plural,ʂ k 'o l a mʲ i,stress,0,'
+ʂk'ola,prepositional.plural,ʂ k 'o l a x,stress,0,'
+ʂk'ola,instrumental.singular,ʂ k 'o l o j,stress,0,'
+ʂk'ola,instrumental.singular,ʂ k 'o l o j u,stress,0,'
