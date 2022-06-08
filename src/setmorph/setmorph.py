@@ -199,17 +199,22 @@ def classify_cumulation(df):
                 if type(cell) == frozenset:
                     if len(cell) > 1:
                         cumulationlist.append(cell)
-            #print(cumulationlist)
             if len(cumulationlist) > 1:
+                cumulationcells = set()
+                distalist = df.cell.str.split(".").apply(frozenset).tolist()
+                for x in cumulationlist:
+                    for y in distalist:
+                        if y <= x:
+                            cumulationcells.add(y)
                 table.append({
                     'lexeme' : lexeme ,
                     'tier' : form[0] ,
                     'slot' : form[1] ,
                     'formative' : form[2] ,
                     'cumulative cells' : cumulationlist ,
-                    'longest cumulation' : max(cumulationlist),
-                    '% of cells cumulative' : len(cumulationlist) / len(dista),
-                    'cumulative values / maximal cumulation' : len(max(cumulationlist)) / len(max(df2['celllist']))
+                    'longest cumulation' : len(max(cumulationlist)),
+                    '% cells cumulative' : len(cumulationcells) / len(dista) * 100,
+                    '% dimensions cumulation' : len(max(cumulationlist)) / len(max(df2['celllist'])) * 100
                  })
             else:
                 table.append({
@@ -219,14 +224,15 @@ def classify_cumulation(df):
                     'formative' : form[2] ,
                     'cumulative cells' : 0 ,
                     'longest cumulation' : 0,
-                    '% of cells cumulative' : 0,
-                    'cumulative values / maximal cumulation' : 0
+                    '% cells cumulative' : 0,
+                    '% dimensions cumulation' : 0
                  })
     return table
 
 
 def classify_syn(df):
-    """Classifies all formatives in a lexicon (dataframe) with regards to syncretism.
+    """Classifies all formatives in a lexicon (dataframe) with regards to
+    syncretism.
 
     """
     table = []
@@ -245,9 +251,9 @@ def classify_syn(df):
                     'slot' : form[1] ,
                     'formative' : form[2] ,
                     'minimal description' : description ,
-                    'syncretic features' : 0,
-                    'cells' : len(dista) ,
-                    '% paradigm' : len(description) / len(dista)
+                    '# sets minimally required' : 0,
+                    '# of cells' : len(dista) ,
+                    #'% paradigm' : len(description) / len(dista)
                  })
             elif len(description) > 1:
                 table.append({
@@ -256,9 +262,9 @@ def classify_syn(df):
                     'slot' : form[1] ,
                     'formative' : form[2] ,
                     'minimal description' : description ,
-                    'syncretic features' : len(description) ,
-                    'cells' : len(dista),
-                    '% paradigm' : len(description) / len(dista)
+                    '# sets minimally required' : len(description) ,
+                    '# of cells' : len(dista),
+                    #'% paradigm' : len(description) / len(dista)
                  })
             else:
                 table.append({
@@ -271,8 +277,11 @@ def classify_syn(df):
     return table
 
 
-def classify_ve(df):
-    """Classifies all words in a lexicon (dataframe) with regards to verbose exponence.
+def classify_ve_old(df):
+    """Classifies all words in a lexicon (dataframe) with regards to verbose
+    exponence. This is an older implementation based on words rather than
+    values and it only searches for pairs of formatives. This is closer to the
+    analysis found in Caroll (2022).
     """
     table = []
     wordlist = set(zip(df.lexeme, df.cell, df.form))
@@ -326,7 +335,8 @@ def delta_lexicon(df):
 
 
 def classify_unique(df):
-    """Classifies all values in a lexicon (dataframe) with regards to uniqueness.
+    """Classifies all values in a lexicon (dataframe) with regards to
+    uniqueness.
 
     """
     table = []
@@ -361,18 +371,20 @@ def classify_unique(df):
 
 
 def classify_allomorphy(df):
-    """Classifies all values in a lexicon (dataframe) with
-    regards to uniqueness.
+    """Classifies all values in a lexicon (dataframe) with regards to
+    uniqueness.
 
-    Crucially, treats formatives which have the same distribution
-    with regard to a value as a group (to exclude ME.)
+    Crucially, treats formatives which have the same distribution with
+    regard to a value as a group (to exclude ME.)
+
+    This excludes all ME but sould it treat all VE as a 'single allomorph'?
     """
     table = []
     lexemes = set(df['lexeme'])
 
     for lexeme in lexemes:
         dflex = df[df['lexeme']== lexeme]
-        valuelist = dflex.cell.str.split(".").apply(set).tolist() #gets set of values for a given lexeme but
+        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist() #gets set of values for a given lexeme but
         valueset = set()
         for cell in valuelist:
             for value in cell:
@@ -399,8 +411,10 @@ def classify_allomorphy(df):
                     for cell in delta['cells']:
                         deltaset.add(cell)
 
+                #This one groups those with identical distribution with respect to a feature value:
+
                 if len(deltaset) > 1:
-                    celllist = []
+                    celllist2 = []
                     examplelist.sort(key=itemgetter('cells'))
 
                     for key, value2 in itertools.groupby(examplelist, lambda item: item['cells']):
@@ -408,16 +422,106 @@ def classify_allomorphy(df):
                         for x in value2:
                             form2 = (x['tier'], x['slot'], x['form'])
                             val2list.append(form2)
-                        celllist.append(val2list)
+                        celllist2.append(val2list)
 
+                    cellswithv = set(valuelist)
+                    cellcount = sum(value in cell for cell in cellswithv)
 
-                    #for example in examplelist:
-                        #formlist.append((example['tier'], example['slot'], example['form']))
                     table.append({
                         'lexeme' : lexeme,
                         'value' : value,
-                        '# allomorphs' : len(celllist),
-                        'forms' : celllist
+                        '# allomorphs' : len(celllist2),
+                        '% of allomorphs to cells containing v' : len(celllist2)/cellcount *100 ,
+                        'forms' : celllist2
 
                     })
+    return table
+
+
+
+
+
+def classify_VE(df):
+    """Classifies all values in a lexicon (dataframe) with regards to
+    verbose exponence.
+
+    """
+    table = []
+    lexemes = set(df['lexeme'])
+
+    for lexeme in lexemes:
+        dflex = df[df['lexeme']== lexeme]
+        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist() #gets set of values for a given lexeme but
+        valueset = set()
+        for cell in valuelist:
+            for value in cell:
+                valueset.add(value)
+
+        deltatable = delta_lexicon(dflex) #gets a list of the maximal delta for each formative
+
+        for value in valueset: #goes through and makes a list of all for the formatives which have value in their minimum delta
+            examplelist = []
+            for delta in deltatable:
+                celllist = []
+                for cell in delta['minimal description']:
+                    if type(cell) != str:
+                        if value in cell:
+                            celllist.append(cell)
+                if len(celllist) > 0:
+                    examplelist.append({'lexeme':lexeme,'value':value, 'tier' : delta['tier'], 'slot' : delta['slot'],'form' : delta['formative'], 'cells' : celllist})
+            #examplelistunique = list({str(i):i for i in examplelist}.values()) #makes list unique
+            if len(examplelist) > 0:
+                print(examplelist)
+
+def classify_VE(df):
+    """Classifies all values in a lexicon (dataframe) with regards to
+    verbose exponence.
+
+    """
+    table = []
+    lexemes = set(df['lexeme'])
+
+    for lexeme in lexemes:
+        dflex = df[df['lexeme']== lexeme]
+        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist() #gets set of values for a given lexeme but
+        #dflex['celllist'] = valuelist
+        valueset = set()
+        for cell in valuelist:
+            for value in cell:
+                valueset.add(value)
+
+        deltatable = delta_lexicon(dflex) #gets a list of the maximal delta for each formative
+
+        for value in valueset: #goes through and makes a list of all for the formatives which have value in their minimum delta
+            examplelist = []
+            for delta in deltatable:
+                celllist = []
+                for cell in delta['minimal description']:
+                    if type(cell) != str:
+                        if value in cell:
+                            celllist.append(cell)
+                if len(celllist) > 0:
+                    examplelist.append({'lexeme':lexeme,'value':value, 'tier' : delta['tier'], 'slot' : delta['slot'],'form' : delta['formative'], 'cells' : celllist})
+
+            if len(examplelist) > 0: #examplelist = list of formative for value
+                locations = [idx for idx, cell in enumerate(valuelist) if cell > {value}] #locations of cells containing value
+                wordlist = dflex.iloc[locations] #list of words for value
+                #for each word... list all the formatives which co-occur
+
+                for word in set(zip(wordlist.cell,wordlist.form)):
+                    #print(wordlist)
+                    dfword = wordlist[(wordlist['cell'] == word[0]) & (wordlist['form'] == word[1])]
+                    formativelist = []
+                    for formative in examplelist:
+                        formtuple = (formative['tier'], formative['slot'], formative['form'])
+                        if formtuple in zip(dfword.tier, dfword.slot, dfword.formative):
+                            formativelist.append(formtuple)
+                    if len(formativelist) > 1:
+                        table.append({
+                            'lexeme': lexeme,
+                            'value': value,
+                            'word' : word,
+                            'formatives' : (formativelist),
+                            '# formatives' : len(formativelist)
+                            })
     return table
