@@ -27,6 +27,7 @@ def delta_lexicon(df):
     result.columns = ["minimal description", "# of cells", "dist_a"]
     return result.reset_index()
 
+
 def classify_simple(df):
     """ Classifies all formatives in a lexicon (dataframe) as simple exponence or not.
     """
@@ -34,9 +35,11 @@ def classify_simple(df):
     df["simple?"] = df["minimal description"].apply(simple)
     return df
 
+
 def classify_cumulation(df, max_dims):
     df = df.copy(deep=True)
     return df.apply(lambda form: cumulation_measures(form, max_dims), axis=1)
+
 
 def classify_syn(df):
     """Classifies all formatives in a lexicon (dataframe) with regards to
@@ -46,6 +49,7 @@ def classify_syn(df):
     df = df.copy(deep=True)
     df["# sets minimally required"] = df["minimal description"].fillna("").apply(len)
     return df.reset_index()
+
 
 def classify_unique(df):
     """
@@ -73,6 +77,7 @@ def classify_unique(df):
     uniques = groups.filter(lambda g: g.shape[0] == 1)
 
     return uniques
+
 
 def classify_allomorphy(df):
     """Classifies all values in a lexicon (dataframe) with regards to
@@ -147,6 +152,7 @@ def classify_allomorphy(df):
 
                     })
     return table
+
 
 def classify_VE(df):
     """Classifies all values in a lexicon (dataframe) with regards to
