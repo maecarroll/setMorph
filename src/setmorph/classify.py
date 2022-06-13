@@ -92,8 +92,8 @@ def classify_allomorphy(df):
 
     for lexeme in lexemes:
         dflex = df[df['lexeme'] == lexeme]
-        valuelist = dflex.cell.str.split(".").apply(
-            frozenset).tolist()  # gets set of values for a given lexeme but
+        # gets set of values for a given lexeme but
+        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist()
         valueset = set()
         for cell in valuelist:
             for value in cell:
@@ -102,7 +102,9 @@ def classify_allomorphy(df):
         # gets a list of the maximal delta for each formative
         deltatable = delta_lexicon(dflex)
 
-        for value in valueset:  # goes through and makes a list of all for the formatives which have value in their minimum delta
+        # goes through and makes a list of all for the formatives
+        # which have value in their minimum delta
+        for value in valueset:
             examplelist = []
             for i, delta in deltatable.dropna().iterrows():
                 celllist = []
@@ -111,11 +113,13 @@ def classify_allomorphy(df):
                         if value in cell:
                             celllist.append(cell)
                 if len(celllist) > 0:
-                    examplelist.append(
-                        {'lexeme': lexeme, 'value': value, 'tier': delta['tier'],
-                         'slot': delta['slot'], 'form': delta['formative'],
-                         'cells': celllist})
-            # examplelistunique = list({str(i):i for i in examplelist}.values()) #makes list unique
+                    examplelist.append({'lexeme': lexeme,
+                                        'value': value,
+                                        'tier': delta['tier'],
+                                        'slot': delta['slot'],
+                                        'form': delta['formative'],
+                                        'cells': celllist})
+
             if len(examplelist) > 0:
                 # THIS IS NON-UNIQUE EXPONENCE!! (use this for the others)
                 # below checks to see if their distributions are identical:
@@ -124,7 +128,8 @@ def classify_allomorphy(df):
                     for cell in delta['cells']:
                         deltaset.add(cell)
 
-                # This one groups those with identical distribution with respect to a feature value:
+                # This one groups those with identical distribution
+                # with respect to a feature value:
 
                 if len(deltaset) > 1:
                     celllist2 = []
@@ -141,15 +146,13 @@ def classify_allomorphy(df):
                     cellswithv = set(valuelist)
                     cellcount = sum(value in cell for cell in cellswithv)
 
-                    table.append({
-                        'lexeme': lexeme,
-                        'value': value,
-                        '# allomorphs': len(celllist2),
-                        '% of allomorphs to cells containing v': len(
-                            celllist2) / cellcount * 100,
-                        'forms': celllist2
-
-                    })
+                    table.append({'lexeme': lexeme,
+                                  'value': value,
+                                  '# allomorphs': len(celllist2),
+                                  '% of allomorphs to cells containing v':
+                                      len(celllist2) / cellcount * 100,
+                                  'forms': celllist2
+                                  })
     return table
 
 
