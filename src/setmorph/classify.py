@@ -3,6 +3,7 @@
 from setmorph import shortest, simple, cumulation_measures
 from operator import itemgetter
 from itertools import groupby, chain
+import pandas as pd
 
 
 def delta_lexicon(df):
@@ -153,88 +154,38 @@ def classify_allomorphy(df):
 
 
 def classify_verbose(df):
+    def verbose_summary(occs):
+        if occs.shape[0] == 1:
+            return None
+        form_cols = ["tier", "slot", "formative"]
+        first = occs.iloc[0, :]
+        forms = occs[form_cols].to_records(index=False)
+        return pd.Series({"lexeme": first["lexeme"],
+                          "value": first["values"],
+                          "cell": first["cell"],
+                          "formatives": [tuple(f) for f in forms],
+                          })
+
     df = df.copy(deep=True)
 
     # Make separate rows for each cell
     df = df.explode("dist_a").rename(columns={"dist_a": "cell"})
 
-    # We want a row for each cell value that is in the minimal description
-    df["values"] = df.apply(lambda row: {v for v in row["minimal description"]
-                                         if set(row.cell) >= v },
+    # Make a row for each cell value that is in the minimal description
+    df["values"] = df.apply(lambda row: set(chain(*{v for v in row["minimal description"]
+                                                    if set(row.cell) >= v})),
                             axis=1)
 
     # Make groups with the same value in words
-    cols = ["lexeme", "cell", "values"]
-    groups = df.explode("values").groupby(cols)
+    res = df.explode("values").groupby(["lexeme", "cell", "values"],
+                                       as_index=False,
+                                       group_keys=True)
 
-    # Filter to keep only groups with more than a single formative
-    # given the same lexeme, cell, and value expressed
-    groups = groups.filter(lambda g: g.shape[0] > 1).sort_values(cols)
+    # Keep groups with more than a single formative,
+    # reshape to have one formative per row
+    res = res.apply(verbose_summary).dropna()
 
-    # Group again,  this time to reduce rows
-    groups = groups.groupby(cols).agg({})
+    # Count formatives
+    res["# formatives"] = res.formatives.apply(len)
 
-
-    return groups #.set_index(cols)
-
-
-def classify_VE_old(df):
-    """Classifies all values in a lexicon (dataframe) with regards to
-    verbose exponence.
-
-    """
-    table = []
-    lexemes = set(df['lexeme'])
-
-    for lexeme in lexemes:
-        dflex = df[df['lexeme'] == lexeme]
-        # gets set of values for a given lexeme but
-        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist()
-        valueset = set()
-        for cell in valuelist:
-            for value in cell:
-                valueset.add(value)
-
-        # gets a list of the maximal delta for each formative
-        deltatable = delta_lexicon(dflex)
-
-        # goes through and makes a list of all for the formatives which have value in their minimum delta
-        for value in valueset:
-            examplelist = []
-            for i, delta in deltatable.dropna().iterrows():
-                celllist = []
-                for cell in delta['minimal description']:
-                    if type(cell) != str:
-                        if value in cell:
-                            celllist.append(cell)
-                if len(celllist) > 0:
-                    examplelist.append(
-                        {'lexeme': lexeme, 'value': value, 'tier': delta['tier'],
-                         'slot': delta['slot'], 'form': delta['formative'],
-                         'cells': celllist})
-
-            if len(examplelist) > 0:  # examplelist = list of formative for value
-                locations = [idx for idx, cell in enumerate(valuelist) if
-                             cell > {value}]  # locations of cells containing value
-                wordlist = dflex.iloc[locations]  # list of words for value
-                # for each word... list all the formatives which co-occur
-
-                for word in set(zip(wordlist.cell, wordlist.form)):
-                    # print(wordlist)
-                    dfword = wordlist[
-                        (wordlist['cell'] == word[0]) & (wordlist['form'] == word[1])]
-                    formativelist = []
-                    for formative in examplelist:
-                        formtuple = (
-                            formative['tier'], formative['slot'], formative['form'])
-                        if formtuple in zip(dfword.tier, dfword.slot, dfword.formative):
-                            formativelist.append(formtuple)
-                    if len(formativelist) > 1:
-                        table.append({
-                            'lexeme': lexeme,
-                            'value': value,
-                            'word': word,
-                            'formatives': (formativelist),
-                            '# formatives': len(formativelist)
-                        })
-    return table
+    return res[["lexeme", "cell", "value", "formatives", "# formatives"]]

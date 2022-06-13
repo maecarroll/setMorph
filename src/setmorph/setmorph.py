@@ -111,14 +111,20 @@ def cumulative_cells(cumul_values, dist_a):
 
 
 def cumulation_measures(formative, max_dims):
-    """
+    """ Calculate measures of exponent cumulation
 
     Args:
-        formative:
-        max_dims:
+        formative (pd.Series): a row representing a formative, with its minimal description.
+        max_dims (int): Maximum number of dimensions in paradigms.
 
     Returns:
-
+        the formative series, augmented with:
+            - 'cumulative cells', a set of cumulative values
+            - 'longest cumulation', the maximum number of dimensions in cumulative values
+            - '% cells cumulative' the ratio of cells with cumulation for this formative,
+                compared to the number of cells in which the formative occurs
+            - '% dimensions cumulation', the ratio of longest cumulation, compared to
+                the maximum number of dimensions.
     """
     cells = formative["minimal description"]
     c_vals = cumulative(cells)
