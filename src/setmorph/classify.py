@@ -63,7 +63,7 @@ def classify_unique(df):
     """
     df = df.copy(deep=True)
 
-    # Get one row for each formative,  value in minimal description
+    # Get one row for each value in minimal description
     df["value"] = df["minimal description"].apply(lambda x: list(chain(*x)))
     df = df.explode("value")
 

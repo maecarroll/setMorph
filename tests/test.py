@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import parse_cell, shortest_description, dist
-from setmorph.definitions import shortest
+from setmorph import shortest
 import pandas as pd
 from pathlib import Path
 
@@ -13,18 +12,6 @@ def feature_print(feats):
     return "{"+ "}, {".join([", ".join(f) for f in feats]) + "}"
 
 class testSetMorph(unittest.TestCase):
-    def test_parse_cell(self):
-        test_data = pd.DataFrame.from_dict({"cell": [
-            "prs.1.sg", "prs.2.sg", "pst.1.sg"]},
-            orient="columns")
-
-        cells = parse_cell(test_data)
-        expected = [{"prs", "1", "sg"},
-                    {"prs", "2", "sg"},
-                    {"pst", "1", "sg"},
-                    ]
-
-        self.assertListEqual(cells, expected)
 
     def test_shortest_description(self):
         fr_toy_cells = {frozenset({'1sg', 'prs'}), frozenset({'fut', '1sg'}),
@@ -43,7 +30,7 @@ class testSetMorph(unittest.TestCase):
 
         values = [
             # When the distribution is identical to the cells, it returns None
-            (fr_toy_cells, fr_toy_cells, None),
+            (fr_toy_cells, fr_toy_cells, set()),
 
             # When some cells can be reduced to a feature, they are
             (fr_toy_cells, {frozenset({'3pl', 'pst'}), frozenset({'fut', '1sg'}),
@@ -104,14 +91,10 @@ class testSetMorph(unittest.TestCase):
 
         ]
         for cells, dista, res in values:
-            print("cells:", feature_print(cells))
-            print("dista:", feature_print(dista))
             d = shortest(cells, dista)
             if res is None:
                 self.assertEqual(d, res)
             else:
-                print('FOUND:', feature_print(d))
-                print('EXPECTED:', feature_print(res))
                 self.assertSetEqual(d, res)
 
         ## What if we have a paradigm like:
