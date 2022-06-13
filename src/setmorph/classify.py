@@ -62,7 +62,7 @@ def classify_unique(df):
     """
     df = df.copy(deep=True)
 
-    # Get one row for each formative + value in minimal description
+    # Get one row for each formative,  value in minimal description
     df["value"] = df["minimal description"].apply(lambda x: list(chain(*x)))
     df = df.explode("value")
 
@@ -73,10 +73,8 @@ def classify_unique(df):
     # Make groups with the same lexeme & value
     groups = df.groupby(["lexeme", "value"])
 
-    # Filter to keep only the groups with a single formative
-    uniques = groups.filter(lambda g: g.shape[0] == 1)
-
-    return uniques
+    # Filter to return only the groups with a single formative
+    return groups.filter(lambda g: g.shape[0] == 1)
 
 
 def classify_allomorphy(df):
@@ -154,7 +152,33 @@ def classify_allomorphy(df):
     return table
 
 
-def classify_VE(df):
+def classify_verbose(df):
+    df = df.copy(deep=True)
+
+    # Make separate rows for each cell
+    df = df.explode("dist_a").rename(columns={"dist_a": "cell"})
+
+    # We want a row for each cell value that is in the minimal description
+    df["values"] = df.apply(lambda row: {v for v in row["minimal description"]
+                                         if set(row.cell) >= v },
+                            axis=1)
+
+    # Make groups with the same value in words
+    cols = ["lexeme", "cell", "values"]
+    groups = df.explode("values").groupby(cols)
+
+    # Filter to keep only groups with more than a single formative
+    # given the same lexeme, cell, and value expressed
+    groups = groups.filter(lambda g: g.shape[0] > 1).sort_values(cols)
+
+    # Group again,  this time to reduce rows
+    groups = groups.groupby(cols).agg({})
+
+
+    return groups #.set_index(cols)
+
+
+def classify_VE_old(df):
     """Classifies all values in a lexicon (dataframe) with regards to
     verbose exponence.
 
@@ -164,18 +188,18 @@ def classify_VE(df):
 
     for lexeme in lexemes:
         dflex = df[df['lexeme'] == lexeme]
-        valuelist = dflex.cell.str.split(".").apply(
-            frozenset).tolist()  # gets set of values for a given lexeme but
-        # dflex['celllist'] = valuelist
+        # gets set of values for a given lexeme but
+        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist()
         valueset = set()
         for cell in valuelist:
             for value in cell:
                 valueset.add(value)
 
-        deltatable = delta_lexicon(
-            dflex)  # gets a list of the maximal delta for each formative
+        # gets a list of the maximal delta for each formative
+        deltatable = delta_lexicon(dflex)
 
-        for value in valueset:  # goes through and makes a list of all for the formatives which have value in their minimum delta
+        # goes through and makes a list of all for the formatives which have value in their minimum delta
+        for value in valueset:
             examplelist = []
             for i, delta in deltatable.dropna().iterrows():
                 celllist = []
