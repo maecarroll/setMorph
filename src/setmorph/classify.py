@@ -175,11 +175,13 @@ def classify_verbose(df):
     df = df.explode("dist_a").rename(columns={"dist_a": "cell"})
 
     # Make a row for each cell value that is in the minimal description
+    # These are the values of the cell which are expressed by formatives
     df["values"] = df.apply(lambda row: set(chain(*{v for v in row["minimal description"]
                                                     if set(row.cell) >= v})),
                             axis=1)
 
-    # Make groups with the same value in words
+    # Make a row for each value, then
+    # group formatives which occur in the same words for the same value
     res = df.explode("values").groupby(["lexeme", "cell", "values"],
                                        as_index=False,
                                        group_keys=True)
