@@ -1,31 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from setmorph import shortest, simple, cumulation_measures
+from setmorph import exponence, simple, cumulation_measures
 from operator import itemgetter
 from itertools import groupby, chain
 import pandas as pd
 
 
-def delta_lexicon(df):
-    """ Returns all the shortest descriptions for an entire lexicon
+def find_exponents(df, features):
+    """ Returns all the exponence descriptions for an entire lexicon
 
     Args:
         df: a lexicon
 
     Returns:
         a pd.DataFrame associating each quadruple of (lexeme, tier, slot, formative)
-            to its minimal description, the number of cells it occurs in,
+            to a set of fv combinations it is an exponent of,
+             the number of cells it occurs in,
             and its full distribution.
     """
 
-    def short_descr_word(paradigm):
+    def exponence_word(paradigm):
         cells = set(paradigm.celllist)
         groups = paradigm.groupby(["tier", "slot", "formative"])
-        transforms = {"celllist": [lambda d: shortest(cells, set(d)), len, set]}
+        transforms = {"celllist": [lambda d: exponence(cells, set(d), features),
+                                   len, set]}
         return groups.agg(transforms)
 
-    result = df.groupby("lexeme").apply(short_descr_word)
-    result.columns = ["minimal description", "# of cells", "dist_a"]
+    result = df.groupby("lexeme").apply(exponence_word)
+    result.columns = ["exponence", "# of cells", "dist_a"]
     return result.reset_index()
 
 
@@ -33,7 +35,7 @@ def classify_simple(df):
     """ Classifies all formatives in a lexicon (dataframe) as simple exponence or not.
     """
     df = df.copy(deep=True)
-    df["simple?"] = df["minimal description"].apply(simple)
+    df["simple?"] = df["exponence"].apply(simple)
     return df
 
 
@@ -48,7 +50,7 @@ def classify_syn(df):
 
     """
     df = df.copy(deep=True)
-    df["# sets minimally required"] = df["minimal description"].fillna("").apply(len)
+    df["# sets minimally required"] = df["exponence"].fillna("").apply(len)
     return df.reset_index()
 
 
@@ -63,8 +65,8 @@ def classify_unique(df):
     """
     df = df.copy(deep=True)
 
-    # Get one row for each value in minimal description
-    df["value"] = df["minimal description"].apply(lambda x: list(chain(*x)))
+    # Get one row for each value in exponence
+    df["value"] = df["exponence"].apply(lambda x: list(chain(*x)))
     df = df.explode("value")
 
     # Keep only the four columns we are interested in,
@@ -100,7 +102,7 @@ def classify_allomorphy(df):
                 valueset.add(value)
 
         # gets a list of the maximal delta for each formative
-        deltatable = delta_lexicon(dflex)
+        deltatable = exponence(dflex)
 
         # goes through and makes a list of all for the formatives
         # which have value in their minimum delta
@@ -108,7 +110,7 @@ def classify_allomorphy(df):
             examplelist = []
             for i, delta in deltatable.dropna().iterrows():
                 celllist = []
-                for cell in delta['minimal description']:
+                for cell in delta['exponence']:
                     if type(cell) != str:
                         if value in cell:
                             celllist.append(cell)
@@ -176,7 +178,7 @@ def classify_verbose(df):
 
     # Make a row for each cell value that is in the minimal description
     # These are the values of the cell which are expressed by formatives
-    df["values"] = df.apply(lambda row: set(chain(*{v for v in row["minimal description"]
+    df["values"] = df.apply(lambda row: set(chain(*{v for v in row["exponence"]
                                                     if set(row.cell) >= v})),
                             axis=1)
 

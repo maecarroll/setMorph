@@ -17,12 +17,14 @@ def read_paradigms(path):
     return df
 
 
-def shortest(cells, dista):
-    """ Compute the shortest description $\delta$ of a formative's distribution.
+def exponence(cells, dista, feature_structure):
+    """ Compute the exponence description a formative's distribution.
 
     Args:
         cells (set): the set of cells in which a lexeme occurs
         dista (set): the set of cells in which the formative occurs
+        feature_structure (dict): A mapping of feature names (eg. "tense")
+            to sets of values (eg. {"pst", "prs", "fut"}
 
     Returns:
         delta (set): a description of the distribution which is as short as possible.
@@ -67,6 +69,11 @@ def shortest(cells, dista):
             delta |= subsets
         else:
             delta.add(cell)
+
+    # Check and remove dimensions which are fully filled
+    for f, vs in feature_structure.items():
+        if vs <= delta:
+            delta -= vs
 
     return delta
 
