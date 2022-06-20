@@ -1,0 +1,12 @@
+value_id,value_label,feature,POS
+fut,future,Tense,V
+pst,past,Tense,V
+prs,present,Tense,V
+ptcp,participle,Mode,V
+inf,infinitive,Mode,V
+1pl,first person plural,PersonNumber,V
+3sg,third person singular,PersonNumber,V
+2pl,second person plural,PersonNumber,V
+3pl,third person plural,PersonNumber,V
+2sg,second person singular,PersonNumber,V
+1sg,first person singular,PersonNumber,V

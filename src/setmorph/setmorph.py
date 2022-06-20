@@ -3,6 +3,12 @@ from itertools import combinations, chain, product
 from collections import Counter
 
 
+def read_features(path):
+    df = pd.read_csv(path)
+    df["value_id"] = df["value_id"].apply(lambda x: frozenset({x}))
+    features_to_values = df.groupby("feature").agg(set).to_dict()["value_id"]
+    return features_to_values
+
 def read_paradigms(path):
     """ Read a data file.
 
