@@ -1,0 +1,9 @@
+value_id,value_label,feature,POS
+fut,future,Tense,V
+prs,present,Tense,V
+hod,hodiernal past,Tense,V
+rct,recent past,Tense,V
+rmt,remote past,Tense,V
+pfv,perfective,Aspect,V
+ipfv,imperfective,Aspect,V
+dur,durative,Aspect,V
