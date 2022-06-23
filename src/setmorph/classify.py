@@ -21,8 +21,11 @@ def find_exponents(df, features):
 
     def exponence_word(paradigm):
         cells = set(paradigm.celllist)
+        f_values = chain(*cells)
+        features_w = {f: {v for v in features[f] if v <= f_values}
+                            for f in features}
         groups = paradigm.groupby(["tier", "slot", "formative"])
-        transforms = {"celllist": [lambda d: exponence(cells, set(d), features),
+        transforms = {"celllist": [lambda d: exponence(cells, set(d), features_w),
                                    len, set]}
         return groups.agg(transforms)
 
