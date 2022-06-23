@@ -1,0 +1,9 @@
+value_id,value_label,feature,POS
+accusative,accusative,case,N
+dative,dative,case,N
+genitive,genitive,case,N
+instrumental,instrumental,case,N
+nominative,nominative,case,N
+plural,plural,number,N
+prepositional,prepositional,case,N
+singular,singular,number,N
