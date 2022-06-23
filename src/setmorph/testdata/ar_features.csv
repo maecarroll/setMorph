@@ -1,0 +1,13 @@
+value_id,value_label,feature,POS
+1,first,person,V
+2,second,person,V
+3,third,person,V
+act,active,voice,V
+d,dual,number,V
+f,feminine,gender,V
+ind,indicative,mood,V
+m,masculine,gender,V
+m/f,masculine or feminine,gender,V
+p,plural,number,V
+prs,present,tense,V
+s,singular,number,V
