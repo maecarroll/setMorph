@@ -1,0 +1,5 @@
+value_id,value_label,feature,POS
+cpl,completive,aspect-mood,V
+hab,habitual,aspect-mood,V
+pot,potential,aspect-mood,V
+prog,progressive,aspect-mood,V
