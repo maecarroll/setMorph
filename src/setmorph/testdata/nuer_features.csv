@@ -1,0 +1,4 @@
+value_id,value_label,feature,POS
+nom,nominative,case,N
+pl,plural,number,N
+sg,singular,number,N
