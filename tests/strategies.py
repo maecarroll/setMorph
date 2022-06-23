@@ -73,7 +73,7 @@ def cell(draw, fs):
 
 @st.composite
 def cells_dist_feats(draw):
-    """ Strategy to create synthetic cells
+    """ Strategy to create synthetic distributions, for specific dists and cells.
 
     Args:
         draw:
