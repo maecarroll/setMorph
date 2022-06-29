@@ -154,7 +154,7 @@ def cumulation_measures(formative, max_dims):
             - '% dimensions cumulation', the ratio of longest cumulation, compared to
                 the maximum number of dimensions.
     """
-    cells = formative["minimal description"]
+    cells = formative["exponence"]
     c_vals = cumulative(cells)
     c_cells = cumulative_cells(c_vals, formative.dist_a)
     max_vals = len(max(c_vals)) if c_vals else 0

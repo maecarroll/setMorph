@@ -21,9 +21,9 @@ def find_exponents(df, features):
 
     def exponence_word(paradigm):
         cells = set(paradigm.celllist)
-        f_values = chain(*cells)
+        f_values = set(chain(*cells))
         features_w = {f: {v for v in features[f] if v <= f_values}
-                            for f in features}
+                      for f in features}
         groups = paradigm.groupby(["tier", "slot", "formative"])
         transforms = {"celllist": [lambda d: exponence(cells, set(d), features_w),
                                    len, set]}
@@ -84,81 +84,52 @@ def classify_unique(df):
 
 
 def classify_allomorphy(df):
-    """Classifies all values in a lexicon (dataframe) with regards to
-    uniqueness.
-
-    Crucially, treats formatives which have the same distribution with
-    regard to a value as a group (to exclude ME.)
-
-    This excludes all ME but should it treat all VE as a 'single allomorph'?
     """
-    table = []
-    lexemes = set(df['lexeme'])
 
-    for lexeme in lexemes:
-        dflex = df[df['lexeme'] == lexeme]
-        # gets set of values for a given lexeme but
-        valuelist = dflex.cell.str.split(".").apply(frozenset).tolist()
-        valueset = set()
-        for cell in valuelist:
-            for value in cell:
-                valueset.add(value)
+    Args:
+        df:
 
-        # gets a list of the maximal delta for each formative
-        deltatable = exponence(dflex)
+    Returns:
 
-        # goes through and makes a list of all for the formatives
-        # which have value in their minimum delta
-        for value in valueset:
-            examplelist = []
-            for i, delta in deltatable.dropna().iterrows():
-                celllist = []
-                for cell in delta['exponence']:
-                    if type(cell) != str:
-                        if value in cell:
-                            celllist.append(cell)
-                if len(celllist) > 0:
-                    examplelist.append({'lexeme': lexeme,
-                                        'value': value,
-                                        'tier': delta['tier'],
-                                        'slot': delta['slot'],
-                                        'form': delta['formative'],
-                                        'cells': celllist})
+    """
 
-            if len(examplelist) > 0:
-                # THIS IS NON-UNIQUE EXPONENCE!! (use this for the others)
-                # below checks to see if their distributions are identical:
-                deltaset = set()
-                for delta in examplelist:
-                    for cell in delta['cells']:
-                        deltaset.add(cell)
+    # Duplicate rows to have separate rows for each cell in the distribution
+    per_cell = df.explode("dist_a")
+    per_cell["cell"] = per_cell.dist_a.apply(frozenset)
 
-                # This one groups those with identical distribution
-                # with respect to a feature value:
+    # lexeme, val => number of cells with this value
+    per_cell["all vals"] = per_cell.cell
+    cell_counts = per_cell.explode("all vals") \
+        .reset_index(drop=False) \
+        .groupby(["lexeme", "all vals"]) \
+        .agg({"cell": "count"}) \
+        .cell \
+        .to_dict()
 
-                if len(deltaset) > 1:
-                    celllist2 = []
-                    examplelist.sort(key=itemgetter('cells'))
+    #  List exponential values expressed as separate rows
+    per_cell["vals"] = per_cell.apply(lambda r: set(chain(*r.exponence)) & set(r.cell),
+                                      axis=1)
+    per_cell = per_cell.explode("vals")
 
-                    for key, value2 in groupby(examplelist,
-                                               lambda item: item['cells']):
-                        val2list = []
-                        for x in value2:
-                            form2 = (x['tier'], x['slot'], x['form'])
-                            val2list.append(form2)
-                        celllist2.append(val2list)
+    # Group formatives per word
+    per_cell = per_cell.groupby(["lexeme", "cell", "vals"]).agg(
+        {"dist_a": lambda x: x.iloc[0],
+         "slot": tuple,
+         "tier": tuple,
+         "formative": tuple})
 
-                    cellswithv = set(valuelist)
-                    cellcount = sum(value in cell for cell in cellswithv)
+    # Count number of diff formatives across words per value
+    per_cell = per_cell.groupby(["lexeme", "vals"]).agg({"formative": ("count", set)})
+    # Flatten multi-indexes in columns & index
+    per_cell.columns = [' '.join(col).strip() for col in per_cell.columns.values]
+    per_cell = per_cell.reset_index(drop=False)
 
-                    table.append({'lexeme': lexeme,
-                                  'value': value,
-                                  '# allomorphs': len(celllist2),
-                                  '% of allomorphs to cells containing v':
-                                      len(celllist2) / cellcount * 100,
-                                  'forms': celllist2
-                                  })
-    return table
+    # Compute the ratio of allomorphs to cells with the value
+    total_cell = per_cell.apply(lambda x: cell_counts[(x.lexeme, x.vals)], axis=1)
+    ratio_col = "% allomorphs to cells containing v"
+    per_cell[ratio_col] = per_cell["formative count"] / total_cell
+
+    return per_cell
 
 
 def classify_verbose(df):

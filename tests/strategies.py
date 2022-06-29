@@ -75,6 +75,9 @@ def cell(draw, fs):
 def cells_dist_feats(draw):
     """ Strategy to create synthetic distributions, for specific dists and cells.
 
+    This is a random abstract paradigm generator,
+    with a distribution for a single formative.
+
     Args:
         draw:
 

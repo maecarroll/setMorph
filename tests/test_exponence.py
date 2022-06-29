@@ -9,6 +9,7 @@ from strategies import cells_dist_feats
 
 here = Path(__file__)
 
+
 class testExponence(unittest.TestCase):
 
     @given(cells_dist_feats().filter(lambda args: args[0] != args[1]))
@@ -18,7 +19,8 @@ class testExponence(unittest.TestCase):
         delta_a = exponence(cells, dista, feature_structures)
         note(f"exp = {delta_a}")
 
-        all_combos = chain(*[combinations(c, i) for c in cells for i in range(len(c)-1)])
+        all_combos = chain(
+            *[combinations(c, i) for c in cells for i in range(len(c) - 1)])
 
         for s in all_combos:
             s = frozenset(s)
@@ -38,7 +40,7 @@ class testExponence(unittest.TestCase):
 
         for f in feature_structures:
             vs = feature_structures[f]
-            if vs <= dista :
+            if vs <= dista:
                 self.assertFalse(vs <= delta_a)
 
     @given(cells_dist_feats().filter(lambda args: args[0] != args[1]))
@@ -47,7 +49,7 @@ class testExponence(unittest.TestCase):
         (cells, dista, feature_structures) = args
         delta_a = exponence(cells, dista, feature_structures)
         note(f"exp = {delta_a}")
-        self.assertFalse(any([x1 < x2 for x1, x2 in combinations(delta_a, 2)]))
+        self.assertFalse(any([x1 < x2 or x2 < x1 for x1, x2 in combinations(delta_a, 2)]))
 
     @given(cells_dist_feats())
     def test_elts_taken_from_dista(self, args):
@@ -68,9 +70,6 @@ class testExponence(unittest.TestCase):
     @given(cells_dist_feats())
     def test_supersets_in_dista(self, args):
         """ Tests delta_a describe only the dist, no other cells
-
-        All cells that are supersets of an $x$
-        in $\delta_a$ are in the distribution of $a$
         """
         cells, dista, feature_structures = args
         delta_a = exponence(cells, dista, feature_structures)
