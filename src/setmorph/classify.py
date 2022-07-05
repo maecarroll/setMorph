@@ -129,7 +129,7 @@ def classify_allomorphy(df):
     ratio_col = "% allomorphs to cells containing v"
     per_cell[ratio_col] = per_cell["formative count"] / total_cell
 
-    return per_cell
+    return per_cell[per_cell["formative count"] > 1]
 
 
 def classify_verbose(df):
