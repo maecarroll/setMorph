@@ -1,5 +1,5 @@
 import pandas as pd
-from itertools import combinations, chain, product
+from itertools import combinations, chain
 from collections import Counter
 
 
@@ -97,69 +97,3 @@ def exponence(cells, dista, feature_structure):
         if vs <= delta:
             delta -= vs
     return delta
-
-
-def simple(descr):
-    """ Answers the question: is this description simple ?
-
-    Args:
-        descr (set): the minimal description of the distribution of a formative.
-
-    Returns (str):
-        "yes" if the description if simple, "no" if it is not, or "invariant" if the
-        formative is present in all forms of the lexeme.
-    """
-    l = len(descr)
-    return "invariant" if l == 0 else "yes" if l == 1 else "no"
-
-
-def cumulative(descr):
-    """ Returns the subset of values in descr which are cumulative.
-
-    Args:
-        descr (set): the minimal description of the distribution of a formative.
-
-    Returns:
-        a set of cumulative values.
-    """
-    return set(filter(lambda x: len(x) > 1, descr))
-
-
-def cumulative_cells(cumul_values, dist_a):
-    """ Returns the cells which contain cumulative values
-
-    Args:
-        cumul_values (set): a set of cumulative values
-        dist_a (set): a set of cells (distribution of a formative)
-
-    Returns:
-        a set of cells in which there are cumulative values
-    """
-    return set(y for x, y in product(cumul_values, dist_a) if y <= x)
-
-
-def cumulation_measures(formative, max_dims):
-    """ Calculate measures of exponent cumulation
-
-    Args:
-        formative (pd.Series): a row representing a formative, with its minimal description.
-        max_dims (int): Maximum number of dimensions in paradigms.
-
-    Returns:
-        the formative series, augmented with:
-            - 'cumulative cells', a set of cumulative values
-            - 'longest cumulation', the maximum number of dimensions in cumulative values
-            - '% cells cumulative' the ratio of cells with cumulation for this formative,
-                compared to the number of cells in which the formative occurs
-            - '% dimensions cumulation', the ratio of longest cumulation, compared to
-                the maximum number of dimensions.
-    """
-    cells = formative["exponence"]
-    c_vals = cumulative(cells)
-    c_cells = cumulative_cells(c_vals, formative.dist_a)
-    max_vals = len(max(c_vals)) if c_vals else 0
-    formative['cumulative cells'] = c_vals
-    formative['longest cumulation'] = max_vals
-    formative['% cells cumulative'] = len(c_cells) / len(formative.dist_a) * 100
-    formative['% dimensions cumulation'] = max_vals / max_dims * 100
-    return formative

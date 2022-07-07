@@ -4,10 +4,6 @@ from hypothesis import strategies as st
 from hypothesis.extra.pandas import column, data_frames
 import pandas as pd
 
-
-### Setup strategies for synthetic data
-
-
 # features or values
 @st.composite
 def word(draw, min_size=0, max_size=None):

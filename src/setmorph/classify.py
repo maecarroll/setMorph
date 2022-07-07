@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from setmorph import exponence, simple, cumulation_measures
-from operator import itemgetter
-from itertools import groupby, chain
+from .setmorph import exponence
+from itertools import chain, product
 import pandas as pd
 
 
@@ -36,15 +35,61 @@ def find_exponents(df, features):
 
 def classify_simple(df):
     """ Classifies all formatives in a lexicon (dataframe) as simple exponence or not.
+
+    Modifies df in place.
     """
-    df = df.copy(deep=True)
-    df["simple?"] = df["exponence"].apply(simple)
-    return df
+
+    def simple(descr):
+        """ Answers the question: is this description simple ?
+
+        Args:
+            descr (set): the minimal description of the distribution of a formative.
+
+        Returns (str):
+            "yes" if the description if simple, "no" if it is not, or "invariant" if the
+            formative is present in all forms of the lexeme.
+        """
+        l = len(descr)
+        return None if l == 0 else True if l == 1 else False
+
+    df["simple"] = df["exponence"].apply(simple)
 
 
 def classify_cumulation(df, max_dims):
-    df = df.copy(deep=True)
-    return df.apply(lambda form: cumulation_measures(form, max_dims), axis=1)
+    """ Classify formatives according to exponent cumulation
+
+    Args:
+        df (pd.DataFrame): DataFrame of formatives & their exponential value
+        max_dims (int): Maximum number of dimensions in paradigms.
+
+    Returns:
+        None -- modifies the df in place, adding the columns:
+
+        - 'cumulative cells', a set of cumulative values
+        - 'longest cumulation', the maximum number of dimensions in cumulative values
+        - '% cells cumulative' the ratio of cells with cumulation for this f_row,
+            compared to the number of cells in which the f_row occurs
+        - '% dimensions cumulation', the ratio of longest cumulation, compared to
+            the maximum number of dimensions.
+    """
+
+    def cumulation_measures(f_row):
+        """ Calculate measures of exponent cumulation for a formative.
+
+        Args:
+            f_row (pd.Series): a row representing a formative.
+        """
+        c_vals = set(filter(lambda x: len(x) > 1, f_row["exponence"]))
+        c_cells = set(y for x, y in product(c_vals, f_row.dist_a) if y <= x)
+        max_vals = len(max(c_vals)) if c_vals else 0
+        return pd.Series({'cumulative cells': c_vals,
+                          'longest cumulation': max_vals,
+                          '% cells cumulative': len(c_cells) / len(f_row.dist_a) * 100,
+                          '% dimensions cumulation': max_vals / max_dims * 100})
+
+    new_cols = ['cumulative cells', 'longest cumulation',
+                '% cells cumulative', '% dimensions cumulation']
+    df[new_cols] = df.apply(cumulation_measures, axis=1)
 
 
 def classify_syn(df):
@@ -52,9 +97,7 @@ def classify_syn(df):
     syncretism.
 
     """
-    df = df.copy(deep=True)
     df["# sets minimally required"] = df["exponence"].fillna("").apply(len)
-    return df.reset_index()
 
 
 def classify_unique(df):
