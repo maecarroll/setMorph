@@ -5,7 +5,18 @@ from hypothesis import strategies as st
 ### Setup strategies for synthetic data
 
 # features or values
-abbr = st.text("abcdefghijklmnopqrstuvwxyz", min_size=2, max_size=6)
+@st.composite
+def text(draw, min_size=0, max_size=None):
+    C = st.sampled_from("bcdfghjklmnpqrstvwxyz")
+    V = st.sampled_from("aeiou")
+    if max_size is None:
+        max_size = draw(st.integers(min_size=0))
+    syllables = [draw(V) if i % 2 == 0 else draw(C) for i in range(min_size, max_size)]
+    return "".join(syllables)
+
+abbr = text(min_size=2, max_size=4)
+
+
 
 @st.composite
 def feature_structures(draw):
