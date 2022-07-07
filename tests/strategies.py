@@ -19,7 +19,7 @@ def word(draw, min_size=0, max_size=None):
     return "".join(syllables)
 
 
-abbr = word(min_size=2, max_size=4)
+abbr = st.text("bcdfghjklmnpqrstvwxyzaeiou", min_size=1, max_size=3)
 
 
 @st.composite
@@ -124,7 +124,7 @@ def exponents_df(draw):
 
     rows = []
     for lex in lexemes:
-        # pick a subset of cells
+        # pick a subset of cells, at least 2, at most all cells
         lex_cells = draw(st.sets(st.sampled_from(sorted(cells)), min_size=2, max_size=l))
         l_paradigm = len(lex_cells)
 
@@ -136,10 +136,11 @@ def exponents_df(draw):
                             max_size=l_paradigm * 3))
 
         l_exps = len(exps)
-        # assign exponents to tiers
+        # assign exponents to tiers -- keeping this simple
         tiers = draw(st.lists(st.sampled_from(["segmental", "tone"]),
                               min_size=l_exps, max_size=l_exps))
-        tiered_exps = list(zip(tiers, exps))
+        # Set of exponents, plus the stem
+        tiered_exps = [("segmental", lex[:-1])] + list(zip(tiers, exps))
 
         for c in lex_cells:
             # Pick between 1 and 3 forms (overabundance)
@@ -149,7 +150,7 @@ def exponents_df(draw):
                 # Build a single form as a set of formatives
                 formatives = list(draw(st.sets(st.sampled_from(tiered_exps),
                                                min_size=1,
-                                               max_size=3)) | {("segmental", lex)})
+                                               max_size=3)))
                 form = " ".join("".join([f for t, f in formatives]))
                 for i, (t, f) in enumerate(formatives):
                     rows.append({"lexeme": lex,
@@ -161,4 +162,4 @@ def exponents_df(draw):
                                  "celllist": c
                                  })
     df = pd.DataFrame(rows)
-    return df
+    return df, features
