@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from hypothesis import strategies as st
+from hypothesis.extra.pandas import column, data_frames
+import pandas as pd
+
 
 ### Setup strategies for synthetic data
 
+
 # features or values
 @st.composite
-def text(draw, min_size=0, max_size=None):
+def word(draw, min_size=0, max_size=None):
     C = st.sampled_from("bcdfghjklmnpqrstvwxyz")
     V = st.sampled_from("aeiou")
     if max_size is None:
@@ -14,8 +18,8 @@ def text(draw, min_size=0, max_size=None):
     syllables = [draw(V) if i % 2 == 0 else draw(C) for i in range(min_size, max_size)]
     return "".join(syllables)
 
-abbr = text(min_size=2, max_size=4)
 
+abbr = word(min_size=2, max_size=4)
 
 
 @st.composite
@@ -39,12 +43,10 @@ def feature_structures(draw):
     abbrs = draw(st.sets(abbr, min_size=5, max_size=300))
     l = len(abbrs)
 
-
     # Select a set of abbreviations to serve as features
     #  and remove them from the vocabulary
-    features = draw(st.sets(st.sampled_from(sorted(abbrs)), min_size=1, max_size=l//2))
+    features = draw(st.sets(st.sampled_from(sorted(abbrs)), min_size=1, max_size=l // 2))
     abbrs = abbrs - features
-
 
     # Build the dictionnary of feature => { frozenset({value}), ... }
     # Sample some abbreviations to serve as values for each feature,
@@ -53,11 +55,10 @@ def feature_structures(draw):
     fs = {}
     for f in features:
         values = draw(st.sets(st.sampled_from(sorted(abbrs)), min_size=1, max_size=20))
-        abbrs = abbrs - features
+        abbrs = abbrs - values
         fs[f.upper()] = {frozenset({v}) for v in values}
         if len(abbrs) == 0:
             break
-
     return fs
 
 
@@ -83,6 +84,13 @@ def cell(draw, fs):
 
 
 @st.composite
+def cell_feats(draw):
+    features = draw(feature_structures())
+    cells = draw(st.sets(cell(features), min_size=2, max_size=600))
+    return cells, features
+
+
+@st.composite
 def cells_dist_feats(draw):
     """ Strategy to create synthetic distributions, for specific dists and cells.
 
@@ -95,7 +103,62 @@ def cells_dist_feats(draw):
     Returns:
 
     """
-    features = draw(feature_structures())
-    cells = draw(st.sets(cell(features), min_size=2, max_size=600))
+    cells, features = draw(cell_feats())
     dist = draw(st.sets(st.sampled_from(sorted(cells)), min_size=1, max_size=600))
     return (cells, dist, features)
+
+
+@st.composite
+def exponents_df(draw):
+    """ This represents a dataframe of segmented exponents
+
+    Returns:
+        a strategy to generate false exponent dataframes
+    """
+    # select a set of lexemes
+    lexemes = draw(st.sets(word(min_size=3, max_size=6), min_size=1, max_size=10))
+
+    # Choose a paradigm structure
+    cells, features = draw(cell_feats())
+    l = len(cells)
+
+    rows = []
+    for lex in lexemes:
+        # pick a subset of cells
+        lex_cells = draw(st.sets(st.sampled_from(sorted(cells)), min_size=2, max_size=l))
+        l_paradigm = len(lex_cells)
+
+        # create a set of exponents
+        # At least one,
+        # At most 3 distinct exponents per cell
+        exps = draw(st.sets(word(min_size=1, max_size=4),
+                            min_size=1,
+                            max_size=l_paradigm * 3))
+
+        l_exps = len(exps)
+        # assign exponents to tiers
+        tiers = draw(st.lists(st.sampled_from(["segmental", "tone"]),
+                              min_size=l_exps, max_size=l_exps))
+        tiered_exps = list(zip(tiers, exps))
+
+        for c in lex_cells:
+            # Pick between 1 and 3 forms (overabundance)
+            form_count = draw(st.integers(min_value=1, max_value=3))
+
+            for _ in range(form_count):
+                # Build a single form as a set of formatives
+                formatives = list(draw(st.sets(st.sampled_from(tiered_exps),
+                                               min_size=1,
+                                               max_size=3)) | {("segmental", lex)})
+                form = " ".join("".join([f for t, f in formatives]))
+                for i, (t, f) in enumerate(formatives):
+                    rows.append({"lexeme": lex,
+                                 "cell": ".".join(c),
+                                 "form": form,
+                                 "tier": t,
+                                 "slot": i,
+                                 "formative": f,
+                                 "celllist": c
+                                 })
+    df = pd.DataFrame(rows)
+    return df
