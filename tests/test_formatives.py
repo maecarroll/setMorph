@@ -70,7 +70,7 @@ class testFormativeClassifications(unittest.TestCase):
 
     @given(exponents_df())
     def test_cumulation_total(self, args):
-        """Tests that no more cumulative than exponent vals"""
+        """Tests that cumulative are subsets of exponent values"""
         df, features = args
         exps = find_exponents(df, features)
         max_dimensions = df["celllist"].fillna("").apply(len).max()
@@ -78,7 +78,6 @@ class testFormativeClassifications(unittest.TestCase):
         classify_cumulation(exps, max_dimensions)
         note(f"Exponents:\n{exps}")
 
-        # At most as many cumulative values in cells as exponence set size
         self.assertTrue((exps["cumulative cells"] <= exps["exponence"]).all())
 
     @given(exponents_df())
@@ -90,10 +89,14 @@ class testFormativeClassifications(unittest.TestCase):
 
         classify_cumulation(exps, max_dimensions)
         note(f"Exponents:\n{exps}")
-        # re-compute longest cumulation
 
-        longest_c = exps["cumulative cells"].apply(lambda x: len(max(x)) if x else 0)
-        self.assertTrue((longest_c == exps['longest cumulation']).all())
+        # above 1 unless there is none
+        self.assertTrue(((exps['longest cumulation'] > 1)
+                         | (exps["cumulative cells"] == set()))
+                        .all())
+
+        # below or equal to the number of features
+        self.assertTrue((exps['longest cumulation'] <= len(features)).all())
 
     @given(exponents_df())
     def test_cumulation_intent(self, args):
@@ -110,7 +113,6 @@ class testFormativeClassifications(unittest.TestCase):
 
         # Cumulative cells have length > 1
         self.assertTrue((exps["cumulative cells"]
-                         .dropna()
                          .apply(lambda c: len(min(c)) > 1 if c else True)).all())
 
         # all not in cumulative cells have length 1
