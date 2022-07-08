@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import classify_simple, find_exponents, classify_cumulation
+from setmorph import classify_simple, find_exponents, \
+    classify_cumulation, classify_syn
 from pathlib import Path
-from hypothesis import given, note, example
-from itertools import combinations, chain
+from hypothesis import given, note
 from strategies import exponents_df
-import pandas as pd
 
 here = Path(__file__)
 
@@ -66,7 +65,8 @@ class testFormativeClassifications(unittest.TestCase):
         classify_cumulation(exps, max_dimensions)
         note(f"Exponents:\n{exps}")
         self.assertTrue(exps['% cells cumulative'].apply(lambda x: 0. <= x <= 100.).all())
-        self.assertTrue(exps['% dimensions cumulation'].apply(lambda x: 0. <= x <= 100.).all())
+        self.assertTrue(
+            exps['% dimensions cumulation'].apply(lambda x: 0. <= x <= 100.).all())
 
     @given(exponents_df())
     def test_cumulation_total(self, args):
@@ -119,6 +119,18 @@ class testFormativeClassifications(unittest.TestCase):
         self.assertTrue(((exps["exponence"] - exps["cumulative cells"])
                          .apply(lambda x: len(max(x)) == 1 if x else True))
                         .all())
+
+    @given(exponents_df())
+    def test_syn(self, args):
+        """Tests that there are between 0 and len(distr) syncretisms"""
+        df, features = args
+        exps = find_exponents(df, features)
+        classify_syn(exps)
+
+        self.assertTrue("# sets minimally required" in exps.columns)
+        self.assertTrue(
+            (exps["# sets minimally required"] <= exps["dist_a"].apply(len)).all())
+        self.assertTrue((0 <= exps["# sets minimally required"]).all())
 
 
 if __name__ == '__main__':

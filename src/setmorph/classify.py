@@ -112,7 +112,7 @@ def classify_unique(df):
     df = df.copy(deep=True)
 
     # Get one row for each value in exponence
-    df["value"] = df["exponence"].apply(lambda x: list(chain(*x)))
+    df["value"] = df["exponence"].apply(lambda x: set(chain(*x)))
     df = df.explode("value")
 
     # Keep only the four columns we are interested in,
