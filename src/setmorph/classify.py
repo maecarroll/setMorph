@@ -3,6 +3,10 @@
 from .setmorph import exponence
 from itertools import chain, product
 import pandas as pd
+from collections import namedtuple, defaultdict
+
+F = namedtuple("Formative",
+               ["tier", "slot", "formative"])
 
 
 def find_exponents(df, features):
@@ -36,7 +40,7 @@ def find_exponents(df, features):
 def classify_simple(df):
     """ Classifies all formatives in a lexicon (dataframe) as simple exponence or not.
 
-    Modifies df in place.
+    Modifies exps in place.
     """
 
     def simple(descr):
@@ -63,7 +67,7 @@ def classify_cumulation(df, max_dims):
         max_dims (int): Maximum number of dimensions in paradigms.
 
     Returns:
-        None -- modifies the df in place, adding the columns:
+        None -- modifies the exps in place, adding the columns:
 
         - 'cumulative cells', a set of cumulative values
         - 'longest cumulation', the maximum number of dimensions in cumulative values
@@ -126,53 +130,78 @@ def classify_unique(df):
     return groups.filter(lambda g: g.shape[0] == 1)
 
 
-def classify_allomorphy(df):
+def classify_allomorphy(exps, df):
     """
 
     Args:
-        df:
+        exps:
 
     Returns:
 
     """
 
-    # Duplicate rows to have separate rows for each cell in the distribution
-    per_cell = df.explode("dist_a")
-    per_cell["cell"] = per_cell.dist_a.apply(frozenset)
-
-    # lexeme, val => number of cells with this value
-    per_cell["all vals"] = per_cell.cell
-    cell_counts = per_cell.explode("all vals") \
+    # Build a dict of: lexeme, val => number of cells with this value
+    val_counts = df.explode("celllist") \
         .reset_index(drop=False) \
-        .groupby(["lexeme", "all vals"]) \
+        .groupby(["lexeme", "celllist"]) \
         .agg({"cell": "count"}) \
         .cell \
         .to_dict()
 
-    #  List exponential values expressed as separate rows
-    per_cell["vals"] = per_cell.apply(lambda r: set(chain(*r.exponence)) & set(r.cell),
-                                      axis=1)
-    per_cell = per_cell.explode("vals")
+    # Build a dist_a dict: lexeme, formative, slot, tier => dist
+    vals = {tuple(r[:4]): r.exponence for i, r in
+            exps[["lexeme", "slot", "formative", "tier", "exponence"]].iterrows()}
 
-    # Group formatives per word
-    per_cell = per_cell.groupby(["lexeme", "cell", "vals"]).agg(
-        {"dist_a": lambda x: x.iloc[0],
-         "slot": tuple,
-         "tier": tuple,
-         "formative": tuple})
+    # For each formative, add the subset of values from the cells that are exponential
+    def exponential_vals(row):
+        cell = row.celllist
+        exp = vals[(row.lexeme, row.slot, row.formative, row.tier)]
+        return tuple(chain(*{vs for vs in exp if vs <= cell}))
 
-    # Count number of diff formatives across words per value
-    per_cell = per_cell.groupby(["lexeme", "vals"]).agg({"formative": ("count", set)})
-    # Flatten multi-indexes in columns & index
-    per_cell.columns = [' '.join(col).strip() for col in per_cell.columns.values]
-    per_cell = per_cell.reset_index(drop=False)
+    df["vals"] = df.apply(exponential_vals, axis=1)
 
-    # Compute the ratio of allomorphs to cells with the value
-    total_cell = per_cell.apply(lambda x: cell_counts[(x.lexeme, x.vals)], axis=1)
-    ratio_col = "% allomorphs to cells containing v"
-    per_cell[ratio_col] = per_cell["formative count"] / total_cell
 
-    return per_cell[per_cell["formative count"] > 1]
+    # List exponential values expressed as separate rows
+    per_val = df.explode("vals")
+
+    def allomorphy(group):
+        """ Formatives are tuples of: word, tier, slot, sounds """
+        l, v = group.name
+
+        # Dictionary of formatives to sets of words they occur in with this value
+        form_to_words = defaultdict(set)
+
+        for i, r in group.iterrows():
+            f = F(r.tier, r.slot, r.formative)
+            w = (r.cell, r.form)
+            form_to_words[f].add(w)
+
+        # Dictionary of sets of words to sets of formatives.
+        words_to_form = defaultdict(set)
+
+        for f, w in form_to_words.items():
+            words_to_form[frozenset(w)].add(f)
+
+        formative_sets = {tuple(sorted(fset)) for fset in words_to_form.values()}
+
+        cell_count = val_counts[(l, v)]
+
+        infos = {"allomorph set": formative_sets,
+                 "allomorph set count": len(formative_sets),
+                 "cells with v": cell_count,
+                 "% allomorphs to cells containing v": (
+                                                                   len(formative_sets) / cell_count) * 100,
+                 }
+        return pd.Series(infos)
+
+    per_val = per_val.groupby(["lexeme", "vals"]).apply(allomorphy)
+
+    if per_val.shape[0] > 0:
+        return per_val[(per_val["allomorph set count"] > 1)].reset_index(drop=False)
+
+    return pd.DataFrame(
+        columns=['lexeme', 'vals', 'allomorph set', 'allomorph set count', 'cells with v',
+                 '% allomorphs to cells containing v'])
 
 
 def classify_verbose(df):
