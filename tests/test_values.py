@@ -3,29 +3,13 @@
 import unittest
 from setmorph import find_exponents, classify_unique, classify_allomorphy
 from pathlib import Path
-from hypothesis import given, note, example, settings
+from hypothesis import given, note, example, settings, seed
 from .strategies import exponents_df
 from itertools import chain
 from collections import defaultdict
 import pandas as pd
 
 here = Path(__file__)
-
-ex_1_df = pd.DataFrame(
-    [["cab", "o.d", "c a", "segmental", 0, "ca", frozenset({"o", "d"})],
-     ["cab", "d", "c a", "segmental", 0, "ca", frozenset({"d"})],
-     ["bab", "o.d", "b a", "segmental", 0, "ba", frozenset({"o", "d"})],
-     ["bab", "d", "b a", "segmental", 0, "ba", frozenset({"d"})],
-     ["bac", "o.d", "b a", "segmental", 0, "ba", frozenset({"o", "d"})],
-     ["bac", "d", "b a", "segmental", 0, "ba", frozenset({"d"})],
-     ["beb", "o", "b a b", "segmental", 0, "bab", frozenset({"o"})],
-     ["beb", "j.d", "b e", "segmental", 0, "be", frozenset({"j", "d"})],
-     ["beb", "o.d", "b e b a c", "segmental", 0, "be", frozenset({"o", "d"})],
-     ["beb", "o.d", "b e b a c", "segmental", 1, "bac", frozenset({"o", "d"})],
-     ["beb", "d", "b a b", "segmental", 0, "bab", frozenset({"d"})]],
-    columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"])
-
-ex_1_fs = {'C': {frozenset({'d'})}, 'A': {frozenset({'j'}), frozenset({'o'})}}
 
 sg = {"Person": {frozenset({"1"}), frozenset({"2"}), frozenset({"3"})},
       "Number": {frozenset({"SG"}), frozenset({"PL"})}
@@ -213,7 +197,6 @@ class testValueClassifications(unittest.TestCase):
     @example((ex_sg_c, sg))
     @example((ex_sg_d, sg))
     @example((ex_sg_e, sg))
-    @example((ex_1_df, ex_1_fs))
     @given(exponents_df())
     def test_allomorphy_overall_count(self, args):
         """Test that there are the right number of allomorphic values."""

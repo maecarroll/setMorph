@@ -4,7 +4,7 @@ import unittest
 from setmorph import classify_simple, find_exponents, \
     classify_cumulation, classify_syn
 from pathlib import Path
-from hypothesis import given, note
+from hypothesis import given, note, settings
 from .strategies import exponents_df
 
 here = Path(__file__)
@@ -13,6 +13,7 @@ here = Path(__file__)
 class testFormativeClassifications(unittest.TestCase):
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_simple(self, args):
         """Tests the classification into simple exponents."""
         df, features = args
@@ -39,6 +40,7 @@ class testFormativeClassifications(unittest.TestCase):
             self.assertTrue((~complex.simple).all())
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_cumulation_changes_inplace(self, args):
         """Tests that classification into cumulative exponents adds proper columns."""
         df, features = args
@@ -56,6 +58,7 @@ class testFormativeClassifications(unittest.TestCase):
         self.assertListEqual(list(exps.columns), expected_cols)
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_cumulation_percentages(self, args):
         """Tests that percentages for cumulation are between 0 and 100"""
         df, features = args
@@ -64,11 +67,14 @@ class testFormativeClassifications(unittest.TestCase):
 
         classify_cumulation(exps, max_dimensions)
         note(f"Exponents:\n{exps}")
-        self.assertTrue(exps['% cells cumulative'].apply(lambda x: 0. <= x <= 100.).all())
-        self.assertTrue(
-            exps['% dimensions cumulation'].apply(lambda x: 0. <= x <= 100.).all())
+
+        percent_cmlt = exps['% cells cumulative']
+        percent_dims = exps['% dimensions cumulation']
+        self.assertTrue(((percent_cmlt <= 100) & (percent_cmlt >= 0)).all())
+        self.assertTrue(((percent_dims <= 100) & (percent_dims >= 0)).all())
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_cumulation_total(self, args):
         """Tests that cumulative are subsets of exponent values"""
         df, features = args
@@ -81,6 +87,7 @@ class testFormativeClassifications(unittest.TestCase):
         self.assertTrue((exps["cumulative cells"] <= exps["exponence"]).all())
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_cumulation_longest(self, args):
         """Tests the exact value of the longest cumulation"""
         df, features = args
@@ -99,6 +106,7 @@ class testFormativeClassifications(unittest.TestCase):
         self.assertTrue((exps['longest cumulation'] <= len(features)).all())
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_cumulation_intent(self, args):
         """Tests that cumulative values are all exponential values of len > 1"""
         df, features = args
@@ -121,6 +129,7 @@ class testFormativeClassifications(unittest.TestCase):
                         .all())
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_syn(self, args):
         """Tests that there are between 0 and len(distr) syncretisms"""
         df, features = args

@@ -59,7 +59,7 @@ def feature_structures(draw):
 
 
 @st.composite
-def cell(draw, fs):
+def cell(draw, fs, features):
     """ Strategy to create synthetic cells
 
     cells are frozensets of values,
@@ -72,28 +72,36 @@ def cell(draw, fs):
     Returns:
 
     """
-    # select a sample of features
-    features = draw(st.sets(st.sampled_from(sorted(fs)), min_size=1))
     # pick one value in each feature
     values = [draw(st.sampled_from(sorted(fs[f]))) for f in features]
     return frozenset.union(*values)
 
-
-def set_no_inclusion(elements):
-    cells = sorted(elements, key=len)
-    for i, c1 in enumerate(cells):
-        for c2 in cells[i + 1:]:
-            if c1 < c2:
-                return False
-    return True
-
+@st.composite
+def features_conjunctions(draw, fs):
+    fs = sorted(fs)
+    # Pick how many features in each set
+    sizes = draw(st.lists(st.integers(1, len(fs)), min_size=1))
+    f_tuples = []
+    # Iterate over feature set sizes
+    for s in sorted(sizes, reverse=True):
+        # Pick a set of features (eg: number & case)
+        f = draw(st.sets(st.sampled_from(fs), min_size=s, max_size=s))
+        # Check we don't already have a superset (eg: number & case & gender)
+        is_included = any((f <= f2 for f2 in f_tuples))
+        if not is_included:
+            f_tuples.append(f)
+    return f_tuples
 
 @st.composite
-def cell_feats(draw):
+def cell_feats(draw, max_size=50):
     features = draw(feature_structures())
-    cells = st.sets(cell(features), min_size=2, max_size=600)
-    cells = cells.filter(set_no_inclusion)
-    return draw(cells), features
+    feature_conjs = draw(features_conjunctions(features))
+    cells = set()
+    for feats in feature_conjs:
+        new_cells = draw(st.sets(cell(features, feats), min_size=2, max_size=max_size))
+        cells |= new_cells
+        max_size -= len(new_cells)
+    return cells, features
 
 
 @st.composite
@@ -111,7 +119,7 @@ def cells_dist_feats(draw):
     """
     cells, features = draw(cell_feats())
     dist = draw(st.sets(st.sampled_from(sorted(cells)), min_size=1, max_size=600))
-    return (cells, dist, features)
+    return cells, dist, features
 
 
 @st.composite

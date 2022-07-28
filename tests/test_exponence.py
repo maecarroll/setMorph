@@ -3,7 +3,7 @@
 import unittest
 from setmorph import exponence, find_exponents
 from pathlib import Path
-from hypothesis import given, note
+from hypothesis import given, note, settings
 from itertools import combinations, chain
 from .strategies import cells_dist_feats, exponents_df
 
@@ -13,6 +13,7 @@ here = Path(__file__)
 class testExponence(unittest.TestCase):
 
     @given(cells_dist_feats().filter(lambda args: args[0] != args[1]))
+    @settings(deadline=None)
     def test_features_are_reduced(self, args):
         """ Tests that if some features can be reduced, they are."""
         (cells, dista, feature_structures) = args
@@ -32,6 +33,7 @@ class testExponence(unittest.TestCase):
                 self.assertFalse(span_dista <= delta_a)
 
     @given(cells_dist_feats().filter(lambda args: args[0] != args[1]))
+    @settings(deadline=None)
     def test_not_exp_if_not_informative(self, args):
         """ Tests that if a dimension is filled, it is not in delta_a"""
         (cells, dista, feature_structures) = args
@@ -44,6 +46,7 @@ class testExponence(unittest.TestCase):
                 self.assertFalse(vs <= delta_a)
 
     @given(cells_dist_feats().filter(lambda args: args[0] != args[1]))
+    @settings(deadline=None)
     def test_no_subsets(self, args):
         """ Tests that no element of delta_a is a subset of another"""
         (cells, dista, feature_structures) = args
@@ -52,6 +55,7 @@ class testExponence(unittest.TestCase):
         self.assertFalse(any([x1 < x2 or x2 < x1 for x1, x2 in combinations(delta_a, 2)]))
 
     @given(cells_dist_feats())
+    @settings(deadline=None)
     def test_elts_taken_from_dista(self, args):
         """ Tests that elements of delta_a are from the dista"""
         (cells, dista, feature_structures) = args
@@ -60,6 +64,7 @@ class testExponence(unittest.TestCase):
         self.assertTrue(all(any(x <= y for y in dista) for x in delta_a))
 
     @given(cells_dist_feats().filter(lambda args: args[0] == args[1]))
+    @settings(deadline=None)
     def test_empty_if_dist_is_cells(self, args):
         """ Tests that delta_a is empty if the dist_a is equal to the cells"""
         cells, dista, feature_structures = args
@@ -68,6 +73,7 @@ class testExponence(unittest.TestCase):
         self.assertEqual(delta_a, set())
 
     @given(cells_dist_feats())
+    @settings(deadline=None)
     def test_supersets_in_dista(self, args):
         """ Tests delta_a describe only the dist, no other cells
         """
@@ -80,6 +86,7 @@ class testExponence(unittest.TestCase):
                     self.assertTrue(any(y <= z for y in dista))
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_find_exponents_shape(self, args):
         """Tests the shape of the exponents table"""
         df, features = args
@@ -97,6 +104,7 @@ class testExponence(unittest.TestCase):
         self.assertEqual(exps.shape[0], formatives.shape[0])
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_find_exponents_distr(self, args):
         """Tests that each formative distribution is indeed correct."""
         df, features = args
@@ -110,6 +118,7 @@ class testExponence(unittest.TestCase):
             self.assertSetEqual(row["dist_a"], expected_dists[key])
 
     @given(exponents_df())
+    @settings(deadline=None)
     def test_find_exponents_recomputed(self, args):
         """Tests that each row's exponence set can be computed identically."""
         df, features = args
