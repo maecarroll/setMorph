@@ -31,12 +31,12 @@ class testFormativeClassifications(unittest.TestCase):
         # True when 1 elt
         simple = exps[lens == 1]
         if simple.shape[0] > 0:
-            self.assertTrue((simple.simple == True).all())
+            self.assertTrue(simple.simple.all())
 
         # False when > 1
         complex = exps[lens > 1]
         if complex.shape[0] > 0:
-            self.assertTrue((complex.simple == False).all())
+            self.assertTrue((~complex.simple).all())
 
     @given(exponents_df())
     def test_cumulation_changes_inplace(self, args):

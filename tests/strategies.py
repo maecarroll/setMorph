@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from hypothesis import strategies as st
-from hypothesis.extra.pandas import column, data_frames
 import pandas as pd
 
-# features or values
+
 @st.composite
 def word(draw, min_size=0, max_size=None):
     C = st.sampled_from("bcdfghjklmnpqrstvwxyz")
@@ -37,11 +36,12 @@ def feature_structures(draw):
     """
     # Pick a vocabulary of abbreviations (a unique set of abbreviations)
     abbrs = draw(st.sets(abbr, min_size=5, max_size=300))
-    l = len(abbrs)
 
     # Select a set of abbreviations to serve as features
     #  and remove them from the vocabulary
-    features = draw(st.sets(st.sampled_from(sorted(abbrs)), min_size=1, max_size=l // 2))
+    features = draw(st.sets(st.sampled_from(sorted(abbrs)),
+                            min_size=1,
+                            max_size=len(abbrs) // 2))
     abbrs = abbrs - features
 
     # Build the dictionnary of feature => { frozenset({value}), ... }
@@ -87,6 +87,7 @@ def set_no_inclusion(elements):
                 return False
     return True
 
+
 @st.composite
 def cell_feats(draw):
     features = draw(feature_structures())
@@ -125,12 +126,14 @@ def exponents_df(draw):
 
     # Choose a paradigm structure
     cells, features = draw(cell_feats())
-    l = len(cells)
+    length = len(cells)
 
     rows = []
     for lex in lexemes:
         # pick a subset of cells, at least 2, at most all cells
-        lex_cells = draw(st.sets(st.sampled_from(sorted(cells)), min_size=2, max_size=l))
+        lex_cells = draw(st.sets(st.sampled_from(sorted(cells)),
+                                 min_size=2,
+                                 max_size=length))
         l_paradigm = len(lex_cells)
 
         # create a set of exponents

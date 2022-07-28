@@ -1,8 +1,8 @@
 import logging
-
 import pandas as pd
 from itertools import combinations, chain
-from collections import Counter, defaultdict
+from collections import Counter
+
 
 def check_cell_structure(cell_series):
     """ Checks that the cells are not malformed.
@@ -19,9 +19,9 @@ def check_cell_structure(cell_series):
     incl = []
     cells = sorted(map(set, cell_series.unique()), key=len)
     for i, c1 in enumerate(cells):
-        for c2 in cells[i+1:]:
+        for c2 in cells[i + 1:]:
             if c1 < c2:
-                incl.append(".".join(c1) + " < "+ ".".join(c2))
+                incl.append(".".join(c1) + " < " + ".".join(c2))
     if incl:
         msg = "Malformed paradigm structure: " \
               "cells can not be subsets of other cells. " \
@@ -48,6 +48,7 @@ def read_features(path):
             logging.warning(f"The feature `{f}` has a single value `{v}`. "
                             f"No exponents of `{v}` will be possible.")
     return features_to_values
+
 
 def read_paradigms(path):
     """ Read a paradigms file.
@@ -95,13 +96,13 @@ def exponence(cells, dista, feature_structure):
     for cell in dista_ordered:
         subsets = set()
         found = False
-        l = len(cell)
+        length = len(cell)
         i = 1
 
         # We explore subsets of the cell of increasing length
         # For the subset relation check to work, we need to
         #  look first at features present in more cells
-        while not found and i < l:
+        while not found and i < length:
             combos = combinations(cell, i)
             for s in sorted(combos,
                             key=freqs.__getitem__,

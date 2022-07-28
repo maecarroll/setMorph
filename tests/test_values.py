@@ -5,8 +5,8 @@ from setmorph import find_exponents, classify_unique, classify_allomorphy
 from pathlib import Path
 from hypothesis import given, note, example, settings
 from .strategies import exponents_df
-from itertools import combinations, chain
-from collections import Counter, defaultdict
+from itertools import chain
+from collections import defaultdict
 import pandas as pd
 
 here = Path(__file__)
@@ -66,7 +66,6 @@ ex_sg_c = pd.DataFrame(
      ],
     columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"])
 
-
 ex_sg_d = pd.DataFrame(
     [["l1", "SG.1", "x", "segmental", 0, "x", frozenset({"SG", "1"})],
      ["l1", "SG.2", "x", "segmental", 0, "x", frozenset({"SG", "2"})],
@@ -81,18 +80,17 @@ ex_sg_d = pd.DataFrame(
 
 ex_sg_e = pd.DataFrame(
     [
-     ["l1", "SG.1", "x y", "segmental", 0, "x", frozenset({"SG", "1"})],
-     ["l1", "SG.1", "x y", "segmental", 1, "y", frozenset({"SG", "1"})],
-     ["l1", "SG.2", "x y", "segmental", 0, "x", frozenset({"SG", "2"})],
-     ["l1", "SG.2", "x y", "segmental", 1, "y", frozenset({"SG", "2"})],
-     ["l1", "SG.3", "x", "segmental", 0, "x", frozenset({"SG", "3"})],
-     ["l1", "PL.1", "z", "segmental", 0, "z", frozenset({"PL", "1"})],
-     ["l1", "PL.2", "z", "segmental", 0, "z", frozenset({"PL", "2"})],
-     ["l1", "PL.3", "y", "segmental", 0, "y", frozenset({"PL", "3"})],
+        ["l1", "SG.1", "x y", "segmental", 0, "x", frozenset({"SG", "1"})],
+        ["l1", "SG.1", "x y", "segmental", 1, "y", frozenset({"SG", "1"})],
+        ["l1", "SG.2", "x y", "segmental", 0, "x", frozenset({"SG", "2"})],
+        ["l1", "SG.2", "x y", "segmental", 1, "y", frozenset({"SG", "2"})],
+        ["l1", "SG.3", "x", "segmental", 0, "x", frozenset({"SG", "3"})],
+        ["l1", "PL.1", "z", "segmental", 0, "z", frozenset({"PL", "1"})],
+        ["l1", "PL.2", "z", "segmental", 0, "z", frozenset({"PL", "2"})],
+        ["l1", "PL.3", "y", "segmental", 0, "y", frozenset({"PL", "3"})],
 
-     ],
+    ],
     columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"])
-
 
 
 class testValueClassifications(unittest.TestCase):
@@ -109,8 +107,8 @@ class testValueClassifications(unittest.TestCase):
         lex = df.lexeme.unique()
         vals = set(v for f in features for v in features[f])
 
-        l = res.shape[0]
-        self.assertTrue(l <= len(lex) * len(vals))
+        length = res.shape[0]
+        self.assertTrue(length <= len(lex) * len(vals))
 
         # No duplicate rows
         self.assertFalse(res.duplicated().any())
@@ -223,9 +221,9 @@ class testValueClassifications(unittest.TestCase):
         exps = find_exponents(df, features)
         res = classify_allomorphy(exps, df)
 
-        ## This is an alternate allomorphy implementation, which provides less info,
-        ## is slower
-        ## but more straightforward
+        # This is an alternate allomorphy implementation, which provides less info,
+        # is slower
+        # but more straightforward
 
         df = pd.merge(df, exps, on=["lexeme", "tier", "slot", "formative"],
                       how="left")
@@ -237,13 +235,13 @@ class testValueClassifications(unittest.TestCase):
         # Counts allomorphs by constructing a dict of :
         # (lexeme, value) => (formative) => set of (cell, form)
         for i, row in df.iterrows():
-            l = row.lexeme
+            lex = row.lexeme
             f = row.form
             c = row.cell
             a = (row.tier, row.slot, row.formative)
             vals_here = {vs for vs in row.exponence if vs <= row.celllist}
             for val in chain(*vals_here):
-                val_to_word_count[(l, val)][a].add((c, f))
+                val_to_word_count[(lex, val)][a].add((c, f))
 
         expected_size = 0
 

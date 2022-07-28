@@ -53,8 +53,8 @@ def classify_simple(df):
             "yes" if the description if simple, "no" if it is not, or "invariant" if the
             formative is present in all forms of the lexeme.
         """
-        l = len(descr)
-        return None if l == 0 else True if l == 1 else False
+        length = len(descr)
+        return None if length == 0 else True if length == 1 else False
 
     df["simple"] = df["exponence"].apply(simple)
 
@@ -160,7 +160,6 @@ def classify_allomorphy(exps, df):
 
     df["vals"] = df.apply(exponential_vals, axis=1)
 
-
     # List exponential values expressed as separate rows
     per_val = df.explode("vals")
 
@@ -190,7 +189,7 @@ def classify_allomorphy(exps, df):
                  "allomorph set count": len(formative_sets),
                  "cells with v": cell_count,
                  "% allomorphs to cells containing v": (
-                                                                   len(formative_sets) / cell_count) * 100,
+                                                               len(formative_sets) / cell_count) * 100,
                  }
         return pd.Series(infos)
 

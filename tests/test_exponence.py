@@ -6,7 +6,6 @@ from pathlib import Path
 from hypothesis import given, note
 from itertools import combinations, chain
 from .strategies import cells_dist_feats, exponents_df
-from collections import defaultdict
 
 here = Path(__file__)
 
@@ -110,9 +109,8 @@ class testExponence(unittest.TestCase):
             key = tuple(row[f_cols])
             self.assertSetEqual(row["dist_a"], expected_dists[key])
 
-
     @given(exponents_df())
-    def test_find_exponents_distr(self, args):
+    def test_find_exponents_recomputed(self, args):
         """Tests that each row's exponence set can be computed identically."""
         df, features = args
         exps = find_exponents(df, features)
@@ -123,9 +121,9 @@ class testExponence(unittest.TestCase):
             dista = row["dist_a"]
             cells = cells_by_lexeme[row["lexeme"]]
             vals = frozenset(chain(*cells))
-            fs = {f:{v for v in features[f] if v <= vals} for f in features}
+            fs = {f: {v for v in features[f] if v <= vals} for f in features}
             note(f"Cells={cells}, dista={dista}, features={fs}")
-            expected = exponence(cells, dista,  fs)
+            expected = exponence(cells, dista, fs)
             note(f"Computed: {expected}")
             note(f"Found: {row.exponence}")
             self.assertSetEqual(expected, row["exponence"])
