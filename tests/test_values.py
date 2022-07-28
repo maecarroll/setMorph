@@ -3,7 +3,7 @@
 import unittest
 from setmorph import find_exponents, classify_unique, classify_allomorphy
 from pathlib import Path
-from hypothesis import given, note, example, settings, seed
+from hypothesis import given, note, example, settings
 from .strategies import exponents_df
 from itertools import chain
 from collections import defaultdict

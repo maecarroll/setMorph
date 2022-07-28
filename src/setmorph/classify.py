@@ -150,9 +150,15 @@ def classify_allomorphy(exps, df):
         .to_dict()
 
     per_val = values_per_word(df, exps)
+    from hypothesis import note
 
     def allomorphy(group):
         """ Formatives are tuples of: word, tier, slot, sounds """
+
+        # Exit if empty group, as empty groups do not have names
+        if len(group) == 0:
+            return None
+
         l, v = group.name
 
         # Dictionary of formatives to sets of words they occur in with this value
@@ -208,7 +214,7 @@ def values_per_word(df, exps):
     return per_val
 
 
-def classify_verbose(df, exps):
+def classify_verbose(exps, df):
     def verbose_summary(occs):
         if occs.shape[0] == 1:
             return None
