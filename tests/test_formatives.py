@@ -5,7 +5,7 @@ from setmorph import classify_simple, find_exponents, \
     classify_cumulation, classify_syn
 from pathlib import Path
 from hypothesis import given, note
-from strategies import exponents_df
+from .strategies import exponents_df
 
 here = Path(__file__)
 

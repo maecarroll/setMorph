@@ -79,11 +79,20 @@ def cell(draw, fs):
     return frozenset.union(*values)
 
 
+def set_no_inclusion(elements):
+    cells = sorted(elements, key=len)
+    for i, c1 in enumerate(cells):
+        for c2 in cells[i + 1:]:
+            if c1 < c2:
+                return False
+    return True
+
 @st.composite
 def cell_feats(draw):
     features = draw(feature_structures())
-    cells = draw(st.sets(cell(features), min_size=2, max_size=600))
-    return cells, features
+    cells = st.sets(cell(features), min_size=2, max_size=600)
+    cells = cells.filter(set_no_inclusion)
+    return draw(cells), features
 
 
 @st.composite

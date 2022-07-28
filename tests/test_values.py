@@ -4,7 +4,7 @@ import unittest
 from setmorph import find_exponents, classify_unique, classify_allomorphy
 from pathlib import Path
 from hypothesis import given, note, example, settings
-from strategies import exponents_df
+from .strategies import exponents_df
 from itertools import combinations, chain
 from collections import Counter, defaultdict
 import pandas as pd
@@ -264,16 +264,16 @@ class testValueClassifications(unittest.TestCase):
 
 
 if __name__ == '__main__':
-
-    for i, df in zip("abcde",
-                  [ex_sg_a, ex_sg_b, ex_sg_c, ex_sg_d, ex_sg_e]):
-        print(f"Example {i}")
-        print(df)
-        exps = find_exponents(df, sg)
-        print(exps)
-        res = classify_allomorphy(exps, df)
-        print("Allomorphy:")
-        print(res)
-        print(res[res.vals=="SG"]["allomorph set"].iloc[0])
+    #
+    # for i, df in zip("abcde",
+    #               [ex_sg_a, ex_sg_b, ex_sg_c, ex_sg_d, ex_sg_e]):
+    #     print(f"Example {i}")
+    #     print(df)
+    #     exps = find_exponents(df, sg)
+    #     print(exps)
+    #     res = classify_allomorphy(exps, df)
+    #     print("Allomorphy:")
+    #     print(res)
+    #     print(res[res.vals=="SG"]["allomorph set"].iloc[0])
 
     unittest.main()
