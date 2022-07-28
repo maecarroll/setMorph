@@ -130,6 +130,7 @@ def classify_unique(df):
     return groups.filter(lambda g: g.shape[0] == 1)
 
 
+
 def classify_allomorphy(exps, df):
     """
 
@@ -148,20 +149,7 @@ def classify_allomorphy(exps, df):
         .cell \
         .to_dict()
 
-    # Build a dist_a dict: lexeme, formative, slot, tier => dist
-    vals = {tuple(r[:4]): r.exponence for i, r in
-            exps[["lexeme", "slot", "formative", "tier", "exponence"]].iterrows()}
-
-    # For each formative, add the subset of values from the cells that are exponential
-    def exponential_vals(row):
-        cell = row.celllist
-        exp = vals[(row.lexeme, row.slot, row.formative, row.tier)]
-        return tuple(chain(*{vs for vs in exp if vs <= cell}))
-
-    df["vals"] = df.apply(exponential_vals, axis=1)
-
-    # List exponential values expressed as separate rows
-    per_val = df.explode("vals")
+    per_val = values_per_word(df, exps)
 
     def allomorphy(group):
         """ Formatives are tuples of: word, tier, slot, sounds """
@@ -203,7 +191,24 @@ def classify_allomorphy(exps, df):
                  '% allomorphs to cells containing v'])
 
 
-def classify_verbose(df):
+def values_per_word(df, exps):
+    # Build a dist_a dict: lexeme, formative, slot, tier => dist
+    vals = {tuple(r[:4]): r.exponence for i, r in
+            exps[["lexeme", "slot", "formative", "tier", "exponence"]].iterrows()}
+
+    # For each formative, add the subset of values from the cells that are exponential
+    def exponential_vals(row):
+        cell = row.celllist
+        exp = vals[(row.lexeme, row.slot, row.formative, row.tier)]
+        return tuple(chain(*{vs for vs in exp if vs <= cell}))
+
+    df["vals"] = df.apply(exponential_vals, axis=1)
+    # List exponential values expressed as separate rows
+    per_val = df.explode("vals")
+    return per_val
+
+
+def classify_verbose(df, exps):
     def verbose_summary(occs):
         if occs.shape[0] == 1:
             return None
@@ -211,27 +216,17 @@ def classify_verbose(df):
         first = occs.iloc[0, :]
         forms = occs[form_cols].to_records(index=False)
         return pd.Series({"lexeme": first["lexeme"],
-                          "value": first["values"],
+                          "value": first["vals"],
                           "cell": first["cell"],
                           "formatives": [tuple(f) for f in forms],
                           })
 
-    df = df.copy(deep=True)
 
-    # Make separate rows for each cell
-    df = df.explode("dist_a").rename(columns={"dist_a": "cell"})
+    # Make a row for each value in words
+    per_val = values_per_word(df, exps)
 
-    # Make a row for each cell value that is in the minimal description
-    # These are the values of the cell which are expressed by formatives
-    df["values"] = df.apply(lambda row: set(chain(*{v for v in row["exponence"]
-                                                    if set(row.cell) >= v})),
-                            axis=1)
-
-    # Make a row for each value, then
     # group formatives which occur in the same words for the same value
-    res = df.explode("values").groupby(["lexeme", "cell", "values"],
-                                       as_index=False,
-                                       group_keys=True)
+    res = per_val.groupby(["lexeme", "cell", "vals"], as_index=False, group_keys=True)
 
     # Keep groups with more than a single formative,
     # reshape to have one formative per row
