@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import find_exponents, classify_unique, classify_allomorphy
+from setmorph import find_exponents, classify_unique, \
+    classify_allomorphy, classify_verbose
 from pathlib import Path
 from hypothesis import given, note, example, settings
-from .strategies import exponents_df
+from strategies import exponents_df
 from itertools import chain
 from collections import defaultdict
 import pandas as pd
@@ -76,8 +77,26 @@ ex_sg_e = pd.DataFrame(
     ],
     columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"])
 
+ex_ve_1 = pd.DataFrame([
+    ["beb", "b", "b e b a b", "segmental", 0, "be", frozenset({"b"})],
+    ["beb", "b", "b e b a b", "segmental", 1, "bab", frozenset({"b"})],
+    ["beb", "b", "b a b", "segmental", 0, "bab", frozenset({"b"})],
+    ["beb", "e", "b e", "segmental", 0, "be", frozenset({"e"})]
+],
+    columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"]
+)
+ex_ve_2 = pd.DataFrame([
+    ["bab", "b", "b a", "segmental", 0, "ba", frozenset({"b"})],
+    ["bab", "e", "b a b a b b e c", "segmental", 0, "ba", frozenset({"e"})],
+    ["bab", "e", "b a b a b b e c", "segmental", 1, "bab", frozenset({"e"})],
+    ["bab", "e", "b a b a b b e c", "segmental", 2, "bec", frozenset({"e"})]
+],
+    columns=["lexeme", "cell", "form", "tier", "slot", "formative", "celllist"]
+)
+ex_ve_feats = {'A': {frozenset({'b'}), frozenset({'e'})}}
 
-class testValueClassifications(unittest.TestCase):
+
+class TestValueClassifications(unittest.TestCase):
 
     @given(exponents_df())
     def test_unique(self, args):
@@ -121,7 +140,7 @@ class testValueClassifications(unittest.TestCase):
         self.assertListEqual(list(res.columns), exp_cols)
 
         # sets of formatives
-        # Formatives are tuples of: tier, slot, soundss
+        # Formatives are tuples of: tier, slot, sounds
         def contains_formatives_triples(elt):
             self.assertTrue(type(elt) is set)
             for fs in elt:
@@ -239,6 +258,59 @@ class testValueClassifications(unittest.TestCase):
         note(res)
         note(str(val_to_word_count))
         self.assertEqual(res.shape[0], expected_size)
+
+    @given(exponents_df())
+    @example((ex_ve_1, ex_ve_feats))
+    @example((ex_ve_2, ex_ve_feats))
+    @settings(deadline=None)
+    def test_ve_occur_in_same_word(self, args):
+        """Test that ..."""
+        df, features = args
+        exps = find_exponents(df, features)
+        res = classify_verbose(exps, df)
+        note(exps)
+        note(res)
+
+        def exp_list(group):
+            return set(group[["tier", "slot", "formative"]].apply(tuple, axis=1))
+
+        # Build a dict of lexeme, cell => list [ {(formative tuple) }, {}]
+        words = df.groupby(["lexeme", "cell", "form"]) \
+            .apply(exp_list) \
+            .groupby(["lexeme", "cell"]) \
+            .apply(list) \
+            .to_dict()
+
+        def check_word(row):
+            expected = words[(row.lexeme, row.cell)]
+            note(expected)
+            self.assertTrue(any(set(row.formatives) <= e for e in expected))
+
+        res.apply(check_word, axis=1)
+
+    @given(exponents_df())
+    @example((ex_ve_1, ex_ve_feats))
+    @example((ex_ve_2, ex_ve_feats))
+    @settings(deadline=None)
+    def test_ve_have_multiple_exps(self, args):
+        """Test that ..."""
+        df, features = args
+        exps = find_exponents(df, features)
+        res = classify_verbose(exps, df)
+        note(res)
+        self.assertTrue((res.formatives.apply(len) > 1).all())
+
+    @given(exponents_df())
+    @example((ex_ve_1, ex_ve_feats))
+    @example((ex_ve_2, ex_ve_feats))
+    @settings(deadline=None)
+    def test_ve_unique_words(self, args):
+        """Test that there is a single row for any word"""
+        df, features = args
+        exps = find_exponents(df, features)
+        res = classify_verbose(exps, df)
+        note(res)
+        self.assertFalse(res[["lexeme", "cell", "value", "form"]].duplicated().any())
 
 
 # So far allomorphy would work if returned empty table. Count exp number of values ?

@@ -97,8 +97,7 @@ def classify_cumulation(df, max_dims):
 
 
 def classify_syn(df):
-    """Classifies all formatives in a lexicon (dataframe) with regards to
-    syncretism.
+    """Classifies all formatives in a lexicon (dataframe) regarding syncretism.
 
     """
     df["# sets minimally required"] = df["exponence"].fillna("").apply(len)
@@ -150,7 +149,6 @@ def classify_allomorphy(exps, df):
         .to_dict()
 
     per_val = values_per_word(df, exps)
-    from hypothesis import note
 
     def allomorphy(group):
         """ Formatives are tuples of: word, tier, slot, sounds """
@@ -216,13 +214,14 @@ def values_per_word(df, exps):
 
 def classify_verbose(exps, df):
     def verbose_summary(occs):
-        if occs.shape[0] == 1:
+        if occs.shape[0] <= 1:
             return None
         form_cols = ["tier", "slot", "formative"]
         first = occs.iloc[0, :]
         forms = occs[form_cols].to_records(index=False)
         return pd.Series({"lexeme": first["lexeme"],
                           "value": first["vals"],
+                          "form": first["form"],
                           "cell": first["cell"],
                           "formatives": [tuple(f) for f in forms],
                           })
@@ -232,13 +231,19 @@ def classify_verbose(exps, df):
     per_val = values_per_word(df, exps)
 
     # group formatives which occur in the same words for the same value
-    res = per_val.groupby(["lexeme", "cell", "vals"], as_index=False, group_keys=True)
+    res = per_val.groupby(["lexeme", "cell", "vals", "form"],
+                          as_index=False,
+                          group_keys=True)
 
     # Keep groups with more than a single formative,
     # reshape to have one formative per row
     res = res.apply(verbose_summary).dropna()
+    cols = ["lexeme", "cell", "value", "form", "formatives", "# formatives"]
+
+    if res.shape[0] == 0:
+        return pd.DataFrame(columns=cols)
 
     # Count formatives
     res["# formatives"] = res.formatives.apply(len)
 
-    return res[["lexeme", "cell", "value", "formatives", "# formatives"]]
+    return res[cols]
