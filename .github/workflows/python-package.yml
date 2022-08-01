@@ -42,12 +42,12 @@ jobs:
       run: |
         mkdir results
         pip install -e ./
-        setmorph -- "src/setmorph/testdata/sample-zen-out.csv" "src/setmorph/testdata/fr_features.csv" "results/fr_analysis_"
+        setmorph -- "src/setmorph/testdata/sample-fr-out.csv" "src/setmorph/testdata/fr_features.csv" "results/fr_analysis_"
         setmorph -- "src/setmorph/testdata/sample-ng-tense-out.csv" "src/setmorph/testdata/ng_features.csv" "results/ng_analysis_"
         setmorph -- "src/setmorph/testdata/sample-ar-out.csv" "src/setmorph/testdata/ar_features.csv" "results/ar_analysis_"
         setmorph -- "src/setmorph/testdata/sample-nuer-out.csv" "src/setmorph/testdata/nuer_features.csv" "results/nuer_analysis_"
         setmorph -- "src/setmorph/testdata/sample-rus-out.csv" "src/setmorph/testdata/rus_features.csv" "results/rus_analysis_"
-        setmorph -- "src/setmorph/testdata/sample-fr-out.csv" "src/setmorph/testdata/zen_features.csv" "results/zen_analysis_"
+        setmorph -- "src/setmorph/testdata/sample-zen-out.csv" "src/setmorph/testdata/zen_features.csv" "results/zen_analysis_"
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
       with:
