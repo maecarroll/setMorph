@@ -125,13 +125,15 @@ def values_per_word(df, exps):  # TODO: to test
 
     def gather_formatives(occs):
         form_cols = ["tier", "slot", "formative"]
+        if occs.shape[0] == 0:
+            return None
         first = occs.iloc[0, :]
         forms = occs[form_cols].to_records(index=False)
         return pd.Series({"lexeme": first["lexeme"],
                           "value": first["value"],
                           "form": first["form"],
                           "cell": first["cell"],
-                          "formatives": tuple(sorted({Formative(*f) for f in forms})),
+                          "formative": tuple(sorted({Formative(*f) for f in forms})),
                           })
 
     # List exponential values expressed as separate rows
@@ -140,7 +142,9 @@ def values_per_word(df, exps):  # TODO: to test
     # For each value in a separate word, build a list of formatives
     values = values.groupby(["lexeme", "cell", "value", "form"],
                             as_index=False,
-                            group_keys=True).apply(gather_formatives).dropna()
+                            group_keys=True).apply(gather_formatives)\
+        .dropna()\
+        .reset_index(drop=True)
     return values
 
 
@@ -153,11 +157,11 @@ def values_table(values_words):
     Returns:
 
     """
-    values = values_words.sort_values("lexeme") \
-        .groupby(["lexeme", "value"]) \
-        .agg({"formatives": set}).reset_index(drop=False)
-    values["formatives_by_word"] = values.formatives
-    values["formatives"] = values.formatives.apply(lambda f: set(chain(*f)))
+    values = values_words.sort_values("lexeme", axis=0)
+    values = values.groupby(["lexeme", "value"], as_index=False)
+    values = values.agg({"formative": set})
+    values["formatives_by_word"] = values.formative
+    values["formative"] = values.formative.apply(lambda f: set(chain(*f)))
     return values
 
 
@@ -173,7 +177,7 @@ def count_formatives(values_words):
     Returns:
 
     """
-    values_words["# formatives"] = values_words.formatives.apply(len)
+    values_words["# formatives"] = values_words.formative.apply(len)
 
 
 def classify_allomorphy(df, values):

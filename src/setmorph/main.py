@@ -27,11 +27,11 @@ def analyze_exponence(forms_path, features_path, output_prefix):
     classify_allomorphy(df, values)
 
     ## Export
-    values_words.formatives = values_words.formatives \
+    values_words.formative = values_words.formative \
         .apply(lambda x: ' '.join([str(f) for f in x]))
     values_words.to_csv(output_prefix + "_values_per_word.csv")
 
-    values.formatives = values.formatives \
+    values.formative = values.formative \
         .apply(lambda x: ' '.join([str(f) for f in x]))
     values.formatives_by_word = values.formatives_by_word \
         .apply(

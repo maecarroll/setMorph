@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import find_exponents, classify_unique, \
-    classify_allomorphy, classify_verbose
+from setmorph import find_exponents, values_per_word, values_table, \
+    classify_allomorphy, count_formatives
 from pathlib import Path
 from hypothesis import given, note, example, settings
 from .strategies import exponents_df
@@ -99,58 +99,23 @@ ex_ve_feats = {'A': {frozenset({'b'}), frozenset({'e'})}}
 class TestValueClassifications(unittest.TestCase):
 
     @given(exponents_df())
-    def test_unique(self, args):
-        """Tests the unique df"""
-        df, features = args
-        exps = find_exponents(df, features)
-        res = classify_unique(exps)
-
-        # Minimum number of rows is 0
-        # Maximum number of rows is the number of values * number of lexemes
-        lex = df.lexeme.unique()
-        vals = set(v for f in features for v in features[f])
-
-        length = res.shape[0]
-        self.assertTrue(length <= len(lex) * len(vals))
-
-        # No duplicate rows
-        self.assertFalse(res.duplicated().any())
-
-        # No duplicate lexeme, value couple
-        self.assertFalse(res[["lexeme", "value"]].duplicated().any())
-
-    @given(exponents_df())
     @example((ex_sg_a, sg))
     @example((ex_sg_b, sg))
     @example((ex_sg_c, sg))
     @example((ex_sg_d, sg))
     @example((ex_sg_e, sg))
-    def test_allomorphy_shape(self, args):
-        """Tests the expected shape of the allomorphy dataframe"""
+    @settings(deadline=None)
+    def test_count_formatives_inplace(self, args):
+        """Tests counting formatives"""
         df, features = args
         exps = find_exponents(df, features)
-        res = classify_allomorphy(exps, df)
+        values_words = values_per_word(df, exps)
+        values = values_table(values_words)
+        count_formatives(values)
+        note(values)
 
-        note(", ".join(list(res.columns)))
-        exp_cols = ['lexeme', 'vals', 'allomorph set', 'allomorph set count',
-                    'cells with v',
-                    '% allomorphs to cells containing v']
-
-        # Expected columns
-        self.assertListEqual(list(res.columns), exp_cols)
-
-        # sets of formatives
-        # Formatives are tuples of: tier, slot, sounds
-        def contains_formatives_triples(elt):
-            self.assertTrue(type(elt) is set)
-            for fs in elt:
-                for f in fs:
-                    self.assertTrue(len(f) == 3)
-                    self.assertTrue(type(f[0]) is str)
-                    self.assertTrue(type(f[1]) is int)
-                    self.assertTrue(type(f[2]) is str)
-
-        res['allomorph set'].apply(contains_formatives_triples)
+        # changed it in place
+        self.assertIn("# formatives", list(values.columns))
 
     @given(exponents_df())
     @example((ex_sg_a, sg))
@@ -159,115 +124,168 @@ class TestValueClassifications(unittest.TestCase):
     @example((ex_sg_d, sg))
     @example((ex_sg_e, sg))
     @settings(deadline=None)
-    def test_allomorphy_same_value(self, args):
-        """Tests that all formatives have the value in their exponent set."""
+    def test_count_formatives_positive_integers(self, args):
+        """Tests counting formatives"""
         df, features = args
         exps = find_exponents(df, features)
-        res = classify_allomorphy(exps, df)
-        note("Allomorphy:\n\t" + str(res))
-        vals = exps.set_index(["lexeme", "tier", "slot", "formative"])["exponence"] \
-            .apply(lambda v: set(chain(*v))).to_dict()
+        values_words = values_per_word(df, exps)
+        values = values_table(values_words)
+        count_formatives(values)
+        note(values)
 
-        note(exps)
-        res["fs"] = res["allomorph set"].apply(lambda x: list(chain(*x)))
-        res = res.explode("fs")
+        self.assertTrue((values["# formatives"].apply(type) == int).all())
+        self.assertTrue((values["# formatives"] > 0).all())
 
-        def same_value(row):
-            t, s, f = row["fs"]
-            recovered_values = vals[(row.lexeme, t, s, f)]
-            self.assertIn(row.vals, recovered_values)
-
-        res.apply(same_value, axis=1)
-
-    @settings(deadline=None)
-    @example((ex_sg_a, sg))
-    @example((ex_sg_b, sg))
-    @example((ex_sg_c, sg))
-    @example((ex_sg_d, sg))
-    @example((ex_sg_e, sg))
-    @given(exponents_df())
-    def test_allomorphy_diff_words(self, args):
-        """Test that there are at least two formatives from different words."""
-        df, features = args
-        exps = find_exponents(df, features)
-        res = classify_allomorphy(exps, df)
-
-        words = df.groupby(["lexeme", "tier", "slot", "formative"]) \
-            .apply(lambda g: [(r.cell, r.form) for i, r in g.iterrows()]) \
-            .to_dict()
-
-        def has_different_words(row):
-            w = None
-            allomorphs = set(chain(*r["allomorph set"]))
-            for t, s, f in allomorphs:
-                new = words[(row.lexeme, t, s, f)]
-                if w is None:
-                    w = new
-                elif w != new:
-                    return True
-            return False
-
-        for i, r in res.iterrows():
-            self.assertTrue(has_different_words(r))
-
-    @settings(deadline=None)
-    @example((ex_sg_a, sg))
-    @example((ex_sg_b, sg))
-    @example((ex_sg_c, sg))
-    @example((ex_sg_d, sg))
-    @example((ex_sg_e, sg))
-    @given(exponents_df())
-    def test_allomorphy_overall_count(self, args):
-        """Test that there are the right number of allomorphic values."""
-        df, features = args
-        exps = find_exponents(df, features)
-        res = classify_allomorphy(exps, df)
-
-        # This is an alternate allomorphy implementation, which provides less info,
-        # is slower
-        # but more straightforward
-
-        df = pd.merge(df, exps, on=["lexeme", "tier", "slot", "formative"],
-                      how="left")
-
-        note(str(df))
-
-        val_to_word_count = defaultdict(lambda: defaultdict(set))
-
-        # Counts allomorphs by constructing a dict of :
-        # (lexeme, value) => (formative) => set of (cell, form)
-        for i, row in df.iterrows():
-            lex = row.lexeme
-            f = row.form
-            c = row.cell
-            a = (row.tier, row.slot, row.formative)
-            vals_here = {vs for vs in row.exponence if vs <= row.celllist}
-            for val in chain(*vals_here):
-                val_to_word_count[(lex, val)][a].add((c, f))
-
-        expected_size = 0
-
-        # For each lexeme, value pair
-        for key in val_to_word_count:
-            # How many distinct word sets did we find ?
-            word_sets = set(map(lambda x: tuple(sorted(x)),
-                                val_to_word_count[key].values()))
-            # We should find one row if there were several word sets
-            expected_size += int(len(word_sets) > 1)
-
-        note(res)
-        note(str(val_to_word_count))
-        self.assertEqual(res.shape[0], expected_size)
+    #
+    # @given(exponents_df())
+    # @example((ex_sg_a, sg))
+    # @example((ex_sg_b, sg))
+    # @example((ex_sg_c, sg))
+    # @example((ex_sg_d, sg))
+    # @example((ex_sg_e, sg))
+    # def test_allomorphy_shape(self, args):
+    #     """Tests the expected shape of the allomorphy dataframe"""
+    #     df, features = args
+    #     exps = find_exponents(df, features)
+    #     res = classify_allomorphy(exps, df)
+    #
+    #     note(", ".join(list(res.columns)))
+    #     exp_cols = ['lexeme', 'vals', 'allomorph set', 'allomorph set count',
+    #                 'cells with v',
+    #                 '% allomorphs to cells containing v']
+    #
+    #     # Expected columns
+    #     self.assertListEqual(list(res.columns), exp_cols)
+    #
+    #     # sets of formatives
+    #     # Formatives are tuples of: tier, slot, sounds
+    #     def contains_formatives_triples(elt):
+    #         self.assertTrue(type(elt) is set)
+    #         for fs in elt:
+    #             for f in fs:
+    #                 self.assertTrue(len(f) == 3)
+    #                 self.assertTrue(type(f[0]) is str)
+    #                 self.assertTrue(type(f[1]) is int)
+    #                 self.assertTrue(type(f[2]) is str)
+    #
+    #     res['allomorph set'].apply(contains_formatives_triples)
+    #
+    # @given(exponents_df())
+    # @example((ex_sg_a, sg))
+    # @example((ex_sg_b, sg))
+    # @example((ex_sg_c, sg))
+    # @example((ex_sg_d, sg))
+    # @example((ex_sg_e, sg))
+    # @settings(deadline=None)
+    # def test_allomorphy_same_value(self, args):
+    #     """Tests that all formatives have the value in their exponent set."""
+    #     df, features = args
+    #     exps = find_exponents(df, features)
+    #     res = classify_allomorphy(exps, df)
+    #     note("Allomorphy:\n\t" + str(res))
+    #     vals = exps.set_index(["lexeme", "tier", "slot", "formative"])["exponence"] \
+    #         .apply(lambda v: set(chain(*v))).to_dict()
+    #
+    #     note(exps)
+    #     res["fs"] = res["allomorph set"].apply(lambda x: list(chain(*x)))
+    #     res = res.explode("fs")
+    #
+    #     def same_value(row):
+    #         t, s, f = row["fs"]
+    #         recovered_values = vals[(row.lexeme, t, s, f)]
+    #         self.assertIn(row.vals, recovered_values)
+    #
+    #     res.apply(same_value, axis=1)
+    #
+    # @settings(deadline=None)
+    # @example((ex_sg_a, sg))
+    # @example((ex_sg_b, sg))
+    # @example((ex_sg_c, sg))
+    # @example((ex_sg_d, sg))
+    # @example((ex_sg_e, sg))
+    # @given(exponents_df())
+    # def test_allomorphy_diff_words(self, args):
+    #     """Test that there are at least two formatives from different words."""
+    #     df, features = args
+    #     exps = find_exponents(df, features)
+    #     res = classify_allomorphy(exps, df)
+    #
+    #     words = df.groupby(["lexeme", "tier", "slot", "formative"]) \
+    #         .apply(lambda g: [(r.cell, r.form) for i, r in g.iterrows()]) \
+    #         .to_dict()
+    #
+    #     def has_different_words(row):
+    #         w = None
+    #         allomorphs = set(chain(*r["allomorph set"]))
+    #         for t, s, f in allomorphs:
+    #             new = words[(row.lexeme, t, s, f)]
+    #             if w is None:
+    #                 w = new
+    #             elif w != new:
+    #                 return True
+    #         return False
+    #
+    #     for i, r in res.iterrows():
+    #         self.assertTrue(has_different_words(r))
+    #
+    # @settings(deadline=None)
+    # @example((ex_sg_a, sg))
+    # @example((ex_sg_b, sg))
+    # @example((ex_sg_c, sg))
+    # @example((ex_sg_d, sg))
+    # @example((ex_sg_e, sg))
+    # @given(exponents_df())
+    # def test_allomorphy_overall_count(self, args):
+    #     """Test that there are the right number of allomorphic values."""
+    #     df, features = args
+    #     exps = find_exponents(df, features)
+    #     res = classify_allomorphy(exps, df)
+    #
+    #     # This is an alternate allomorphy implementation, which provides less info,
+    #     # is slower
+    #     # but more straightforward
+    #
+    #     df = pd.merge(df, exps, on=["lexeme", "tier", "slot", "formative"],
+    #                   how="left")
+    #
+    #     note(str(df))
+    #
+    #     val_to_word_count = defaultdict(lambda: defaultdict(set))
+    #
+    #     # Counts allomorphs by constructing a dict of :
+    #     # (lexeme, value) => (formative) => set of (cell, form)
+    #     for i, row in df.iterrows():
+    #         lex = row.lexeme
+    #         f = row.form
+    #         c = row.cell
+    #         a = (row.tier, row.slot, row.formative)
+    #         vals_here = {vs for vs in row.exponence if vs <= row.celllist}
+    #         for val in chain(*vals_here):
+    #             val_to_word_count[(lex, val)][a].add((c, f))
+    #
+    #     expected_size = 0
+    #
+    #     # For each lexeme, value pair
+    #     for key in val_to_word_count:
+    #         # How many distinct word sets did we find ?
+    #         word_sets = set(map(lambda x: tuple(sorted(x)),
+    #                             val_to_word_count[key].values()))
+    #         # We should find one row if there were several word sets
+    #         expected_size += int(len(word_sets) > 1)
+    #
+    #     note(res)
+    #     note(str(val_to_word_count))
+    #     self.assertEqual(res.shape[0], expected_size)
 
     @given(exponents_df())
     @example((ex_ve_1, ex_ve_feats))
     @example((ex_ve_2, ex_ve_feats))
     @settings(deadline=None)
-    def test_ve_occur_in_same_word(self, args):
+    def test_values_words_occur_in_same_word(self, args):
         """Test that ..."""
         df, features = args
         exps = find_exponents(df, features)
-        res = classify_verbose(exps, df)
+        res = values_per_word(df, exps)
         note(exps)
         note(res)
 
@@ -284,7 +302,7 @@ class TestValueClassifications(unittest.TestCase):
         def check_word(row):
             expected = words[(row.lexeme, row.cell)]
             note(expected)
-            self.assertTrue(any(set(row.formatives) <= e for e in expected))
+            self.assertTrue(any(set(row.formative) <= e for e in expected))
 
         res.apply(check_word, axis=1)
 
@@ -292,23 +310,11 @@ class TestValueClassifications(unittest.TestCase):
     @example((ex_ve_1, ex_ve_feats))
     @example((ex_ve_2, ex_ve_feats))
     @settings(deadline=None)
-    def test_ve_have_multiple_exps(self, args):
-        """Test that ..."""
-        df, features = args
-        exps = find_exponents(df, features)
-        res = classify_verbose(exps, df)
-        note(res)
-        self.assertTrue((res.formatives.apply(len) > 1).all())
-
-    @given(exponents_df())
-    @example((ex_ve_1, ex_ve_feats))
-    @example((ex_ve_2, ex_ve_feats))
-    @settings(deadline=None)
-    def test_ve_unique_words(self, args):
+    def test_values_words_unique_words(self, args):
         """Test that there is a single row for any word"""
         df, features = args
         exps = find_exponents(df, features)
-        res = classify_verbose(exps, df)
+        res = values_per_word(df, exps)
         note(res)
         self.assertFalse(res[["lexeme", "cell", "value", "form"]].duplicated().any())
 
