@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import classify_simple, find_exponents, \
-    classify_cumulation, classify_syn
+from setmorph import find_exponents, classify_cumulation, count_elts
 from pathlib import Path
 from hypothesis import given, note, settings
 from .strategies import exponents_df
@@ -11,33 +10,6 @@ here = Path(__file__)
 
 
 class testFormativeClassifications(unittest.TestCase):
-
-    @given(exponents_df())
-    @settings(deadline=None)
-    def test_simple(self, args):
-        """Tests the classification into simple exponents."""
-        df, features = args
-        exps = find_exponents(df, features)
-        classify_simple(exps)
-        note(f"Exponents:\n{exps}")
-        # Only valid values
-        self.assertTrue(set(exps.simple.unique()) <= {None, False, True})
-
-        # None when empty set
-        lens = exps.exponence.apply(len)
-        empty = exps[lens == 0]
-        if empty.shape[0] > 0:
-            self.assertTrue(set(empty.simple.unique()) == {None})
-
-        # True when 1 elt
-        simple = exps[lens == 1]
-        if simple.shape[0] > 0:
-            self.assertTrue(simple.simple.all())
-
-        # False when > 1
-        complex = exps[lens > 1]
-        if complex.shape[0] > 0:
-            self.assertTrue((~complex.simple).all())
 
     @given(exponents_df())
     @settings(deadline=None)
@@ -72,6 +44,7 @@ class testFormativeClassifications(unittest.TestCase):
         percent_dims = exps['% dimensions cumulation']
         self.assertTrue(((percent_cmlt <= 100) & (percent_cmlt >= 0)).all())
         self.assertTrue(((percent_dims <= 100) & (percent_dims >= 0)).all())
+        # Add test: if >0 cumulative cells, then % must also be > 0
 
     @given(exponents_df())
     @settings(deadline=None)
@@ -131,15 +104,14 @@ class testFormativeClassifications(unittest.TestCase):
     @given(exponents_df())
     @settings(deadline=None)
     def test_syn(self, args):
-        """Tests that there are between 0 and len(distr) syncretisms"""
+        """Tests that there are between 0 and len(distr) sets"""
         df, features = args
         exps = find_exponents(df, features)
-        classify_syn(exps)
+        count_elts(exps, "exponence", "# values")
 
-        self.assertTrue("# sets minimally required" in exps.columns)
-        self.assertTrue(
-            (exps["# sets minimally required"] <= exps["dist_a"].apply(len)).all())
-        self.assertTrue((0 <= exps["# sets minimally required"]).all())
+        self.assertTrue("# values" in exps.columns)
+        self.assertTrue((exps["# values"] <= exps["dist_a"].apply(len)).all())
+        self.assertTrue((0 <= exps["# values"]).all())
 
 
 if __name__ == '__main__':
