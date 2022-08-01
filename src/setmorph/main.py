@@ -14,34 +14,35 @@ def analyze_exponence(forms_path, features_path, output_prefix):
     fs = read_features(features_path)
 
     exponents = find_exponents(df, fs)
-    classify_simple(exponents)
-    classify_syn(exponents)
+    count_elts(exponents, "exponence", "# values")
+    # simple exponence if = 1
+    # syncretism if > 1
     max_dimensions = df["celllist"].fillna("").apply(len).max()
     classify_cumulation(exponents, max_dimensions)
 
     values_words = values_per_word(df, exponents)
-    count_formatives(values_words)
+    count_elts(values_words, "formative", "# formatives")
 
     values = values_table(values_words)
-    count_formatives(values)
+    count_elts(values, "formative", "# formatives")
     classify_allomorphy(df, values)
 
     ## Export
     values_words.formative = values_words.formative \
         .apply(lambda x: ' '.join([str(f) for f in x]))
-    values_words.to_csv(output_prefix + "_values_per_word.csv")
+    values_words.to_csv(output_prefix + "_values_per_word.csv", index=False)
 
     values.formative = values.formative \
         .apply(lambda x: ' '.join([str(f) for f in x]))
     values.formatives_by_word = values.formatives_by_word \
         .apply(
         lambda words: " ".join(f"#{' '.join([str(f) for f in w])}#" for w in words))
-    values.to_csv(output_prefix + "_values.csv")
+    values.to_csv(output_prefix + "_values.csv", index=False)
 
     exponents.exponence = exponents.exponence.apply(format_values)
     exponents.dist_a = exponents.dist_a.apply(format_values)
     exponents["cumulative cells"] = exponents["cumulative cells"].apply(format_values)
-    exponents.to_csv(output_prefix + "_formatives.csv")
+    exponents.to_csv(output_prefix + "_formatives.csv", index=False)
 
 
 def main():

@@ -42,27 +42,6 @@ def find_exponents(df, features):
     return result.reset_index()
 
 
-def classify_simple(df):
-    """ Classifies all formatives in a lexicon (dataframe) as simple exponence or not.
-
-    Modifies exps in place.
-    """
-
-    def simple(descr):
-        """ Answers the question: is this description simple ?
-
-        Args:
-            descr (set): the minimal description of the distribution of a formative.
-
-        Returns (str):
-            "yes" if the description if simple, "no" if it is not, or "invariant" if the
-            formative is present in all forms of the lexeme.
-        """
-        length = len(descr)
-        return None if length == 0 else True if length == 1 else False
-
-    df["simple"] = df["exponence"].apply(simple)
-
 
 def classify_cumulation(df, max_dims):
     """ Classify formatives according to exponent cumulation
@@ -83,7 +62,7 @@ def classify_cumulation(df, max_dims):
     """
 
     def cumulation_measures(f_row):
-        """ Calculate measures of exponent cumulation for a formative.
+        """ Calculates measures of exponent cumulation for a formative.
 
         Args:
             f_row (pd.Series): a row representing a formative.
@@ -100,12 +79,6 @@ def classify_cumulation(df, max_dims):
                 '% cells cumulative', '% dimensions cumulation']
     df[new_cols] = df.apply(cumulation_measures, axis=1)
 
-
-def classify_syn(df):
-    """Classifies all formatives in a lexicon (dataframe) regarding syncretism.
-
-    """
-    df["# sets minimally required"] = df["exponence"].fillna("").apply(len)
 
 
 def values_per_word(df, exps):  # TODO: to test
@@ -164,12 +137,8 @@ def values_table(values_words):
     values["formative"] = values.formative.apply(lambda f: set(chain(*f)))
     return values
 
-
-def count_formatives(values_words):
-    """ Adds in place a count for formatives.
-
-    Applied on values per word, this lets one detect unique exponence.
-    Applied on values tables, this lets one detect verbose exponence.
+def count_elts(df, column, name):
+    """ Adds in place length for some column.
 
     Args:
         values_words:
@@ -177,8 +146,7 @@ def count_formatives(values_words):
     Returns:
 
     """
-    values_words["# formatives"] = values_words.formative.apply(len)
-
+    df[name] = df[column].fillna("").apply(len)
 
 def classify_allomorphy(df, values):
     """
