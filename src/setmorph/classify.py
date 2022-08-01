@@ -189,6 +189,11 @@ def classify_allomorphy(df, values):
     Returns:
 
     """
+    if values.shape[0] == 0:
+        values["# allomorph sets"] = None
+        values["# words"] = None
+        values["% allomorph to words"] = None
+        return
 
     # Build a dict of: lexeme, val => number of words with this value
     def count_w(group):
