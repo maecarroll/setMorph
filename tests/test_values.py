@@ -5,7 +5,7 @@ from setmorph import find_exponents, classify_unique, \
     classify_allomorphy, classify_verbose
 from pathlib import Path
 from hypothesis import given, note, example, settings
-from strategies import exponents_df
+from .strategies import exponents_df
 from itertools import chain
 from collections import defaultdict
 import pandas as pd
