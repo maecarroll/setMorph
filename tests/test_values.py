@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from setmorph import find_exponents, values_per_word, values_table, \
-    classify_allomorphy, count_formatives, Formative
+    classify_allomorphy, count_elts, Formative
 from pathlib import Path
 from hypothesis import given, note, example, settings
 from .strategies import exponents_df
@@ -111,7 +111,7 @@ class TestValueClassifications(unittest.TestCase):
         exps = find_exponents(df, features)
         values_words = values_per_word(df, exps)
         values = values_table(values_words)
-        count_formatives(values)
+        count_elts(values, "formative", "# formatives")
         note(values)
 
         # changed it in place
@@ -130,7 +130,7 @@ class TestValueClassifications(unittest.TestCase):
         exps = find_exponents(df, features)
         values_words = values_per_word(df, exps)
         values = values_table(values_words)
-        count_formatives(values)
+        count_elts(values, "formative", "# formatives")
         note(values)
 
         self.assertTrue((values["# formatives"].apply(type) == int).all())
