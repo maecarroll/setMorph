@@ -6,4 +6,3 @@ Install as:
 ~~~ bash
 pip install -e ./
 ~~~
-
