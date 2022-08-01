@@ -48,3 +48,8 @@ jobs:
         setmorph -- "src/setmorph/testdata/sample-nuer-out.csv" "src/setmorph/testdata/nuer_features.csv" "results/nuer_analysis_"
         setmorph -- "src/setmorph/testdata/sample-rus-out.csv" "src/setmorph/testdata/rus_features.csv" "results/rus_analysis_"
         setmorph -- "src/setmorph/testdata/sample-fr-out.csv" "src/setmorph/testdata/zen_features.csv" "results/zen_analysis_"
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
+      with:
+        name: toy_results
+        path: results
