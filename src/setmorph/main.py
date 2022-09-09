@@ -1,49 +1,64 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from .setmorph import read_paradigms, read_features
-from .classify import *
+from .setmorph import read_paradigms, read_features, \
+    get_reals, get_exponents, get_real_per_word, get_words_table
+from .classify import classify_cumulation, classify_allomorphy, count_elts
 import argparse
 
 
-def format_values(vals):
+def format_feature_values(vals):
     return " ".join(".".join(v) for v in vals)
 
+def format_formatives(formatives):
+    return " ".join(str(f) for f in sorted(formatives))
 
 def analyze_exponence(forms_path, features_path, output_prefix):
     df = read_paradigms(forms_path)
     fs = read_features(features_path)
 
-    exponents = find_exponents(df, fs)
-    count_elts(exponents, "exponence", "# values")
-    # simple exponence if = 1
-    # syncretism if > 1
-    max_dimensions = df["celllist"].fillna("").apply(len).max()
-    classify_cumulation(exponents, max_dimensions)
+    exponents = get_exponents(df, fs) # rows are formatives, gives dist, exp, vals
+    reals = get_reals(exponents) # rows are value, lexme pairs, gives real
+    words = get_words_table(df) # rows are words, gives wordform as set of formatives
+    real_w = get_real_per_word(words, reals) # rows are word/value pairs, give real_w
 
-    values_words = values_per_word(df, exponents)
-    count_elts(values_words, "formative", "# formatives")
+    # if simple, |vals| == 1
+    count_elts(exponents, "vals", "|vals|")
 
-    values = values_table(values_words)
-    count_elts(values, "formative", "# formatives")
-    classify_allomorphy(df, values)
+    # if syncretic, |exp| > 1
+    count_elts(exponents, "exponence", "|exp|")
+
+    # Add sets related to cumulation
+    classify_cumulation(exponents)
+
+    # unique exponence if |real| == 1
+    count_elts(reals, "real", "|real|")
+
+    # verbose exponence if |real_w| > 1
+    count_elts(real_w, "real_w", "|real_w|")
+
+    # Measuring allomorphy requires a set derived from
+    # real, but where elements are sets of realization,
+    # for each word
+    reals = classify_allomorphy(reals, real_w)
+
+    ## Real table formatting
+    for col in ["real", "allomorphic_sets"]:
+        reals[col] = reals[col].apply(format_formatives)
+
+    ## Real_w table formatting
+    real_w["cell"] = real_w["cell"].apply(format_feature_values)
+    for col in ["wordform", "real_w"]:
+        real_w[col] = real_w[col].apply(format_formatives)
+
+    ## Exponence table formatting
+    for col in ["exponence", "dist", "vals", "cumulative_vals",
+                "cumulative_cells"]:
+        exponents[col] = exponents[col].apply(format_feature_values)
 
     ## Export
-    values_words.formative = values_words.formative \
-        .apply(lambda x: ' '.join([str(f) for f in x]))
-    values_words.to_csv(output_prefix + "_values_per_word.csv", index=False)
-
-    values.formative = values.formative \
-        .apply(lambda x: ' '.join([str(f) for f in x]))
-    values.formatives_by_word = values.formatives_by_word \
-        .apply(
-        lambda words: " ".join(f"#{' '.join([str(f) for f in w])}#" for w in words))
-    values.to_csv(output_prefix + "_values.csv", index=False)
-
-    exponents.exponence = exponents.exponence.apply(format_values)
-    exponents.dist_a = exponents.dist_a.apply(format_values)
-    exponents["cumulative cells"] = exponents["cumulative cells"].apply(format_values)
+    real_w.to_csv(output_prefix + "_values_per_word.csv", index=False)
+    reals.to_csv(output_prefix + "_values.csv", index=False)
     exponents.to_csv(output_prefix + "_formatives.csv", index=False)
-
 
 def main():
     parser = argparse.ArgumentParser()

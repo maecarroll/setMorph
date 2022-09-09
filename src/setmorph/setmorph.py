@@ -1,7 +1,16 @@
 import logging
 import pandas as pd
-from itertools import combinations, chain
+from itertools import combinations, chain, product
 from collections import Counter
+from typing import NamedTuple
+
+class Formative(NamedTuple):
+    tier: str
+    slot: str
+    formative: str
+
+    def __repr__(self):
+        return f"<{self.tier}_{self.slot}_{self.formative}>"
 
 
 def check_cell_structure(cell_series):
@@ -17,7 +26,7 @@ def check_cell_structure(cell_series):
 
     """
     incl = []
-    cells = sorted(map(set, cell_series.unique()), key=len)
+    cells = sorted(cell_series.unique(), key=len)
     for i, c1 in enumerate(cells):
         for c2 in cells[i + 1:]:
             if c1 < c2:
@@ -60,8 +69,8 @@ def read_paradigms(path):
         a pd.Dataframe of segmented formatives. Cells are parsed into lists of frozensets.
     """
     df = pd.read_csv(path)
-    df.loc[:, 'celllist'] = df.cell.str.split(".").apply(frozenset).tolist()
-    check_cell_structure(df.celllist)
+    df.loc[:, 'cell'] = df.cell.str.split(".").apply(frozenset)
+    check_cell_structure(df.cell)
     return df
 
 
@@ -133,3 +142,107 @@ def exponence(cells, dista, feature_structure):
         if vs <= delta:
             delta -= vs
     return delta
+
+
+def get_real_per_word(words, reals):
+    """
+
+    Args:
+        words:
+        reals:
+
+    Returns:
+
+    """
+    real_w = pd.DataFrame(words)
+    real_w["vals"] = real_w["cell"]
+    real_w = real_w.explode("vals")
+    real_w = pd.merge(reals, real_w, left_index=True, right_on=["vals", "lexeme"])
+    real_w["real_w"] = real_w.apply(lambda row: row["real"] & row["wordform"], axis=1)
+    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w']
+    return real_w[cols]
+
+
+def get_reals(exponents):
+    """ Calculates the *real* variable for each value in a paradigm.
+
+    Args:
+        exponents:
+
+    Returns:
+
+    """
+    def gather_formatives(occs):
+        form_cols = ["tier", "slot", "formative"]
+        if occs.shape[0] == 0:
+            return None
+        forms = occs[form_cols].to_records(index=False)
+        return pd.Series({"real": frozenset({Formative(*f) for f in forms})})
+
+    return exponents.explode("vals")\
+                    .groupby(["vals", "lexeme"])\
+                    .apply(gather_formatives)
+def get_exponents(df, features):
+    """ Returns all the exponence descriptions for an entire lexicon
+
+    Args:
+        df: a lexicon
+
+    Returns:
+        a pd.DataFrame associating each quadruple of (lexeme, tier, slot, formative)
+            to a set of fv combinations it is an exponent of,
+             the number of cells it occurs in,
+            and its full distribution.
+    """
+
+    def exponence_word(paradigm):
+        cells = set(paradigm.cell)
+        f_values = set(chain(*cells))
+        features_w = {f: {v for v in features[f] if v <= f_values}
+                      for f in features}
+        groups = paradigm.groupby(["tier", "slot", "formative"])
+        transforms = {"cell": [set, lambda d: exponence(cells, set(d), features_w)]}
+        res = groups.agg(transforms)
+        res.columns = ["dist", "exponence"]
+        res["vals"] = res.exponence.apply(lambda x: set(chain(*x)))
+        return res
+
+    result = df.groupby("lexeme").apply(exponence_word)
+    return result.reset_index()
+
+
+
+def get_words_table(df):
+    """ Create a table where rows represent words
+
+    Each word is defined by a triplet of
+    (cell, form, lexeme) and associated to a set of formatives.
+
+    Args:
+        df: paradigms
+
+    Returns:
+        a DataFrame of words
+
+    """
+
+    def gather_formatives(occs):
+        form_cols = ["tier", "slot", "formative"]
+        if occs.shape[0] == 0:
+            return None
+        first = occs.iloc[0, :]
+        forms = occs[form_cols].to_records(index=False)
+        return pd.Series({"lexeme": first["lexeme"],
+                          "form": first["form"],
+                          "cell": first["cell"],
+                          "wordform": frozenset(sorted({Formative(*f) for f in forms})),
+                          })
+
+      # For each value in a separate word, build a list of formatives
+    words = df.groupby(["lexeme", "cell", "form"],
+                            as_index=False,
+                            group_keys=True).apply(gather_formatives)\
+        .dropna()\
+        .reset_index(drop=True)
+    return words
+
