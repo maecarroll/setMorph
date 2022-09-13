@@ -38,7 +38,7 @@ def analyze_exponence(forms_path, features_path, output_prefix):
         real_w[col] = real_w[col].apply(format_formatives)
 
     ## Exponence table formatting
-    for col in ["exponence", "dist", "vals", "cumulative_vals",
+    for col in ["exponence", "dist", "vals", "cumulative",
                 "cumulative_cells"]:
         exponents[col] = exponents[col].apply(format_feature_values)
 
