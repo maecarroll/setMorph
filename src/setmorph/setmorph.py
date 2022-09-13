@@ -4,7 +4,14 @@ from itertools import combinations, chain, product
 from collections import Counter
 from typing import NamedTuple
 
+
 class Formative(NamedTuple):
+    """A formative is a triple
+
+    of a phonological tier, a slot in a paradigm,
+    and a specific form.
+
+    """
     tier: str
     slot: str
     formative: str
@@ -39,7 +46,7 @@ def check_cell_structure(cell_series):
 
 
 def read_features(path):
-    """ Read a features file.
+    """ Reads a features file.
 
     Args:
         path (str): path to a table of features.
@@ -60,7 +67,7 @@ def read_features(path):
 
 
 def read_paradigms(path):
-    """ Read a paradigms file.
+    """ Reads a paradigms file.
 
     Args:
         path (str): path to a table of segmented formatives.
@@ -75,7 +82,7 @@ def read_paradigms(path):
 
 
 def exponence(cells, dista, feature_structure):
-    """ Calculate the set of values a formative is the exponent of, from its distribution.
+    """ Calculates the set of values a formative is the exponent of, from its distribution.
 
     This is calculated based on the formative's distribution. The set of exponential values
     is the set of descriptions which are in all of the deltas. Deltas are alternate ways of
@@ -144,22 +151,53 @@ def exponence(cells, dista, feature_structure):
     return delta
 
 
-def get_real_per_word(words, reals):
-    """
+def get_real_per_word(df, reals):
+    """ Associates (value, word) pairs to their realisations.
+
+    This produces a table where rows represent values in words.
+    The column 'real_w' represents the realization of this value
+    in this word.
 
     Args:
-        words:
-        reals:
+        df: a table of paradigms
+        reals: a  table for realizations
 
     Returns:
-
+        a table for realizations in words
     """
-    real_w = pd.DataFrame(words)
+
+    def gather_formatives(occs):
+        form_cols = ["tier", "slot", "formative"]
+        if occs.shape[0] == 0:
+            return None
+        first = occs.iloc[0, :]
+        forms = occs[form_cols].to_records(index=False)
+        return pd.Series({"lexeme": first["lexeme"],
+                          "form": first["form"],
+                          "cell": first["cell"],
+                          "wordform": frozenset(sorted({Formative(*f) for f in forms})),
+                          })
+
+    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w']
+
+    if reals.shape[0] == 0:
+        res = pd.DataFrame(columns=cols )
+        return res
+
+      # For each value in a separate word, build a list of formatives
+    real_w = df.groupby(["lexeme", "cell", "form"],
+                            as_index=False,
+                            group_keys=True).apply(gather_formatives)\
+        .dropna()\
+        .reset_index(drop=True)
+
+
     real_w["vals"] = real_w["cell"]
     real_w = real_w.explode("vals")
-    real_w = pd.merge(reals, real_w, left_index=True, right_on=["vals", "lexeme"])
+    real_w = pd.merge(reals, real_w,
+                      left_index=True, right_on=["vals", "lexeme"])
     real_w["real_w"] = real_w.apply(lambda row: row["real"] & row["wordform"], axis=1)
-    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w']
+    real_w["|real_w|"] = real_w["real_w"].apply(len)
     return real_w[cols]
 
 
@@ -167,9 +205,11 @@ def get_reals(exponents):
     """ Calculates the *real* variable for each value in a paradigm.
 
     Args:
-        exponents:
+        exponents: the exponents table
 
     Returns:
+        a table mapping of each value to a set of
+
 
     """
     def gather_formatives(occs):
@@ -177,11 +217,20 @@ def get_reals(exponents):
         if occs.shape[0] == 0:
             return None
         forms = occs[form_cols].to_records(index=False)
-        return pd.Series({"real": frozenset({Formative(*f) for f in forms})})
+        reals = frozenset({Formative(*f) for f in forms})
+        return pd.Series({"real": reals,
+                          "|real|": len(reals)})
 
-    return exponents.explode("vals")\
+    res = exponents.explode("vals")\
                     .groupby(["vals", "lexeme"])\
                     .apply(gather_formatives)
+
+    if res.shape[0] == 0:
+        res = pd.DataFrame(columns=['vals', 'lexeme',
+                                    "real", "|real|"])
+        res.set_index(['vals', 'lexeme'], inplace=True)
+    return res
+
 def get_exponents(df, features):
     """ Returns all the exponence descriptions for an entire lexicon
 
@@ -205,44 +254,63 @@ def get_exponents(df, features):
         res = groups.agg(transforms)
         res.columns = ["dist", "exponence"]
         res["vals"] = res.exponence.apply(lambda x: set(chain(*x)))
+        res["|vals|"] = res["vals"].apply(len)
+        res["|exp|"] = res["exponence"].apply(len)
         return res
 
     result = df.groupby("lexeme").apply(exponence_word)
     return result.reset_index()
 
 
-
-def get_words_table(df):
-    """ Create a table where rows represent words
-
-    Each word is defined by a triplet of
-    (cell, form, lexeme) and associated to a set of formatives.
-
-    Args:
-        df: paradigms
-
-    Returns:
-        a DataFrame of words
-
+def classify_allomorphy(reals, real_w):
     """
 
-    def gather_formatives(occs):
-        form_cols = ["tier", "slot", "formative"]
-        if occs.shape[0] == 0:
-            return None
-        first = occs.iloc[0, :]
-        forms = occs[form_cols].to_records(index=False)
-        return pd.Series({"lexeme": first["lexeme"],
-                          "form": first["form"],
-                          "cell": first["cell"],
-                          "wordform": frozenset(sorted({Formative(*f) for f in forms})),
-                          })
+    Args:
+        real_w:
 
-      # For each value in a separate word, build a list of formatives
-    words = df.groupby(["lexeme", "cell", "form"],
-                            as_index=False,
-                            group_keys=True).apply(gather_formatives)\
-        .dropna()\
-        .reset_index(drop=True)
-    return words
+    Returns:
 
+    """
+    allom = real_w.groupby(["lexeme", "vals"]).agg({"real_w": set})
+    allom.columns = ["allomorphic_sets"]
+    return pd.merge(reals, allom, left_index=True, right_index=True)
+
+
+
+def classify_cumulation(df):
+    """ Classify formatives according to exponent cumulation
+
+    Args:
+        df (pd.DataFrame): DataFrame of formatives & their exponential value
+
+    Returns:
+        None -- modifies the exps in place, adding the columns:
+
+        - 'cumulative', a set of cumulative f-values combinations
+        - 'cumulative_cells', a set of cells in which the formative is cumulative
+        - 'maximum_possible_cumulation', the length of the longest possible cumulation,
+            for this distribution. That is to say, given a dist, the cardinality of the cell
+            involving the highest number of dimensions
+        - 'max_cumulation': the size of the cumulative value involving the highest number
+            of dimensions.
+    """
+
+    def cumulation_formative(f_row):
+        """ Measures cumulation for a formative.
+
+        Args:
+            f_row (pd.Series): a row representing a formative.
+        """
+        c_vals = set(filter(lambda x: len(x) > 1, f_row["exponence"]))
+        c_cells = set(y for x, y in product(c_vals, f_row.dist) if x <= y)
+        max_dims = max(len(c) for c in f_row.dist)
+        max_vals = len(max(c_vals)) if c_vals else 0
+        return pd.Series({'cumulative': c_vals,
+                          'cumulative_cells': c_cells,
+                          'max_cumulation': max_vals,
+                          'maximum_possible_cumulation': max_dims})
+
+    new_cols = ['cumulative', 'cumulative_cells',
+                'max_cumulation',
+                'maximum_possible_cumulation']
+    df[new_cols] = df.apply(cumulation_formative, axis=1)

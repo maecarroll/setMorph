@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
-from setmorph import exponence, find_exponents
+from setmorph import exponence, get_exponents
 from pathlib import Path
 from hypothesis import given, note, settings
 from itertools import combinations, chain
@@ -87,15 +87,17 @@ class testExponence(unittest.TestCase):
 
     @given(exponents_df())
     @settings(deadline=None)
-    def test_find_exponents_shape(self, args):
+    def test_get_exponents_shape(self, args):
         """Tests the shape of the exponents table"""
         df, features = args
-        exps = find_exponents(df, features)
+        exps = get_exponents(df, features)
         note(f"Exponence df:\n\t{exps}")
 
         # Has the expected columns
-        self.assertListEqual(['lexeme', 'tier', 'slot', 'formative',
-                              "exponence", "# of cells", "dist_a"],
+        expected_cols = ['lexeme', 'tier', 'slot', 'formative',
+                         'dist', 'exponence',
+                         'vals', '|vals|', '|exp|']
+        self.assertListEqual(expected_cols,
                              list(exps.columns))
 
         # has as many rows as distinct formative
@@ -105,38 +107,47 @@ class testExponence(unittest.TestCase):
 
     @given(exponents_df())
     @settings(deadline=None)
-    def test_find_exponents_distr(self, args):
+    def test_get_exponents_distr(self, args):
         """Tests that each formative distribution is indeed correct."""
         df, features = args
-        exps = find_exponents(df, features)
+        exps = get_exponents(df, features)
         note(f"Exponence df:\n\t{exps}")
         f_cols = ["lexeme", "formative", "tier", "slot"]
-        expected_dists = df.groupby(f_cols)["celllist"].apply(set).to_dict()
+        expected_dists = df.groupby(f_cols)["cell"].apply(set).to_dict()
 
         for i, row in exps.iterrows():
             key = tuple(row[f_cols])
-            self.assertSetEqual(row["dist_a"], expected_dists[key])
+            self.assertSetEqual(row["dist"], expected_dists[key])
 
     @given(exponents_df())
     @settings(deadline=None)
-    def test_find_exponents_recomputed(self, args):
+    def test_get_exponents_recomputed(self, args):
         """Tests that each row's exponence set can be computed identically."""
         df, features = args
-        exps = find_exponents(df, features)
+        exps = get_exponents(df, features)
         note(f"Exponence df:\n\t{exps}")
-        cells_by_lexeme = df.groupby("lexeme")["celllist"].apply(set).to_dict()
+        cells_by_lexeme = df.groupby("lexeme")["cell"].apply(set).to_dict()
 
         for i, row in exps.iterrows():
-            dista = row["dist_a"]
+            dista = row["dist"]
             cells = cells_by_lexeme[row["lexeme"]]
             vals = frozenset(chain(*cells))
             fs = {f: {v for v in features[f] if v <= vals} for f in features}
-            note(f"Cells={cells}, dista={dista}, features={fs}")
+            note(f"Cells={cells}, dist={dista}, features={fs}")
             expected = exponence(cells, dista, fs)
             note(f"Computed: {expected}")
             note(f"Found: {row.exponence}")
             self.assertSetEqual(expected, row["exponence"])
 
+    @given(exponents_df())
+    @settings(deadline=None)
+    def test_vals(self, args):
+        """Tests that there are between 0 and len(distr) sets"""
+        df, features = args
+        exps = get_exponents(df, features)
+
+        self.assertTrue((exps["|vals|"] <= exps["dist"].apply(lambda x: len(chain(*x)))).all())
+        self.assertTrue((0 <= exps["|vals|"]).all())
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from .setmorph import read_paradigms, read_features, \
-    get_reals, get_exponents, get_real_per_word, get_words_table
-from .classify import classify_cumulation, classify_allomorphy, count_elts
+    get_reals, get_exponents, get_real_per_word, \
+    classify_cumulation, classify_allomorphy
 import argparse
 
 
@@ -18,23 +18,10 @@ def analyze_exponence(forms_path, features_path, output_prefix):
 
     exponents = get_exponents(df, fs) # rows are formatives, gives dist, exp, vals
     reals = get_reals(exponents) # rows are value, lexme pairs, gives real
-    words = get_words_table(df) # rows are words, gives wordform as set of formatives
-    real_w = get_real_per_word(words, reals) # rows are word/value pairs, give real_w
-
-    # if simple, |vals| == 1
-    count_elts(exponents, "vals", "|vals|")
-
-    # if syncretic, |exp| > 1
-    count_elts(exponents, "exponence", "|exp|")
+    real_w = get_real_per_word(df, reals) # rows are word/value pairs, give real_w
 
     # Add sets related to cumulation
     classify_cumulation(exponents)
-
-    # unique exponence if |real| == 1
-    count_elts(reals, "real", "|real|")
-
-    # verbose exponence if |real_w| > 1
-    count_elts(real_w, "real_w", "|real_w|")
 
     # Measuring allomorphy requires a set derived from
     # real, but where elements are sets of realization,

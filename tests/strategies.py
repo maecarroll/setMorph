@@ -170,12 +170,11 @@ def exponents_df(draw):
                 form = " ".join("".join([f for t, f in formatives]))
                 for i, (t, f) in enumerate(formatives):
                     rows.append({"lexeme": lex,
-                                 "cell": ".".join(c),
+                                 "cell": c,
                                  "form": form,
                                  "tier": t,
                                  "slot": i,
                                  "formative": f,
-                                 "celllist": c
                                  })
     df = pd.DataFrame(rows)
     return df, features
