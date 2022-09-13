@@ -126,6 +126,21 @@ class TestValueClassifications(unittest.TestCase):
         self.assertListEqual(list(reals.columns), exp_cols)
 
     @given(exponents_df())
+    @settings(deadline=None)
+    def test_real_words_shape(self, args):
+        df, features = args
+        exponents = get_exponents(df, features)
+        reals = get_reals(exponents)
+        real_w = get_real_per_word(df, reals)
+
+
+        note(", ".join(list(real_w.columns)))
+        exp_cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
+
+        # Expected columns
+        self.assertListEqual(list(real_w.columns), exp_cols)
+
+    @given(exponents_df())
     @example((ex_ve_1, ex_ve_feats))
     @example((ex_ve_2, ex_ve_feats))
     @settings(deadline=None)

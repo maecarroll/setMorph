@@ -178,7 +178,7 @@ def get_real_per_word(df, reals):
                           "wordform": frozenset(sorted({Formative(*f) for f in forms})),
                           })
 
-    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w']
+    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
 
     if reals.shape[0] == 0:
         res = pd.DataFrame(columns=cols )

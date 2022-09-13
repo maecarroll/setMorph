@@ -146,7 +146,9 @@ class testExponence(unittest.TestCase):
         df, features = args
         exps = get_exponents(df, features)
 
-        self.assertTrue((exps["|vals|"] <= exps["dist"].apply(lambda x: len(chain(*x)))).all())
+        self.assertTrue((exps["|vals|"]
+                         <= exps["dist"]
+                         .apply(lambda x: len(list(chain(*x))))).all())
         self.assertTrue((0 <= exps["|vals|"]).all())
 
 if __name__ == '__main__':
