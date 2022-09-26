@@ -6,11 +6,18 @@ from .setmorph import read_paradigms, read_features, \
 import argparse
 
 
+def format_cell(vals):
+    return ".".join(vals)
+
 def format_feature_values(vals):
-    return " ".join(".".join(v) for v in vals)
+    return " ".join(format_cell(v) for v in vals)
 
 def format_formatives(formatives):
     return " ".join(str(f) for f in sorted(formatives))
+
+def format_allo_sets(f_per_w):
+    return " ".join("-".join(str(f) for f in sorted(w)) for w in f_per_w)
+
 
 def analyze_exponence(forms_path, features_path, output_prefix):
     df = read_paradigms(forms_path)
@@ -29,18 +36,21 @@ def analyze_exponence(forms_path, features_path, output_prefix):
     reals = classify_allomorphy(reals, real_w)
 
     ## Real table formatting
-    for col in ["real", "allomorphic_sets"]:
-        reals[col] = reals[col].apply(format_formatives)
+    reals["real"] = reals["real"].apply(format_formatives)
+    reals["allomorphic_sets"] = reals["allomorphic_sets"].apply(format_allo_sets)
+    reals.reset_index(drop=False, inplace=True)
 
     ## Real_w table formatting
-    real_w["cell"] = real_w["cell"].apply(format_feature_values)
+    real_w["cell"] = real_w["cell"].apply(format_cell)
     for col in ["wordform", "real_w"]:
         real_w[col] = real_w[col].apply(format_formatives)
 
     ## Exponence table formatting
-    for col in ["exponence", "dist", "vals", "cumulative",
+    for col in ["exponence", "dist", "cumulative",
                 "cumulative_cells"]:
         exponents[col] = exponents[col].apply(format_feature_values)
+    for col in ["vals"]:
+        exponents[col] = exponents[col].apply(format_formatives)
 
     ## Export
     real_w.to_csv(output_prefix + "_values_per_word.csv", index=False)
