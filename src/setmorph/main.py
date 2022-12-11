@@ -19,14 +19,18 @@ def format_allo_sets(f_per_w):
     return " ".join("-".join(str(f) for f in sorted(w)) for w in f_per_w)
 
 
-def analyze_exponence(forms_path, features_path, output_prefix):
+def analyse_exponence(forms_path, features_path, output_prefix):
     df = read_paradigms(forms_path)
     fs = read_features(features_path)
 
+    print("Computing form<->meaning mapping...")
     exponents = get_exponents(df, fs) # rows are formatives, gives dist, exp, vals
+    print("Finding all realizations of a value...")
     reals = get_reals(exponents) # rows are value, lexme pairs, gives real
+    print("Finding all realizations of a value, per word...")
     real_w = get_real_per_word(df, reals) # rows are word/value pairs, give real_w
 
+    print("Classifying non-canonical phenomena...")
     # Add sets related to cumulation
     classify_cumulation(exponents)
 
@@ -63,4 +67,4 @@ def main():
     parser.add_argument("features", type=str, help="Features table")
     parser.add_argument("output", type=str, help="Output path and prefix")
     args = parser.parse_args()
-    analyze_exponence(args.forms, args.features, args.output)
+    analyse_exponence(args.forms, args.features, args.output)
