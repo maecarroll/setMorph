@@ -171,7 +171,7 @@ def exponents_df(draw):
                 for i, (t, f) in enumerate(formatives):
                     rows.append({"lexeme": lex,
                                  "cell": c,
-                                 "form": form,
+                                 "phon_form": form,
                                  "tier": t,
                                  "slot": i,
                                  "formative": f,

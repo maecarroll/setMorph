@@ -24,7 +24,7 @@ ex_sg_a = pd.DataFrame(
      ["l1", "w", "segmental", 0, "w", frozenset({"PL", "3"})],
 
      ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"])
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"])
 
 ex_sg_b = pd.DataFrame(
     [["l1", "x", "segmental", 0, "x", frozenset({"SG", "1"})],
@@ -36,7 +36,7 @@ ex_sg_b = pd.DataFrame(
      ["l1", "z", "segmental", 0, "z", frozenset({"PL", "3"})],
 
      ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"])
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"])
 
 ex_sg_c = pd.DataFrame(
     [["l1", "x", "segmental", 0, "x", frozenset({"SG", "1"})],
@@ -48,7 +48,7 @@ ex_sg_c = pd.DataFrame(
      ["l1", "z", "segmental", 0, "z", frozenset({"PL", "3"})],
 
      ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"])
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"])
 
 ex_sg_d = pd.DataFrame(
     [["l1", "x", "segmental", 0, "x", frozenset({"SG", "1"})],
@@ -60,7 +60,7 @@ ex_sg_d = pd.DataFrame(
      ["l1", "w", "segmental", 0, "w", frozenset({"PL", "3"})],
 
      ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"])
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"])
 
 ex_sg_e = pd.DataFrame(
     [
@@ -74,7 +74,7 @@ ex_sg_e = pd.DataFrame(
         ["l1", "y", "segmental", 0, "y", frozenset({"PL", "3"})],
 
     ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"])
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"])
 
 ex_ve_1 = pd.DataFrame([
     ["beb", "b e b a b", "segmental", 0, "be", frozenset({"b"})],
@@ -82,7 +82,7 @@ ex_ve_1 = pd.DataFrame([
     ["beb", "b a b", "segmental", 0, "bab", frozenset({"b"})],
     ["beb", "b e", "segmental", 0, "be", frozenset({"e"})]
 ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"]
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"]
 )
 ex_ve_2 = pd.DataFrame([
     ["bab", "b a", "segmental", 0, "ba", frozenset({"b"})],
@@ -90,7 +90,7 @@ ex_ve_2 = pd.DataFrame([
     ["bab", "b a b a b b e c", "segmental", 1, "bab", frozenset({"e"})],
     ["bab", "b a b a b b e c", "segmental", 2, "bec", frozenset({"e"})]
 ],
-    columns=["lexeme", "form", "tier", "slot", "formative", "cell"]
+    columns=["lexeme", "phon_form", "tier", "slot", "formative", "cell"]
 )
 ex_ve_feats = {'A': {frozenset({'b'}), frozenset({'e'})}}
 
@@ -135,7 +135,7 @@ class TestValueClassifications(unittest.TestCase):
 
 
         note(", ".join(list(real_w.columns)))
-        exp_cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
+        exp_cols = ['lexeme', 'phon_form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
 
         # Expected columns
         self.assertListEqual(list(real_w.columns), exp_cols)
@@ -151,7 +151,7 @@ class TestValueClassifications(unittest.TestCase):
         reals = get_reals(exponents)
         real_w = get_real_per_word(df, reals)
         self.assertFalse(
-            real_w[["lexeme", "cell", "vals", "form"]].duplicated().any())
+            real_w[["lexeme", "cell", "vals", "phon_form"]].duplicated().any())
 
 
 if __name__ == '__main__':
