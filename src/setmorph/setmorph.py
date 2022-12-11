@@ -3,7 +3,8 @@ import pandas as pd
 from itertools import combinations, chain, product
 from collections import Counter
 from typing import NamedTuple
-
+from tqdm import tqdm
+tqdm.pandas()
 
 class Formative(NamedTuple):
     """A formative is a triple
@@ -20,20 +21,20 @@ class Formative(NamedTuple):
         return f"<{self.tier}_{self.slot}_{self.formative}>"
 
 
-def check_cell_structure(cell_series):
+def check_cell_structure(cells):
     """ Checks that the cells are not malformed.
 
     - Cells must not be subsets of other cells.
 
     Args:
-        cell_series: the celllist column of the paradigms df.
+        cell_series: a set of cells
 
     Returns:
         None if everything is alright, otherwise throws an exception.
 
     """
     incl = []
-    cells = sorted(cell_series.unique(), key=len)
+    cells = sorted(cells, key=len)
     for i, c1 in enumerate(cells):
         for c2 in cells[i + 1:]:
             if c1 < c2:
@@ -75,9 +76,15 @@ def read_paradigms(path):
     Returns:
         a pd.Dataframe of segmented formatives. Cells are parsed into lists of frozensets.
     """
+    checked = {}
+    def check_lexeme_cells(group):
+        cells = frozenset(group.cells.unique())
+        if cells not in checked:
+            checked.add(cells)
+            check_cell_structure(cells)
     df = pd.read_csv(path)
     df.loc[:, 'cell'] = df.cell.str.split(".").apply(frozenset)
-    check_cell_structure(df.cell)
+    df.groupby("lexeme").apply(check_lexeme_cells)
     return df
 
 
@@ -173,30 +180,31 @@ def get_real_per_word(df, reals):
         first = occs.iloc[0, :]
         forms = occs[form_cols].to_records(index=False)
         return pd.Series({"lexeme": first["lexeme"],
-                          "form": first["form"],
+                          "phon_form": first["phon_form"],
                           "cell": first["cell"],
                           "wordform": frozenset(sorted({Formative(*f) for f in forms})),
                           })
 
-    cols = ['lexeme', 'form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
+    cols = ['lexeme', 'phon_form', 'cell', 'wordform', 'vals', 'real_w', "|real_w|"]
 
     if reals.shape[0] == 0:
         res = pd.DataFrame(columns=cols )
         return res
 
-      # For each value in a separate word, build a list of formatives
-    real_w = df.groupby(["lexeme", "cell", "form"],
+    # For each value in a separate word,
+    # build a list of all of the formatives in this word
+    real_w = df.groupby(["lexeme", "cell", "phon_form"],
                             as_index=False,
-                            group_keys=True).apply(gather_formatives)\
+                            group_keys=True).progress_apply(gather_formatives)\
         .dropna()\
         .reset_index(drop=True)
-
-
     real_w["vals"] = real_w["cell"]
     real_w = real_w.explode("vals")
+
+    # Calculate real_w: the formatives in this word which express the value
     real_w = pd.merge(reals, real_w,
                       left_index=True, right_on=["vals", "lexeme"])
-    real_w["real_w"] = real_w.apply(lambda row: row["real"] & row["wordform"], axis=1)
+    real_w["real_w"] = real_w.progress_apply(lambda row: row["real"] & row["wordform"], axis=1)
     real_w["|real_w|"] = real_w["real_w"].apply(len)
     return real_w[cols]
 
@@ -223,7 +231,7 @@ def get_reals(exponents):
 
     res = exponents.explode("vals")\
                     .groupby(["vals", "lexeme"])\
-                    .apply(gather_formatives)
+                    .progress_apply(gather_formatives)
 
     if res.shape[0] == 0:
         res = pd.DataFrame(columns=['vals', 'lexeme',
@@ -258,7 +266,7 @@ def get_exponents(df, features):
         res["|exp|"] = res["exponence"].apply(len)
         return res
 
-    result = df.groupby("lexeme").apply(exponence_word)
+    result = df.groupby("lexeme").progress_apply(exponence_word)
     return result.reset_index()
 
 
@@ -313,4 +321,4 @@ def classify_cumulation(df):
     new_cols = ['cumulative', 'cumulative_cells',
                 'max_cumulation',
                 'maximum_possible_cumulation']
-    df[new_cols] = df.apply(cumulation_formative, axis=1)
+    df[new_cols] = df.progress_apply(cumulation_formative, axis=1)
