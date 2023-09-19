@@ -22,7 +22,6 @@ def format_allo_sets(f_per_w):
 def analyse_exponence(forms_path, features_path, output_prefix):
     df = read_paradigms(forms_path)
     fs = read_features(features_path)
-
     print("Computing form<->meaning mapping...")
     exponents = get_exponents(df, fs) # rows are formatives, gives dist, exp, vals
     print("Finding all realizations of a value...")

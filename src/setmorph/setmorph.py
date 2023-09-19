@@ -76,9 +76,9 @@ def read_paradigms(path):
     Returns:
         a pd.Dataframe of segmented formatives. Cells are parsed into lists of frozensets.
     """
-    checked = {}
+    checked = set()
     def check_lexeme_cells(group):
-        cells = frozenset(group.cells.unique())
+        cells = frozenset(group.cell.unique())
         if cells not in checked:
             checked.add(cells)
             check_cell_structure(cells)
@@ -258,16 +258,27 @@ def get_exponents(df, features):
         features_w = {f: {v for v in features[f] if v <= f_values}
                       for f in features}
         groups = paradigm.groupby(["tier", "slot", "formative"])
-        transforms = {"cell": [set, lambda d: exponence(cells, set(d), features_w)]}
+        transforms = {"cell": [frozenset, lambda d: exponence(cells, set(d), features_w)],
+                      "full_slot": [lambda x: set(tuple(x))]}
         res = groups.agg(transforms)
-        res.columns = ["dist", "exponence"]
+        res.columns = ["dist", "exponence", "full_slot"]
         res["vals"] = res.exponence.apply(lambda x: set(chain(*x)))
         res["|vals|"] = res["vals"].apply(len)
         res["|exp|"] = res["exponence"].apply(len)
         return res
 
-    result = df.groupby("lexeme").progress_apply(exponence_word)
-    return result.reset_index()
+    def merge_same_dist(exps):
+        first = exps.iloc[0,:]
+        if exps.shape[0] == 1:
+            return first
+        chars = set(chain(*exps["formative"]))
+        first["formative"] = "".join(c for c in first["full_slot"].pop() if c in chars)
+        first["tier"] = "/".join(exps.tier.sort_values())
+        return first
+    result = df.groupby("lexeme").progress_apply(exponence_word).reset_index()
+    result = result.groupby(["lexeme", "slot", "dist"]).apply(merge_same_dist)
+    result.drop("full_slot", inplace=True, axis=1)
+    return result
 
 
 def classify_allomorphy(reals, real_w):
