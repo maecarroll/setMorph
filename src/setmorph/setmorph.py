@@ -320,6 +320,11 @@ def classify_cumulation(df):
         Args:
             f_row (pd.Series): a row representing a formative.
         """
+        if f_row["exponence"].isna(): # check: is it normal that this happens?
+            c_vals = None
+            c_cells = None
+            max_dims = 0
+            max_vals = 0
         c_vals = set(filter(lambda x: len(x) > 1, f_row["exponence"]))
         c_cells = set(y for x, y in product(c_vals, f_row.dist) if x <= y)
         max_dims = max(len(c) for c in f_row.dist)
