@@ -275,8 +275,8 @@ def get_exponents(df, features):
         first["formative"] = "".join(c for c in first["full_slot"].pop() if c in chars)
         first["tier"] = "/".join(exps.tier.sort_values())
         return first
-    result = df.groupby(["lexeme"], as_index=False).progress_apply(exponence_word).reset_index()
-    result = result.groupby(["lexeme", "slot", "dist"]).apply(merge_same_dist)
+    result = df.groupby(["lexeme"]).progress_apply(exponence_word).reset_index()
+    result = result.groupby(["lexeme", "slot", "dist"], as_index=False).apply(merge_same_dist)
     result.drop("full_slot", inplace=True, axis=1)
     return result
 
