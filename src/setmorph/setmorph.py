@@ -320,7 +320,7 @@ def classify_cumulation(df):
         Args:
             f_row (pd.Series): a row representing a formative.
         """
-        if f_row["exponence"].isna(): # check: is it normal that this happens?
+        if pd.isna(f_row["exponence"]): # check: is it normal that this happens?
             c_vals = None
             c_cells = None
             max_dims = 0
